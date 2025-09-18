@@ -1,0 +1,1767 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:14.019 --> 00:00:18.450
+Welcome to the session on regular expressions
+and the grep command.
+
+00:00:18.450 --> 00:00:22.300
+Pattern matching is what we would be discussing
+in this session.
+
+00:00:22.300 --> 00:00:28.920
+We will go through detailed demonstrations
+for you to understand the grep command thoroughly.
+
+00:00:28.920 --> 00:00:36.110
+Once you understand the concept of regular
+expressions, you can use the grep command
+
+00:00:36.110 --> 00:00:41.370
+to its full extent, once you understand the
+regular expressions, you can make the most
+
+00:00:41.370 --> 00:00:49.240
+out of the grep command and use the command
+line in a very powerful manner.
+
+00:00:49.240 --> 00:00:57.520
+We will be discussing the grep command using
+the regular expressions that conform to the
+
+00:00:57.520 --> 00:00:58.590
+POSIX standard.
+
+00:00:58.590 --> 00:01:04.970
+There are many engines in different languages
+and tools that implement regular expressions
+
+00:01:04.970 --> 00:01:14.460
+with various options, but we would stick to
+the IEEE 1003.1 hyphen 2001, POSIX standard
+
+00:01:14.460 --> 00:01:21.200
+which defines the regular expressions to be
+of two different types, the one the basic
+
+00:01:21.200 --> 00:01:26.109
+and the extended, and we will limit our discussions
+to these two varieties.
+
+00:01:26.109 --> 00:01:28.380
+So, what is regular expression?
+
+00:01:28.380 --> 00:01:31.439
+It is basically a pattern template to filter
+text.
+
+00:01:31.439 --> 00:01:36.939
+So, as you have seen in the command line,
+some of the commands will give a lot of output
+
+00:01:36.939 --> 00:01:40.729
+and we would like to filter and extract certain
+features from that output.
+
+00:01:40.729 --> 00:01:46.619
+So, you would pipe the output of the command
+to grep command and then use a regular expression
+
+00:01:46.619 --> 00:01:49.000
+to pick the pattern that you are interested
+in.
+
+00:01:49.000 --> 00:01:53.220
+So, this is the basic utility that we would
+be focusing on.
+
+00:01:53.220 --> 00:01:59.990
+However, you could also combine the grep command
+with any other command to extract the output
+
+00:01:59.990 --> 00:02:01.899
+in a format that you are interested in.
+
+00:02:01.899 --> 00:02:08.560
+And there are two types of regular expression
+engines, the BRE, which corresponds to the
+
+00:02:08.560 --> 00:02:14.099
+POSIX basic regular expression engine and
+the ERE which corresponds to POSIX extended
+
+00:02:14.099 --> 00:02:15.540
+regular expression engine.
+
+00:02:15.540 --> 00:02:20.630
+And the options for these two engines are
+slightly different and there are some common
+
+00:02:20.630 --> 00:02:21.910
+options as well.
+
+00:02:21.910 --> 00:02:29.980
+So we will look at them and use the grep command
+to use either BRE or ERE depending upon our
+
+00:02:29.980 --> 00:02:30.980
+requirement.
+
+00:02:30.980 --> 00:02:35.950
+So, why do we need to learn regular expression
+at all?
+
+00:02:35.950 --> 00:02:41.340
+In many languages like Java, Perl, Python,
+Ruby and so on, in many of the scripting languages
+
+00:02:41.340 --> 00:02:48.080
+you would require to process the input from
+the user or perform some string operations.
+
+00:02:48.080 --> 00:02:54.610
+So, regular expressions are what are used
+to perform these operations without being
+
+00:02:54.610 --> 00:03:00.280
+tied down to the actual value of the string
+so that the program is generic in nature.
+
+00:03:00.280 --> 00:03:05.070
+So, if you learn regular expressions, you
+can make the most out of the string manipulations
+
+00:03:05.070 --> 00:03:06.860
+in multiple languages.
+
+00:03:06.860 --> 00:03:14.730
+And there are many tools in Linux, such as
+the grep, the sed and the awk, which actually
+
+00:03:14.730 --> 00:03:20.780
+allow you to make use of those language features
+to a larger extent, if you have understood
+
+00:03:20.780 --> 00:03:23.480
+regular expressions.
+
+00:03:23.480 --> 00:03:29.330
+There are also other independent applications
+such as the databases such as MySQL or PostgreSQL,
+
+00:03:29.330 --> 00:03:35.320
+which actually allow you to also take utility
+of the regular expressions, because they are
+
+00:03:35.320 --> 00:03:38.931
+used to process strings in those languages
+as well.
+
+00:03:38.931 --> 00:03:49.520
+A typical usage of the grep command is basically
+to supply a file name so that each line in
+
+00:03:49.520 --> 00:03:54.971
+the file is processed using the grep command
+using the pattern that is provided as an option
+
+00:03:54.971 --> 00:03:56.960
+to the grep command.
+
+00:03:56.960 --> 00:04:02.150
+You could also launch the grep command to
+take input from a pipe.
+
+00:04:02.150 --> 00:04:07.060
+So, you could have a command the output can
+be piped to grep and then you provide the
+
+00:04:07.060 --> 00:04:13.040
+pattern and every line in the output would
+be processed by the grep command using the
+
+00:04:13.040 --> 00:04:15.020
+pattern that you have supplied.
+
+00:04:15.020 --> 00:04:23.050
+Now, remember that the grep command operates
+line after line, which is a very common feature
+
+00:04:23.050 --> 00:04:25.479
+among many utilities on Linux.
+
+00:04:25.479 --> 00:04:31.711
+Now, by default, if you launch the command
+grep, it would use the basic regular expression
+
+00:04:31.711 --> 00:04:33.130
+engine.
+
+00:04:33.130 --> 00:04:39.560
+But if you want to use the extended set, then
+either you can use the command egrep or you
+
+00:04:39.560 --> 00:04:45.120
+could also give the option minus capital E
+to the grep command and then the pattern will
+
+00:04:45.120 --> 00:04:51.400
+be interpreted within the options that are
+available and extended under the extended
+
+00:04:51.400 --> 00:04:53.919
+regular expression engine.
+
+00:04:53.919 --> 00:05:02.210
+Now, there are some special characters with
+their meaning which we must understand.
+
+00:05:02.210 --> 00:05:07.270
+So, these are not necessarily the same as
+what are used by the shell to interpret when
+
+00:05:07.270 --> 00:05:08.449
+you write a command.
+
+00:05:08.449 --> 00:05:14.630
+And the way you can escape the special character
+interpretation by the shell and allow only
+
+00:05:14.630 --> 00:05:20.249
+the grep to interpret it as a part of the
+pattern is to enclose the pattern in single
+
+00:05:20.249 --> 00:05:23.560
+quotes and that would actually be very safe
+option.
+
+00:05:23.560 --> 00:05:28.240
+So, there are some grep commands where these
+single quotes are not necessary, but we will
+
+00:05:28.240 --> 00:05:33.650
+make it a habit so that we do not make a mistake
+later on where there is a conflict between
+
+00:05:33.650 --> 00:05:38.370
+the interpretation of a special character
+between the grep command and the shell which
+
+00:05:38.370 --> 00:05:41.400
+is passing on the options to the grep command.
+
+00:05:41.400 --> 00:05:48.840
+The dot is used to match any single character
+except the null character which comes at the
+
+00:05:48.840 --> 00:05:54.130
+end of a string or the newline character which
+comes at the end of a line.
+
+00:05:54.130 --> 00:06:03.030
+Star is usually used in shell commands to
+interpret as many options for the files as
+
+00:06:03.030 --> 00:06:04.030
+possible.
+
+00:06:04.030 --> 00:06:09.069
+But in the case of grep, it is to match either
+0 or more of the preceding character.
+
+00:06:09.069 --> 00:06:15.259
+So, if you have a character followed by star,
+then that character preceding the star would
+
+00:06:15.259 --> 00:06:19.740
+be matched with either 0 or more occurrences.
+
+00:06:19.740 --> 00:06:22.490
+And this can also be used along with an expression.
+
+00:06:22.490 --> 00:06:30.020
+So, any sub-expression, any sub-regular expression
+can be used with the star operator.
+
+00:06:30.020 --> 00:06:35.490
+The square brackets are used to give a list
+of characters any one of them can match the
+
+00:06:35.490 --> 00:06:37.910
+string.
+
+00:06:37.910 --> 00:06:43.419
+And if you have a hyphen between two characters
+in the square brackets, it indicates a range.
+
+00:06:43.419 --> 00:06:52.150
+So the collating sequence of characters which
+is ANSI in the case of most of the installations,
+
+00:06:52.150 --> 00:06:58.620
+then you will actually see that A to Z or
+capital A to capital Z, or 0 to 1 can be used
+
+00:06:58.620 --> 00:07:01.449
+as ranges within this square bracket.
+
+00:07:01.449 --> 00:07:04.789
+You could also use a reduced range if it is
+required for you.
+
+00:07:04.789 --> 00:07:09.840
+The hat character is used to indicate as an
+anchor for the beginning of the line.
+
+00:07:09.840 --> 00:07:14.569
+That means that the pattern which follows
+after the anchor will be matched only if it
+
+00:07:14.569 --> 00:07:17.779
+is occurring at the beginning of the line.
+
+00:07:17.779 --> 00:07:23.020
+And if the hat character occurs within the
+square brackets, it indicates that the list
+
+00:07:23.020 --> 00:07:25.379
+of characters in the square brackets should
+not be matched.
+
+00:07:25.379 --> 00:07:30.970
+It is like an opposite effect of the range
+that is provided in the square brackets.
+
+00:07:30.970 --> 00:07:34.830
+The dollar is an anchor to indicate that the
+matching of the button should be at the end
+
+00:07:34.830 --> 00:07:35.830
+of the line.
+
+00:07:35.830 --> 00:07:41.979
+And the backslash as usually also used in
+the shell, it is to escape special characters
+
+00:07:41.979 --> 00:07:46.080
+and you can escape the backslash itself by
+providing it twice.
+
+00:07:46.080 --> 00:07:54.529
+Now, there are ranges of occurrences for the
+patterns that you can also indicate.
+
+00:07:54.529 --> 00:08:00.009
+That is there is a pattern which you would
+like to have it either 2 times or not more
+
+00:08:00.009 --> 00:08:05.490
+than 4 times by giving 2 comma 4 as options
+within the braces.
+
+00:08:05.490 --> 00:08:09.809
+And in the case of a BRE, the braces should
+be preceded by the backslashes.
+
+00:08:09.809 --> 00:08:14.719
+And in the case of the extended regular expression
+sector, the braces need not be preceded with
+
+00:08:14.719 --> 00:08:15.719
+a backslash.
+
+00:08:15.719 --> 00:08:19.840
+Similarly, parenthesis can be used to group
+regular expressions.
+
+00:08:19.840 --> 00:08:24.710
+By grouping what we mean is that it can be
+followed with either the range of occurrences
+
+00:08:24.710 --> 00:08:31.180
+or the star operator, so that you can actually
+have a more complicated matching pattern.
+
+00:08:31.180 --> 00:08:38.350
+Now, the parentheses do not require a preceding
+backslash in the case of ERE, but the function
+
+00:08:38.350 --> 00:08:39.669
+is the same.
+
+00:08:39.669 --> 00:08:41.740
+And there are also more options in ERE.
+
+00:08:41.740 --> 00:08:47.020
+The plus sign would indicate that the preceding
+character should be matched either once or
+
+00:08:47.020 --> 00:08:48.620
+more.
+
+00:08:48.620 --> 00:08:53.680
+And the question mark sign is to indicate
+the preceding character should be matched
+
+00:08:53.680 --> 00:08:56.950
+either 0 times or once.
+
+00:08:56.950 --> 00:09:02.540
+And the pipe character is used within the
+parentheses to indicate a logical OR operator
+
+00:09:02.540 --> 00:09:07.520
+over the patterns that are provided, but patterns
+need to be of the same length.
+
+00:09:07.520 --> 00:09:13.840
+And the plus question mark can be used also
+with sub-expressions and not necessarily only
+
+00:09:13.840 --> 00:09:15.450
+a single character.
+
+00:09:15.450 --> 00:09:20.280
+To make life easy, there are certain character
+classes that are defined so that you could
+
+00:09:20.280 --> 00:09:25.200
+match those character classes without having
+to specify the range of those characters.
+
+00:09:25.200 --> 00:09:32.080
+So, any printable character can be matched
+by using colon print colon as the option for
+
+00:09:32.080 --> 00:09:33.640
+the character range.
+
+00:09:33.640 --> 00:09:41.870
+All the character classes have to be provided
+as options within the pattern using the double
+
+00:09:41.870 --> 00:09:43.470
+pair of square brackets.
+
+00:09:43.470 --> 00:09:49.440
+The first pair of square brackets is for the
+character enclosure and the second pair is
+
+00:09:49.440 --> 00:09:51.940
+to indicate the specific character class.
+
+00:09:51.940 --> 00:09:58.100
+So, which means that you could also insert
+other characters that has to go along with
+
+00:09:58.100 --> 00:10:05.700
+the character classes by giving, let us say,
+an underscore or something else between the
+
+00:10:05.700 --> 00:10:11.340
+two closing or opening square brackets and
+there are many character classes that are
+
+00:10:11.340 --> 00:10:16.930
+defined with a wide variety that could be
+of use for you, the alphanumeric or alphabetic
+
+00:10:16.930 --> 00:10:23.420
+characters either lowercase or uppercase,
+decimal digits, character classes that match
+
+00:10:23.420 --> 00:10:28.940
+a space or a tab or a whitespace or a punctuation
+mark and so on.
+
+00:10:28.940 --> 00:10:34.430
+So, it is up to us to imagine how we can put
+these to good use so that the script that
+
+00:10:34.430 --> 00:10:38.390
+we write is as concise as possible.
+
+00:10:38.390 --> 00:10:45.140
+Now, when we have any grouping that is done
+using the parenthesis then such a match would
+
+00:10:45.140 --> 00:10:52.560
+also be possible to be referred and the back
+references are available in 9 different ways.
+
+00:10:52.560 --> 00:10:57.680
+So, there are 9 variables; slash backslash
+1 all the way up to backslash 9.
+
+00:10:57.680 --> 00:11:04.160
+And for example here it is given hello is
+enclosed within the parenthesis for the BRE
+
+00:11:04.160 --> 00:11:10.690
+and you will see that the pattern would match
+hello occurring twice because whatever is
+
+00:11:10.690 --> 00:11:16.410
+matched within the parenthesis is then going
+to be matched again using backslash 1 and
+
+00:11:16.410 --> 00:11:20.910
+between them there is a dot star which indicates
+that it can have any number of characters
+
+00:11:20.910 --> 00:11:22.650
+between these two occurrences of hello.
+
+00:11:22.650 --> 00:11:27.570
+So, in other words, this pattern would match
+a line that would contain two occurrences
+
+00:11:27.570 --> 00:11:32.470
+of hello in between them any arbitrary number
+of characters can come.
+
+00:11:32.470 --> 00:11:38.480
+So, this is a very useful feature also for
+replacement of a matched pattern which we
+
+00:11:38.480 --> 00:11:43.430
+will learn as an application of grep later
+on when we write the shell scripts, but for
+
+00:11:43.430 --> 00:11:48.760
+now it will be used to repeat whatever was
+matched within the same line.
+
+00:11:48.760 --> 00:11:54.920
+Now, there is an operator sequence just like
+any other arithmetic operation sequences in
+
+00:11:54.920 --> 00:11:56.930
+languages, programming languages.
+
+00:11:56.930 --> 00:12:02.760
+So, the highest preference is used for character
+collation, and then the meta characters which
+
+00:12:02.760 --> 00:12:09.410
+are escaped using the backslash and then comes
+the bracket expansion and after that the sub-expressions
+
+00:12:09.410 --> 00:12:14.820
+which are enclosed using the parenthesis and
+then the back references used for those patterns
+
+00:12:14.820 --> 00:12:17.090
+which are matched by this parenthesis.
+
+00:12:17.090 --> 00:12:22.800
+And then comes the star character to indicate
+0 or more matches of the preceding character
+
+00:12:22.800 --> 00:12:28.450
+or preceding sub-expression, and then the
+repetition of this particular sub-expression
+
+00:12:28.450 --> 00:12:33.870
+using the braces which are indicated with
+a backslash for BRE and without the backslash
+
+00:12:33.870 --> 00:12:39.740
+for ERE, and then comes a concatenation, and
+in the end, the lowest preference would be
+
+00:12:39.740 --> 00:12:44.640
+for the anchors which is for the beginning
+or the end of the line.
+
+00:12:44.640 --> 00:12:52.040
+The operator precedence is very similar for
+the extended regular expressions also, except
+
+00:12:52.040 --> 00:12:59.080
+for that you have the bracket expansion and
+grouping are done without the preceding backslash.
+
+00:12:59.080 --> 00:13:04.300
+And in addition, there is also an alternation
+operator pipe that is available which is having
+
+00:13:04.300 --> 00:13:05.600
+the lowest preference.
+
+00:13:05.600 --> 00:13:13.440
+So, now, let us go ahead and try these various
+options using the terminal and understand
+
+00:13:13.440 --> 00:13:19.880
+how the regular expressions help us in making
+use of the grep command to its fullest extent.
+
+00:13:19.880 --> 00:13:22.320
+Let us get started with the grep command.
+
+00:13:22.320 --> 00:13:30.100
+So, to make our work simpler, I have created
+a text file in which there are some lines
+
+00:13:30.100 --> 00:13:33.080
+of text which you would like to filter.
+
+00:13:33.080 --> 00:13:41.000
+So, here is the name, list that I have created,
+it is the hypothetical list of roll numbers
+
+00:13:41.000 --> 00:13:46.360
+and the names of students and the pattern
+of the roll number is similar to what is followed
+
+00:13:46.360 --> 00:13:53.910
+in IIT Madras for the undergraduate and postgraduate
+students and the names are given with different
+
+00:13:53.910 --> 00:14:00.900
+formats with and without the initials in middle
+and let us see how we can pick various lines
+
+00:14:00.900 --> 00:14:03.600
+from this particular file by looking at patterns.
+
+00:14:03.600 --> 00:14:08.890
+So, if you were to look for a particular string
+that could not be quite easy, you could do
+
+00:14:08.890 --> 00:14:10.270
+it either using the grep command.
+
+00:14:10.270 --> 00:14:16.420
+So, grep Raman names dot text would pick only
+the line that would have the string that is
+
+00:14:16.420 --> 00:14:22.000
+provided Raman which is matching, and you
+could also provide this particular string
+
+00:14:22.000 --> 00:14:27.070
+that has to be matched within single quotes
+which is actually a good habit to follow.
+
+00:14:27.070 --> 00:14:31.890
+Now, what has been matched would also be shown
+in a different color on the terminal if you
+
+00:14:31.890 --> 00:14:36.390
+have enabled the terminal colors.
+
+00:14:36.390 --> 00:14:39.530
+You could now also look for any other pattern.
+
+00:14:39.530 --> 00:14:44.930
+Let us say you look for the pattern Anu and
+you would see that it would match two lines
+
+00:14:44.930 --> 00:14:50.220
+one where Anu is occurring as a single word
+and where Anu is occurring as a part of a
+
+00:14:50.220 --> 00:14:51.500
+word Anupama.
+
+00:14:51.500 --> 00:14:56.160
+So, let us look at this usage.
+
+00:14:56.160 --> 00:15:00.460
+You could also reduce the number of characters
+and you would see that if you were to look
+
+00:15:00.460 --> 00:15:07.110
+at Sa, capital S and small a, then it would
+match two lines where Sa is occurring at the
+
+00:15:07.110 --> 00:15:13.490
+beginning of those words because S is given
+as a capital letter, and you provide ai as
+
+00:15:13.490 --> 00:15:18.620
+the string and you would see that it would
+match to other lines where ai is occurring
+
+00:15:18.620 --> 00:15:21.350
+as part of those words.
+
+00:15:21.350 --> 00:15:31.070
+Now, this kind of a string matching is the
+very first usage of grep and it is quite convenient.
+
+00:15:31.070 --> 00:15:37.230
+You could do it also using a cat command where
+the output of the cat command can be passed
+
+00:15:37.230 --> 00:15:39.600
+on to grep using a pipe, which we have seen
+in the past.
+
+00:15:39.600 --> 00:15:42.060
+Let us do that here.
+
+00:15:42.060 --> 00:15:49.529
+So, cat names dot txt pipe grep and then ai,
+and then after that, you do not have to provide
+
+00:15:49.529 --> 00:15:54.380
+any other option because the input is not
+in a file, but it is coming from the pipe
+
+00:15:54.380 --> 00:15:55.380
+already.
+
+00:15:55.380 --> 00:15:57.600
+So, you could see that that would work quite
+nicely.
+
+00:15:57.600 --> 00:16:04.090
+Now, this feature can also be used to process
+the output coming from commands so that you
+
+00:16:04.090 --> 00:16:06.970
+can pick up lines containing a particular
+string.
+
+00:16:06.970 --> 00:16:11.970
+Now, let us look at the usage of dot in the
+grep command.
+
+00:16:11.970 --> 00:16:20.980
+So, we would have cat names dot text grep
+and within the single quotes I would give
+
+00:16:20.980 --> 00:16:21.980
+the pattern.
+
+00:16:21.980 --> 00:16:24.410
+So, I would reuse this particular string again
+and again.
+
+00:16:24.410 --> 00:16:31.060
+Let us say I gave a capital S dot n, which
+means that I would like to match a string
+
+00:16:31.060 --> 00:16:37.940
+which contains capital S after that any other
+character followed by n.
+
+00:16:37.940 --> 00:16:43.531
+And you will see that it match both Singh
+and Sankaran, because Sin and San would be
+
+00:16:43.531 --> 00:16:47.580
+matched, i and a are the ones which are taking
+the position of the dot.
+
+00:16:47.580 --> 00:16:53.070
+Now, this dot can also be in the beginning
+or at the end of the string.
+
+00:16:53.070 --> 00:17:00.900
+So, if you put dot am as the string, then
+you would see that the kam will be matched,
+
+00:17:00.900 --> 00:17:03.810
+ram will be matched yam and pam.
+
+00:17:03.810 --> 00:17:11.179
+So, dot am would match when the dot is replaced
+with any of the characters that is available.
+
+00:17:11.179 --> 00:17:15.910
+Now, some of these are to be at the end of
+a line.
+
+00:17:15.910 --> 00:17:20.150
+So, I would like to see whether there is a
+name that would end with am.
+
+00:17:20.150 --> 00:17:27.400
+So, for that, you have to indicate that it
+should be with an anchor dollar.
+
+00:17:27.400 --> 00:17:32.550
+And you would see that only those matching
+with the end of the line would be shown on
+
+00:17:32.550 --> 00:17:35.670
+the screen.
+
+00:17:35.670 --> 00:17:47.420
+Now, if you look at the output you see that
+there is a dot here after the M and I would
+
+00:17:47.420 --> 00:17:53.040
+like to match that, so that means I want to
+pick up names of people who have an initial
+
+00:17:53.040 --> 00:17:58.640
+available in their names, and you cannot actually
+use the dot directly, you have to escape it.
+
+00:17:58.640 --> 00:18:07.120
+So, let us try that out, cat names grep and
+then backslash dot.
+
+00:18:07.120 --> 00:18:11.240
+So, it would now look for a dot in the name
+and then print.
+
+00:18:11.240 --> 00:18:14.900
+So, there are two names with dot and those
+will be printed for you.
+
+00:18:14.900 --> 00:18:23.510
+And of course, if you want the dot to be necessarily
+after a character so that it is an abbreviation
+
+00:18:23.510 --> 00:18:28.500
+for their middle name or an initial then you
+can put one more dot, so the interpretation
+
+00:18:28.500 --> 00:18:35.890
+would be that the first dot is matching the
+initial and/or the abbreviation of the middle
+
+00:18:35.890 --> 00:18:38.930
+name, the second dot is the dot itself which
+has been escaped.
+
+00:18:38.930 --> 00:18:44.910
+So, in the first matching, if you see, you
+have not provided the initial or the abbreviation,
+
+00:18:44.910 --> 00:18:49.170
+so the matching was happening only for the
+dot and not for the abbreviation.
+
+00:18:49.170 --> 00:18:54.150
+So, in the second case, the abbreviation is
+being matched with this dot that has been
+
+00:18:54.150 --> 00:18:56.490
+provided.
+
+00:18:56.490 --> 00:19:04.440
+Now, you could also match strings using the
+anchors at the beginning.
+
+00:19:04.440 --> 00:19:13.430
+So, let us say at the beginning I would like
+to have a capital M and you would see that
+
+00:19:13.430 --> 00:19:19.250
+among the various lines the ones which are
+corresponding to a roll number that looks
+
+00:19:19.250 --> 00:19:24.020
+like capital MM or capital ME, these two lines
+have been matched.
+
+00:19:24.020 --> 00:19:28.740
+So, you can see that this line and this line
+are matched because the beginning is with
+
+00:19:28.740 --> 00:19:30.740
+a capital M.
+
+00:19:30.740 --> 00:19:37.010
+And you could also do that with the other
+characters and in this case all the beginning
+
+00:19:37.010 --> 00:19:40.550
+of the lines is with the capital character
+so that would be fine.
+
+00:19:40.550 --> 00:19:45.360
+And if you want to give a small character
+that would not work, but you can ask grep
+
+00:19:45.360 --> 00:19:50.730
+to do a case insensitive matching and then
+that would work by giving you the patterns
+
+00:19:50.730 --> 00:19:55.900
+that match with the e in the beginning without
+looking at whether it is capital or small.
+
+00:19:55.900 --> 00:20:00.330
+Now, there is a concept of word boundary that
+we would like to look at.
+
+00:20:00.330 --> 00:20:08.270
+So, you see that the end of the words are
+available as an, so, or am.
+
+00:20:08.270 --> 00:20:13.890
+So, let us look at the am character.
+
+00:20:13.890 --> 00:20:21.270
+So, you see that the am is matching both as
+a part of a name, like in Raman Singh, as
+
+00:20:21.270 --> 00:20:26.240
+Anupama, but it is also matching as a end
+of the word as in Manickam and Sagayam.
+
+00:20:26.240 --> 00:20:32.350
+So, let us say I want to pick only those lines
+which are having the am at the end of the
+
+00:20:32.350 --> 00:20:33.350
+word.
+
+00:20:33.350 --> 00:20:39.380
+So, of course, in this case, it is also matching
+the end of the line, but you could also use
+
+00:20:39.380 --> 00:20:41.130
+the concept of a word boundary.
+
+00:20:41.130 --> 00:20:44.330
+So, slash b is for the word boundary.
+
+00:20:44.330 --> 00:20:48.360
+And you would see that it would match with
+the word boundary with the end of the line.
+
+00:20:48.360 --> 00:20:54.980
+Now, it is also matching with the end of the
+line by a dollar anchor so both would give
+
+00:20:54.980 --> 00:20:56.430
+you the same output.
+
+00:20:56.430 --> 00:21:05.250
+But the difference would occur if you were
+to have an, then you will see that here, so
+
+00:21:05.250 --> 00:21:10.540
+if I look at an and then the word boundary,
+so Raman Singh is also getting matched, whereas
+
+00:21:10.540 --> 00:21:12.020
+Sankaran also is getting matched.
+
+00:21:12.020 --> 00:21:17.890
+Raman Singh is matched because it is occurring
+as a word boundary, Sankaran is occurring
+
+00:21:17.890 --> 00:21:21.120
+both as a word boundary as well as the end
+of the line.
+
+00:21:21.120 --> 00:21:25.620
+And the difference will be illustrated if
+you put an anchor here with a dollar, I would
+
+00:21:25.620 --> 00:21:31.690
+match only Sankaran because Raman, the ending
+an is not at the end of the line, but it has
+
+00:21:31.690 --> 00:21:32.820
+only a word boundary.
+
+00:21:32.820 --> 00:21:38.520
+So, the choice of the word boundary with a
+slash b or a dollar as the end of the line
+
+00:21:38.520 --> 00:21:42.190
+is up to you to pick depending upon the situation.
+
+00:21:42.190 --> 00:21:47.350
+Now, let us look at the use of square brackets.
+
+00:21:47.350 --> 00:21:52.400
+So, the square brackets are essentially to
+give options.
+
+00:21:52.400 --> 00:22:00.280
+So, let us say I want to give the options
+of two characters M followed by either M or
+
+00:22:00.280 --> 00:22:05.660
+E and you will see that the roll numbers MM
+and ME will be shown.
+
+00:22:05.660 --> 00:22:11.190
+So, if you see the first M is matched with
+the first M here, the second character is
+
+00:22:11.190 --> 00:22:17.590
+matched to be either an M or an E. So, you
+could also now look at it as E followed by
+
+00:22:17.590 --> 00:22:22.510
+either E or a D and you would see that ED
+and EE both are matched.
+
+00:22:22.510 --> 00:22:26.950
+So, the second character there is basically
+an option that is being made available.
+
+00:22:26.950 --> 00:22:32.160
+So, now, let us see whether that can be used
+in a nice manner.
+
+00:22:32.160 --> 00:22:37.670
+So, you could actually see that in the first
+character, I can choose either M or an E and
+
+00:22:37.670 --> 00:22:44.940
+the second character can be E. So, it would
+match either ME or EE, and you can see that
+
+00:22:44.940 --> 00:22:47.970
+the roll numbers are given in the same way.
+
+00:22:47.970 --> 00:22:54.450
+So, the matching pattern is shown in red color
+text, which is easy for you to identify.
+
+00:22:54.450 --> 00:22:58.990
+Now, this can be used also with the other
+parts of the string.
+
+00:22:58.990 --> 00:23:01.300
+So, let us try that out.
+
+00:23:01.300 --> 00:23:11.060
+So, I want to match anything that starts with
+an S and ends with either an m or an n.
+
+00:23:11.060 --> 00:23:17.800
+So, you see that Singh and then Sagayam and
+Sankaran all of them are matched.
+
+00:23:17.800 --> 00:23:23.790
+Now, you see that the second line is matching
+with an S that is coming as a part of the
+
+00:23:23.790 --> 00:23:29.280
+roll number, but let us say our intention
+was to match it only in the name, but not
+
+00:23:29.280 --> 00:23:32.800
+in the roll number and we know that the roll
+number and the name have been separated by
+
+00:23:32.800 --> 00:23:36.410
+a space, and therefore, there is a word boundary
+that is involved there.
+
+00:23:36.410 --> 00:23:42.990
+So, we could go ahead and try to introduce
+a word boundary before S so that the interpretation
+
+00:23:42.990 --> 00:23:48.120
+is that after a word boundary there should
+be a word that starts with S and then any
+
+00:23:48.120 --> 00:23:53.270
+number of characters followed by either an
+m or an n.
+
+00:23:53.270 --> 00:23:57.481
+And you see that now the matching is happening
+with the second line not with the roll number
+
+00:23:57.481 --> 00:24:00.460
+but with the Sagayam that is actually the
+word in the end.
+
+00:24:00.460 --> 00:24:06.160
+So, the amount of matching that is done is
+only for the last word but not for the one
+
+00:24:06.160 --> 00:24:08.000
+starting with the roll number.
+
+00:24:08.000 --> 00:24:15.310
+Now, why is this useful, because whatever
+is matched can be placed in a back reference
+
+00:24:15.310 --> 00:24:19.540
+variable which we have already seen in the
+lectures and that is something that we could
+
+00:24:19.540 --> 00:24:21.810
+actually be making use of.
+
+00:24:21.810 --> 00:24:28.799
+Now, the square bracket can be used to also
+be giving us an options of characters that
+
+00:24:28.799 --> 00:24:29.990
+can be matched.
+
+00:24:29.990 --> 00:24:32.840
+So, let us match let us say vowels.
+
+00:24:32.840 --> 00:24:41.540
+So, aeiou is a vowel and let us see what are
+all the strings that match vowel containing
+
+00:24:41.540 --> 00:24:45.806
+them and you would see that all names would
+usually have a vowel so that would be matched.
+
+00:24:45.806 --> 00:24:54.170
+But let us say we would like to match those
+names that contain two vowels side by side.
+
+00:24:54.170 --> 00:24:59.770
+So for that I would give the pattern like
+this.
+
+00:24:59.770 --> 00:25:05.160
+So, it is going to be matching two characters
+because there are two pairs of square brackets
+
+00:25:05.160 --> 00:25:06.160
+side by side.
+
+00:25:06.160 --> 00:25:11.460
+The first pair contains option of characters
+that is listed which is vowels and the second
+
+00:25:11.460 --> 00:25:13.820
+also contains the same set of vowels.
+
+00:25:13.820 --> 00:25:18.380
+And you see that it could match two names
+where they are two vowels side by side ai
+
+00:25:18.380 --> 00:25:21.049
+as in Umair and Jain.
+
+00:25:21.049 --> 00:25:26.090
+Hyphen can be used within the square brackets
+to indicate a range of characters.
+
+00:25:26.090 --> 00:25:32.610
+So, let us also try that out.
+
+00:25:32.610 --> 00:25:40.290
+So, look at the roll numbers, they contain
+a sequence.
+
+00:25:40.290 --> 00:25:45.920
+So, I would have 9 0 and then from 1 to 7
+the roll numbers are starting.
+
+00:25:45.920 --> 00:25:47.660
+So, I would like to give a range there.
+
+00:25:47.660 --> 00:25:51.429
+I would like to have only 1 to 4 roll numbers
+to be considered.
+
+00:25:51.429 --> 00:25:56.429
+So, now you see that the first four rows are
+being shown.
+
+00:25:56.429 --> 00:26:03.040
+So, which means that the pattern that is matched
+is B90 and then the fourth character can be
+
+00:26:03.040 --> 00:26:04.929
+either 1 or 2 or 3 or 4.
+
+00:26:04.929 --> 00:26:08.790
+So, I am not listing all of them, I am just
+giving a range.
+
+00:26:08.790 --> 00:26:15.360
+Now, I could modify the range to let us say
+5 to 7, and you see that the remaining ones
+
+00:26:15.360 --> 00:26:16.970
+are being shown.
+
+00:26:16.970 --> 00:26:22.720
+And I could also give it as 1 to 9, and then
+all the names are shown, of course, 8 and
+
+00:26:22.720 --> 00:26:27.700
+9 are not there, but that does not matter,
+because if any pattern does not match, then
+
+00:26:27.700 --> 00:26:29.490
+that is anyway being ignored.
+
+00:26:29.490 --> 00:26:34.820
+Now, this is definitely much more simpler
+than let us say providing 1, 2, 3, 4, 5, 6,
+
+00:26:34.820 --> 00:26:37.030
+7 which would be also the same output.
+
+00:26:37.030 --> 00:26:41.980
+So, naturally, if there is any sequence of
+characters that could also be reduced using
+
+00:26:41.980 --> 00:26:46.960
+a hyphen, then we should go ahead and use
+that feature.
+
+00:26:46.960 --> 00:26:59.460
+Now, let us try this out using the names also.
+
+00:26:59.460 --> 00:27:07.590
+So, I would go by looking at those names which
+would have the first character in the second
+
+00:27:07.590 --> 00:27:13.740
+half of the alphabet and then followed by
+vowel.
+
+00:27:13.740 --> 00:27:18.350
+And you would see that Mary Manickam, Raman
+etc. are coming, but Anu and Anupama are not
+
+00:27:18.350 --> 00:27:22.500
+coming, because their first character comes
+in the first half of the alphabet.
+
+00:27:22.500 --> 00:27:29.250
+If you have a hat inside the square brackets,
+it is implying that there is a negation of
+
+00:27:29.250 --> 00:27:30.250
+the pattern.
+
+00:27:30.250 --> 00:27:34.550
+So, let us go ahead and try that out.
+
+00:27:34.550 --> 00:27:43.860
+So, here, if you see, 5 to 7, and I am going
+to negate that, so that means that the character
+
+00:27:43.860 --> 00:27:49.510
+that follows B90 should not be either 5 or
+6 or 7.
+
+00:27:49.510 --> 00:27:52.770
+So, you see that it is then giving the remaining
+of the lines.
+
+00:27:52.770 --> 00:27:57.799
+So, the hat inside the square brackets is
+to negate the range of characters that is
+
+00:27:57.799 --> 00:28:00.120
+provided within these square brackets.
+
+00:28:00.120 --> 00:28:07.710
+Now, let us use in the BRE system where using
+the grep command we could provide the number
+
+00:28:07.710 --> 00:28:14.470
+of times a particular character can occur.
+
+00:28:14.470 --> 00:28:18.090
+So, let us say the M should occur twice.
+
+00:28:18.090 --> 00:28:23.320
+So, exactly twice should it should occur.
+
+00:28:23.320 --> 00:28:27.400
+And you see that MM is being matched.
+
+00:28:27.400 --> 00:28:34.500
+Now, if you say that it should occur either
+once or twice, then you see that ME is matching
+
+00:28:34.500 --> 00:28:36.220
+M dot is also matching.
+
+00:28:36.220 --> 00:28:40.820
+So, you could see that you could specify exactly
+how many times it has to be matched side by
+
+00:28:40.820 --> 00:28:47.190
+side by using the braces and in BRE the braces
+have to be preceded by the backslash.
+
+00:28:47.190 --> 00:28:51.210
+So, you can see that the braces are preceded
+by a backslash.
+
+00:28:51.210 --> 00:28:56.900
+And then the number that is between the braces
+is the number of times the preceding character
+
+00:28:56.900 --> 00:28:58.260
+has to be matched.
+
+00:28:58.260 --> 00:29:01.880
+And here when you say only one number, it
+means exactly that many types of matching
+
+00:29:01.880 --> 00:29:03.450
+is to be required.
+
+00:29:03.450 --> 00:29:07.429
+And when you give a range of numbers like
+1 comma 2, that means it should be matched
+
+00:29:07.429 --> 00:29:13.910
+at least once but not more than 2 times including
+2 times.
+
+00:29:13.910 --> 00:29:20.830
+So, let us try another feature let us say
+E and then at least once or at most two times
+
+00:29:20.830 --> 00:29:26.429
+and you will see that it would match ED as
+well as ME because all of them would actually
+
+00:29:26.429 --> 00:29:31.530
+have the matching either once or twice.
+
+00:29:31.530 --> 00:29:37.860
+Now, you could also group the patterns that
+are being matched.
+
+00:29:37.860 --> 00:29:41.970
+So, let us look at that now.
+
+00:29:41.970 --> 00:29:49.340
+So, the grouping is done by using parenthesis
+which are also to be preceded by a backslash
+
+00:29:49.340 --> 00:29:50.940
+in the case of BRE.
+
+00:29:50.940 --> 00:29:53.790
+So, let us do like that.
+
+00:29:53.790 --> 00:29:59.679
+So, ma is a string and we are just grouping
+it.
+
+00:29:59.679 --> 00:30:05.610
+And when you just do it, it is no different
+from just matching it ma, but our idea was
+
+00:30:05.610 --> 00:30:09.230
+to see if I can match it once more.
+
+00:30:09.230 --> 00:30:14.230
+So, I would like to match it once more with
+any other character between them.
+
+00:30:14.230 --> 00:30:19.090
+So that means that I would like to have two
+occurrences of ma within the same line.
+
+00:30:19.090 --> 00:30:21.740
+And you will see that what is the line that
+I am going to pick up, I am going to pick
+
+00:30:21.740 --> 00:30:23.100
+up Umair Ahmad there.
+
+00:30:23.100 --> 00:30:24.980
+So, you could see that it comes up.
+
+00:30:24.980 --> 00:30:29.890
+So, you can see that ma is matched with this
+ma.
+
+00:30:29.890 --> 00:30:36.950
+And then ir blank ah is being matched with
+the dot star and then again one more ma is
+
+00:30:36.950 --> 00:30:42.000
+coming because we have matched that with the
+first group which is ma.
+
+00:30:42.000 --> 00:30:49.400
+So, backslash 1 means first group which has
+been given in parenthesis and backslash 1
+
+00:30:49.400 --> 00:30:54.730
+refers to the back reference of the matched
+pattern that has been provided before.
+
+00:30:54.730 --> 00:30:58.720
+So, this is a very neat way by seeing that
+what has to be matched.
+
+00:30:58.720 --> 00:31:05.450
+So, now, it also means that this ma need not
+be provided as it is.
+
+00:31:05.450 --> 00:31:10.200
+We could also say a character followed by
+a should be repeated once more.
+
+00:31:10.200 --> 00:31:16.500
+So, whatever is character that is following
+a should be repeated and you see that here
+
+00:31:16.500 --> 00:31:21.880
+capital M is also getting matched because
+in Mary Manickam capital M is coming before
+
+00:31:21.880 --> 00:31:26.350
+a, and in the case of Umair Ahmad small m
+is coming before a.
+
+00:31:26.350 --> 00:31:31.970
+So, we are able to catch both of them and
+this dot is matching either the capital M
+
+00:31:31.970 --> 00:31:38.240
+or small m, but whatever is matched that is
+being repeated a second time by use of backslash
+
+00:31:38.240 --> 00:31:40.920
+1.
+
+00:31:40.920 --> 00:31:50.400
+Now, you could also do that with a dot to
+see what happens if you are going to match
+
+00:31:50.400 --> 00:31:54.400
+an occurrence that is following a coming twice.
+
+00:31:54.400 --> 00:32:01.500
+So, Sankaran is having one name where n is
+followed by a and you can see that it is coming
+
+00:32:01.500 --> 00:32:03.780
+second time again towards the end of the word,
+so an, an.
+
+00:32:03.780 --> 00:32:11.480
+So, the first an is getting matched, the dot
+is the n here and after the first an, kar
+
+00:32:11.480 --> 00:32:16.410
+is getting matched by the dot star here and
+after that an is getting matched again by
+
+00:32:16.410 --> 00:32:17.410
+back reference here.
+
+00:32:17.410 --> 00:32:23.940
+So, the n that is matched in the dot is getting
+reflected also in the backslash 1.
+
+00:32:23.940 --> 00:32:33.080
+Now, let us say if I want that to be appearing
+three times that also can be looked up.
+
+00:32:33.080 --> 00:32:38.200
+So, you could also use this pattern to see
+how many times it has to be matched.
+
+00:32:38.200 --> 00:32:47.050
+So, here I am using the braces to tell how
+many times I want that particular pattern
+
+00:32:47.050 --> 00:32:48.250
+to be matched.
+
+00:32:48.250 --> 00:32:52.160
+So, in the past, we have used it for a character,
+but here we are using for the pattern.
+
+00:32:52.160 --> 00:32:59.049
+So, you see that the Sagayam is coming because
+agayam, so the pattern called a and dot is
+
+00:32:59.049 --> 00:33:06.049
+coming three times and it is coming because
+here we have put a and then dot as a group
+
+00:33:06.049 --> 00:33:11.230
+and that group called a and character after
+that is to be repeated three times and that
+
+00:33:11.230 --> 00:33:12.230
+is coming here.
+
+00:33:12.230 --> 00:33:17.799
+Now, if it is to be repeated two times, then
+you see Raman will come because am, an, then
+
+00:33:17.799 --> 00:33:22.970
+Anupama will come because am a blank and then
+Sankaran also will come because it is ar and
+
+00:33:22.970 --> 00:33:23.970
+an.
+
+00:33:23.970 --> 00:33:30.600
+So, you could see that the parenthesis can
+be used to group character or a sub-expression
+
+00:33:30.600 --> 00:33:36.030
+and then after that, you can either back reference
+it for one more matching or you could also
+
+00:33:36.030 --> 00:33:40.470
+provide the braces to tell how many times
+you would like to have it matched.
+
+00:33:40.470 --> 00:33:45.110
+Now, if you want to get it matched either
+two times or three times that also is possible
+
+00:33:45.110 --> 00:33:49.860
+for you to say and you will see that two that
+will be listed with a union of these two outputs
+
+00:33:49.860 --> 00:33:52.220
+that we have seen.
+
+00:33:52.220 --> 00:33:59.419
+The extended regular expression engine can
+be used while running the command grep either
+
+00:33:59.419 --> 00:34:03.360
+by using an option capital E or by running
+the command as egrep.
+
+00:34:03.360 --> 00:34:05.170
+So, let us look at that possibility.
+
+00:34:05.170 --> 00:34:14.270
+Now, the patterns that you can use in extended
+regular expression engine are slightly more,
+
+00:34:14.270 --> 00:34:16.220
+so plus is one such character.
+
+00:34:16.220 --> 00:34:21.359
+So, by plus we mean it should be matched either
+once or more number of times.
+
+00:34:21.359 --> 00:34:26.909
+So, I would like to say M followed by a plus
+that means M can occur either once or more
+
+00:34:26.909 --> 00:34:27.909
+number of times.
+
+00:34:27.909 --> 00:34:33.300
+So, you would see that it would match in lines
+where M is occurring either once or twice.
+
+00:34:33.300 --> 00:34:39.220
+Now, I can also put a hat in front of it to
+say that this kind of matching should occur
+
+00:34:39.220 --> 00:34:41.540
+only in the beginning of the line.
+
+00:34:41.540 --> 00:34:48.460
+And you would see that both MM and ME will
+occur because in ME case it is matching once
+
+00:34:48.460 --> 00:34:50.869
+and in MM case it is matching twice.
+
+00:34:50.869 --> 00:34:57.430
+The plus will indicate that it should match
+either once or more number of times, not 0.
+
+00:34:57.430 --> 00:34:59.281
+Star would actually occur for 0.
+
+00:34:59.281 --> 00:35:04.000
+So, you would see that when you put a star
+there, so it would occur 0, which means that
+
+00:35:04.000 --> 00:35:06.450
+other lines which do not have M are also getting
+matched.
+
+00:35:06.450 --> 00:35:08.550
+Now, what is the purpose of those lines?
+
+00:35:08.550 --> 00:35:15.180
+Well, when you put something else after the
+star, then it would actually make a sense.
+
+00:35:15.180 --> 00:35:24.430
+So, you would see that after capital M, I
+would, let us say, put an a there without
+
+00:35:24.430 --> 00:35:27.210
+the hat and you would see here.
+
+00:35:27.210 --> 00:35:37.550
+So, you would see that M can be matched with
+Ma or it could also be just na itself, because
+
+00:35:37.550 --> 00:35:42.400
+anything that is in front of a can also be
+matched either M or not.
+
+00:35:42.400 --> 00:35:48.280
+So, there are situations where one has to
+watch when star is used.
+
+00:35:48.280 --> 00:35:52.710
+So, star does not mean any number of characters
+or any number of characters it should be dot.
+
+00:35:52.710 --> 00:35:58.170
+So, when you put a dot there, now the dot
+is actually being operated upon by star to
+
+00:35:58.170 --> 00:36:03.370
+indicate any number of characters and now
+you see that definitely M has to occur following
+
+00:36:03.370 --> 00:36:08.030
+that the any number of characters can come
+and after that an a has to come.
+
+00:36:08.030 --> 00:36:12.520
+So, you can see that here the M is starting,
+after that any number of characters have been
+
+00:36:12.520 --> 00:36:15.200
+matched and then there is an a.
+
+00:36:15.200 --> 00:36:20.880
+So, here also M is matching, after that any
+number of characters and then a.
+
+00:36:20.880 --> 00:36:24.670
+And here also M is there after that any number
+of characters and then a.
+
+00:36:24.670 --> 00:36:29.180
+So, M dot star a is more close to what we
+would interpret based upon our experience
+
+00:36:29.180 --> 00:36:35.540
+with the shell, where star indicates any number
+of matches, but this is actually something
+
+00:36:35.540 --> 00:36:36.540
+that you have to watch.
+
+00:36:36.540 --> 00:36:41.730
+The star is operating on M which means that
+either M can be present or not and therefore
+
+00:36:41.730 --> 00:36:47.310
+you could see that even when M is not present
+before a, those strings are also getting matched.
+
+00:36:47.310 --> 00:36:50.830
+So, watch out for the interpretation of star.
+
+00:36:50.830 --> 00:36:53.790
+Now, let us use the other features of ERE.
+
+00:36:53.790 --> 00:36:57.940
+So, apart from plus, you could also have other
+features.
+
+00:36:57.940 --> 00:37:00.500
+You can also group the characters and then
+use a plus.
+
+00:37:00.500 --> 00:37:05.140
+So, let us say I would have a group called
+ma and then after that I would put a plus,
+
+00:37:05.140 --> 00:37:10.700
+which means that the pair of characters ma
+can occur either once or twice.
+
+00:37:10.700 --> 00:37:15.570
+So, you could see that Raman Singh, Umair
+Ahmad will come because they are all occurring
+
+00:37:15.570 --> 00:37:23.660
+once in those particular patterns.
+
+00:37:23.660 --> 00:37:27.619
+And the difference with respect to star also
+will be evident because it would match even
+
+00:37:27.619 --> 00:37:34.960
+those situations where the pattern ma is not
+occurring.
+
+00:37:34.960 --> 00:37:48.690
+Now, we would also explore the use of a pipe
+as an alternation between two patterns of
+
+00:37:48.690 --> 00:37:50.640
+strings that will be matched.
+
+00:37:50.640 --> 00:37:56.790
+So, I would like to match, let us say, in
+the beginning either ED should be there or
+
+00:37:56.790 --> 00:37:58.560
+ME should be there.
+
+00:37:58.560 --> 00:38:01.630
+The mechanical or engineering design both
+are very close by.
+
+00:38:01.630 --> 00:38:04.670
+So, I would like to match these two sets of
+students.
+
+00:38:04.670 --> 00:38:08.460
+So, you would see that those two are being
+matched.
+
+00:38:08.460 --> 00:38:13.580
+And you could also have names that can be
+matched with the different lengths also.
+
+00:38:13.580 --> 00:38:23.160
+So, I may want to have, let us say, Anu should
+be matched or Raman should be matched and
+
+00:38:23.160 --> 00:38:25.160
+that would also work quite fine.
+
+00:38:25.160 --> 00:38:35.920
+So, the length of the strings that are coming
+on either sides of the pipe need not be same.
+
+00:38:35.920 --> 00:38:42.100
+And let us put am and an and you will see
+that the pattern is matching.
+
+00:38:42.100 --> 00:38:46.950
+Those who have the two characters in their
+names, either am or an.
+
+00:38:46.950 --> 00:38:49.180
+Now, you could combine this with other things
+also.
+
+00:38:49.180 --> 00:38:53.810
+For example, you can combine with the anchor
+of dollar and you see that those who have
+
+00:38:53.810 --> 00:38:57.660
+either an am or an in the end are getting
+matched.
+
+00:38:57.660 --> 00:39:01.240
+The dollar is indicating that it should be
+done at the end of the line.
+

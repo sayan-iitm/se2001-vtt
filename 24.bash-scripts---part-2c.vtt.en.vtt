@@ -1,0 +1,3528 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:13.990 align:start position:0%
+ 
+[Music]
+
+00:00:13.990 --> 00:00:14.000 align:start position:0%
+ 
+ 
+
+00:00:14.000 --> 00:00:15.829 align:start position:0%
+ 
+there<00:00:14.160><c> is</c><00:00:14.240><c> a</c><00:00:14.320><c> feature</c><00:00:14.719><c> called</c><00:00:14.960><c> eval</c><00:00:15.599><c> which</c>
+
+00:00:15.829 --> 00:00:15.839 align:start position:0%
+there is a feature called eval which
+ 
+
+00:00:15.839 --> 00:00:18.950 align:start position:0%
+there is a feature called eval which
+would<00:00:16.080><c> evaluate</c><00:00:17.039><c> the</c><00:00:17.279><c> string</c><00:00:17.600><c> that</c><00:00:17.760><c> was</c><00:00:18.000><c> given</c>
+
+00:00:18.950 --> 00:00:18.960 align:start position:0%
+would evaluate the string that was given
+ 
+
+00:00:18.960 --> 00:00:20.790 align:start position:0%
+would evaluate the string that was given
+as<00:00:19.199><c> if</c><00:00:19.359><c> it's</c><00:00:19.600><c> a</c><00:00:19.680><c> command</c><00:00:20.320><c> and</c><00:00:20.480><c> it</c><00:00:20.560><c> will</c><00:00:20.720><c> be</c>
+
+00:00:20.790 --> 00:00:20.800 align:start position:0%
+as if it's a command and it will be
+ 
+
+00:00:20.800 --> 00:00:23.109 align:start position:0%
+as if it's a command and it will be
+passed<00:00:21.119><c> on</c><00:00:21.199><c> to</c><00:00:21.279><c> the</c><00:00:21.439><c> shell</c><00:00:21.680><c> to</c><00:00:21.840><c> execute</c>
+
+00:00:23.109 --> 00:00:23.119 align:start position:0%
+passed on to the shell to execute
+ 
+
+00:00:23.119 --> 00:00:25.750 align:start position:0%
+passed on to the shell to execute
+one<00:00:23.359><c> warning</c><00:00:24.160><c> never</c><00:00:24.560><c> evaluate</c>
+
+00:00:25.750 --> 00:00:25.760 align:start position:0%
+one warning never evaluate
+ 
+
+00:00:25.760 --> 00:00:27.589 align:start position:0%
+one warning never evaluate
+a<00:00:25.920><c> user</c><00:00:26.240><c> supplied</c>
+
+00:00:27.589 --> 00:00:27.599 align:start position:0%
+a user supplied
+ 
+
+00:00:27.599 --> 00:00:30.870 align:start position:0%
+a user supplied
+string<00:00:28.480><c> on</c><00:00:28.800><c> any</c><00:00:29.119><c> shell</c><00:00:29.760><c> because</c><00:00:30.640><c> such</c>
+
+00:00:30.870 --> 00:00:30.880 align:start position:0%
+string on any shell because such
+ 
+
+00:00:30.880 --> 00:00:32.310 align:start position:0%
+string on any shell because such
+features<00:00:31.359><c> if</c><00:00:31.519><c> they're</c><00:00:31.679><c> available</c><00:00:32.000><c> in</c><00:00:32.079><c> any</c>
+
+00:00:32.310 --> 00:00:32.320 align:start position:0%
+features if they're available in any
+ 
+
+00:00:32.320 --> 00:00:33.270 align:start position:0%
+features if they're available in any
+script
+
+00:00:33.270 --> 00:00:33.280 align:start position:0%
+script
+ 
+
+00:00:33.280 --> 00:00:35.110 align:start position:0%
+script
+will<00:00:33.520><c> make</c><00:00:33.760><c> the</c><00:00:33.840><c> system</c><00:00:34.320><c> vulnerable</c><00:00:34.880><c> to</c>
+
+00:00:35.110 --> 00:00:35.120 align:start position:0%
+will make the system vulnerable to
+ 
+
+00:00:35.120 --> 00:00:37.670 align:start position:0%
+will make the system vulnerable to
+attacks<00:00:35.520><c> because</c><00:00:35.840><c> the</c><00:00:36.079><c> user</c><00:00:36.399><c> can</c><00:00:36.640><c> supply</c>
+
+00:00:37.670 --> 00:00:37.680 align:start position:0%
+attacks because the user can supply
+ 
+
+00:00:37.680 --> 00:00:40.790 align:start position:0%
+attacks because the user can supply
+any<00:00:38.000><c> arbitrary</c><00:00:38.559><c> command</c><00:00:39.280><c> and</c><00:00:39.600><c> if</c><00:00:39.840><c> it</c><00:00:40.079><c> is</c><00:00:40.559><c> if</c><00:00:40.719><c> it</c>
+
+00:00:40.790 --> 00:00:40.800 align:start position:0%
+any arbitrary command and if it is if it
+ 
+
+00:00:40.800 --> 00:00:42.790 align:start position:0%
+any arbitrary command and if it is if it
+gets<00:00:41.120><c> executed</c>
+
+00:00:42.790 --> 00:00:42.800 align:start position:0%
+gets executed
+ 
+
+00:00:42.800 --> 00:00:46.150 align:start position:0%
+gets executed
+and<00:00:42.960><c> sometimes</c><00:00:44.160><c> dangerously</c><00:00:44.879><c> by</c><00:00:45.360><c> a</c><00:00:45.920><c> super</c>
+
+00:00:46.150 --> 00:00:46.160 align:start position:0%
+and sometimes dangerously by a super
+ 
+
+00:00:46.160 --> 00:00:47.830 align:start position:0%
+and sometimes dangerously by a super
+user<00:00:46.399><c> permission</c><00:00:46.960><c> then</c>
+
+00:00:47.830 --> 00:00:47.840 align:start position:0%
+user permission then
+ 
+
+00:00:47.840 --> 00:00:50.229 align:start position:0%
+user permission then
+anything<00:00:48.160><c> can</c><00:00:48.399><c> happen</c><00:00:48.719><c> so</c><00:00:49.200><c> it's</c><00:00:49.360><c> a</c><00:00:49.440><c> very</c><00:00:49.680><c> good</c>
+
+00:00:50.229 --> 00:00:50.239 align:start position:0%
+anything can happen so it's a very good
+ 
+
+00:00:50.239 --> 00:00:53.189 align:start position:0%
+anything can happen so it's a very good
+security<00:00:50.719><c> practice</c><00:00:51.199><c> to</c><00:00:51.600><c> not</c><00:00:51.920><c> evaluate</c>
+
+00:00:53.189 --> 00:00:53.199 align:start position:0%
+security practice to not evaluate
+ 
+
+00:00:53.199 --> 00:00:57.110 align:start position:0%
+security practice to not evaluate
+any<00:00:53.440><c> user</c><00:00:53.680><c> supplied</c><00:00:54.160><c> string</c><00:00:54.640><c> as</c><00:00:54.879><c> it</c><00:00:55.039><c> is</c>
+
+00:00:57.110 --> 00:00:57.120 align:start position:0%
+any user supplied string as it is
+ 
+
+00:00:57.120 --> 00:00:58.950 align:start position:0%
+any user supplied string as it is
+with<00:00:57.360><c> that</c><00:00:57.600><c> warning</c><00:00:58.079><c> you</c><00:00:58.160><c> can</c><00:00:58.320><c> go</c><00:00:58.559><c> ahead</c><00:00:58.800><c> and</c>
+
+00:00:58.950 --> 00:00:58.960 align:start position:0%
+with that warning you can go ahead and
+ 
+
+00:00:58.960 --> 00:01:00.549 align:start position:0%
+with that warning you can go ahead and
+see<00:00:59.199><c> whether</c><00:00:59.520><c> you</c><00:00:59.600><c> can</c>
+
+00:01:00.549 --> 00:01:00.559 align:start position:0%
+see whether you can
+ 
+
+00:01:00.559 --> 00:01:02.630 align:start position:0%
+see whether you can
+construct<00:01:01.199><c> commands</c>
+
+00:01:02.630 --> 00:01:02.640 align:start position:0%
+construct commands
+ 
+
+00:01:02.640 --> 00:01:04.869 align:start position:0%
+construct commands
+and<00:01:02.800><c> then</c><00:01:03.039><c> evaluate</c><00:01:03.520><c> them</c><00:01:03.760><c> on</c><00:01:03.920><c> the</c><00:01:04.080><c> shell</c>
+
+00:01:04.869 --> 00:01:04.879 align:start position:0%
+and then evaluate them on the shell
+ 
+
+00:01:04.879 --> 00:01:06.550 align:start position:0%
+and then evaluate them on the shell
+so<00:01:05.119><c> sometimes</c><00:01:05.680><c> there</c><00:01:05.840><c> are</c><00:01:06.000><c> some</c><00:01:06.159><c> commands</c>
+
+00:01:06.550 --> 00:01:06.560 align:start position:0%
+so sometimes there are some commands
+ 
+
+00:01:06.560 --> 00:01:07.910 align:start position:0%
+so sometimes there are some commands
+which<00:01:06.720><c> you</c><00:01:06.880><c> would</c><00:01:06.960><c> like</c><00:01:07.119><c> to</c><00:01:07.200><c> construct</c><00:01:07.680><c> using</c>
+
+00:01:07.910 --> 00:01:07.920 align:start position:0%
+which you would like to construct using
+ 
+
+00:01:07.920 --> 00:01:09.990 align:start position:0%
+which you would like to construct using
+various<00:01:08.240><c> string</c><00:01:08.479><c> operations</c><00:01:08.960><c> etc</c><00:01:09.840><c> and</c>
+
+00:01:09.990 --> 00:01:10.000 align:start position:0%
+various string operations etc and
+ 
+
+00:01:10.000 --> 00:01:12.390 align:start position:0%
+various string operations etc and
+finally<00:01:10.320><c> you</c><00:01:10.479><c> have</c><00:01:10.640><c> got</c><00:01:10.880><c> a</c><00:01:11.040><c> set</c><00:01:11.280><c> of</c><00:01:11.439><c> strings</c>
+
+00:01:12.390 --> 00:01:12.400 align:start position:0%
+finally you have got a set of strings
+ 
+
+00:01:12.400 --> 00:01:14.870 align:start position:0%
+finally you have got a set of strings
+then<00:01:12.640><c> all</c><00:01:12.799><c> those</c><00:01:12.960><c> strings</c><00:01:13.280><c> can</c><00:01:13.439><c> be</c><00:01:13.680><c> treated</c>
+
+00:01:14.870 --> 00:01:14.880 align:start position:0%
+then all those strings can be treated
+ 
+
+00:01:14.880 --> 00:01:16.390 align:start position:0%
+then all those strings can be treated
+as<00:01:15.040><c> a</c><00:01:15.119><c> single</c><00:01:15.439><c> string</c><00:01:15.759><c> and</c><00:01:15.840><c> then</c><00:01:16.000><c> getting</c>
+
+00:01:16.390 --> 00:01:16.400 align:start position:0%
+as a single string and then getting
+ 
+
+00:01:16.400 --> 00:01:18.310 align:start position:0%
+as a single string and then getting
+executed<00:01:16.960><c> on</c><00:01:17.040><c> the</c><00:01:17.200><c> shell</c>
+
+00:01:18.310 --> 00:01:18.320 align:start position:0%
+executed on the shell
+ 
+
+00:01:18.320 --> 00:01:20.710 align:start position:0%
+executed on the shell
+using<00:01:18.640><c> the</c><00:01:18.799><c> eval</c><00:01:19.119><c> command</c>
+
+00:01:20.710 --> 00:01:20.720 align:start position:0%
+using the eval command
+ 
+
+00:01:20.720 --> 00:01:23.429 align:start position:0%
+using the eval command
+and<00:01:20.880><c> once</c><00:01:21.119><c> it</c><00:01:21.280><c> is</c><00:01:21.439><c> over</c><00:01:21.759><c> the</c><00:01:22.080><c> control</c><00:01:22.479><c> will</c><00:01:22.640><c> be</c>
+
+00:01:23.429 --> 00:01:23.439 align:start position:0%
+and once it is over the control will be
+ 
+
+00:01:23.439 --> 00:01:25.190 align:start position:0%
+and once it is over the control will be
+given<00:01:23.840><c> back</c><00:01:24.159><c> to</c><00:01:24.320><c> the</c><00:01:24.560><c> shell</c><00:01:24.799><c> which</c><00:01:25.040><c> has</c>
+
+00:01:25.190 --> 00:01:25.200 align:start position:0%
+given back to the shell which has
+ 
+
+00:01:25.200 --> 00:01:27.270 align:start position:0%
+given back to the shell which has
+launched<00:01:25.520><c> the</c><00:01:25.680><c> eval</c><00:01:26.000><c> command</c><00:01:26.720><c> so</c><00:01:26.880><c> here</c><00:01:27.040><c> is</c><00:01:27.200><c> a</c>
+
+00:01:27.270 --> 00:01:27.280 align:start position:0%
+launched the eval command so here is a
+ 
+
+00:01:27.280 --> 00:01:29.030 align:start position:0%
+launched the eval command so here is a
+very<00:01:27.439><c> simple</c><00:01:27.840><c> example</c>
+
+00:01:29.030 --> 00:01:29.040 align:start position:0%
+very simple example
+ 
+
+00:01:29.040 --> 00:01:31.590 align:start position:0%
+very simple example
+where<00:01:29.200><c> we</c><00:01:29.360><c> are</c><00:01:29.920><c> taking</c><00:01:30.240><c> two</c><00:01:30.479><c> strings</c><00:01:30.960><c> cmd</c><00:01:31.439><c> and</c>
+
+00:01:31.590 --> 00:01:31.600 align:start position:0%
+where we are taking two strings cmd and
+ 
+
+00:01:31.600 --> 00:01:32.710 align:start position:0%
+where we are taking two strings cmd and
+fmt
+
+00:01:32.710 --> 00:01:32.720 align:start position:0%
+fmt
+ 
+
+00:01:32.720 --> 00:01:35.429 align:start position:0%
+fmt
+and<00:01:32.799><c> then</c><00:01:32.960><c> i</c><00:01:33.040><c> am</c><00:01:33.200><c> just</c><00:01:33.439><c> passing</c><00:01:33.759><c> it</c><00:01:34.079><c> on</c><00:01:34.479><c> to</c><00:01:34.720><c> eval</c>
+
+00:01:35.429 --> 00:01:35.439 align:start position:0%
+and then i am just passing it on to eval
+ 
+
+00:01:35.439 --> 00:01:39.109 align:start position:0%
+and then i am just passing it on to eval
+and<00:01:35.600><c> see</c><00:01:35.759><c> what</c><00:01:35.920><c> happens</c>
+
+00:01:39.109 --> 00:01:39.119 align:start position:0%
+ 
+ 
+
+00:01:39.119 --> 00:01:40.390 align:start position:0%
+ 
+and<00:01:39.280><c> you</c><00:01:39.360><c> see</c><00:01:39.520><c> that</c><00:01:39.680><c> the</c><00:01:39.840><c> date</c><00:01:40.079><c> has</c><00:01:40.240><c> been</c>
+
+00:01:40.390 --> 00:01:40.400 align:start position:0%
+and you see that the date has been
+ 
+
+00:01:40.400 --> 00:01:43.590 align:start position:0%
+and you see that the date has been
+printed<00:01:40.960><c> so</c><00:01:41.280><c> it</c><00:01:41.439><c> is</c><00:01:41.600><c> as</c><00:01:41.759><c> good</c><00:01:42.000><c> as</c><00:01:42.479><c> sending</c>
+
+00:01:43.590 --> 00:01:43.600 align:start position:0%
+printed so it is as good as sending
+ 
+
+00:01:43.600 --> 00:01:47.030 align:start position:0%
+printed so it is as good as sending
+those<00:01:43.920><c> two</c><00:01:44.159><c> strings</c><00:01:44.720><c> side</c><00:01:44.960><c> by</c><00:01:45.200><c> side</c><00:01:45.600><c> to</c><00:01:45.840><c> bash</c>
+
+00:01:47.030 --> 00:01:47.040 align:start position:0%
+those two strings side by side to bash
+ 
+
+00:01:47.040 --> 00:01:48.710 align:start position:0%
+those two strings side by side to bash
+and<00:01:47.200><c> then</c><00:01:47.360><c> getting</c><00:01:47.600><c> the</c><00:01:47.759><c> output</c><00:01:48.159><c> so</c><00:01:48.320><c> eval</c>
+
+00:01:48.710 --> 00:01:48.720 align:start position:0%
+and then getting the output so eval
+ 
+
+00:01:48.720 --> 00:01:50.950 align:start position:0%
+and then getting the output so eval
+actually<00:01:49.040><c> sending</c><00:01:49.759><c> those</c><00:01:50.000><c> strings</c><00:01:50.320><c> to</c><00:01:50.560><c> the</c>
+
+00:01:50.950 --> 00:01:50.960 align:start position:0%
+actually sending those strings to the
+ 
+
+00:01:50.960 --> 00:01:54.950 align:start position:0%
+actually sending those strings to the
+shell<00:01:51.680><c> and</c><00:01:51.759><c> then</c><00:01:52.079><c> printing</c><00:01:52.399><c> them</c><00:01:52.640><c> out</c>
+
+00:01:54.950 --> 00:01:54.960 align:start position:0%
+shell and then printing them out
+ 
+
+00:01:54.960 --> 00:01:56.630 align:start position:0%
+shell and then printing them out
+so<00:01:55.119><c> the</c><00:01:55.280><c> variation</c><00:01:55.759><c> we</c><00:01:55.840><c> have</c><00:01:56.000><c> done</c><00:01:56.240><c> is</c><00:01:56.399><c> that</c><00:01:56.479><c> we</c>
+
+00:01:56.630 --> 00:01:56.640 align:start position:0%
+so the variation we have done is that we
+ 
+
+00:01:56.640 --> 00:01:58.469 align:start position:0%
+so the variation we have done is that we
+are<00:01:56.719><c> printing</c><00:01:57.119><c> the</c><00:01:57.280><c> process</c><00:01:57.680><c> id</c><00:01:58.079><c> of</c><00:01:58.320><c> the</c>
+
+00:01:58.469 --> 00:01:58.479 align:start position:0%
+are printing the process id of the
+ 
+
+00:01:58.479 --> 00:01:59.670 align:start position:0%
+are printing the process id of the
+script
+
+00:01:59.670 --> 00:01:59.680 align:start position:0%
+script
+ 
+
+00:01:59.680 --> 00:02:01.270 align:start position:0%
+script
+and<00:02:00.159><c> also</c>
+
+00:02:01.270 --> 00:02:01.280 align:start position:0%
+and also
+ 
+
+00:02:01.280 --> 00:02:02.709 align:start position:0%
+and also
+what<00:02:01.520><c> is</c>
+
+00:02:02.709 --> 00:02:02.719 align:start position:0%
+what is
+ 
+
+00:02:02.719 --> 00:02:04.389 align:start position:0%
+what is
+executing<00:02:03.360><c> the</c>
+
+00:02:04.389 --> 00:02:04.399 align:start position:0%
+executing the
+ 
+
+00:02:04.399 --> 00:02:06.830 align:start position:0%
+executing the
+eval<00:02:04.799><c> command</c><00:02:05.280><c> for</c><00:02:05.520><c> the</c><00:02:06.000><c> date</c>
+
+00:02:06.830 --> 00:02:06.840 align:start position:0%
+eval command for the date
+ 
+
+00:02:06.840 --> 00:02:09.589 align:start position:0%
+eval command for the date
+output<00:02:07.759><c> and</c><00:02:08.080><c> before</c><00:02:08.399><c> i</c><00:02:08.560><c> proceed</c><00:02:09.039><c> let</c><00:02:09.200><c> me</c><00:02:09.360><c> see</c>
+
+00:02:09.589 --> 00:02:09.599 align:start position:0%
+output and before i proceed let me see
+ 
+
+00:02:09.599 --> 00:02:10.389 align:start position:0%
+output and before i proceed let me see
+the
+
+00:02:10.389 --> 00:02:10.399 align:start position:0%
+the
+ 
+
+00:02:10.399 --> 00:02:12.150 align:start position:0%
+the
+process<00:02:10.800><c> id</c><00:02:11.039><c> of</c><00:02:11.120><c> the</c><00:02:11.200><c> current</c><00:02:11.599><c> shell</c><00:02:11.920><c> it</c><00:02:12.080><c> is</c>
+
+00:02:12.150 --> 00:02:12.160 align:start position:0%
+process id of the current shell it is
+ 
+
+00:02:12.160 --> 00:02:13.589 align:start position:0%
+process id of the current shell it is
+2360
+
+00:02:13.589 --> 00:02:13.599 align:start position:0%
+2360
+ 
+
+00:02:13.599 --> 00:02:16.390 align:start position:0%
+2360
+and<00:02:13.920><c> then</c><00:02:14.160><c> i</c><00:02:14.319><c> have</c><00:02:14.560><c> the</c><00:02:14.800><c> eval</c><00:02:15.280><c> example</c><00:02:16.080><c> so</c><00:02:16.239><c> you</c>
+
+00:02:16.390 --> 00:02:16.400 align:start position:0%
+and then i have the eval example so you
+ 
+
+00:02:16.400 --> 00:02:18.309 align:start position:0%
+and then i have the eval example so you
+see<00:02:16.640><c> that</c><00:02:16.879><c> the</c><00:02:16.959><c> eval</c><00:02:17.360><c> example</c>
+
+00:02:18.309 --> 00:02:18.319 align:start position:0%
+see that the eval example
+ 
+
+00:02:18.319 --> 00:02:19.990 align:start position:0%
+see that the eval example
+showing<00:02:18.640><c> me</c><00:02:18.879><c> that</c><00:02:19.280><c> the</c>
+
+00:02:19.990 --> 00:02:20.000 align:start position:0%
+showing me that the
+ 
+
+00:02:20.000 --> 00:02:22.790 align:start position:0%
+showing me that the
+command<00:02:20.400><c> has</c><00:02:20.640><c> been</c><00:02:20.959><c> executed</c><00:02:22.160><c> by</c><00:02:22.400><c> the</c><00:02:22.560><c> shell</c>
+
+00:02:22.790 --> 00:02:22.800 align:start position:0%
+command has been executed by the shell
+ 
+
+00:02:22.800 --> 00:02:24.550 align:start position:0%
+command has been executed by the shell
+that<00:02:22.959><c> was</c><00:02:23.200><c> launched</c>
+
+00:02:24.550 --> 00:02:24.560 align:start position:0%
+that was launched
+ 
+
+00:02:24.560 --> 00:02:25.990 align:start position:0%
+that was launched
+separately
+
+00:02:25.990 --> 00:02:26.000 align:start position:0%
+separately
+ 
+
+00:02:26.000 --> 00:02:27.430 align:start position:0%
+separately
+to<00:02:26.160><c> run</c><00:02:26.319><c> the</c><00:02:26.480><c> script</c>
+
+00:02:27.430 --> 00:02:27.440 align:start position:0%
+to run the script
+ 
+
+00:02:27.440 --> 00:02:29.589 align:start position:0%
+to run the script
+and<00:02:27.760><c> so</c><00:02:28.000><c> which</c><00:02:28.160><c> means</c><00:02:28.319><c> that</c><00:02:28.480><c> this</c><00:02:28.640><c> was</c><00:02:28.959><c> run</c><00:02:29.440><c> in</c>
+
+00:02:29.589 --> 00:02:29.599 align:start position:0%
+and so which means that this was run in
+ 
+
+00:02:29.599 --> 00:02:31.030 align:start position:0%
+and so which means that this was run in
+the<00:02:29.680><c> same</c><00:02:30.080><c> shell</c>
+
+00:02:31.030 --> 00:02:31.040 align:start position:0%
+the same shell
+ 
+
+00:02:31.040 --> 00:02:31.910 align:start position:0%
+the same shell
+as
+
+00:02:31.910 --> 00:02:31.920 align:start position:0%
+as
+ 
+
+00:02:31.920 --> 00:02:33.509 align:start position:0%
+as
+the
+
+00:02:33.509 --> 00:02:33.519 align:start position:0%
+the
+ 
+
+00:02:33.519 --> 00:02:36.710 align:start position:0%
+the
+eval<00:02:33.920><c> example</c><00:02:34.319><c> dot</c><00:02:34.560><c> sh</c><00:02:34.959><c> script</c><00:02:35.440><c> sometimes</c>
+
+00:02:36.710 --> 00:02:36.720 align:start position:0%
+eval example dot sh script sometimes
+ 
+
+00:02:36.720 --> 00:02:38.150 align:start position:0%
+eval example dot sh script sometimes
+it<00:02:36.879><c> is</c><00:02:36.959><c> useful</c><00:02:37.440><c> to</c>
+
+00:02:38.150 --> 00:02:38.160 align:start position:0%
+it is useful to
+ 
+
+00:02:38.160 --> 00:02:40.630 align:start position:0%
+it is useful to
+have<00:02:38.480><c> functions</c><00:02:38.959><c> written</c><00:02:39.360><c> in</c><00:02:39.440><c> your</c><00:02:39.599><c> script</c>
+
+00:02:40.630 --> 00:02:40.640 align:start position:0%
+have functions written in your script
+ 
+
+00:02:40.640 --> 00:02:43.350 align:start position:0%
+have functions written in your script
+so<00:02:40.800><c> that</c><00:02:41.120><c> certain</c><00:02:41.519><c> specific</c><00:02:42.000><c> actions</c><00:02:42.480><c> are</c>
+
+00:02:43.350 --> 00:02:43.360 align:start position:0%
+so that certain specific actions are
+ 
+
+00:02:43.360 --> 00:02:46.710 align:start position:0%
+so that certain specific actions are
+taken<00:02:43.760><c> care</c><00:02:44.000><c> by</c><00:02:44.239><c> respective</c><00:02:44.720><c> functions</c>
+
+00:02:46.710 --> 00:02:46.720 align:start position:0%
+taken care by respective functions
+ 
+
+00:02:46.720 --> 00:02:49.430 align:start position:0%
+taken care by respective functions
+and<00:02:47.360><c> you</c><00:02:47.519><c> can</c><00:02:47.680><c> reuse</c><00:02:48.000><c> those</c><00:02:48.239><c> functions</c><00:02:48.640><c> by</c>
+
+00:02:49.430 --> 00:02:49.440 align:start position:0%
+and you can reuse those functions by
+ 
+
+00:02:49.440 --> 00:02:51.910 align:start position:0%
+and you can reuse those functions by
+keeping<00:02:49.840><c> them</c><00:02:50.080><c> in</c><00:02:50.239><c> a</c><00:02:50.319><c> particular</c><00:02:51.120><c> script</c><00:02:51.519><c> file</c>
+
+00:02:51.910 --> 00:02:51.920 align:start position:0%
+keeping them in a particular script file
+ 
+
+00:02:51.920 --> 00:02:54.790 align:start position:0%
+keeping them in a particular script file
+and<00:02:52.080><c> then</c><00:02:52.319><c> sourcing</c><00:02:52.800><c> it</c><00:02:53.360><c> in</c><00:02:53.519><c> every</c><00:02:54.319><c> script</c>
+
+00:02:54.790 --> 00:02:54.800 align:start position:0%
+and then sourcing it in every script
+ 
+
+00:02:54.800 --> 00:02:56.710 align:start position:0%
+and then sourcing it in every script
+that<00:02:54.959><c> you</c><00:02:55.120><c> would</c><00:02:55.360><c> write</c><00:02:55.760><c> so</c><00:02:55.920><c> that</c><00:02:56.160><c> standard</c>
+
+00:02:56.710 --> 00:02:56.720 align:start position:0%
+that you would write so that standard
+ 
+
+00:02:56.720 --> 00:02:57.910 align:start position:0%
+that you would write so that standard
+functions
+
+00:02:57.910 --> 00:02:57.920 align:start position:0%
+functions
+ 
+
+00:02:57.920 --> 00:03:00.149 align:start position:0%
+functions
+are<00:02:58.080><c> available</c><00:02:58.480><c> in</c><00:02:58.640><c> multiple</c><00:02:59.120><c> scripts</c>
+
+00:03:00.149 --> 00:03:00.159 align:start position:0%
+are available in multiple scripts
+ 
+
+00:03:00.159 --> 00:03:02.390 align:start position:0%
+are available in multiple scripts
+and<00:03:00.319><c> these</c><00:03:00.560><c> can</c><00:03:00.800><c> be</c><00:03:01.040><c> things</c><00:03:01.360><c> like</c><00:03:02.000><c> writing</c><00:03:02.319><c> an</c>
+
+00:03:02.390 --> 00:03:02.400 align:start position:0%
+and these can be things like writing an
+ 
+
+00:03:02.400 --> 00:03:05.430 align:start position:0%
+and these can be things like writing an
+error<00:03:02.720><c> message</c><00:03:03.280><c> or</c><00:03:04.000><c> logging</c><00:03:04.640><c> information</c><00:03:05.200><c> to</c>
+
+00:03:05.430 --> 00:03:05.440 align:start position:0%
+error message or logging information to
+ 
+
+00:03:05.440 --> 00:03:06.390 align:start position:0%
+error message or logging information to
+a
+
+00:03:06.390 --> 00:03:06.400 align:start position:0%
+a
+ 
+
+00:03:06.400 --> 00:03:09.110 align:start position:0%
+a
+log<00:03:06.720><c> book</c><00:03:07.360><c> providing</c><00:03:08.000><c> help</c><00:03:08.239><c> documentation</c>
+
+00:03:09.110 --> 00:03:09.120 align:start position:0%
+log book providing help documentation
+ 
+
+00:03:09.120 --> 00:03:11.030 align:start position:0%
+log book providing help documentation
+about<00:03:09.360><c> the</c><00:03:09.519><c> script</c><00:03:09.840><c> etc</c>
+
+00:03:11.030 --> 00:03:11.040 align:start position:0%
+about the script etc
+ 
+
+00:03:11.040 --> 00:03:13.430 align:start position:0%
+about the script etc
+so<00:03:11.200><c> here</c><00:03:11.440><c> is</c><00:03:11.519><c> an</c><00:03:11.680><c> example</c><00:03:12.239><c> of</c><00:03:12.560><c> a</c>
+
+00:03:13.430 --> 00:03:13.440 align:start position:0%
+so here is an example of a
+ 
+
+00:03:13.440 --> 00:03:15.830 align:start position:0%
+so here is an example of a
+script<00:03:13.760><c> which</c><00:03:14.000><c> has</c><00:03:14.319><c> some</c><00:03:14.560><c> functions</c><00:03:15.440><c> so</c><00:03:15.680><c> what</c>
+
+00:03:15.830 --> 00:03:15.840 align:start position:0%
+script which has some functions so what
+ 
+
+00:03:15.840 --> 00:03:17.910 align:start position:0%
+script which has some functions so what
+we<00:03:16.000><c> have</c><00:03:16.159><c> is</c><00:03:16.400><c> two</c><00:03:16.640><c> functions</c><00:03:17.200><c> one</c><00:03:17.440><c> function</c>
+
+00:03:17.910 --> 00:03:17.920 align:start position:0%
+we have is two functions one function
+ 
+
+00:03:17.920 --> 00:03:20.949 align:start position:0%
+we have is two functions one function
+usage<00:03:19.040><c> the</c><00:03:19.200><c> function</c><00:03:19.599><c> usage</c><00:03:20.000><c> what</c><00:03:20.239><c> it</c><00:03:20.319><c> does</c><00:03:20.640><c> is</c>
+
+00:03:20.949 --> 00:03:20.959 align:start position:0%
+usage the function usage what it does is
+ 
+
+00:03:20.959 --> 00:03:22.390 align:start position:0%
+usage the function usage what it does is
+it<00:03:21.120><c> will</c><00:03:21.280><c> take</c><00:03:21.519><c> the</c><00:03:21.680><c> argument</c><00:03:22.080><c> that</c><00:03:22.239><c> was</c>
+
+00:03:22.390 --> 00:03:22.400 align:start position:0%
+it will take the argument that was
+ 
+
+00:03:22.400 --> 00:03:24.869 align:start position:0%
+it will take the argument that was
+passed<00:03:22.720><c> to</c><00:03:22.959><c> it</c><00:03:23.519><c> and</c><00:03:23.760><c> tell</c>
+
+00:03:24.869 --> 00:03:24.879 align:start position:0%
+passed to it and tell
+ 
+
+00:03:24.879 --> 00:03:26.229 align:start position:0%
+passed to it and tell
+that<00:03:25.280><c> the</c>
+
+00:03:26.229 --> 00:03:26.239 align:start position:0%
+that the
+ 
+
+00:03:26.239 --> 00:03:27.990 align:start position:0%
+that the
+script<00:03:26.560><c> has</c><00:03:26.720><c> to</c><00:03:26.799><c> be</c><00:03:26.959><c> used</c><00:03:27.280><c> in</c><00:03:27.360><c> a</c><00:03:27.519><c> particular</c>
+
+00:03:27.990 --> 00:03:28.000 align:start position:0%
+script has to be used in a particular
+ 
+
+00:03:28.000 --> 00:03:30.830 align:start position:0%
+script has to be used in a particular
+format<00:03:28.480><c> that</c><00:03:28.720><c> is</c><00:03:29.360><c> the</c><00:03:29.599><c> name</c><00:03:29.920><c> by</c><00:03:30.080><c> which</c><00:03:30.400><c> it</c><00:03:30.560><c> has</c>
+
+00:03:30.830 --> 00:03:30.840 align:start position:0%
+format that is the name by which it has
+ 
+
+00:03:30.840 --> 00:03:33.830 align:start position:0%
+format that is the name by which it has
+been<00:03:32.000><c> launched</c><00:03:32.720><c> here</c><00:03:32.959><c> you</c><00:03:33.040><c> can</c><00:03:33.200><c> see</c><00:03:33.360><c> that</c><00:03:33.599><c> i</c><00:03:33.680><c> am</c>
+
+00:03:33.830 --> 00:03:33.840 align:start position:0%
+been launched here you can see that i am
+ 
+
+00:03:33.840 --> 00:03:36.390 align:start position:0%
+been launched here you can see that i am
+calling<00:03:34.239><c> it</c>
+
+00:03:36.390 --> 00:03:36.400 align:start position:0%
+calling it
+ 
+
+00:03:36.400 --> 00:03:38.070 align:start position:0%
+calling it
+with<00:03:36.640><c> the</c><00:03:36.720><c> dollar</c><00:03:37.040><c> zero</c><00:03:37.280><c> which</c><00:03:37.440><c> means</c><00:03:37.760><c> what</c><00:03:38.000><c> is</c>
+
+00:03:38.070 --> 00:03:38.080 align:start position:0%
+with the dollar zero which means what is
+ 
+
+00:03:38.080 --> 00:03:40.630 align:start position:0%
+with the dollar zero which means what is
+the<00:03:38.640><c> name</c><00:03:38.879><c> by</c><00:03:39.040><c> which</c><00:03:39.280><c> the</c><00:03:39.360><c> script</c><00:03:39.680><c> has</c><00:03:39.840><c> been</c>
+
+00:03:40.630 --> 00:03:40.640 align:start position:0%
+the name by which the script has been
+ 
+
+00:03:40.640 --> 00:03:41.509 align:start position:0%
+the name by which the script has been
+called
+
+00:03:41.509 --> 00:03:41.519 align:start position:0%
+called
+ 
+
+00:03:41.519 --> 00:03:43.430 align:start position:0%
+called
+and<00:03:42.000><c> then</c><00:03:42.319><c> it</c><00:03:42.400><c> should</c><00:03:42.560><c> be</c><00:03:42.720><c> called</c><00:03:42.959><c> with</c><00:03:43.200><c> two</c>
+
+00:03:43.430 --> 00:03:43.440 align:start position:0%
+and then it should be called with two
+ 
+
+00:03:43.440 --> 00:03:45.589 align:start position:0%
+and then it should be called with two
+strings<00:03:43.760><c> one</c><00:03:43.920><c> after</c><00:03:44.239><c> other</c><00:03:44.480><c> so</c><00:03:44.720><c> i</c><00:03:44.799><c> am</c><00:03:44.879><c> telling</c>
+
+00:03:45.589 --> 00:03:45.599 align:start position:0%
+strings one after other so i am telling
+ 
+
+00:03:45.599 --> 00:03:46.789 align:start position:0%
+strings one after other so i am telling
+a<00:03:46.000><c> help</c>
+
+00:03:46.789 --> 00:03:46.799 align:start position:0%
+a help
+ 
+
+00:03:46.799 --> 00:03:48.470 align:start position:0%
+a help
+information<00:03:47.360><c> on</c><00:03:47.440><c> the</c><00:03:47.599><c> screen</c>
+
+00:03:48.470 --> 00:03:48.480 align:start position:0%
+information on the screen
+ 
+
+00:03:48.480 --> 00:03:49.830 align:start position:0%
+information on the screen
+how<00:03:48.720><c> the</c>
+
+00:03:49.830 --> 00:03:49.840 align:start position:0%
+how the
+ 
+
+00:03:49.840 --> 00:03:51.589 align:start position:0%
+how the
+script<00:03:50.239><c> has</c><00:03:50.319><c> to</c><00:03:50.480><c> be</c><00:03:50.640><c> launched</c>
+
+00:03:51.589 --> 00:03:51.599 align:start position:0%
+script has to be launched
+ 
+
+00:03:51.599 --> 00:03:53.670 align:start position:0%
+script has to be launched
+now<00:03:51.840><c> there</c><00:03:52.000><c> is</c><00:03:52.159><c> another</c><00:03:52.480><c> function</c><00:03:53.040><c> which</c><00:03:53.519><c> is</c>
+
+00:03:53.670 --> 00:03:53.680 align:start position:0%
+now there is another function which is
+ 
+
+00:03:53.680 --> 00:03:55.910 align:start position:0%
+now there is another function which is
+swapping<00:03:54.080><c> so</c><00:03:54.239><c> it</c><00:03:54.400><c> is</c><00:03:54.560><c> printing</c><00:03:54.959><c> that</c>
+
+00:03:55.910 --> 00:03:55.920 align:start position:0%
+swapping so it is printing that
+ 
+
+00:03:55.920 --> 00:03:57.350 align:start position:0%
+swapping so it is printing that
+two<00:03:56.080><c> variables</c><00:03:56.560><c> that</c><00:03:56.640><c> are</c><00:03:56.799><c> passed</c><00:03:57.120><c> in</c><00:03:57.280><c> a</c>
+
+00:03:57.350 --> 00:03:57.360 align:start position:0%
+two variables that are passed in a
+ 
+
+00:03:57.360 --> 00:03:59.509 align:start position:0%
+two variables that are passed in a
+reverse<00:03:57.760><c> order</c><00:03:58.480><c> now</c><00:03:58.720><c> you</c><00:03:58.799><c> can</c><00:03:58.879><c> see</c><00:03:59.040><c> the</c><00:03:59.200><c> dollar</c>
+
+00:03:59.509 --> 00:03:59.519 align:start position:0%
+reverse order now you can see the dollar
+ 
+
+00:03:59.519 --> 00:04:01.509 align:start position:0%
+reverse order now you can see the dollar
+one<00:03:59.680><c> and</c><00:03:59.840><c> dollar</c><00:04:00.159><c> two</c><00:04:00.480><c> do</c><00:04:00.640><c> not</c><00:04:00.799><c> correspond</c><00:04:01.360><c> to</c>
+
+00:04:01.509 --> 00:04:01.519 align:start position:0%
+one and dollar two do not correspond to
+ 
+
+00:04:01.519 --> 00:04:04.309 align:start position:0%
+one and dollar two do not correspond to
+the<00:04:01.760><c> arguments</c><00:04:02.239><c> to</c><00:04:02.400><c> the</c><00:04:02.560><c> shell</c><00:04:03.360><c> but</c><00:04:03.680><c> arguments</c>
+
+00:04:04.309 --> 00:04:04.319 align:start position:0%
+the arguments to the shell but arguments
+ 
+
+00:04:04.319 --> 00:04:06.390 align:start position:0%
+the arguments to the shell but arguments
+to<00:04:04.560><c> the</c><00:04:04.799><c> call</c><00:04:05.120><c> of</c><00:04:05.280><c> the</c><00:04:05.519><c> swap</c><00:04:05.840><c> function</c><00:04:06.319><c> the</c>
+
+00:04:06.390 --> 00:04:06.400 align:start position:0%
+to the call of the swap function the
+ 
+
+00:04:06.400 --> 00:04:09.190 align:start position:0%
+to the call of the swap function the
+same<00:04:06.640><c> thing</c><00:04:06.799><c> is</c><00:04:06.879><c> applicable</c><00:04:07.439><c> here</c><00:04:07.920><c> dollar</c><00:04:08.319><c> one</c>
+
+00:04:09.190 --> 00:04:09.200 align:start position:0%
+same thing is applicable here dollar one
+ 
+
+00:04:09.200 --> 00:04:12.710 align:start position:0%
+same thing is applicable here dollar one
+is<00:04:09.519><c> the</c><00:04:09.760><c> argument</c><00:04:10.720><c> passed</c><00:04:11.040><c> to</c><00:04:11.120><c> the</c><00:04:11.360><c> usage</c><00:04:12.000><c> call</c>
+
+00:04:12.710 --> 00:04:12.720 align:start position:0%
+is the argument passed to the usage call
+ 
+
+00:04:12.720 --> 00:04:14.869 align:start position:0%
+is the argument passed to the usage call
+okay<00:04:13.200><c> so</c><00:04:13.439><c> here</c><00:04:13.760><c> if</c><00:04:13.920><c> you</c><00:04:14.000><c> see</c>
+
+00:04:14.869 --> 00:04:14.879 align:start position:0%
+okay so here if you see
+ 
+
+00:04:14.879 --> 00:04:18.629 align:start position:0%
+okay so here if you see
+in<00:04:15.120><c> case</c><00:04:15.599><c> the</c><00:04:16.239><c> script</c><00:04:16.639><c> has</c><00:04:16.799><c> been</c><00:04:17.040><c> called</c><00:04:17.359><c> with</c>
+
+00:04:18.629 --> 00:04:18.639 align:start position:0%
+in case the script has been called with
+ 
+
+00:04:18.639 --> 00:04:20.870 align:start position:0%
+in case the script has been called with
+less<00:04:18.880><c> than</c><00:04:19.120><c> two</c><00:04:19.519><c> arguments</c><00:04:20.400><c> then</c><00:04:20.639><c> i</c><00:04:20.799><c> am</c>
+
+00:04:20.870 --> 00:04:20.880 align:start position:0%
+less than two arguments then i am
+ 
+
+00:04:20.880 --> 00:04:22.550 align:start position:0%
+less than two arguments then i am
+printing<00:04:21.280><c> the</c><00:04:21.359><c> usage</c><00:04:21.840><c> document</c><00:04:22.320><c> and</c><00:04:22.400><c> i'm</c>
+
+00:04:22.550 --> 00:04:22.560 align:start position:0%
+printing the usage document and i'm
+ 
+
+00:04:22.560 --> 00:04:24.870 align:start position:0%
+printing the usage document and i'm
+exiting<00:04:23.360><c> and</c><00:04:23.520><c> in</c><00:04:23.680><c> case</c><00:04:24.080><c> it</c><00:04:24.240><c> has</c><00:04:24.400><c> been</c><00:04:24.639><c> called</c>
+
+00:04:24.870 --> 00:04:24.880 align:start position:0%
+exiting and in case it has been called
+ 
+
+00:04:24.880 --> 00:04:27.270 align:start position:0%
+exiting and in case it has been called
+with<00:04:25.280><c> two</c><00:04:25.520><c> arguments</c><00:04:26.080><c> or</c><00:04:26.240><c> more</c><00:04:26.880><c> then</c><00:04:27.120><c> i</c><00:04:27.199><c> am</c>
+
+00:04:27.270 --> 00:04:27.280 align:start position:0%
+with two arguments or more then i am
+ 
+
+00:04:27.280 --> 00:04:29.990 align:start position:0%
+with two arguments or more then i am
+swapping<00:04:27.680><c> the</c><00:04:28.160><c> first</c><00:04:28.479><c> and</c><00:04:28.560><c> second</c><00:04:28.880><c> arguments</c>
+
+00:04:29.990 --> 00:04:30.000 align:start position:0%
+swapping the first and second arguments
+ 
+
+00:04:30.000 --> 00:04:31.830 align:start position:0%
+swapping the first and second arguments
+so<00:04:30.240><c> you</c><00:04:30.400><c> can</c><00:04:30.560><c> see</c><00:04:30.800><c> here</c>
+
+00:04:31.830 --> 00:04:31.840 align:start position:0%
+so you can see here
+ 
+
+00:04:31.840 --> 00:04:33.990 align:start position:0%
+so you can see here
+the<00:04:32.000><c> name</c><00:04:32.320><c> of</c><00:04:32.479><c> the</c><00:04:32.880><c> script</c><00:04:33.280><c> has</c><00:04:33.440><c> been</c><00:04:33.600><c> passed</c>
+
+00:04:33.990 --> 00:04:34.000 align:start position:0%
+the name of the script has been passed
+ 
+
+00:04:34.000 --> 00:04:36.230 align:start position:0%
+the name of the script has been passed
+to<00:04:34.240><c> usage</c><00:04:35.040><c> and</c><00:04:35.199><c> there</c><00:04:35.360><c> is</c><00:04:35.440><c> a</c><00:04:35.520><c> first</c><00:04:35.840><c> argument</c>
+
+00:04:36.230 --> 00:04:36.240 align:start position:0%
+to usage and there is a first argument
+ 
+
+00:04:36.240 --> 00:04:37.990 align:start position:0%
+to usage and there is a first argument
+being<00:04:36.400><c> sent</c><00:04:36.639><c> to</c><00:04:36.720><c> usage</c><00:04:37.199><c> and</c><00:04:37.280><c> therefore</c><00:04:37.680><c> dollar</c>
+
+00:04:37.990 --> 00:04:38.000 align:start position:0%
+being sent to usage and therefore dollar
+ 
+
+00:04:38.000 --> 00:04:40.469 align:start position:0%
+being sent to usage and therefore dollar
+one<00:04:38.639><c> corresponds</c><00:04:39.199><c> to</c><00:04:39.440><c> the</c><00:04:39.520><c> dollar</c><00:04:39.919><c> zero</c><00:04:40.240><c> which</c>
+
+00:04:40.469 --> 00:04:40.479 align:start position:0%
+one corresponds to the dollar zero which
+ 
+
+00:04:40.479 --> 00:04:42.790 align:start position:0%
+one corresponds to the dollar zero which
+is<00:04:40.560><c> basically</c><00:04:40.960><c> the</c><00:04:41.120><c> name</c><00:04:41.360><c> of</c><00:04:41.520><c> the</c>
+
+00:04:42.790 --> 00:04:42.800 align:start position:0%
+is basically the name of the
+ 
+
+00:04:42.800 --> 00:04:45.430 align:start position:0%
+is basically the name of the
+script<00:04:43.280><c> that</c><00:04:43.440><c> has</c><00:04:43.600><c> been</c><00:04:43.759><c> used</c><00:04:44.080><c> for</c><00:04:44.560><c> launching</c>
+
+00:04:45.430 --> 00:04:45.440 align:start position:0%
+script that has been used for launching
+ 
+
+00:04:45.440 --> 00:04:48.150 align:start position:0%
+script that has been used for launching
+so<00:04:45.600><c> let</c><00:04:45.759><c> us</c><00:04:45.919><c> try</c><00:04:46.080><c> this</c><00:04:46.320><c> out</c>
+
+00:04:48.150 --> 00:04:48.160 align:start position:0%
+so let us try this out
+ 
+
+00:04:48.160 --> 00:04:50.390 align:start position:0%
+so let us try this out
+so<00:04:48.400><c> i</c><00:04:48.560><c> try</c><00:04:48.800><c> without</c><00:04:49.199><c> any</c>
+
+00:04:50.390 --> 00:04:50.400 align:start position:0%
+so i try without any
+ 
+
+00:04:50.400 --> 00:04:53.030 align:start position:0%
+so i try without any
+arguments<00:04:51.040><c> so</c><00:04:51.360><c> you</c><00:04:51.440><c> can</c><00:04:51.600><c> see</c><00:04:51.759><c> that</c><00:04:51.919><c> the</c><00:04:52.080><c> usage</c>
+
+00:04:53.030 --> 00:04:53.040 align:start position:0%
+arguments so you can see that the usage
+ 
+
+00:04:53.040 --> 00:04:54.469 align:start position:0%
+arguments so you can see that the usage
+has<00:04:53.199><c> been</c><00:04:53.360><c> displayed</c><00:04:53.759><c> and</c><00:04:53.919><c> you</c><00:04:54.000><c> can</c><00:04:54.160><c> see</c><00:04:54.320><c> that</c>
+
+00:04:54.469 --> 00:04:54.479 align:start position:0%
+has been displayed and you can see that
+ 
+
+00:04:54.479 --> 00:04:56.950 align:start position:0%
+has been displayed and you can see that
+the<00:04:54.639><c> dollar</c><00:04:55.040><c> one</c><00:04:55.360><c> here</c><00:04:55.840><c> is</c><00:04:56.080><c> a</c><00:04:56.160><c> dollar</c><00:04:56.560><c> zero</c>
+
+00:04:56.950 --> 00:04:56.960 align:start position:0%
+the dollar one here is a dollar zero
+ 
+
+00:04:56.960 --> 00:04:58.310 align:start position:0%
+the dollar one here is a dollar zero
+which<00:04:57.199><c> is</c><00:04:57.280><c> basically</c><00:04:57.600><c> the</c><00:04:57.759><c> name</c><00:04:58.000><c> of</c><00:04:58.160><c> the</c>
+
+00:04:58.310 --> 00:04:58.320 align:start position:0%
+which is basically the name of the
+ 
+
+00:04:58.320 --> 00:04:59.749 align:start position:0%
+which is basically the name of the
+script
+
+00:04:59.749 --> 00:04:59.759 align:start position:0%
+script
+ 
+
+00:04:59.759 --> 00:05:01.670 align:start position:0%
+script
+and<00:05:00.080><c> it's</c><00:05:00.320><c> quite</c><00:05:00.560><c> nice</c><00:05:00.880><c> because</c><00:05:01.280><c> i</c><00:05:01.360><c> don't</c><00:05:01.520><c> have</c>
+
+00:05:01.670 --> 00:05:01.680 align:start position:0%
+and it's quite nice because i don't have
+ 
+
+00:05:01.680 --> 00:05:03.510 align:start position:0%
+and it's quite nice because i don't have
+to<00:05:01.840><c> hard</c><00:05:02.080><c> code</c><00:05:02.320><c> that</c><00:05:02.560><c> inside</c>
+
+00:05:03.510 --> 00:05:03.520 align:start position:0%
+to hard code that inside
+ 
+
+00:05:03.520 --> 00:05:06.870 align:start position:0%
+to hard code that inside
+okay<00:05:03.919><c> and</c><00:05:04.240><c> str1</c><00:05:04.880><c> fcr2</c><00:05:05.520><c> is</c><00:05:05.680><c> what</c><00:05:05.919><c> is</c><00:05:06.080><c> here</c>
+
+00:05:06.870 --> 00:05:06.880 align:start position:0%
+okay and str1 fcr2 is what is here
+ 
+
+00:05:06.880 --> 00:05:08.310 align:start position:0%
+okay and str1 fcr2 is what is here
+saying<00:05:07.120><c> that</c><00:05:07.440><c> you</c><00:05:07.600><c> have</c><00:05:07.680><c> to</c><00:05:07.840><c> use</c><00:05:08.160><c> this</c>
+
+00:05:08.310 --> 00:05:08.320 align:start position:0%
+saying that you have to use this
+ 
+
+00:05:08.320 --> 00:05:10.710 align:start position:0%
+saying that you have to use this
+particular<00:05:08.720><c> script</c><00:05:09.120><c> with</c><00:05:09.840><c> two</c><00:05:10.080><c> strings</c><00:05:10.479><c> as</c>
+
+00:05:10.710 --> 00:05:10.720 align:start position:0%
+particular script with two strings as
+ 
+
+00:05:10.720 --> 00:05:14.070 align:start position:0%
+particular script with two strings as
+arguments<00:05:11.280><c> so</c><00:05:11.520><c> let</c><00:05:11.680><c> me</c><00:05:11.840><c> also</c><00:05:12.240><c> have</c><00:05:12.800><c> arc</c><00:05:13.199><c> one</c>
+
+00:05:14.070 --> 00:05:14.080 align:start position:0%
+arguments so let me also have arc one
+ 
+
+00:05:14.080 --> 00:05:15.510 align:start position:0%
+arguments so let me also have arc one
+and<00:05:14.240><c> you</c><00:05:14.400><c> see</c><00:05:14.560><c> that</c><00:05:14.720><c> the</c><00:05:14.800><c> same</c><00:05:15.039><c> output</c><00:05:15.440><c> is</c>
+
+00:05:15.510 --> 00:05:15.520 align:start position:0%
+and you see that the same output is
+ 
+
+00:05:15.520 --> 00:05:17.909 align:start position:0%
+and you see that the same output is
+coming<00:05:15.840><c> because</c><00:05:16.240><c> it</c><00:05:16.400><c> is</c><00:05:16.880><c> having</c><00:05:17.280><c> only</c><00:05:17.680><c> one</c>
+
+00:05:17.909 --> 00:05:17.919 align:start position:0%
+coming because it is having only one
+ 
+
+00:05:17.919 --> 00:05:20.150 align:start position:0%
+coming because it is having only one
+argument<00:05:18.320><c> and</c><00:05:18.479><c> not</c><00:05:18.639><c> two</c><00:05:18.880><c> as</c><00:05:19.039><c> expected</c>
+
+00:05:20.150 --> 00:05:20.160 align:start position:0%
+argument and not two as expected
+ 
+
+00:05:20.160 --> 00:05:21.990 align:start position:0%
+argument and not two as expected
+and<00:05:20.320><c> if</c><00:05:20.479><c> i</c><00:05:20.639><c> give</c><00:05:20.800><c> two</c><00:05:21.039><c> arguments</c><00:05:21.600><c> then</c><00:05:21.840><c> it</c>
+
+00:05:21.990 --> 00:05:22.000 align:start position:0%
+and if i give two arguments then it
+ 
+
+00:05:22.000 --> 00:05:23.350 align:start position:0%
+and if i give two arguments then it
+would<00:05:22.160><c> actually</c><00:05:22.560><c> go</c><00:05:22.720><c> ahead</c><00:05:22.960><c> and</c><00:05:23.039><c> do</c><00:05:23.199><c> the</c>
+
+00:05:23.350 --> 00:05:23.360 align:start position:0%
+would actually go ahead and do the
+ 
+
+00:05:23.360 --> 00:05:25.270 align:start position:0%
+would actually go ahead and do the
+swapping<00:05:24.080><c> and</c><00:05:24.160><c> you</c><00:05:24.320><c> are</c><00:05:24.400><c> seeing</c><00:05:24.720><c> the</c><00:05:24.880><c> output</c>
+
+00:05:25.270 --> 00:05:25.280 align:start position:0%
+swapping and you are seeing the output
+ 
+
+00:05:25.280 --> 00:05:27.990 align:start position:0%
+swapping and you are seeing the output
+is<00:05:25.360><c> having</c><00:05:26.160><c> this</c><00:05:26.639><c> reversed</c><00:05:27.360><c> sequence</c><00:05:27.840><c> of</c><00:05:27.919><c> the</c>
+
+00:05:27.990 --> 00:05:28.000 align:start position:0%
+is having this reversed sequence of the
+ 
+
+00:05:28.000 --> 00:05:30.070 align:start position:0%
+is having this reversed sequence of the
+arguments<00:05:28.400><c> that</c><00:05:28.560><c> you</c><00:05:28.639><c> have</c><00:05:28.800><c> supplied</c><00:05:29.680><c> so</c><00:05:29.919><c> here</c>
+
+00:05:30.070 --> 00:05:30.080 align:start position:0%
+arguments that you have supplied so here
+ 
+
+00:05:30.080 --> 00:05:31.909 align:start position:0%
+arguments that you have supplied so here
+is<00:05:30.240><c> an</c><00:05:30.320><c> example</c><00:05:30.800><c> where</c>
+
+00:05:31.909 --> 00:05:31.919 align:start position:0%
+is an example where
+ 
+
+00:05:31.919 --> 00:05:34.950 align:start position:0%
+is an example where
+some<00:05:32.160><c> of</c><00:05:32.320><c> the</c><00:05:32.720><c> actions</c><00:05:33.280><c> are</c><00:05:33.919><c> packaged</c><00:05:34.479><c> away</c><00:05:34.800><c> in</c>
+
+00:05:34.950 --> 00:05:34.960 align:start position:0%
+some of the actions are packaged away in
+ 
+
+00:05:34.960 --> 00:05:36.950 align:start position:0%
+some of the actions are packaged away in
+functions<00:05:35.600><c> and</c><00:05:35.759><c> these</c><00:05:36.000><c> can</c><00:05:36.160><c> also</c><00:05:36.400><c> be</c><00:05:36.560><c> kept</c><00:05:36.880><c> in</c>
+
+00:05:36.950 --> 00:05:36.960 align:start position:0%
+functions and these can also be kept in
+ 
+
+00:05:36.960 --> 00:05:39.350 align:start position:0%
+functions and these can also be kept in
+a<00:05:37.039><c> separate</c><00:05:37.440><c> file</c><00:05:37.680><c> to</c><00:05:37.919><c> source</c><00:05:38.639><c> so</c><00:05:38.800><c> let</c><00:05:38.960><c> us</c><00:05:39.120><c> see</c>
+
+00:05:39.350 --> 00:05:39.360 align:start position:0%
+a separate file to source so let us see
+ 
+
+00:05:39.360 --> 00:05:43.590 align:start position:0%
+a separate file to source so let us see
+that<00:05:39.600><c> also</c><00:05:40.000><c> now</c>
+
+00:05:43.590 --> 00:05:43.600 align:start position:0%
+ 
+ 
+
+00:05:43.600 --> 00:05:45.430 align:start position:0%
+ 
+so<00:05:43.840><c> what</c><00:05:44.000><c> i</c><00:05:44.160><c> would</c><00:05:44.320><c> do</c><00:05:44.400><c> is</c><00:05:44.560><c> a</c><00:05:44.639><c> function</c><00:05:45.039><c> example</c>
+
+00:05:45.430 --> 00:05:45.440 align:start position:0%
+so what i would do is a function example
+ 
+
+00:05:45.440 --> 00:05:46.790 align:start position:0%
+so what i would do is a function example
+i<00:05:45.520><c> would</c><00:05:45.759><c> say</c>
+
+00:05:46.790 --> 00:05:46.800 align:start position:0%
+i would say
+ 
+
+00:05:46.800 --> 00:05:49.590 align:start position:0%
+i would say
+my<00:05:47.120><c> lib</c><00:05:47.680><c> dot</c><00:05:48.000><c> sh</c>
+
+00:05:49.590 --> 00:05:49.600 align:start position:0%
+my lib dot sh
+ 
+
+00:05:49.600 --> 00:05:52.230 align:start position:0%
+my lib dot sh
+and<00:05:49.840><c> i</c><00:05:50.000><c> go</c><00:05:50.160><c> to</c><00:05:50.240><c> my</c><00:05:50.479><c> lib</c><00:05:50.639><c> dot</c><00:05:50.880><c> sh</c><00:05:51.360><c> and</c><00:05:51.759><c> i</c><00:05:52.000><c> will</c>
+
+00:05:52.230 --> 00:05:52.240 align:start position:0%
+and i go to my lib dot sh and i will
+ 
+
+00:05:52.240 --> 00:05:55.590 align:start position:0%
+and i go to my lib dot sh and i will
+have
+
+00:05:55.590 --> 00:05:55.600 align:start position:0%
+ 
+ 
+
+00:05:55.600 --> 00:05:57.670 align:start position:0%
+ 
+these<00:05:56.080><c> functions</c><00:05:56.479><c> that</c><00:05:56.639><c> are</c><00:05:56.800><c> kept</c><00:05:57.120><c> in</c><00:05:57.199><c> the</c>
+
+00:05:57.670 --> 00:05:57.680 align:start position:0%
+these functions that are kept in the
+ 
+
+00:05:57.680 --> 00:06:00.870 align:start position:0%
+these functions that are kept in the
+library<00:05:58.560><c> so</c><00:05:58.880><c> i</c><00:05:58.960><c> have</c><00:05:59.600><c> pushed</c><00:06:00.080><c> the</c><00:06:00.400><c> functions</c>
+
+00:06:00.870 --> 00:06:00.880 align:start position:0%
+library so i have pushed the functions
+ 
+
+00:06:00.880 --> 00:06:01.990 align:start position:0%
+library so i have pushed the functions
+into<00:06:01.280><c> a</c>
+
+00:06:01.990 --> 00:06:02.000 align:start position:0%
+into a
+ 
+
+00:06:02.000 --> 00:06:04.309 align:start position:0%
+into a
+file<00:06:02.319><c> which</c><00:06:02.560><c> contains</c><00:06:03.120><c> these</c>
+
+00:06:04.309 --> 00:06:04.319 align:start position:0%
+file which contains these
+ 
+
+00:06:04.319 --> 00:06:06.150 align:start position:0%
+file which contains these
+for<00:06:04.560><c> sourcing</c><00:06:05.039><c> so</c><00:06:05.199><c> it's</c><00:06:05.360><c> like</c><00:06:05.520><c> my</c><00:06:05.680><c> library</c>
+
+00:06:06.150 --> 00:06:06.160 align:start position:0%
+for sourcing so it's like my library
+ 
+
+00:06:06.160 --> 00:06:08.629 align:start position:0%
+for sourcing so it's like my library
+file<00:06:06.880><c> and</c><00:06:07.039><c> now</c><00:06:07.280><c> i</c><00:06:07.440><c> can</c><00:06:07.600><c> make</c><00:06:07.919><c> my</c><00:06:08.240><c> script</c><00:06:08.560><c> a</c>
+
+00:06:08.629 --> 00:06:08.639 align:start position:0%
+file and now i can make my script a
+ 
+
+00:06:08.639 --> 00:06:10.309 align:start position:0%
+file and now i can make my script a
+little<00:06:08.880><c> bit</c>
+
+00:06:10.309 --> 00:06:10.319 align:start position:0%
+little bit
+ 
+
+00:06:10.319 --> 00:06:11.590 align:start position:0%
+little bit
+brief
+
+00:06:11.590 --> 00:06:11.600 align:start position:0%
+brief
+ 
+
+00:06:11.600 --> 00:06:15.270 align:start position:0%
+brief
+by<00:06:11.840><c> saying</c><00:06:12.160><c> i</c><00:06:12.240><c> want</c><00:06:12.479><c> to</c><00:06:12.800><c> source</c><00:06:13.680><c> my</c><00:06:14.000><c> lib</c><00:06:14.240><c> dot</c><00:06:14.560><c> sh</c>
+
+00:06:15.270 --> 00:06:15.280 align:start position:0%
+by saying i want to source my lib dot sh
+ 
+
+00:06:15.280 --> 00:06:16.790 align:start position:0%
+by saying i want to source my lib dot sh
+and<00:06:15.440><c> therefore</c><00:06:15.840><c> i</c><00:06:15.919><c> don't</c><00:06:16.160><c> need</c><00:06:16.319><c> the</c><00:06:16.479><c> function</c>
+
+00:06:16.790 --> 00:06:16.800 align:start position:0%
+and therefore i don't need the function
+ 
+
+00:06:16.800 --> 00:06:18.070 align:start position:0%
+and therefore i don't need the function
+definitions<00:06:17.360><c> here</c><00:06:17.520><c> so</c><00:06:17.680><c> now</c><00:06:17.840><c> they</c><00:06:18.000><c> are</c>
+
+00:06:18.070 --> 00:06:18.080 align:start position:0%
+definitions here so now they are
+ 
+
+00:06:18.080 --> 00:06:20.550 align:start position:0%
+definitions here so now they are
+available<00:06:18.960><c> and</c><00:06:19.199><c> so</c><00:06:19.360><c> the</c><00:06:19.520><c> function</c>
+
+00:06:20.550 --> 00:06:20.560 align:start position:0%
+available and so the function
+ 
+
+00:06:20.560 --> 00:06:22.390 align:start position:0%
+available and so the function
+calls<00:06:20.880><c> are</c><00:06:21.039><c> all</c><00:06:21.120><c> hidden</c><00:06:21.440><c> away</c><00:06:21.680><c> in</c><00:06:21.840><c> a</c><00:06:21.919><c> library</c>
+
+00:06:22.390 --> 00:06:22.400 align:start position:0%
+calls are all hidden away in a library
+ 
+
+00:06:22.400 --> 00:06:24.230 align:start position:0%
+calls are all hidden away in a library
+file<00:06:22.720><c> and</c><00:06:22.880><c> now</c><00:06:23.120><c> i</c><00:06:23.199><c> am</c><00:06:23.280><c> just</c><00:06:23.520><c> directly</c><00:06:23.919><c> using</c>
+
+00:06:24.230 --> 00:06:24.240 align:start position:0%
+file and now i am just directly using
+ 
+
+00:06:24.240 --> 00:06:25.270 align:start position:0%
+file and now i am just directly using
+the
+
+00:06:25.270 --> 00:06:25.280 align:start position:0%
+the
+ 
+
+00:06:25.280 --> 00:06:28.950 align:start position:0%
+the
+calls<00:06:25.680><c> for</c>
+
+00:06:28.950 --> 00:06:28.960 align:start position:0%
+ 
+ 
+
+00:06:28.960 --> 00:06:31.590 align:start position:0%
+ 
+usage<00:06:29.680><c> and</c><00:06:29.919><c> swapping</c>
+
+00:06:31.590 --> 00:06:31.600 align:start position:0%
+usage and swapping
+ 
+
+00:06:31.600 --> 00:06:33.749 align:start position:0%
+usage and swapping
+and<00:06:32.080><c> the</c><00:06:32.240><c> script</c><00:06:32.639><c> is</c><00:06:32.720><c> now</c><00:06:33.039><c> very</c><00:06:33.280><c> brief</c><00:06:33.600><c> which</c>
+
+00:06:33.749 --> 00:06:33.759 align:start position:0%
+and the script is now very brief which
+ 
+
+00:06:33.759 --> 00:06:35.110 align:start position:0%
+and the script is now very brief which
+is<00:06:33.919><c> quite</c><00:06:34.080><c> elegant</c>
+
+00:06:35.110 --> 00:06:35.120 align:start position:0%
+is quite elegant
+ 
+
+00:06:35.120 --> 00:06:41.270 align:start position:0%
+is quite elegant
+so<00:06:35.280><c> let</c><00:06:35.440><c> us</c><00:06:35.520><c> go</c><00:06:35.759><c> ahead</c><00:06:35.919><c> and</c><00:06:36.080><c> try</c><00:06:36.240><c> this</c><00:06:36.639><c> out</c>
+
+00:06:41.270 --> 00:06:41.280 align:start position:0%
+ 
+ 
+
+00:06:41.280 --> 00:06:43.749 align:start position:0%
+ 
+and<00:06:41.520><c> so</c><00:06:41.680><c> it</c><00:06:41.840><c> works</c><00:06:42.160><c> exactly</c><00:06:42.560><c> what</c><00:06:42.720><c> we</c><00:06:42.880><c> have</c>
+
+00:06:43.749 --> 00:06:43.759 align:start position:0%
+and so it works exactly what we have
+ 
+
+00:06:43.759 --> 00:06:46.790 align:start position:0%
+and so it works exactly what we have
+intended
+
+00:06:46.790 --> 00:06:46.800 align:start position:0%
+ 
+ 
+
+00:06:46.800 --> 00:06:48.790 align:start position:0%
+ 
+okay<00:06:47.280><c> so</c><00:06:47.440><c> you</c><00:06:47.600><c> can</c><00:06:47.680><c> see</c><00:06:47.919><c> that</c><00:06:48.240><c> this</c><00:06:48.400><c> is</c><00:06:48.479><c> a</c><00:06:48.639><c> very</c>
+
+00:06:48.790 --> 00:06:48.800 align:start position:0%
+okay so you can see that this is a very
+ 
+
+00:06:48.800 --> 00:06:50.390 align:start position:0%
+okay so you can see that this is a very
+nice<00:06:49.039><c> way</c><00:06:49.199><c> by</c><00:06:49.360><c> which</c><00:06:49.520><c> you</c><00:06:49.680><c> can</c>
+
+00:06:50.390 --> 00:06:50.400 align:start position:0%
+nice way by which you can
+ 
+
+00:06:50.400 --> 00:06:51.909 align:start position:0%
+nice way by which you can
+take<00:06:50.639><c> away</c><00:06:50.880><c> some</c><00:06:51.120><c> of</c><00:06:51.199><c> the</c>
+
+00:06:51.909 --> 00:06:51.919 align:start position:0%
+take away some of the
+ 
+
+00:06:51.919 --> 00:06:54.150 align:start position:0%
+take away some of the
+program<00:06:52.400><c> codes</c><00:06:52.720><c> and</c><00:06:53.039><c> keep</c><00:06:53.280><c> them</c><00:06:53.440><c> as</c><00:06:53.680><c> functions</c>
+
+00:06:54.150 --> 00:06:54.160 align:start position:0%
+program codes and keep them as functions
+ 
+
+00:06:54.160 --> 00:06:55.350 align:start position:0%
+program codes and keep them as functions
+and
+
+00:06:55.350 --> 00:06:55.360 align:start position:0%
+and
+ 
+
+00:06:55.360 --> 00:06:57.029 align:start position:0%
+and
+store<00:06:55.680><c> them</c><00:06:55.759><c> in</c><00:06:55.919><c> a</c><00:06:56.000><c> library</c><00:06:56.400><c> file</c><00:06:56.639><c> and</c><00:06:56.720><c> source</c>
+
+00:06:57.029 --> 00:06:57.039 align:start position:0%
+store them in a library file and source
+ 
+
+00:06:57.039 --> 00:06:58.550 align:start position:0%
+store them in a library file and source
+it<00:06:57.199><c> in</c><00:06:57.280><c> your</c><00:06:57.440><c> script</c><00:06:57.759><c> so</c><00:06:58.000><c> that</c><00:06:58.080><c> they</c><00:06:58.240><c> are</c><00:06:58.319><c> not</c>
+
+00:06:58.550 --> 00:06:58.560 align:start position:0%
+it in your script so that they are not
+ 
+
+00:06:58.560 --> 00:07:00.710 align:start position:0%
+it in your script so that they are not
+seen<00:06:58.880><c> in</c><00:06:58.960><c> the</c><00:06:59.039><c> main</c><00:06:59.360><c> script</c><00:06:59.680><c> file</c>
+
+00:07:00.710 --> 00:07:00.720 align:start position:0%
+seen in the main script file
+ 
+
+00:07:00.720 --> 00:07:03.029 align:start position:0%
+seen in the main script file
+to<00:07:00.880><c> keep</c><00:07:01.120><c> your</c><00:07:01.280><c> code</c><00:07:01.520><c> elegant</c><00:07:01.919><c> and</c><00:07:02.080><c> also</c><00:07:02.400><c> to</c>
+
+00:07:03.029 --> 00:07:03.039 align:start position:0%
+to keep your code elegant and also to
+ 
+
+00:07:03.039 --> 00:07:05.110 align:start position:0%
+to keep your code elegant and also to
+perhaps<00:07:03.599><c> not</c><00:07:03.759><c> touch</c><00:07:04.080><c> the</c><00:07:04.479><c> functions</c><00:07:04.880><c> that</c><00:07:05.039><c> are</c>
+
+00:07:05.110 --> 00:07:05.120 align:start position:0%
+perhaps not touch the functions that are
+ 
+
+00:07:05.120 --> 00:07:06.309 align:start position:0%
+perhaps not touch the functions that are
+well<00:07:05.360><c> written</c>
+
+00:07:06.309 --> 00:07:06.319 align:start position:0%
+well written
+ 
+
+00:07:06.319 --> 00:07:07.510 align:start position:0%
+well written
+and<00:07:06.479><c> therefore</c><00:07:06.880><c> they</c><00:07:07.039><c> don't</c><00:07:07.199><c> have</c><00:07:07.360><c> to</c><00:07:07.440><c> be</c>
+
+00:07:07.510 --> 00:07:07.520 align:start position:0%
+and therefore they don't have to be
+ 
+
+00:07:07.520 --> 00:07:09.270 align:start position:0%
+and therefore they don't have to be
+disturbed<00:07:08.000><c> when</c><00:07:08.160><c> you</c><00:07:08.240><c> are</c><00:07:08.400><c> editing</c><00:07:08.880><c> now</c><00:07:09.120><c> as</c>
+
+00:07:09.270 --> 00:07:09.280 align:start position:0%
+disturbed when you are editing now as
+ 
+
+00:07:09.280 --> 00:07:11.670 align:start position:0%
+disturbed when you are editing now as
+you<00:07:09.440><c> have</c><00:07:09.599><c> seen</c><00:07:09.919><c> that</c><00:07:10.639><c> we</c><00:07:10.800><c> can</c><00:07:10.960><c> pass</c><00:07:11.199><c> arguments</c>
+
+00:07:11.670 --> 00:07:11.680 align:start position:0%
+you have seen that we can pass arguments
+ 
+
+00:07:11.680 --> 00:07:13.990 align:start position:0%
+you have seen that we can pass arguments
+to<00:07:11.919><c> shell</c><00:07:12.160><c> scripts</c><00:07:12.880><c> and</c><00:07:13.120><c> it's</c><00:07:13.280><c> a</c><00:07:13.360><c> good</c><00:07:13.520><c> idea</c><00:07:13.759><c> to</c>
+
+00:07:13.990 --> 00:07:14.000 align:start position:0%
+to shell scripts and it's a good idea to
+ 
+
+00:07:14.000 --> 00:07:16.230 align:start position:0%
+to shell scripts and it's a good idea to
+have<00:07:14.479><c> some</c><00:07:14.720><c> of</c><00:07:14.880><c> the</c><00:07:14.960><c> arguments</c><00:07:15.680><c> designed</c><00:07:16.160><c> in</c>
+
+00:07:16.230 --> 00:07:16.240 align:start position:0%
+have some of the arguments designed in
+ 
+
+00:07:16.240 --> 00:07:17.990 align:start position:0%
+have some of the arguments designed in
+the<00:07:16.400><c> way</c><00:07:16.639><c> that</c><00:07:16.880><c> linux</c><00:07:17.199><c> commands</c><00:07:17.599><c> are</c><00:07:17.759><c> also</c>
+
+00:07:17.990 --> 00:07:18.000 align:start position:0%
+the way that linux commands are also
+ 
+
+00:07:18.000 --> 00:07:20.629 align:start position:0%
+the way that linux commands are also
+working<00:07:18.560><c> so</c><00:07:18.800><c> you</c><00:07:18.880><c> can</c><00:07:19.039><c> pass</c><00:07:19.280><c> on</c><00:07:19.440><c> some</c><00:07:19.680><c> options</c>
+
+00:07:20.629 --> 00:07:20.639 align:start position:0%
+working so you can pass on some options
+ 
+
+00:07:20.639 --> 00:07:22.070 align:start position:0%
+working so you can pass on some options
+and<00:07:20.720><c> then</c><00:07:20.960><c> have</c><00:07:21.199><c> a</c><00:07:21.280><c> way</c><00:07:21.440><c> by</c><00:07:21.680><c> which</c><00:07:21.919><c> those</c>
+
+00:07:22.070 --> 00:07:22.080 align:start position:0%
+and then have a way by which those
+ 
+
+00:07:22.080 --> 00:07:24.870 align:start position:0%
+and then have a way by which those
+options<00:07:22.479><c> are</c><00:07:22.639><c> processed</c><00:07:23.360><c> in</c><00:07:23.520><c> an</c><00:07:23.680><c> automatical</c>
+
+00:07:24.870 --> 00:07:24.880 align:start position:0%
+options are processed in an automatical
+ 
+
+00:07:24.880 --> 00:07:27.029 align:start position:0%
+options are processed in an automatical
+fashion
+
+00:07:27.029 --> 00:07:27.039 align:start position:0%
+fashion
+ 
+
+00:07:27.039 --> 00:07:29.510 align:start position:0%
+fashion
+now<00:07:27.520><c> get</c><00:07:27.759><c> ops</c><00:07:28.160><c> is</c><00:07:28.400><c> a</c><00:07:28.639><c> feature</c><00:07:29.039><c> available</c>
+
+00:07:29.510 --> 00:07:29.520 align:start position:0%
+now get ops is a feature available
+ 
+
+00:07:29.520 --> 00:07:31.830 align:start position:0%
+now get ops is a feature available
+within<00:07:29.840><c> the</c><00:07:30.000><c> bash</c><00:07:30.479><c> so</c><00:07:30.639><c> that</c><00:07:31.039><c> this</c><00:07:31.280><c> processing</c>
+
+00:07:31.830 --> 00:07:31.840 align:start position:0%
+within the bash so that this processing
+ 
+
+00:07:31.840 --> 00:07:34.150 align:start position:0%
+within the bash so that this processing
+of<00:07:32.000><c> options</c><00:07:32.479><c> passed</c><00:07:32.720><c> to</c><00:07:32.880><c> the</c><00:07:33.039><c> script</c><00:07:33.840><c> is</c><00:07:34.000><c> done</c>
+
+00:07:34.150 --> 00:07:34.160 align:start position:0%
+of options passed to the script is done
+ 
+
+00:07:34.160 --> 00:07:35.909 align:start position:0%
+of options passed to the script is done
+in<00:07:34.319><c> a</c><00:07:34.400><c> very</c><00:07:34.560><c> elegant</c><00:07:34.880><c> manner</c>
+
+00:07:35.909 --> 00:07:35.919 align:start position:0%
+in a very elegant manner
+ 
+
+00:07:35.919 --> 00:07:38.309 align:start position:0%
+in a very elegant manner
+so<00:07:36.240><c> for</c><00:07:36.479><c> example</c><00:07:36.960><c> in</c><00:07:37.039><c> this</c><00:07:37.199><c> script</c>
+
+00:07:38.309 --> 00:07:38.319 align:start position:0%
+so for example in this script
+ 
+
+00:07:38.319 --> 00:07:39.909 align:start position:0%
+so for example in this script
+you<00:07:38.479><c> can</c><00:07:38.639><c> call</c><00:07:38.880><c> the</c><00:07:39.039><c> script</c><00:07:39.440><c> using</c><00:07:39.759><c> the</c>
+
+00:07:39.909 --> 00:07:39.919 align:start position:0%
+you can call the script using the
+ 
+
+00:07:39.919 --> 00:07:43.350 align:start position:0%
+you can call the script using the
+options<00:07:40.400><c> a</c><00:07:40.720><c> b</c><00:07:40.960><c> or</c><00:07:41.120><c> c</c><00:07:41.360><c> that</c><00:07:41.440><c> is</c><00:07:41.599><c> minus</c><00:07:42.080><c> a</c><00:07:42.720><c> minus</c><00:07:43.120><c> b</c>
+
+00:07:43.350 --> 00:07:43.360 align:start position:0%
+options a b or c that is minus a minus b
+ 
+
+00:07:43.360 --> 00:07:44.629 align:start position:0%
+options a b or c that is minus a minus b
+and<00:07:43.440><c> minus</c><00:07:43.759><c> c</c>
+
+00:07:44.629 --> 00:07:44.639 align:start position:0%
+and minus c
+ 
+
+00:07:44.639 --> 00:07:47.029 align:start position:0%
+and minus c
+and<00:07:45.120><c> if</c><00:07:45.280><c> you</c><00:07:45.440><c> are</c><00:07:45.840><c> giving</c><00:07:46.160><c> options</c><00:07:46.560><c> like</c><00:07:46.720><c> minus</c>
+
+00:07:47.029 --> 00:07:47.039 align:start position:0%
+and if you are giving options like minus
+ 
+
+00:07:47.039 --> 00:07:49.029 align:start position:0%
+and if you are giving options like minus
+b<00:07:47.280><c> or</c><00:07:47.440><c> minus</c><00:07:47.759><c> c</c><00:07:47.919><c> then</c><00:07:48.080><c> they</c><00:07:48.240><c> should</c><00:07:48.479><c> have</c><00:07:48.879><c> a</c>
+
+00:07:49.029 --> 00:07:49.039 align:start position:0%
+b or minus c then they should have a
+ 
+
+00:07:49.039 --> 00:07:51.510 align:start position:0%
+b or minus c then they should have a
+value<00:07:49.759><c> after</c><00:07:50.000><c> that</c><00:07:50.240><c> so</c><00:07:50.400><c> minus</c><00:07:50.800><c> b</c>
+
+00:07:51.510 --> 00:07:51.520 align:start position:0%
+value after that so minus b
+ 
+
+00:07:51.520 --> 00:07:55.270 align:start position:0%
+value after that so minus b
+then<00:07:52.160><c> b</c><00:07:52.400><c> argument</c><00:07:52.960><c> minus</c><00:07:53.280><c> c</c><00:07:53.919><c> and</c><00:07:54.160><c> c</c><00:07:54.400><c> argument</c>
+
+00:07:55.270 --> 00:07:55.280 align:start position:0%
+then b argument minus c and c argument
+ 
+
+00:07:55.280 --> 00:07:57.350 align:start position:0%
+then b argument minus c and c argument
+however<00:07:55.759><c> minus</c><00:07:56.160><c> a</c><00:07:56.319><c> will</c><00:07:56.560><c> not</c><00:07:56.720><c> require</c><00:07:57.120><c> any</c>
+
+00:07:57.350 --> 00:07:57.360 align:start position:0%
+however minus a will not require any
+ 
+
+00:07:57.360 --> 00:07:59.749 align:start position:0%
+however minus a will not require any
+argument<00:07:57.759><c> so</c><00:07:58.160><c> the</c><00:07:58.400><c> colon</c><00:07:58.800><c> following</c><00:07:59.599><c> the</c>
+
+00:07:59.749 --> 00:07:59.759 align:start position:0%
+argument so the colon following the
+ 
+
+00:07:59.759 --> 00:08:01.589 align:start position:0%
+argument so the colon following the
+letter<00:08:00.080><c> shows</c><00:08:00.400><c> that</c><00:08:00.639><c> that</c><00:08:00.800><c> particular</c><00:08:01.280><c> option</c>
+
+00:08:01.589 --> 00:08:01.599 align:start position:0%
+letter shows that that particular option
+ 
+
+00:08:01.599 --> 00:08:04.309 align:start position:0%
+letter shows that that particular option
+will<00:08:01.840><c> have</c><00:08:02.639><c> a</c><00:08:02.800><c> value</c><00:08:03.199><c> that</c><00:08:03.360><c> is</c><00:08:03.520><c> being</c><00:08:03.759><c> expected</c>
+
+00:08:04.309 --> 00:08:04.319 align:start position:0%
+will have a value that is being expected
+ 
+
+00:08:04.319 --> 00:08:05.990 align:start position:0%
+will have a value that is being expected
+so<00:08:04.560><c> some</c><00:08:04.720><c> kind</c><00:08:04.879><c> of</c><00:08:05.120><c> a</c>
+
+00:08:05.990 --> 00:08:06.000 align:start position:0%
+so some kind of a
+ 
+
+00:08:06.000 --> 00:08:07.670 align:start position:0%
+so some kind of a
+argument<00:08:06.479><c> is</c><00:08:06.560><c> being</c><00:08:06.800><c> expected</c><00:08:07.199><c> for</c><00:08:07.360><c> those</c>
+
+00:08:07.670 --> 00:08:07.680 align:start position:0%
+argument is being expected for those
+ 
+
+00:08:07.680 --> 00:08:08.950 align:start position:0%
+argument is being expected for those
+options
+
+00:08:08.950 --> 00:08:08.960 align:start position:0%
+options
+ 
+
+00:08:08.960 --> 00:08:10.309 align:start position:0%
+options
+this<00:08:09.120><c> is</c><00:08:09.280><c> actually</c><00:08:09.599><c> processed</c><00:08:10.080><c> very</c>
+
+00:08:10.309 --> 00:08:10.319 align:start position:0%
+this is actually processed very
+ 
+
+00:08:10.319 --> 00:08:13.350 align:start position:0%
+this is actually processed very
+elegantly<00:08:10.960><c> here</c><00:08:11.680><c> saying</c><00:08:12.000><c> that</c><00:08:12.639><c> with</c><00:08:12.879><c> a</c><00:08:12.960><c> case</c>
+
+00:08:13.350 --> 00:08:13.360 align:start position:0%
+elegantly here saying that with a case
+ 
+
+00:08:13.360 --> 00:08:15.589 align:start position:0%
+elegantly here saying that with a case
+loop<00:08:13.680><c> so</c><00:08:14.000><c> if</c><00:08:14.160><c> the</c><00:08:14.400><c> options</c>
+
+00:08:15.589 --> 00:08:15.599 align:start position:0%
+loop so if the options
+ 
+
+00:08:15.599 --> 00:08:18.230 align:start position:0%
+loop so if the options
+are<00:08:15.759><c> such</c><00:08:16.080><c> that</c><00:08:16.400><c> the</c><00:08:16.560><c> b</c><00:08:16.720><c> is</c><00:08:16.960><c> option</c><00:08:17.360><c> then</c>
+
+00:08:18.230 --> 00:08:18.240 align:start position:0%
+are such that the b is option then
+ 
+
+00:08:18.240 --> 00:08:20.230 align:start position:0%
+are such that the b is option then
+the<00:08:18.479><c> argument</c><00:08:18.960><c> that</c><00:08:19.120><c> is</c><00:08:19.199><c> supplied</c><00:08:19.599><c> with</c><00:08:19.759><c> the</c><00:08:19.919><c> b</c>
+
+00:08:20.230 --> 00:08:20.240 align:start position:0%
+the argument that is supplied with the b
+ 
+
+00:08:20.240 --> 00:08:23.430 align:start position:0%
+the argument that is supplied with the b
+is<00:08:20.400><c> then</c><00:08:20.639><c> put</c><00:08:20.879><c> in</c><00:08:20.960><c> the</c><00:08:21.039><c> variable</c><00:08:21.440><c> called</c><00:08:21.680><c> b</c><00:08:21.919><c> arg</c>
+
+00:08:23.430 --> 00:08:23.440 align:start position:0%
+is then put in the variable called b arg
+ 
+
+00:08:23.440 --> 00:08:25.510 align:start position:0%
+is then put in the variable called b arg
+and<00:08:23.840><c> it's</c><00:08:24.080><c> the</c><00:08:24.160><c> c</c><00:08:24.479><c> option</c><00:08:24.800><c> then</c><00:08:24.960><c> the</c><00:08:25.120><c> argument</c>
+
+00:08:25.510 --> 00:08:25.520 align:start position:0%
+and it's the c option then the argument
+ 
+
+00:08:25.520 --> 00:08:28.390 align:start position:0%
+and it's the c option then the argument
+that<00:08:25.680><c> is</c><00:08:25.840><c> applied</c><00:08:26.240><c> is</c><00:08:26.639><c> put</c><00:08:26.879><c> in</c><00:08:26.960><c> the</c><00:08:27.120><c> c</c><00:08:27.440><c> arc</c>
+
+00:08:28.390 --> 00:08:28.400 align:start position:0%
+that is applied is put in the c arc
+ 
+
+00:08:28.400 --> 00:08:30.469 align:start position:0%
+that is applied is put in the c arc
+and<00:08:28.639><c> if</c><00:08:28.720><c> it</c><00:08:28.879><c> is</c><00:08:29.039><c> a</c><00:08:29.440><c> then</c><00:08:29.680><c> you</c><00:08:29.759><c> don't</c><00:08:30.000><c> have</c><00:08:30.080><c> to</c><00:08:30.240><c> do</c>
+
+00:08:30.469 --> 00:08:30.479 align:start position:0%
+and if it is a then you don't have to do
+ 
+
+00:08:30.479 --> 00:08:32.550 align:start position:0%
+and if it is a then you don't have to do
+any<00:08:30.639><c> of</c><00:08:30.800><c> those</c><00:08:31.520><c> and</c><00:08:31.759><c> by</c><00:08:31.919><c> default</c><00:08:32.320><c> you</c><00:08:32.479><c> can</c>
+
+00:08:32.550 --> 00:08:32.560 align:start position:0%
+any of those and by default you can
+ 
+
+00:08:32.560 --> 00:08:34.550 align:start position:0%
+any of those and by default you can
+actually<00:08:32.959><c> tell</c><00:08:33.279><c> the</c><00:08:33.440><c> uch</c><00:08:34.000><c> pattern</c><00:08:34.320><c> of</c><00:08:34.399><c> that</c>
+
+00:08:34.550 --> 00:08:34.560 align:start position:0%
+actually tell the uch pattern of that
+ 
+
+00:08:34.560 --> 00:08:36.389 align:start position:0%
+actually tell the uch pattern of that
+particular<00:08:35.039><c> script</c><00:08:35.519><c> and</c><00:08:35.680><c> then</c><00:08:36.000><c> close</c><00:08:36.240><c> the</c>
+
+00:08:36.389 --> 00:08:36.399 align:start position:0%
+particular script and then close the
+ 
+
+00:08:36.399 --> 00:08:38.709 align:start position:0%
+particular script and then close the
+case<00:08:36.719><c> loop</c><00:08:37.039><c> and</c><00:08:37.200><c> close</c><00:08:37.440><c> the</c><00:08:37.599><c> do</c><00:08:37.839><c> loop</c><00:08:38.399><c> so</c><00:08:38.560><c> this</c>
+
+00:08:38.709 --> 00:08:38.719 align:start position:0%
+case loop and close the do loop so this
+ 
+
+00:08:38.719 --> 00:08:40.630 align:start position:0%
+case loop and close the do loop so this
+is<00:08:38.880><c> a</c><00:08:38.959><c> very</c><00:08:39.120><c> neat</c><00:08:39.360><c> way</c><00:08:39.599><c> by</c><00:08:39.760><c> which</c><00:08:40.000><c> the</c><00:08:40.240><c> options</c>
+
+00:08:40.630 --> 00:08:40.640 align:start position:0%
+is a very neat way by which the options
+ 
+
+00:08:40.640 --> 00:08:42.149 align:start position:0%
+is a very neat way by which the options
+are<00:08:40.800><c> being</c><00:08:41.039><c> processed</c><00:08:41.519><c> and</c><00:08:41.680><c> you</c><00:08:41.760><c> don't</c><00:08:42.000><c> have</c>
+
+00:08:42.149 --> 00:08:42.159 align:start position:0%
+are being processed and you don't have
+ 
+
+00:08:42.159 --> 00:08:43.029 align:start position:0%
+are being processed and you don't have
+to<00:08:42.320><c> now</c>
+
+00:08:43.029 --> 00:08:43.039 align:start position:0%
+to now
+ 
+
+00:08:43.039 --> 00:08:46.230 align:start position:0%
+to now
+ah<00:08:43.440><c> worry</c><00:08:43.760><c> about</c><00:08:44.320><c> which</c><00:08:44.640><c> position</c><00:08:45.440><c> the</c><00:08:45.680><c> abc</c>
+
+00:08:46.230 --> 00:08:46.240 align:start position:0%
+ah worry about which position the abc
+ 
+
+00:08:46.240 --> 00:08:48.310 align:start position:0%
+ah worry about which position the abc
+options<00:08:46.560><c> have</c><00:08:46.800><c> come</c><00:08:47.040><c> because</c><00:08:47.600><c> the</c><00:08:47.760><c> case</c><00:08:48.080><c> loop</c>
+
+00:08:48.310 --> 00:08:48.320 align:start position:0%
+options have come because the case loop
+ 
+
+00:08:48.320 --> 00:08:51.670 align:start position:0%
+options have come because the case loop
+will<00:08:48.560><c> take</c><00:08:48.720><c> care</c><00:08:49.040><c> of</c><00:08:49.600><c> those</c><00:08:49.839><c> kind</c><00:08:50.080><c> of</c><00:08:50.240><c> actions</c>
+
+00:08:51.670 --> 00:08:51.680 align:start position:0%
+will take care of those kind of actions
+ 
+
+00:08:51.680 --> 00:08:53.590 align:start position:0%
+will take care of those kind of actions
+so<00:08:51.839><c> let</c><00:08:52.000><c> us</c><00:08:52.160><c> see</c><00:08:52.320><c> this</c>
+
+00:08:53.590 --> 00:08:53.600 align:start position:0%
+so let us see this
+ 
+
+00:08:53.600 --> 00:08:55.829 align:start position:0%
+so let us see this
+usage<00:08:54.080><c> in</c><00:08:54.160><c> a</c><00:08:54.320><c> script</c><00:08:54.720><c> so</c><00:08:54.880><c> that</c><00:08:55.360><c> you</c><00:08:55.519><c> can</c><00:08:55.680><c> try</c>
+
+00:08:55.829 --> 00:08:55.839 align:start position:0%
+usage in a script so that you can try
+ 
+
+00:08:55.839 --> 00:08:57.750 align:start position:0%
+usage in a script so that you can try
+this<00:08:56.080><c> out</c><00:08:56.320><c> for</c><00:08:56.640><c> any</c><00:08:56.880><c> professionally</c><00:08:57.519><c> written</c>
+
+00:08:57.750 --> 00:08:57.760 align:start position:0%
+this out for any professionally written
+ 
+
+00:08:57.760 --> 00:09:00.870 align:start position:0%
+this out for any professionally written
+script<00:08:58.640><c> that</c><00:08:58.880><c> you</c><00:08:59.040><c> would</c><00:08:59.200><c> like</c><00:08:59.360><c> to</c><00:08:59.519><c> do</c>
+
+00:09:00.870 --> 00:09:00.880 align:start position:0%
+script that you would like to do
+ 
+
+00:09:00.880 --> 00:09:03.509 align:start position:0%
+script that you would like to do
+shortly<00:09:01.600><c> so</c><00:09:01.760><c> here</c><00:09:02.000><c> is</c><00:09:02.080><c> a</c><00:09:02.160><c> very</c><00:09:02.399><c> simple</c>
+
+00:09:03.509 --> 00:09:03.519 align:start position:0%
+shortly so here is a very simple
+ 
+
+00:09:03.519 --> 00:09:05.590 align:start position:0%
+shortly so here is a very simple
+script<00:09:03.839><c> that</c><00:09:04.000><c> we</c><00:09:04.080><c> have</c><00:09:04.240><c> just</c><00:09:04.399><c> now</c><00:09:04.640><c> seen</c><00:09:05.200><c> so</c><00:09:05.440><c> we</c>
+
+00:09:05.590 --> 00:09:05.600 align:start position:0%
+script that we have just now seen so we
+ 
+
+00:09:05.600 --> 00:09:07.590 align:start position:0%
+script that we have just now seen so we
+are<00:09:05.760><c> actually</c><00:09:06.080><c> going</c><00:09:06.240><c> to</c><00:09:06.399><c> launch</c><00:09:06.959><c> by</c><00:09:07.360><c> giving</c>
+
+00:09:07.590 --> 00:09:07.600 align:start position:0%
+are actually going to launch by giving
+ 
+
+00:09:07.600 --> 00:09:09.910 align:start position:0%
+are actually going to launch by giving
+the<00:09:07.760><c> options</c><00:09:08.640><c> so</c><00:09:08.880><c> let</c><00:09:09.040><c> us</c><00:09:09.279><c> give</c><00:09:09.440><c> the</c><00:09:09.519><c> options</c>
+
+00:09:09.910 --> 00:09:09.920 align:start position:0%
+the options so let us give the options
+ 
+
+00:09:09.920 --> 00:09:11.750 align:start position:0%
+the options so let us give the options
+as<00:09:10.080><c> minus</c><00:09:10.560><c> a</c>
+
+00:09:11.750 --> 00:09:11.760 align:start position:0%
+as minus a
+ 
+
+00:09:11.760 --> 00:09:13.509 align:start position:0%
+as minus a
+minus<00:09:12.240><c> b</c><00:09:12.720><c> then</c>
+
+00:09:13.509 --> 00:09:13.519 align:start position:0%
+minus b then
+ 
+
+00:09:13.519 --> 00:09:15.190 align:start position:0%
+minus b then
+b<00:09:13.920><c> argument</c>
+
+00:09:15.190 --> 00:09:15.200 align:start position:0%
+b argument
+ 
+
+00:09:15.200 --> 00:09:18.550 align:start position:0%
+b argument
+minus<00:09:15.600><c> c</c><00:09:16.160><c> c</c><00:09:16.480><c> argument</c><00:09:17.360><c> okay</c><00:09:17.920><c> and</c><00:09:18.080><c> let</c><00:09:18.240><c> us</c><00:09:18.320><c> say</c>
+
+00:09:18.550 --> 00:09:18.560 align:start position:0%
+minus c c argument okay and let us say
+ 
+
+00:09:18.560 --> 00:09:20.550 align:start position:0%
+minus c c argument okay and let us say
+minus<00:09:18.880><c> d</c><00:09:19.040><c> minus</c><00:09:19.360><c> e</c><00:09:19.600><c> i</c><00:09:19.600><c> am</c><00:09:19.680><c> giving</c><00:09:19.920><c> some</c><00:09:20.160><c> extra</c>
+
+00:09:20.550 --> 00:09:20.560 align:start position:0%
+minus d minus e i am giving some extra
+ 
+
+00:09:20.560 --> 00:09:21.670 align:start position:0%
+minus d minus e i am giving some extra
+options
+
+00:09:21.670 --> 00:09:21.680 align:start position:0%
+options
+ 
+
+00:09:21.680 --> 00:09:24.389 align:start position:0%
+options
+now<00:09:21.839><c> what</c><00:09:22.080><c> will</c><00:09:22.240><c> happen</c><00:09:22.640><c> is</c><00:09:22.800><c> that</c>
+
+00:09:24.389 --> 00:09:24.399 align:start position:0%
+now what will happen is that
+ 
+
+00:09:24.399 --> 00:09:26.710 align:start position:0%
+now what will happen is that
+the<00:09:24.800><c> case</c><00:09:25.040><c> loop</c><00:09:25.360><c> has</c><00:09:25.680><c> worked</c><00:09:26.320><c> and</c><00:09:26.480><c> it</c><00:09:26.640><c> is</c>
+
+00:09:26.710 --> 00:09:26.720 align:start position:0%
+the case loop has worked and it is
+ 
+
+00:09:26.720 --> 00:09:28.949 align:start position:0%
+the case loop has worked and it is
+accepting<00:09:27.200><c> minus</c><00:09:27.600><c> a</c><00:09:27.760><c> minus</c><00:09:28.080><c> b</c><00:09:28.320><c> archive</c><00:09:28.720><c> minus</c>
+
+00:09:28.949 --> 00:09:28.959 align:start position:0%
+accepting minus a minus b archive minus
+ 
+
+00:09:28.959 --> 00:09:31.110 align:start position:0%
+accepting minus a minus b archive minus
+c<00:09:29.200><c> argument</c><00:09:30.000><c> but</c><00:09:30.240><c> it</c><00:09:30.399><c> is</c><00:09:30.480><c> also</c><00:09:30.800><c> telling</c>
+
+00:09:31.110 --> 00:09:31.120 align:start position:0%
+c argument but it is also telling
+ 
+
+00:09:31.120 --> 00:09:32.949 align:start position:0%
+c argument but it is also telling
+something<00:09:31.519><c> more</c><00:09:31.839><c> which</c><00:09:32.080><c> is</c><00:09:32.160><c> very</c><00:09:32.399><c> useful</c><00:09:32.720><c> that</c>
+
+00:09:32.949 --> 00:09:32.959 align:start position:0%
+something more which is very useful that
+ 
+
+00:09:32.959 --> 00:09:34.790 align:start position:0%
+something more which is very useful that
+is<00:09:33.200><c> it</c><00:09:33.440><c> says</c><00:09:33.839><c> that</c><00:09:34.000><c> you</c><00:09:34.160><c> have</c><00:09:34.320><c> given</c><00:09:34.640><c> an</c>
+
+00:09:34.790 --> 00:09:34.800 align:start position:0%
+is it says that you have given an
+ 
+
+00:09:34.800 --> 00:09:37.110 align:start position:0%
+is it says that you have given an
+illegal<00:09:35.279><c> option</c><00:09:36.000><c> because</c><00:09:36.480><c> the</c><00:09:36.640><c> options</c><00:09:37.040><c> that</c>
+
+00:09:37.110 --> 00:09:37.120 align:start position:0%
+illegal option because the options that
+ 
+
+00:09:37.120 --> 00:09:39.670 align:start position:0%
+illegal option because the options that
+were<00:09:37.360><c> actually</c><00:09:37.680><c> accepted</c><00:09:38.240><c> are</c><00:09:38.399><c> abc</c><00:09:39.120><c> as</c><00:09:39.360><c> given</c>
+
+00:09:39.670 --> 00:09:39.680 align:start position:0%
+were actually accepted are abc as given
+ 
+
+00:09:39.680 --> 00:09:41.910 align:start position:0%
+were actually accepted are abc as given
+in<00:09:39.760><c> the</c><00:09:39.920><c> get</c><00:09:40.160><c> ops</c><00:09:40.720><c> so</c><00:09:40.959><c> any</c><00:09:41.200><c> other</c><00:09:41.440><c> option</c><00:09:41.839><c> is</c>
+
+00:09:41.910 --> 00:09:41.920 align:start position:0%
+in the get ops so any other option is
+ 
+
+00:09:41.920 --> 00:09:43.910 align:start position:0%
+in the get ops so any other option is
+then<00:09:42.160><c> illegal</c><00:09:42.640><c> so</c><00:09:42.800><c> it</c><00:09:42.959><c> is</c><00:09:43.040><c> also</c><00:09:43.279><c> helping</c><00:09:43.760><c> you</c>
+
+00:09:43.910 --> 00:09:43.920 align:start position:0%
+then illegal so it is also helping you
+ 
+
+00:09:43.920 --> 00:09:45.750 align:start position:0%
+then illegal so it is also helping you
+to
+
+00:09:45.750 --> 00:09:45.760 align:start position:0%
+to
+ 
+
+00:09:45.760 --> 00:09:47.750 align:start position:0%
+to
+reduce<00:09:46.240><c> the</c><00:09:46.320><c> amount</c><00:09:46.560><c> of</c><00:09:46.720><c> coding</c><00:09:47.200><c> because</c><00:09:47.680><c> you</c>
+
+00:09:47.750 --> 00:09:47.760 align:start position:0%
+reduce the amount of coding because you
+ 
+
+00:09:47.760 --> 00:09:48.790 align:start position:0%
+reduce the amount of coding because you
+don't<00:09:47.920><c> now</c>
+
+00:09:48.790 --> 00:09:48.800 align:start position:0%
+don't now
+ 
+
+00:09:48.800 --> 00:09:51.750 align:start position:0%
+don't now
+need<00:09:49.040><c> to</c><00:09:49.360><c> search</c><00:09:49.839><c> for</c><00:09:50.240><c> any</c><00:09:50.480><c> other</c>
+
+00:09:51.750 --> 00:09:51.760 align:start position:0%
+need to search for any other
+ 
+
+00:09:51.760 --> 00:09:54.470 align:start position:0%
+need to search for any other
+pattern<00:09:52.320><c> and</c><00:09:52.480><c> then</c><00:09:52.880><c> throw</c><00:09:53.200><c> some</c><00:09:53.440><c> error</c><00:09:54.080><c> so</c>
+
+00:09:54.470 --> 00:09:54.480 align:start position:0%
+pattern and then throw some error so
+ 
+
+00:09:54.480 --> 00:09:56.150 align:start position:0%
+pattern and then throw some error so
+these<00:09:54.800><c> errors</c><00:09:55.120><c> are</c><00:09:55.200><c> thrown</c><00:09:55.440><c> by</c><00:09:55.600><c> get</c><00:09:55.839><c> opts</c>
+
+00:09:56.150 --> 00:09:56.160 align:start position:0%
+these errors are thrown by get opts
+ 
+
+00:09:56.160 --> 00:09:58.150 align:start position:0%
+these errors are thrown by get opts
+which<00:09:56.320><c> is</c><00:09:56.399><c> very</c><00:09:56.640><c> elegant</c>
+
+00:09:58.150 --> 00:09:58.160 align:start position:0%
+which is very elegant
+ 
+
+00:09:58.160 --> 00:09:59.990 align:start position:0%
+which is very elegant
+now<00:09:58.399><c> let</c><00:09:58.560><c> us</c>
+
+00:09:59.990 --> 00:10:00.000 align:start position:0%
+now let us
+ 
+
+00:10:00.000 --> 00:10:02.069 align:start position:0%
+now let us
+skip<00:10:00.320><c> those</c><00:10:00.720><c> and</c><00:10:00.880><c> let</c><00:10:01.040><c> us</c><00:10:01.120><c> say</c><00:10:01.360><c> the</c><00:10:01.519><c> c</c><00:10:01.760><c> option</c>
+
+00:10:02.069 --> 00:10:02.079 align:start position:0%
+skip those and let us say the c option
+ 
+
+00:10:02.079 --> 00:10:04.310 align:start position:0%
+skip those and let us say the c option
+is<00:10:02.160><c> given</c><00:10:02.399><c> without</c><00:10:02.800><c> any</c><00:10:03.040><c> argument</c><00:10:03.760><c> so</c><00:10:04.000><c> you</c><00:10:04.160><c> see</c>
+
+00:10:04.310 --> 00:10:04.320 align:start position:0%
+is given without any argument so you see
+ 
+
+00:10:04.320 --> 00:10:05.750 align:start position:0%
+is given without any argument so you see
+that<00:10:04.560><c> again</c><00:10:04.800><c> there</c><00:10:04.959><c> is</c><00:10:05.120><c> a</c>
+
+00:10:05.750 --> 00:10:05.760 align:start position:0%
+that again there is a
+ 
+
+00:10:05.760 --> 00:10:08.230 align:start position:0%
+that again there is a
+requirement<00:10:06.399><c> of</c><00:10:06.720><c> an</c><00:10:06.959><c> argument</c><00:10:07.680><c> for</c><00:10:07.839><c> the</c><00:10:08.000><c> c</c>
+
+00:10:08.230 --> 00:10:08.240 align:start position:0%
+requirement of an argument for the c
+ 
+
+00:10:08.240 --> 00:10:09.910 align:start position:0%
+requirement of an argument for the c
+option<00:10:08.640><c> and</c><00:10:08.800><c> it</c><00:10:08.880><c> is</c><00:10:08.959><c> being</c><00:10:09.200><c> alerted</c><00:10:09.600><c> so</c><00:10:09.760><c> which</c>
+
+00:10:09.910 --> 00:10:09.920 align:start position:0%
+option and it is being alerted so which
+ 
+
+00:10:09.920 --> 00:10:12.389 align:start position:0%
+option and it is being alerted so which
+means<00:10:10.160><c> that</c><00:10:10.399><c> again</c><00:10:10.800><c> here</c><00:10:11.519><c> the</c><00:10:11.680><c> colon</c><00:10:12.079><c> that</c><00:10:12.240><c> is</c>
+
+00:10:12.389 --> 00:10:12.399 align:start position:0%
+means that again here the colon that is
+ 
+
+00:10:12.399 --> 00:10:15.350 align:start position:0%
+means that again here the colon that is
+after<00:10:12.720><c> the</c><00:10:12.880><c> c</c><00:10:13.279><c> is</c><00:10:13.440><c> doing</c><00:10:13.680><c> the</c><00:10:13.839><c> entire</c><00:10:14.399><c> magic</c><00:10:15.120><c> of</c>
+
+00:10:15.350 --> 00:10:15.360 align:start position:0%
+after the c is doing the entire magic of
+ 
+
+00:10:15.360 --> 00:10:17.670 align:start position:0%
+after the c is doing the entire magic of
+searching<00:10:15.839><c> for</c><00:10:16.160><c> an</c><00:10:16.320><c> argument</c><00:10:16.800><c> after</c><00:10:17.120><c> the</c><00:10:17.279><c> c</c>
+
+00:10:17.670 --> 00:10:17.680 align:start position:0%
+searching for an argument after the c
+ 
+
+00:10:17.680 --> 00:10:18.550 align:start position:0%
+searching for an argument after the c
+option
+
+00:10:18.550 --> 00:10:18.560 align:start position:0%
+option
+ 
+
+00:10:18.560 --> 00:10:20.389 align:start position:0%
+option
+and<00:10:18.800><c> if</c><00:10:18.959><c> it</c><00:10:19.120><c> is</c><00:10:19.200><c> not</c><00:10:19.440><c> there</c><00:10:19.760><c> then</c><00:10:20.160><c> it</c><00:10:20.320><c> is</c>
+
+00:10:20.389 --> 00:10:20.399 align:start position:0%
+and if it is not there then it is
+ 
+
+00:10:20.399 --> 00:10:22.389 align:start position:0%
+and if it is not there then it is
+actually<00:10:20.720><c> throwing</c><00:10:21.040><c> an</c><00:10:21.200><c> error</c><00:10:21.839><c> okay</c>
+
+00:10:22.389 --> 00:10:22.399 align:start position:0%
+actually throwing an error okay
+ 
+
+00:10:22.399 --> 00:10:25.190 align:start position:0%
+actually throwing an error okay
+similarly<00:10:23.040><c> i</c><00:10:23.200><c> can</c><00:10:23.360><c> actually</c><00:10:23.760><c> say</c><00:10:24.000><c> c</c><00:10:24.240><c> argument</c>
+
+00:10:25.190 --> 00:10:25.200 align:start position:0%
+similarly i can actually say c argument
+ 
+
+00:10:25.200 --> 00:10:28.310 align:start position:0%
+similarly i can actually say c argument
+but<00:10:25.440><c> i</c><00:10:25.519><c> skip</c><00:10:25.760><c> the</c><00:10:25.839><c> b</c><00:10:26.079><c> argument</c>
+
+00:10:28.310 --> 00:10:28.320 align:start position:0%
+but i skip the b argument
+ 
+
+00:10:28.320 --> 00:10:30.389 align:start position:0%
+but i skip the b argument
+and<00:10:28.480><c> you</c><00:10:28.640><c> see</c><00:10:28.800><c> what</c><00:10:28.959><c> happens</c><00:10:29.680><c> what</c><00:10:29.920><c> happens</c><00:10:30.240><c> is</c>
+
+00:10:30.389 --> 00:10:30.399 align:start position:0%
+and you see what happens what happens is
+ 
+
+00:10:30.399 --> 00:10:31.269 align:start position:0%
+and you see what happens what happens is
+that
+
+00:10:31.269 --> 00:10:31.279 align:start position:0%
+that
+ 
+
+00:10:31.279 --> 00:10:33.829 align:start position:0%
+that
+minus<00:10:31.680><c> c</c><00:10:31.920><c> is</c><00:10:32.079><c> used</c><00:10:32.560><c> as</c><00:10:32.800><c> if</c><00:10:32.959><c> it</c><00:10:33.120><c> is</c><00:10:33.279><c> argument</c><00:10:33.680><c> for</c>
+
+00:10:33.829 --> 00:10:33.839 align:start position:0%
+minus c is used as if it is argument for
+ 
+
+00:10:33.839 --> 00:10:35.030 align:start position:0%
+minus c is used as if it is argument for
+minus<00:10:34.240><c> b</c>
+
+00:10:35.030 --> 00:10:35.040 align:start position:0%
+minus b
+ 
+
+00:10:35.040 --> 00:10:37.269 align:start position:0%
+minus b
+after<00:10:35.279><c> that</c><00:10:35.600><c> rest</c><00:10:35.839><c> of</c><00:10:35.920><c> it</c><00:10:36.079><c> is</c><00:10:36.240><c> ignored</c><00:10:37.120><c> and</c>
+
+00:10:37.269 --> 00:10:37.279 align:start position:0%
+after that rest of it is ignored and
+ 
+
+00:10:37.279 --> 00:10:38.949 align:start position:0%
+after that rest of it is ignored and
+therefore<00:10:37.680><c> there</c><00:10:37.920><c> are</c><00:10:38.000><c> two</c><00:10:38.240><c> options</c><00:10:38.560><c> that</c><00:10:38.720><c> are</c>
+
+00:10:38.949 --> 00:10:38.959 align:start position:0%
+therefore there are two options that are
+ 
+
+00:10:38.959 --> 00:10:41.509 align:start position:0%
+therefore there are two options that are
+actually<00:10:39.360><c> active</c><00:10:39.760><c> minus</c><00:10:40.160><c> a</c><00:10:40.320><c> and</c><00:10:40.399><c> minus</c><00:10:40.720><c> b</c><00:10:41.360><c> so</c>
+
+00:10:41.509 --> 00:10:41.519 align:start position:0%
+actually active minus a and minus b so
+ 
+
+00:10:41.519 --> 00:10:43.350 align:start position:0%
+actually active minus a and minus b so
+minus<00:10:41.839><c> c</c><00:10:42.079><c> is</c><00:10:42.160><c> actually</c>
+
+00:10:43.350 --> 00:10:43.360 align:start position:0%
+minus c is actually
+ 
+
+00:10:43.360 --> 00:10:45.670 align:start position:0%
+minus c is actually
+used<00:10:43.680><c> as</c><00:10:43.839><c> if</c><00:10:44.000><c> it</c><00:10:44.079><c> is</c><00:10:44.320><c> argument</c>
+
+00:10:45.670 --> 00:10:45.680 align:start position:0%
+used as if it is argument
+ 
+
+00:10:45.680 --> 00:10:46.790 align:start position:0%
+used as if it is argument
+for<00:10:46.000><c> b</c>
+
+00:10:46.790 --> 00:10:46.800 align:start position:0%
+for b
+ 
+
+00:10:46.800 --> 00:10:48.949 align:start position:0%
+for b
+now<00:10:47.120><c> i</c><00:10:47.279><c> would</c><00:10:47.440><c> actually</c><00:10:47.839><c> also</c><00:10:48.160><c> be</c><00:10:48.320><c> able</c><00:10:48.560><c> to</c><00:10:48.720><c> try</c>
+
+00:10:48.949 --> 00:10:48.959 align:start position:0%
+now i would actually also be able to try
+ 
+
+00:10:48.959 --> 00:10:50.069 align:start position:0%
+now i would actually also be able to try
+that<00:10:49.200><c> out</c>
+
+00:10:50.069 --> 00:10:50.079 align:start position:0%
+that out
+ 
+
+00:10:50.079 --> 00:10:52.230 align:start position:0%
+that out
+for<00:10:50.320><c> an</c><00:10:50.480><c> error</c><00:10:51.040><c> by</c><00:10:51.200><c> skipping</c><00:10:51.600><c> it</c><00:10:51.760><c> so</c><00:10:51.920><c> you</c><00:10:52.079><c> can</c>
+
+00:10:52.230 --> 00:10:52.240 align:start position:0%
+for an error by skipping it so you can
+ 
+
+00:10:52.240 --> 00:10:54.069 align:start position:0%
+for an error by skipping it so you can
+see<00:10:52.399><c> that</c><00:10:52.480><c> there</c><00:10:52.640><c> is</c><00:10:52.720><c> nothing</c><00:10:53.040><c> after</c><00:10:53.360><c> b</c><00:10:53.920><c> and</c>
+
+00:10:54.069 --> 00:10:54.079 align:start position:0%
+see that there is nothing after b and
+ 
+
+00:10:54.079 --> 00:10:55.110 align:start position:0%
+see that there is nothing after b and
+therefore
+
+00:10:55.110 --> 00:10:55.120 align:start position:0%
+therefore
+ 
+
+00:10:55.120 --> 00:10:57.430 align:start position:0%
+therefore
+what<00:10:55.680><c> is</c><00:10:55.839><c> expected</c><00:10:56.320><c> as</c><00:10:56.480><c> an</c>
+
+00:10:57.430 --> 00:10:57.440 align:start position:0%
+what is expected as an
+ 
+
+00:10:57.440 --> 00:10:59.430 align:start position:0%
+what is expected as an
+argument<00:10:57.920><c> for</c><00:10:58.079><c> the</c><00:10:58.240><c> b</c><00:10:58.480><c> option</c><00:10:58.800><c> is</c><00:10:58.959><c> missing</c><00:10:59.360><c> and</c>
+
+00:10:59.430 --> 00:10:59.440 align:start position:0%
+argument for the b option is missing and
+ 
+
+00:10:59.440 --> 00:11:01.590 align:start position:0%
+argument for the b option is missing and
+therefore<00:10:59.760><c> there</c><00:10:59.839><c> is</c><00:10:59.920><c> an</c><00:11:00.079><c> error</c><00:11:00.800><c> okay</c><00:11:01.279><c> i</c><00:11:01.440><c> could</c>
+
+00:11:01.590 --> 00:11:01.600 align:start position:0%
+therefore there is an error okay i could
+ 
+
+00:11:01.600 --> 00:11:03.590 align:start position:0%
+therefore there is an error okay i could
+now<00:11:01.839><c> also</c><00:11:02.079><c> see</c><00:11:02.240><c> that</c><00:11:02.480><c> for</c><00:11:02.640><c> c</c><00:11:03.040><c> so</c><00:11:03.279><c> the</c><00:11:03.360><c> same</c>
+
+00:11:03.590 --> 00:11:03.600 align:start position:0%
+now also see that for c so the same
+ 
+
+00:11:03.600 --> 00:11:06.470 align:start position:0%
+now also see that for c so the same
+error<00:11:03.839><c> will</c><00:11:04.000><c> be</c><00:11:04.160><c> shown</c><00:11:04.720><c> okay</c><00:11:05.279><c> now</c><00:11:05.920><c> if</c><00:11:06.079><c> i</c><00:11:06.160><c> don't</c>
+
+00:11:06.470 --> 00:11:06.480 align:start position:0%
+error will be shown okay now if i don't
+ 
+
+00:11:06.480 --> 00:11:08.069 align:start position:0%
+error will be shown okay now if i don't
+give<00:11:06.720><c> any</c><00:11:06.959><c> of</c><00:11:07.040><c> those</c><00:11:07.279><c> there</c><00:11:07.440><c> is</c><00:11:07.519><c> no</c><00:11:07.680><c> problem</c>
+
+00:11:08.069 --> 00:11:08.079 align:start position:0%
+give any of those there is no problem
+ 
+
+00:11:08.079 --> 00:11:09.670 align:start position:0%
+give any of those there is no problem
+because<00:11:08.320><c> there</c><00:11:08.399><c> are</c><00:11:08.480><c> only</c><00:11:08.720><c> options</c><00:11:09.600><c> and</c>
+
+00:11:09.670 --> 00:11:09.680 align:start position:0%
+because there are only options and
+ 
+
+00:11:09.680 --> 00:11:11.269 align:start position:0%
+because there are only options and
+therefore<00:11:10.079><c> there</c><00:11:10.160><c> is</c><00:11:10.320><c> no</c><00:11:10.480><c> error</c><00:11:10.880><c> so</c><00:11:11.040><c> you</c><00:11:11.200><c> can</c>
+
+00:11:11.269 --> 00:11:11.279 align:start position:0%
+therefore there is no error so you can
+ 
+
+00:11:11.279 --> 00:11:13.269 align:start position:0%
+therefore there is no error so you can
+see<00:11:11.519><c> that</c><00:11:11.839><c> the</c><00:11:12.160><c> option</c>
+
+00:11:13.269 --> 00:11:13.279 align:start position:0%
+see that the option
+ 
+
+00:11:13.279 --> 00:11:15.110 align:start position:0%
+see that the option
+processing<00:11:14.000><c> and</c>
+
+00:11:15.110 --> 00:11:15.120 align:start position:0%
+processing and
+ 
+
+00:11:15.120 --> 00:11:16.870 align:start position:0%
+processing and
+expecting<00:11:15.680><c> an</c><00:11:15.839><c> argument</c>
+
+00:11:16.870 --> 00:11:16.880 align:start position:0%
+expecting an argument
+ 
+
+00:11:16.880 --> 00:11:18.630 align:start position:0%
+expecting an argument
+and<00:11:17.040><c> throwing</c><00:11:17.440><c> errors</c><00:11:17.760><c> if</c><00:11:17.920><c> they</c><00:11:18.000><c> are</c><00:11:18.399><c> not</c>
+
+00:11:18.630 --> 00:11:18.640 align:start position:0%
+and throwing errors if they are not
+ 
+
+00:11:18.640 --> 00:11:20.790 align:start position:0%
+and throwing errors if they are not
+available<00:11:19.120><c> as</c><00:11:19.279><c> per</c><00:11:19.519><c> requirement</c><00:11:20.160><c> is</c><00:11:20.320><c> all</c><00:11:20.480><c> done</c>
+
+00:11:20.790 --> 00:11:20.800 align:start position:0%
+available as per requirement is all done
+ 
+
+00:11:20.800 --> 00:11:23.110 align:start position:0%
+available as per requirement is all done
+quite<00:11:20.959><c> elegantly</c><00:11:21.519><c> by</c><00:11:21.680><c> using</c><00:11:21.920><c> the</c><00:11:22.000><c> get</c><00:11:22.240><c> ops</c><00:11:22.959><c> by</c>
+
+00:11:23.110 --> 00:11:23.120 align:start position:0%
+quite elegantly by using the get ops by
+ 
+
+00:11:23.120 --> 00:11:25.269 align:start position:0%
+quite elegantly by using the get ops by
+going<00:11:23.360><c> through</c><00:11:23.519><c> the</c><00:11:23.600><c> getups</c><00:11:24.079><c> documentation</c>
+
+00:11:25.269 --> 00:11:25.279 align:start position:0%
+going through the getups documentation
+ 
+
+00:11:25.279 --> 00:11:26.870 align:start position:0%
+going through the getups documentation
+and<00:11:25.519><c> implementing</c><00:11:26.079><c> that</c><00:11:26.240><c> in</c><00:11:26.399><c> your</c><00:11:26.560><c> scripts</c>
+
+00:11:26.870 --> 00:11:26.880 align:start position:0%
+and implementing that in your scripts
+ 
+
+00:11:26.880 --> 00:11:28.710 align:start position:0%
+and implementing that in your scripts
+you<00:11:26.959><c> can</c><00:11:27.120><c> actually</c><00:11:27.360><c> make</c><00:11:27.600><c> your</c><00:11:27.920><c> script</c><00:11:28.480><c> quite</c>
+
+00:11:28.710 --> 00:11:28.720 align:start position:0%
+you can actually make your script quite
+ 
+
+00:11:28.720 --> 00:11:31.030 align:start position:0%
+you can actually make your script quite
+professional<00:11:29.440><c> almost</c><00:11:29.920><c> like</c><00:11:30.240><c> any</c><00:11:30.480><c> other</c><00:11:30.640><c> linux</c>
+
+00:11:31.030 --> 00:11:31.040 align:start position:0%
+professional almost like any other linux
+ 
+
+00:11:31.040 --> 00:11:33.269 align:start position:0%
+professional almost like any other linux
+command<00:11:31.839><c> now</c><00:11:32.000><c> one</c><00:11:32.240><c> last</c><00:11:32.640><c> thing</c><00:11:32.800><c> that</c><00:11:32.959><c> we</c><00:11:33.120><c> would</c>
+
+00:11:33.269 --> 00:11:33.279 align:start position:0%
+command now one last thing that we would
+ 
+
+00:11:33.279 --> 00:11:36.230 align:start position:0%
+command now one last thing that we would
+like<00:11:33.440><c> to</c><00:11:33.600><c> look</c><00:11:33.839><c> at</c><00:11:34.160><c> in</c><00:11:34.320><c> the</c><00:11:34.480><c> bash</c><00:11:34.720><c> features</c><00:11:35.360><c> is</c>
+
+00:11:36.230 --> 00:11:36.240 align:start position:0%
+like to look at in the bash features is
+ 
+
+00:11:36.240 --> 00:11:37.910 align:start position:0%
+like to look at in the bash features is
+to<00:11:36.399><c> provide</c><00:11:36.800><c> a</c><00:11:36.880><c> menu</c>
+
+00:11:37.910 --> 00:11:37.920 align:start position:0%
+to provide a menu
+ 
+
+00:11:37.920 --> 00:11:39.829 align:start position:0%
+to provide a menu
+so<00:11:38.079><c> let</c><00:11:38.240><c> us</c><00:11:38.320><c> say</c><00:11:38.560><c> we</c><00:11:38.800><c> have</c>
+
+00:11:39.829 --> 00:11:39.839 align:start position:0%
+so let us say we have
+ 
+
+00:11:39.839 --> 00:11:43.269 align:start position:0%
+so let us say we have
+a<00:11:40.000><c> set</c><00:11:40.240><c> of</c><00:11:40.880><c> things</c><00:11:41.200><c> that</c><00:11:41.440><c> user</c><00:11:41.760><c> has</c><00:11:41.920><c> to</c><00:11:42.240><c> pick</c><00:11:42.480><c> up</c>
+
+00:11:43.269 --> 00:11:43.279 align:start position:0%
+a set of things that user has to pick up
+ 
+
+00:11:43.279 --> 00:11:45.910 align:start position:0%
+a set of things that user has to pick up
+and<00:11:43.519><c> a</c><00:11:43.680><c> menu</c><00:11:44.000><c> is</c><00:11:44.160><c> to</c><00:11:44.240><c> be</c><00:11:44.399><c> shown</c><00:11:45.200><c> and</c><00:11:45.519><c> the</c><00:11:45.680><c> user</c>
+
+00:11:45.910 --> 00:11:45.920 align:start position:0%
+and a menu is to be shown and the user
+ 
+
+00:11:45.920 --> 00:11:47.829 align:start position:0%
+and a menu is to be shown and the user
+has<00:11:46.160><c> to</c><00:11:46.240><c> pick</c><00:11:46.480><c> one</c><00:11:46.720><c> of</c><00:11:46.880><c> those</c><00:11:47.200><c> that</c><00:11:47.440><c> are</c><00:11:47.600><c> shown</c>
+
+00:11:47.829 --> 00:11:47.839 align:start position:0%
+has to pick one of those that are shown
+ 
+
+00:11:47.839 --> 00:11:50.470 align:start position:0%
+has to pick one of those that are shown
+in<00:11:47.920><c> the</c><00:11:48.079><c> menu</c><00:11:48.880><c> so</c><00:11:49.040><c> this</c><00:11:49.360><c> entire</c><00:11:49.760><c> idea</c><00:11:50.160><c> of</c>
+
+00:11:50.470 --> 00:11:50.480 align:start position:0%
+in the menu so this entire idea of
+ 
+
+00:11:50.480 --> 00:11:53.110 align:start position:0%
+in the menu so this entire idea of
+showing<00:11:50.880><c> a</c><00:11:50.959><c> set</c><00:11:51.200><c> of</c><00:11:51.519><c> options</c><00:11:51.920><c> as</c><00:11:52.079><c> a</c><00:11:52.160><c> menu</c>
+
+00:11:53.110 --> 00:11:53.120 align:start position:0%
+showing a set of options as a menu
+ 
+
+00:11:53.120 --> 00:11:55.350 align:start position:0%
+showing a set of options as a menu
+and<00:11:53.200><c> then</c><00:11:53.440><c> checking</c><00:11:53.760><c> for</c><00:11:53.920><c> the</c><00:11:54.079><c> user</c><00:11:54.399><c> input</c>
+
+00:11:55.350 --> 00:11:55.360 align:start position:0%
+and then checking for the user input
+ 
+
+00:11:55.360 --> 00:11:58.470 align:start position:0%
+and then checking for the user input
+seeing<00:11:55.680><c> if</c><00:11:55.920><c> the</c><00:11:56.160><c> user</c><00:11:56.480><c> input</c><00:11:56.800><c> is</c><00:11:56.959><c> one</c><00:11:57.200><c> of</c><00:11:57.360><c> the</c>
+
+00:11:58.470 --> 00:11:58.480 align:start position:0%
+seeing if the user input is one of the
+ 
+
+00:11:58.480 --> 00:12:00.710 align:start position:0%
+seeing if the user input is one of the
+menu<00:11:59.040><c> items</c><00:11:59.360><c> that</c><00:11:59.519><c> are</c><00:11:59.600><c> listed</c>
+
+00:12:00.710 --> 00:12:00.720 align:start position:0%
+menu items that are listed
+ 
+
+00:12:00.720 --> 00:12:03.509 align:start position:0%
+menu items that are listed
+if<00:12:00.880><c> it's</c><00:12:01.200><c> not</c><00:12:01.519><c> then</c><00:12:02.160><c> throwing</c><00:12:02.480><c> an</c><00:12:02.639><c> error</c><00:12:03.360><c> and</c>
+
+00:12:03.509 --> 00:12:03.519 align:start position:0%
+if it's not then throwing an error and
+ 
+
+00:12:03.519 --> 00:12:05.350 align:start position:0%
+if it's not then throwing an error and
+if<00:12:03.680><c> it</c><00:12:03.760><c> is</c><00:12:04.000><c> matching</c><00:12:04.399><c> then</c><00:12:04.720><c> assigning</c><00:12:05.120><c> that</c>
+
+00:12:05.350 --> 00:12:05.360 align:start position:0%
+if it is matching then assigning that
+ 
+
+00:12:05.360 --> 00:12:08.069 align:start position:0%
+if it is matching then assigning that
+particular<00:12:06.079><c> value</c><00:12:06.880><c> of</c><00:12:06.959><c> the</c><00:12:07.120><c> chosen</c><00:12:07.519><c> menu</c><00:12:07.839><c> to</c><00:12:08.000><c> a</c>
+
+00:12:08.069 --> 00:12:08.079 align:start position:0%
+particular value of the chosen menu to a
+ 
+
+00:12:08.079 --> 00:12:09.990 align:start position:0%
+particular value of the chosen menu to a
+variable<00:12:08.880><c> and</c><00:12:09.040><c> then</c><00:12:09.200><c> moving</c><00:12:09.519><c> on</c><00:12:09.680><c> so</c><00:12:09.839><c> the</c>
+
+00:12:09.990 --> 00:12:10.000 align:start position:0%
+variable and then moving on so the
+ 
+
+00:12:10.000 --> 00:12:12.949 align:start position:0%
+variable and then moving on so the
+entire<00:12:10.480><c> action</c><00:12:10.800><c> can</c><00:12:10.959><c> be</c><00:12:11.120><c> captured</c><00:12:11.680><c> by</c><00:12:12.160><c> using</c><00:12:12.560><c> a</c>
+
+00:12:12.949 --> 00:12:12.959 align:start position:0%
+entire action can be captured by using a
+ 
+
+00:12:12.959 --> 00:12:14.949 align:start position:0%
+entire action can be captured by using a
+select<00:12:13.360><c> loop</c><00:12:14.079><c> here</c><00:12:14.240><c> is</c><00:12:14.399><c> an</c><00:12:14.480><c> example</c><00:12:14.800><c> of</c><00:12:14.880><c> a</c>
+
+00:12:14.949 --> 00:12:14.959 align:start position:0%
+select loop here is an example of a
+ 
+
+00:12:14.959 --> 00:12:17.190 align:start position:0%
+select loop here is an example of a
+select<00:12:15.360><c> loop</c><00:12:15.680><c> and</c><00:12:16.000><c> let</c><00:12:16.160><c> us</c><00:12:16.320><c> go</c><00:12:16.639><c> and</c><00:12:16.800><c> explore</c>
+
+00:12:17.190 --> 00:12:17.200 align:start position:0%
+select loop and let us go and explore
+ 
+
+00:12:17.200 --> 00:12:19.590 align:start position:0%
+select loop and let us go and explore
+this<00:12:17.519><c> by</c><00:12:17.680><c> actually</c><00:12:18.000><c> running</c><00:12:18.399><c> it</c>
+
+00:12:19.590 --> 00:12:19.600 align:start position:0%
+this by actually running it
+ 
+
+00:12:19.600 --> 00:12:21.030 align:start position:0%
+this by actually running it
+and<00:12:19.839><c> this</c><00:12:20.079><c> is</c><00:12:20.240><c> a</c>
+
+00:12:21.030 --> 00:12:21.040 align:start position:0%
+and this is a
+ 
+
+00:12:21.040 --> 00:12:22.949 align:start position:0%
+and this is a
+beautiful<00:12:21.519><c> way</c><00:12:21.680><c> by</c><00:12:21.839><c> which</c><00:12:22.079><c> a</c><00:12:22.160><c> text</c><00:12:22.480><c> menu</c><00:12:22.800><c> can</c>
+
+00:12:22.949 --> 00:12:22.959 align:start position:0%
+beautiful way by which a text menu can
+ 
+
+00:12:22.959 --> 00:12:24.389 align:start position:0%
+beautiful way by which a text menu can
+be<00:12:23.040><c> provided</c><00:12:23.519><c> within</c><00:12:23.760><c> the</c><00:12:23.920><c> terminal</c>
+
+00:12:24.389 --> 00:12:24.399 align:start position:0%
+be provided within the terminal
+ 
+
+00:12:24.399 --> 00:12:25.750 align:start position:0%
+be provided within the terminal
+environment
+
+00:12:25.750 --> 00:12:25.760 align:start position:0%
+environment
+ 
+
+00:12:25.760 --> 00:12:27.350 align:start position:0%
+environment
+this<00:12:26.000><c> is</c><00:12:26.079><c> quite</c><00:12:26.320><c> elegant</c><00:12:26.720><c> because</c><00:12:27.200><c> the</c>
+
+00:12:27.350 --> 00:12:27.360 align:start position:0%
+this is quite elegant because the
+ 
+
+00:12:27.360 --> 00:12:29.350 align:start position:0%
+this is quite elegant because the
+construction<00:12:27.920><c> of</c><00:12:28.079><c> select</c><00:12:28.480><c> loop</c>
+
+00:12:29.350 --> 00:12:29.360 align:start position:0%
+construction of select loop
+ 
+
+00:12:29.360 --> 00:12:32.069 align:start position:0%
+construction of select loop
+is<00:12:29.600><c> quite</c><00:12:29.839><c> simple</c><00:12:30.480><c> like</c><00:12:30.720><c> any</c><00:12:30.959><c> other</c><00:12:31.200><c> case</c><00:12:31.519><c> loop</c>
+
+00:12:32.069 --> 00:12:32.079 align:start position:0%
+is quite simple like any other case loop
+ 
+
+00:12:32.079 --> 00:12:34.150 align:start position:0%
+is quite simple like any other case loop
+however<00:12:32.560><c> there</c><00:12:32.639><c> is</c><00:12:32.800><c> a</c><00:12:33.440><c> additional</c><00:12:33.920><c> action</c>
+
+00:12:34.150 --> 00:12:34.160 align:start position:0%
+however there is a additional action
+ 
+
+00:12:34.160 --> 00:12:36.230 align:start position:0%
+however there is a additional action
+that<00:12:34.320><c> is</c><00:12:34.399><c> being</c><00:12:34.639><c> performed</c><00:12:35.120><c> namely</c><00:12:35.760><c> whatever</c>
+
+00:12:36.230 --> 00:12:36.240 align:start position:0%
+that is being performed namely whatever
+ 
+
+00:12:36.240 --> 00:12:38.230 align:start position:0%
+that is being performed namely whatever
+you<00:12:36.480><c> choose</c><00:12:36.800><c> is</c><00:12:36.959><c> being</c><00:12:37.200><c> matched</c><00:12:37.680><c> with</c><00:12:37.920><c> what</c><00:12:38.160><c> is</c>
+
+00:12:38.230 --> 00:12:38.240 align:start position:0%
+you choose is being matched with what is
+ 
+
+00:12:38.240 --> 00:12:41.350 align:start position:0%
+you choose is being matched with what is
+in<00:12:38.320><c> the</c><00:12:38.480><c> menu</c><00:12:39.279><c> and</c><00:12:39.519><c> then</c><00:12:39.839><c> unless</c><00:12:40.240><c> it</c><00:12:40.480><c> matches</c>
+
+00:12:41.350 --> 00:12:41.360 align:start position:0%
+in the menu and then unless it matches
+ 
+
+00:12:41.360 --> 00:12:44.150 align:start position:0%
+in the menu and then unless it matches
+the<00:12:41.600><c> loop</c><00:12:42.079><c> is</c><00:12:42.240><c> just</c><00:12:42.480><c> continuing</c>
+
+00:12:44.150 --> 00:12:44.160 align:start position:0%
+the loop is just continuing
+ 
+
+00:12:44.160 --> 00:12:46.550 align:start position:0%
+the loop is just continuing
+so<00:12:44.320><c> that</c><00:12:44.560><c> the</c><00:12:44.720><c> user</c><00:12:45.040><c> input</c><00:12:45.440><c> is</c><00:12:45.680><c> sought</c>
+
+00:12:46.550 --> 00:12:46.560 align:start position:0%
+so that the user input is sought
+ 
+
+00:12:46.560 --> 00:12:48.710 align:start position:0%
+so that the user input is sought
+for<00:12:46.800><c> only</c><00:12:47.120><c> one</c><00:12:47.360><c> of</c><00:12:47.440><c> the</c><00:12:47.600><c> listed</c><00:12:48.000><c> menu</c><00:12:48.320><c> items</c>
+
+00:12:48.710 --> 00:12:48.720 align:start position:0%
+for only one of the listed menu items
+ 
+
+00:12:48.720 --> 00:12:50.389 align:start position:0%
+for only one of the listed menu items
+and<00:12:48.880><c> not</c><00:12:49.120><c> anything</c><00:12:49.519><c> else</c>
+
+00:12:50.389 --> 00:12:50.399 align:start position:0%
+and not anything else
+ 
+
+00:12:50.399 --> 00:12:53.750 align:start position:0%
+and not anything else
+so<00:12:50.560><c> let</c><00:12:50.720><c> us</c><00:12:50.959><c> check</c><00:12:51.120><c> that</c><00:12:51.360><c> out</c><00:12:51.920><c> how</c><00:12:52.079><c> it</c><00:12:52.240><c> works</c>
+
+00:12:53.750 --> 00:12:53.760 align:start position:0%
+so let us check that out how it works
+ 
+
+00:12:53.760 --> 00:12:55.750 align:start position:0%
+so let us check that out how it works
+so<00:12:54.000><c> the</c><00:12:54.160><c> select</c><00:12:54.560><c> example</c><00:12:54.959><c> that</c><00:12:55.440><c> we</c><00:12:55.600><c> have</c>
+
+00:12:55.750 --> 00:12:55.760 align:start position:0%
+so the select example that we have
+ 
+
+00:12:55.760 --> 00:12:58.069 align:start position:0%
+so the select example that we have
+chosen<00:12:56.079><c> is</c><00:12:56.240><c> same</c><00:12:56.480><c> as</c><00:12:56.639><c> what</c><00:12:56.800><c> is</c><00:12:56.959><c> in</c><00:12:57.040><c> the</c><00:12:57.200><c> slides</c>
+
+00:12:58.069 --> 00:12:58.079 align:start position:0%
+chosen is same as what is in the slides
+ 
+
+00:12:58.079 --> 00:13:01.509 align:start position:0%
+chosen is same as what is in the slides
+and<00:12:58.240><c> we</c><00:12:58.399><c> will</c><00:12:58.560><c> run</c><00:12:58.800><c> it</c><00:12:58.959><c> now</c>
+
+00:13:01.509 --> 00:13:01.519 align:start position:0%
+ 
+ 
+
+00:13:01.519 --> 00:13:03.590 align:start position:0%
+ 
+and<00:13:01.680><c> you</c><00:13:01.839><c> see</c><00:13:02.079><c> that</c><00:13:02.480><c> i</c><00:13:02.639><c> have</c>
+
+00:13:03.590 --> 00:13:03.600 align:start position:0%
+and you see that i have
+ 
+
+00:13:03.600 --> 00:13:05.750 align:start position:0%
+and you see that i have
+shown<00:13:03.839><c> 10</c><00:13:04.079><c> numbers</c><00:13:04.480><c> and</c><00:13:04.560><c> i</c><00:13:04.639><c> am</c><00:13:04.800><c> asking</c>
+
+00:13:05.750 --> 00:13:05.760 align:start position:0%
+shown 10 numbers and i am asking
+ 
+
+00:13:05.760 --> 00:13:07.350 align:start position:0%
+shown 10 numbers and i am asking
+a<00:13:05.920><c> number</c><00:13:06.240><c> that</c><00:13:06.399><c> is</c><00:13:06.560><c> falling</c><00:13:06.800><c> in</c><00:13:06.959><c> the</c><00:13:07.040><c> middle</c>
+
+00:13:07.350 --> 00:13:07.360 align:start position:0%
+a number that is falling in the middle
+ 
+
+00:13:07.360 --> 00:13:08.790 align:start position:0%
+a number that is falling in the middle
+of<00:13:07.519><c> the</c><00:13:07.920><c> range</c>
+
+00:13:08.790 --> 00:13:08.800 align:start position:0%
+of the range
+ 
+
+00:13:08.800 --> 00:13:11.269 align:start position:0%
+of the range
+so<00:13:09.120><c> if</c><00:13:09.279><c> i</c><00:13:09.440><c> choose</c><00:13:09.839><c> a</c><00:13:10.000><c> 1</c>
+
+00:13:11.269 --> 00:13:11.279 align:start position:0%
+so if i choose a 1
+ 
+
+00:13:11.279 --> 00:13:13.269 align:start position:0%
+so if i choose a 1
+it<00:13:11.519><c> says</c><00:13:11.760><c> that</c><00:13:11.920><c> i</c><00:13:12.000><c> have</c><00:13:12.160><c> picked</c><00:13:12.480><c> a</c><00:13:12.560><c> small</c><00:13:12.880><c> one</c>
+
+00:13:13.269 --> 00:13:13.279 align:start position:0%
+it says that i have picked a small one
+ 
+
+00:13:13.279 --> 00:13:15.350 align:start position:0%
+it says that i have picked a small one
+small<00:13:13.600><c> number</c><00:13:13.920><c> if</c><00:13:14.079><c> i</c><00:13:14.160><c> choose</c><00:13:14.480><c> 9</c><00:13:14.880><c> it</c><00:13:15.040><c> says</c><00:13:15.279><c> i</c>
+
+00:13:15.350 --> 00:13:15.360 align:start position:0%
+small number if i choose 9 it says i
+ 
+
+00:13:15.360 --> 00:13:18.069 align:start position:0%
+small number if i choose 9 it says i
+have<00:13:15.440><c> picked</c><00:13:15.680><c> up</c><00:13:15.839><c> a</c><00:13:16.000><c> big</c><00:13:16.240><c> number</c><00:13:17.040><c> if</c><00:13:17.200><c> i</c><00:13:17.440><c> choose</c>
+
+00:13:18.069 --> 00:13:18.079 align:start position:0%
+have picked up a big number if i choose
+ 
+
+00:13:18.079 --> 00:13:19.190 align:start position:0%
+have picked up a big number if i choose
+5
+
+00:13:19.190 --> 00:13:19.200 align:start position:0%
+5
+ 
+
+00:13:19.200 --> 00:13:20.389 align:start position:0%
+5
+then<00:13:19.360><c> it</c><00:13:19.600><c> says</c><00:13:19.839><c> that</c><00:13:19.920><c> i</c><00:13:20.000><c> have</c><00:13:20.079><c> picked</c><00:13:20.320><c> the</c>
+
+00:13:20.389 --> 00:13:20.399 align:start position:0%
+then it says that i have picked the
+ 
+
+00:13:20.399 --> 00:13:23.350 align:start position:0%
+then it says that i have picked the
+right<00:13:20.639><c> one</c><00:13:20.959><c> and</c><00:13:21.120><c> then</c><00:13:21.600><c> the</c><00:13:22.000><c> variable</c><00:13:22.959><c> that</c><00:13:23.200><c> is</c>
+
+00:13:23.350 --> 00:13:23.360 align:start position:0%
+right one and then the variable that is
+ 
+
+00:13:23.360 --> 00:13:24.870 align:start position:0%
+right one and then the variable that is
+actually<00:13:23.760><c> running</c>
+
+00:13:24.870 --> 00:13:24.880 align:start position:0%
+actually running
+ 
+
+00:13:24.880 --> 00:13:26.550 align:start position:0%
+actually running
+with<00:13:25.120><c> that</c>
+
+00:13:26.550 --> 00:13:26.560 align:start position:0%
+with that
+ 
+
+00:13:26.560 --> 00:13:29.190 align:start position:0%
+with that
+select<00:13:26.959><c> loop</c><00:13:27.360><c> is</c><00:13:27.680><c> given</c><00:13:28.000><c> a</c><00:13:28.160><c> value</c><00:13:28.480><c> 5</c><00:13:28.959><c> and</c><00:13:29.040><c> then</c>
+
+00:13:29.190 --> 00:13:29.200 align:start position:0%
+select loop is given a value 5 and then
+ 
+
+00:13:29.200 --> 00:13:31.190 align:start position:0%
+select loop is given a value 5 and then
+we<00:13:29.360><c> are</c><00:13:29.440><c> printing</c><00:13:29.920><c> it</c><00:13:30.079><c> out</c><00:13:30.639><c> so</c><00:13:30.800><c> you</c><00:13:30.880><c> can</c><00:13:31.040><c> see</c>
+
+00:13:31.190 --> 00:13:31.200 align:start position:0%
+we are printing it out so you can see
+ 
+
+00:13:31.200 --> 00:13:34.230 align:start position:0%
+we are printing it out so you can see
+the<00:13:31.360><c> script</c><00:13:31.680><c> here</c>
+
+00:13:34.230 --> 00:13:34.240 align:start position:0%
+the script here
+ 
+
+00:13:34.240 --> 00:13:37.110 align:start position:0%
+the script here
+select<00:13:34.720><c> completed</c><00:13:35.200><c> with</c><00:13:35.440><c> dollar</c><00:13:35.839><c> i</c><00:13:36.480><c> so</c><00:13:36.639><c> i</c><00:13:36.959><c> is</c><00:13:37.040><c> a</c>
+
+00:13:37.110 --> 00:13:37.120 align:start position:0%
+select completed with dollar i so i is a
+ 
+
+00:13:37.120 --> 00:13:39.590 align:start position:0%
+select completed with dollar i so i is a
+variable<00:13:37.600><c> for</c><00:13:37.839><c> the</c><00:13:38.000><c> select</c><00:13:38.399><c> loop</c><00:13:38.959><c> and</c><00:13:39.199><c> i</c><00:13:39.440><c> has</c>
+
+00:13:39.590 --> 00:13:39.600 align:start position:0%
+variable for the select loop and i has
+ 
+
+00:13:39.600 --> 00:13:41.750 align:start position:0%
+variable for the select loop and i has
+been<00:13:39.760><c> assigned</c><00:13:40.079><c> a</c><00:13:40.160><c> value</c><00:13:40.560><c> 5</c>
+
+00:13:41.750 --> 00:13:41.760 align:start position:0%
+been assigned a value 5
+ 
+
+00:13:41.760 --> 00:13:44.069 align:start position:0%
+been assigned a value 5
+as<00:13:42.000><c> you</c><00:13:42.079><c> can</c><00:13:42.240><c> see</c><00:13:42.480><c> here</c><00:13:43.120><c> okay</c><00:13:43.600><c> the</c><00:13:43.760><c> final</c>
+
+00:13:44.069 --> 00:13:44.079 align:start position:0%
+as you can see here okay the final
+ 
+
+00:13:44.079 --> 00:13:46.710 align:start position:0%
+as you can see here okay the final
+selection<00:13:44.560><c> that</c><00:13:44.720><c> is</c><00:13:44.880><c> accepted</c><00:13:45.600><c> is</c>
+
+00:13:46.710 --> 00:13:46.720 align:start position:0%
+selection that is accepted is
+ 
+
+00:13:46.720 --> 00:13:48.870 align:start position:0%
+selection that is accepted is
+used<00:13:47.040><c> to</c><00:13:47.279><c> assign</c><00:13:47.600><c> the</c><00:13:47.920><c> value</c><00:13:48.240><c> of</c><00:13:48.320><c> the</c><00:13:48.399><c> variable</c>
+
+00:13:48.870 --> 00:13:48.880 align:start position:0%
+used to assign the value of the variable
+ 
+
+00:13:48.880 --> 00:13:51.430 align:start position:0%
+used to assign the value of the variable
+which<00:13:49.120><c> is</c><00:13:49.199><c> used</c><00:13:49.440><c> for</c><00:13:49.600><c> the</c><00:13:49.680><c> select</c><00:13:50.560><c> loop</c><00:13:51.279><c> and</c>
+
+00:13:51.430 --> 00:13:51.440 align:start position:0%
+which is used for the select loop and
+ 
+
+00:13:51.440 --> 00:13:53.110 align:start position:0%
+which is used for the select loop and
+then<00:13:51.600><c> we</c><00:13:51.839><c> move</c><00:13:52.000><c> on</c><00:13:52.079><c> to</c><00:13:52.240><c> the</c><00:13:52.399><c> remaining</c><00:13:52.800><c> part</c><00:13:53.040><c> of</c>
+
+00:13:53.110 --> 00:13:53.120 align:start position:0%
+then we move on to the remaining part of
+ 
+
+00:13:53.120 --> 00:13:56.389 align:start position:0%
+then we move on to the remaining part of
+the<00:13:53.519><c> code</c><00:13:54.160><c> now</c><00:13:54.399><c> let</c><00:13:54.560><c> us</c><00:13:54.720><c> try</c><00:13:54.880><c> the</c><00:13:55.040><c> same</c><00:13:55.279><c> thing</c>
+
+00:13:56.389 --> 00:13:56.399 align:start position:0%
+the code now let us try the same thing
+ 
+
+00:13:56.399 --> 00:13:58.470 align:start position:0%
+the code now let us try the same thing
+with<00:13:56.639><c> the</c><00:13:57.360><c> options</c><00:13:57.760><c> that</c><00:13:58.000><c> actually</c><00:13:58.320><c> not</c>
+
+00:13:58.470 --> 00:13:58.480 align:start position:0%
+with the options that actually not
+ 
+
+00:13:58.480 --> 00:14:00.389 align:start position:0%
+with the options that actually not
+listed<00:13:59.040><c> so</c><00:13:59.199><c> what</c><00:13:59.440><c> happens</c><00:13:59.760><c> when</c><00:14:00.000><c> i</c><00:14:00.079><c> give</c>
+
+00:14:00.389 --> 00:14:00.399 align:start position:0%
+listed so what happens when i give
+ 
+
+00:14:00.399 --> 00:14:01.990 align:start position:0%
+listed so what happens when i give
+options<00:14:00.720><c> like</c><00:14:00.880><c> for</c><00:14:01.040><c> example</c><00:14:01.360><c> i</c><00:14:01.519><c> just</c><00:14:01.760><c> give</c>
+
+00:14:01.990 --> 00:14:02.000 align:start position:0%
+options like for example i just give
+ 
+
+00:14:02.000 --> 00:14:04.150 align:start position:0%
+options like for example i just give
+some<00:14:02.480><c> random</c><00:14:02.959><c> string</c><00:14:03.360><c> so</c><00:14:03.519><c> you</c><00:14:03.680><c> see</c><00:14:03.839><c> that</c><00:14:04.079><c> it</c>
+
+00:14:04.150 --> 00:14:04.160 align:start position:0%
+some random string so you see that it
+ 
+
+00:14:04.160 --> 00:14:06.310 align:start position:0%
+some random string so you see that it
+doesn't<00:14:04.720><c> leave</c><00:14:04.959><c> me</c><00:14:05.360><c> okay</c><00:14:05.519><c> i</c><00:14:05.680><c> can't</c><00:14:06.000><c> actually</c>
+
+00:14:06.310 --> 00:14:06.320 align:start position:0%
+doesn't leave me okay i can't actually
+ 
+
+00:14:06.320 --> 00:14:07.910 align:start position:0%
+doesn't leave me okay i can't actually
+leave
+
+00:14:07.910 --> 00:14:07.920 align:start position:0%
+leave
+ 
+
+00:14:07.920 --> 00:14:09.829 align:start position:0%
+leave
+and<00:14:08.160><c> i</c><00:14:08.320><c> have</c><00:14:08.480><c> to</c><00:14:08.639><c> give</c><00:14:08.880><c> options</c><00:14:09.199><c> that</c><00:14:09.360><c> are</c><00:14:09.440><c> only</c>
+
+00:14:09.829 --> 00:14:09.839 align:start position:0%
+and i have to give options that are only
+ 
+
+00:14:09.839 --> 00:14:11.509 align:start position:0%
+and i have to give options that are only
+part<00:14:10.079><c> of</c><00:14:10.160><c> the</c><00:14:10.320><c> menu</c>
+
+00:14:11.509 --> 00:14:11.519 align:start position:0%
+part of the menu
+ 
+
+00:14:11.519 --> 00:14:13.670 align:start position:0%
+part of the menu
+and<00:14:12.000><c> i</c><00:14:12.160><c> can</c><00:14:12.320><c> give</c><00:14:12.639><c> that</c>
+
+00:14:13.670 --> 00:14:13.680 align:start position:0%
+and i can give that
+ 
+
+00:14:13.680 --> 00:14:14.550 align:start position:0%
+and i can give that
+okay
+
+00:14:14.550 --> 00:14:14.560 align:start position:0%
+okay
+ 
+
+00:14:14.560 --> 00:14:17.269 align:start position:0%
+okay
+and<00:14:14.800><c> you</c><00:14:14.959><c> see</c><00:14:15.120><c> that</c><00:14:15.600><c> it</c><00:14:16.000><c> allows</c><00:14:16.399><c> to</c><00:14:16.880><c> finish</c>
+
+00:14:17.269 --> 00:14:17.279 align:start position:0%
+and you see that it allows to finish
+ 
+
+00:14:17.279 --> 00:14:19.829 align:start position:0%
+and you see that it allows to finish
+only<00:14:17.600><c> when</c><00:14:17.839><c> i</c>
+
+00:14:19.829 --> 00:14:19.839 align:start position:0%
+only when i
+ 
+
+00:14:19.839 --> 00:14:21.829 align:start position:0%
+only when i
+come<00:14:20.160><c> out</c><00:14:20.320><c> of</c><00:14:20.399><c> the</c><00:14:20.480><c> loop</c><00:14:20.800><c> as</c><00:14:20.959><c> per</c><00:14:21.199><c> the</c><00:14:21.360><c> script</c>
+
+00:14:21.829 --> 00:14:21.839 align:start position:0%
+come out of the loop as per the script
+ 
+
+00:14:21.839 --> 00:14:23.829 align:start position:0%
+come out of the loop as per the script
+and<00:14:22.079><c> what</c><00:14:22.320><c> is</c><00:14:22.480><c> that</c>
+
+00:14:23.829 --> 00:14:23.839 align:start position:0%
+and what is that
+ 
+
+00:14:23.839 --> 00:14:25.189 align:start position:0%
+and what is that
+you<00:14:23.920><c> can</c><00:14:24.160><c> see</c><00:14:24.399><c> here</c>
+
+00:14:25.189 --> 00:14:25.199 align:start position:0%
+you can see here
+ 
+
+00:14:25.199 --> 00:14:27.189 align:start position:0%
+you can see here
+i<00:14:25.279><c> am</c><00:14:25.440><c> able</c><00:14:25.680><c> to</c><00:14:25.760><c> come</c><00:14:26.000><c> out</c><00:14:26.160><c> of</c><00:14:26.240><c> the</c><00:14:26.399><c> loop</c><00:14:26.880><c> using</c>
+
+00:14:27.189 --> 00:14:27.199 align:start position:0%
+i am able to come out of the loop using
+ 
+
+00:14:27.199 --> 00:14:29.670 align:start position:0%
+i am able to come out of the loop using
+break<00:14:27.680><c> only</c><00:14:28.079><c> when</c><00:14:28.240><c> i</c><00:14:28.480><c> choose</c><00:14:28.880><c> either</c><00:14:29.279><c> four</c><00:14:29.519><c> or</c>
+
+00:14:29.670 --> 00:14:29.680 align:start position:0%
+break only when i choose either four or
+ 
+
+00:14:29.680 --> 00:14:31.670 align:start position:0%
+break only when i choose either four or
+five<00:14:29.920><c> or</c><00:14:30.079><c> six</c><00:14:30.320><c> or</c><00:14:30.480><c> seven</c><00:14:30.800><c> otherwise</c><00:14:31.279><c> i</c><00:14:31.360><c> am</c><00:14:31.519><c> not</c>
+
+00:14:31.670 --> 00:14:31.680 align:start position:0%
+five or six or seven otherwise i am not
+ 
+
+00:14:31.680 --> 00:14:33.430 align:start position:0%
+five or six or seven otherwise i am not
+coming<00:14:32.000><c> out</c><00:14:32.079><c> of</c><00:14:32.160><c> the</c><00:14:32.240><c> loop</c><00:14:32.880><c> and</c><00:14:33.040><c> that's</c><00:14:33.279><c> what</c>
+
+00:14:33.430 --> 00:14:33.440 align:start position:0%
+coming out of the loop and that's what
+ 
+
+00:14:33.440 --> 00:14:34.710 align:start position:0%
+coming out of the loop and that's what
+happened<00:14:33.680><c> here</c><00:14:33.920><c> i</c>
+
+00:14:34.710 --> 00:14:34.720 align:start position:0%
+happened here i
+ 
+
+00:14:34.720 --> 00:14:37.350 align:start position:0%
+happened here i
+picked<00:14:35.040><c> one</c><00:14:35.360><c> and</c><00:14:35.600><c> two</c><00:14:35.920><c> and</c><00:14:36.160><c> three</c><00:14:36.880><c> the</c><00:14:37.040><c> loop</c><00:14:37.279><c> is</c>
+
+00:14:37.350 --> 00:14:37.360 align:start position:0%
+picked one and two and three the loop is
+ 
+
+00:14:37.360 --> 00:14:39.110 align:start position:0%
+picked one and two and three the loop is
+still<00:14:37.519><c> continuing</c><00:14:38.240><c> the</c><00:14:38.320><c> moment</c><00:14:38.720><c> i</c><00:14:38.800><c> picked</c>
+
+00:14:39.110 --> 00:14:39.120 align:start position:0%
+still continuing the moment i picked
+ 
+
+00:14:39.120 --> 00:14:40.710 align:start position:0%
+still continuing the moment i picked
+four<00:14:39.440><c> i</c><00:14:39.519><c> am</c><00:14:39.680><c> able</c><00:14:39.839><c> to</c><00:14:39.920><c> come</c><00:14:40.160><c> out</c><00:14:40.320><c> of</c><00:14:40.399><c> the</c><00:14:40.480><c> loop</c>
+
+00:14:40.710 --> 00:14:40.720 align:start position:0%
+four i am able to come out of the loop
+ 
+
+00:14:40.720 --> 00:14:43.269 align:start position:0%
+four i am able to come out of the loop
+so<00:14:40.800><c> that's</c><00:14:40.959><c> what</c><00:14:41.199><c> has</c><00:14:41.360><c> happened</c><00:14:41.680><c> here</c><00:14:42.320><c> okay</c><00:14:42.880><c> so</c>
+
+00:14:43.269 --> 00:14:43.279 align:start position:0%
+so that's what has happened here okay so
+ 
+
+00:14:43.279 --> 00:14:45.269 align:start position:0%
+so that's what has happened here okay so
+you<00:14:43.440><c> can</c><00:14:43.600><c> use</c><00:14:43.839><c> the</c><00:14:44.000><c> break</c><00:14:44.320><c> command</c><00:14:45.040><c> to</c>
+
+00:14:45.269 --> 00:14:45.279 align:start position:0%
+you can use the break command to
+ 
+
+00:14:45.279 --> 00:14:47.990 align:start position:0%
+you can use the break command to
+indicate<00:14:46.079><c> what</c><00:14:46.320><c> is</c><00:14:46.480><c> the</c><00:14:46.959><c> value</c>
+
+00:14:47.990 --> 00:14:48.000 align:start position:0%
+indicate what is the value
+ 
+
+00:14:48.000 --> 00:14:50.069 align:start position:0%
+indicate what is the value
+or<00:14:48.240><c> the</c><00:14:48.480><c> pattern</c><00:14:48.959><c> that</c><00:14:49.120><c> you</c><00:14:49.279><c> are</c><00:14:49.440><c> looking</c><00:14:49.760><c> for</c>
+
+00:14:50.069 --> 00:14:50.079 align:start position:0%
+or the pattern that you are looking for
+ 
+
+00:14:50.079 --> 00:14:51.829 align:start position:0%
+or the pattern that you are looking for
+within<00:14:50.480><c> the</c><00:14:50.639><c> menu</c>
+
+00:14:51.829 --> 00:14:51.839 align:start position:0%
+within the menu
+ 
+
+00:14:51.839 --> 00:14:54.230 align:start position:0%
+within the menu
+otherwise<00:14:52.320><c> you</c><00:14:52.399><c> can</c><00:14:52.639><c> ask</c><00:14:52.880><c> the</c>
+
+00:14:54.230 --> 00:14:54.240 align:start position:0%
+otherwise you can ask the
+ 
+
+00:14:54.240 --> 00:14:56.470 align:start position:0%
+otherwise you can ask the
+user<00:14:54.639><c> to</c><00:14:55.040><c> keep</c><00:14:55.279><c> iterating</c>
+
+00:14:56.470 --> 00:14:56.480 align:start position:0%
+user to keep iterating
+ 
+
+00:14:56.480 --> 00:14:58.870 align:start position:0%
+user to keep iterating
+and<00:14:57.040><c> you</c><00:14:57.199><c> can</c><00:14:57.360><c> also</c><00:14:57.519><c> be</c><00:14:57.680><c> sure</c><00:14:58.079><c> that</c>
+
+00:14:58.870 --> 00:14:58.880 align:start position:0%
+and you can also be sure that
+ 
+
+00:14:58.880 --> 00:15:00.790 align:start position:0%
+and you can also be sure that
+if<00:14:59.040><c> the</c><00:14:59.199><c> user</c><00:14:59.519><c> gives</c><00:14:59.839><c> any</c><00:15:00.079><c> input</c><00:15:00.399><c> other</c><00:15:00.560><c> than</c>
+
+00:15:00.790 --> 00:15:00.800 align:start position:0%
+if the user gives any input other than
+ 
+
+00:15:00.800 --> 00:15:02.710 align:start position:0%
+if the user gives any input other than
+what<00:15:01.040><c> is</c><00:15:01.199><c> actually</c><00:15:01.519><c> listed</c>
+
+00:15:02.710 --> 00:15:02.720 align:start position:0%
+what is actually listed
+ 
+
+00:15:02.720 --> 00:15:04.550 align:start position:0%
+what is actually listed
+in<00:15:02.800><c> these</c><00:15:03.040><c> menu</c><00:15:03.360><c> items</c><00:15:03.920><c> then</c><00:15:04.160><c> it</c><00:15:04.320><c> will</c><00:15:04.399><c> be</c>
+
+00:15:04.550 --> 00:15:04.560 align:start position:0%
+in these menu items then it will be
+ 
+
+00:15:04.560 --> 00:15:06.470 align:start position:0%
+in these menu items then it will be
+ignored<00:15:05.360><c> okay</c><00:15:05.519><c> so</c><00:15:05.680><c> that</c><00:15:05.920><c> way</c><00:15:06.079><c> it</c><00:15:06.160><c> is</c><00:15:06.240><c> very</c>
+
+00:15:06.470 --> 00:15:06.480 align:start position:0%
+ignored okay so that way it is very
+ 
+
+00:15:06.480 --> 00:15:07.509 align:start position:0%
+ignored okay so that way it is very
+elegant
+
+00:15:07.509 --> 00:15:07.519 align:start position:0%
+elegant
+ 
+
+00:15:07.519 --> 00:15:09.110 align:start position:0%
+elegant
+so<00:15:07.760><c> you</c><00:15:07.920><c> have</c><00:15:08.079><c> now</c><00:15:08.320><c> seen</c><00:15:08.639><c> most</c><00:15:08.880><c> of</c><00:15:08.959><c> the</c>
+
+00:15:09.110 --> 00:15:09.120 align:start position:0%
+so you have now seen most of the
+ 
+
+00:15:09.120 --> 00:15:11.829 align:start position:0%
+so you have now seen most of the
+features<00:15:09.920><c> that</c><00:15:10.160><c> are</c><00:15:10.240><c> required</c><00:15:10.800><c> to</c><00:15:11.199><c> create</c><00:15:11.600><c> a</c>
+
+00:15:11.829 --> 00:15:11.839 align:start position:0%
+features that are required to create a
+ 
+
+00:15:11.839 --> 00:15:13.990 align:start position:0%
+features that are required to create a
+professional<00:15:12.399><c> bash</c><00:15:12.639><c> script</c>
+
+00:15:13.990 --> 00:15:14.000 align:start position:0%
+professional bash script
+ 
+
+00:15:14.000 --> 00:15:16.629 align:start position:0%
+professional bash script
+please<00:15:14.320><c> make</c><00:15:14.959><c> sure</c><00:15:15.279><c> that</c><00:15:15.760><c> you</c><00:15:15.920><c> follow</c><00:15:16.240><c> some</c>
+
+00:15:16.629 --> 00:15:16.639 align:start position:0%
+please make sure that you follow some
+ 
+
+00:15:16.639 --> 00:15:19.189 align:start position:0%
+please make sure that you follow some
+security<00:15:17.120><c> features</c><00:15:17.920><c> do</c><00:15:18.079><c> not</c><00:15:18.240><c> give</c><00:15:18.480><c> set</c><00:15:18.720><c> uid</c>
+
+00:15:19.189 --> 00:15:19.199 align:start position:0%
+security features do not give set uid
+ 
+
+00:15:19.199 --> 00:15:21.030 align:start position:0%
+security features do not give set uid
+permission<00:15:19.760><c> to</c><00:15:19.920><c> the</c><00:15:20.000><c> scripts</c><00:15:20.560><c> unless</c><00:15:20.880><c> you</c>
+
+00:15:21.030 --> 00:15:21.040 align:start position:0%
+permission to the scripts unless you
+ 
+
+00:15:21.040 --> 00:15:22.629 align:start position:0%
+permission to the scripts unless you
+know<00:15:21.120><c> what</c><00:15:21.279><c> you</c><00:15:21.440><c> are</c><00:15:21.519><c> doing</c>
+
+00:15:22.629 --> 00:15:22.639 align:start position:0%
+know what you are doing
+ 
+
+00:15:22.639 --> 00:15:24.710 align:start position:0%
+know what you are doing
+and<00:15:22.959><c> do</c><00:15:23.120><c> not</c><00:15:23.360><c> process</c><00:15:23.680><c> user</c><00:15:24.000><c> inputs</c><00:15:24.399><c> to</c><00:15:24.560><c> run</c>
+
+00:15:24.710 --> 00:15:24.720 align:start position:0%
+and do not process user inputs to run
+ 
+
+00:15:24.720 --> 00:15:26.710 align:start position:0%
+and do not process user inputs to run
+commands<00:15:25.199><c> because</c><00:15:25.600><c> they</c><00:15:25.760><c> could</c><00:15:26.000><c> contain</c><00:15:26.399><c> some</c>
+
+00:15:26.710 --> 00:15:26.720 align:start position:0%
+commands because they could contain some
+ 
+
+00:15:26.720 --> 00:15:28.870 align:start position:0%
+commands because they could contain some
+malicious<00:15:27.279><c> code</c><00:15:27.920><c> check</c><00:15:28.160><c> for</c>
+
+00:15:28.870 --> 00:15:28.880 align:start position:0%
+malicious code check for
+ 
+
+00:15:28.880 --> 00:15:30.949 align:start position:0%
+malicious code check for
+validity<00:15:29.440><c> of</c><00:15:29.600><c> the</c><00:15:29.759><c> user</c><00:15:30.079><c> input</c><00:15:30.480><c> before</c><00:15:30.800><c> you</c>
+
+00:15:30.949 --> 00:15:30.959 align:start position:0%
+validity of the user input before you
+ 
+
+00:15:30.959 --> 00:15:32.949 align:start position:0%
+validity of the user input before you
+use<00:15:31.199><c> in</c><00:15:31.360><c> your</c><00:15:31.519><c> scripts</c>
+
+00:15:32.949 --> 00:15:32.959 align:start position:0%
+use in your scripts
+ 
+
+00:15:32.959 --> 00:15:34.230 align:start position:0%
+use in your scripts
+so<00:15:33.120><c> that</c><00:15:33.519><c> the</c>
+
+00:15:34.230 --> 00:15:34.240 align:start position:0%
+so that the
+ 
+
+00:15:34.240 --> 00:15:37.189 align:start position:0%
+so that the
+script<00:15:34.560><c> would</c><00:15:34.800><c> run</c><00:15:34.959><c> without</c><00:15:35.360><c> any</c><00:15:35.600><c> error</c>
+
+00:15:37.189 --> 00:15:37.199 align:start position:0%
+script would run without any error
+ 
+
+00:15:37.199 --> 00:15:39.829 align:start position:0%
+script would run without any error
+and<00:15:37.839><c> soon</c><00:15:38.160><c> you</c><00:15:38.240><c> can</c><00:15:38.399><c> see</c><00:15:38.639><c> that</c><00:15:38.959><c> by</c><00:15:39.279><c> packaging</c>
+
+00:15:39.829 --> 00:15:39.839 align:start position:0%
+and soon you can see that by packaging
+ 
+
+00:15:39.839 --> 00:15:41.350 align:start position:0%
+and soon you can see that by packaging
+some<00:15:40.079><c> of</c><00:15:40.240><c> these</c>
+
+00:15:41.350 --> 00:15:41.360 align:start position:0%
+some of these
+ 
+
+00:15:41.360 --> 00:15:43.590 align:start position:0%
+some of these
+actions<00:15:41.839><c> as</c><00:15:42.079><c> the</c><00:15:42.160><c> library</c><00:15:42.639><c> calls</c><00:15:43.279><c> that</c><00:15:43.519><c> are</c>
+
+00:15:43.590 --> 00:15:43.600 align:start position:0%
+actions as the library calls that are
+ 
+
+00:15:43.600 --> 00:15:45.749 align:start position:0%
+actions as the library calls that are
+kept<00:15:43.839><c> in</c><00:15:44.000><c> a</c><00:15:44.079><c> separate</c><00:15:44.480><c> file</c><00:15:45.120><c> you</c><00:15:45.279><c> can</c><00:15:45.440><c> make</c><00:15:45.680><c> a</c>
+
+00:15:45.749 --> 00:15:45.759 align:start position:0%
+kept in a separate file you can make a
+ 
+
+00:15:45.759 --> 00:15:48.550 align:start position:0%
+kept in a separate file you can make a
+very<00:15:46.000><c> professional</c><00:15:46.480><c> looking</c><00:15:47.279><c> bash</c><00:15:47.600><c> script</c>
+
+00:15:48.550 --> 00:15:48.560 align:start position:0%
+very professional looking bash script
+ 
+
+00:15:48.560 --> 00:15:50.870 align:start position:0%
+very professional looking bash script
+all<00:15:48.720><c> by</c><00:15:48.880><c> yourself</c><00:15:49.360><c> and</c><00:15:49.519><c> create</c><00:15:49.839><c> new</c><00:15:50.079><c> commands</c>
+
+00:15:50.870 --> 00:15:50.880 align:start position:0%
+all by yourself and create new commands
+ 
+
+00:15:50.880 --> 00:15:53.030 align:start position:0%
+all by yourself and create new commands
+for<00:15:51.120><c> your</c><00:15:51.360><c> own</c><00:15:51.600><c> processing</c><00:15:52.240><c> of</c><00:15:52.639><c> textual</c>
+
+00:15:53.030 --> 00:15:53.040 align:start position:0%
+for your own processing of textual
+ 
+
+00:15:53.040 --> 00:15:54.550 align:start position:0%
+for your own processing of textual
+information<00:15:53.600><c> on</c><00:15:53.759><c> the</c><00:15:53.839><c> linux</c><00:15:54.240><c> operating</c>
+
+00:15:54.550 --> 00:15:54.560 align:start position:0%
+information on the linux operating
+ 
+
+00:15:54.560 --> 00:15:55.749 align:start position:0%
+information on the linux operating
+system
+
+00:15:55.749 --> 00:15:55.759 align:start position:0%
+system
+ 
+
+00:15:55.759 --> 00:15:58.230 align:start position:0%
+system
+so<00:15:56.079><c> enjoy</c><00:15:56.560><c> exploring</c><00:15:57.440><c> by</c><00:15:57.600><c> actually</c><00:15:58.000><c> trying</c>
+
+00:15:58.230 --> 00:15:58.240 align:start position:0%
+so enjoy exploring by actually trying
+ 
+
+00:15:58.240 --> 00:16:01.480 align:start position:0%
+so enjoy exploring by actually trying
+them<00:15:58.480><c> out</c>
+

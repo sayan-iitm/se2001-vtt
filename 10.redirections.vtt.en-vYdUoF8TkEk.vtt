@@ -1,0 +1,1402 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:14.150 --> 00:00:22.050
+So, here is yet another operator which is
+actually a 2 character 1 command space 2&gt;
+
+00:00:22.050 --> 00:00:29.590
+space file1. 2&gt; is an operator in which you
+should not insert another space between them.
+
+00:00:29.590 --> 00:00:35.320
+And what this operator does is to redirect
+the standard error to the file1.
+
+00:00:35.320 --> 00:00:40.790
+The standard output would be having its default
+behavior namely sending it to the screen the
+
+00:00:40.790 --> 00:00:45.300
+standard in will have its default behavior
+by reading it from the keyboard.
+
+00:00:45.300 --> 00:00:50.269
+And therefore the only one file pointer has
+been redirected which is basically the standard
+
+00:00:50.269 --> 00:00:51.370
+err to the file1.
+
+00:00:51.370 --> 00:00:53.190
+Now why is it useful?
+
+00:00:53.190 --> 00:00:57.330
+We will demonstrate the use of this particular
+command in a moment again the same warning
+
+00:00:57.330 --> 00:01:00.800
+applies that is if the file1 does not exist
+then it will be created.
+
+00:01:00.800 --> 00:01:05.000
+So, you should watch out, what is the name
+of the file, which directory it is going to
+
+00:01:05.000 --> 00:01:09.510
+be created, whether you have permission for
+that, whether there is any other useful file
+
+00:01:09.510 --> 00:01:12.830
+already by that name which you do not want
+to overwrite and so on.
+
+00:01:12.830 --> 00:01:21.110
+So, if you look at this command ls and the
+$HOME you will see that the list of files
+
+00:01:21.110 --> 00:01:26.490
+and folders in the home folder are being displayed
+on the screen and you can give multiple options
+
+00:01:26.490 --> 00:01:27.500
+to the ls command.
+
+00:01:27.500 --> 00:01:33.770
+So, I would say ls $HOME and then let us say
+/blah.
+
+00:01:33.770 --> 00:01:40.820
+So, what happens is that the directory $HOME
+has content and that is being displayed on
+
+00:01:40.820 --> 00:01:41.930
+the screen.
+
+00:01:41.930 --> 00:01:46.560
+But the directory /blah doesnt exist and therefore
+there is an error message on the screen.
+
+00:01:46.560 --> 00:01:51.800
+Now both error message as well as the output
+have come onto the screen and our objective
+
+00:01:51.800 --> 00:01:58.770
+of using 2 greater than operator is to redirect
+the output onto the screen but the error onto
+
+00:01:58.770 --> 00:01:59.770
+a file.
+
+00:01:59.770 --> 00:02:00.770
+So, we will do that now.
+
+00:02:00.770 --> 00:02:07.479
+So, I use up key to retrieve the command back
+for editing and I press 2&gt; and here I need
+
+00:02:07.479 --> 00:02:15.000
+to give a file name where the error will be
+placed and I would call that as error.txt
+
+00:02:15.000 --> 00:02:23.510
+Now if you see the screen output is very clean
+because it doesnt have any error message and
+
+00:02:23.510 --> 00:02:28.219
+there is a file called error.txt that has
+been created and you can actually look at
+
+00:02:28.219 --> 00:02:29.410
+its content.
+
+00:02:29.410 --> 00:02:36.290
+So, it has 53 bytes and cat error.txt would
+actually show you the error that was displayed
+
+00:02:36.290 --> 00:02:43.680
+when it was trying to run the command ls on
+the directory called /blah which did not exist.
+
+00:02:43.680 --> 00:02:47.430
+Now what is the use of this 2&gt; operator?
+
+00:02:47.430 --> 00:02:48.940
+It is 2 purposes.
+
+00:02:48.940 --> 00:02:55.689
+One is to keep the output on the screen clean
+so that the error messages are not being displayed
+
+00:02:55.689 --> 00:02:56.859
+for whatever reason.
+
+00:02:56.859 --> 00:03:04.599
+Another way is actually to send those error
+messages to a file so that you want to inspect
+
+00:03:04.599 --> 00:03:11.169
+that file and understand what errors have
+come up that you want to debug at a later
+
+00:03:11.169 --> 00:03:12.329
+point of time.
+
+00:03:12.329 --> 00:03:18.840
+You can combine both &gt; as well as 2&gt; symbols
+so that the standard out is redirected to
+
+00:03:18.840 --> 00:03:23.930
+a file and the standard error is redirected
+to another file.
+
+00:03:23.930 --> 00:03:30.090
+So, you could actually try this out so that
+the output is in one file and the errors are
+
+00:03:30.090 --> 00:03:31.610
+all in another file.
+
+00:03:31.610 --> 00:03:37.069
+And this is a very useful feature because
+the error file will be requiring our attention
+
+00:03:37.069 --> 00:03:41.949
+to watch out if there was any problem with
+our script whereas the output file is something
+
+00:03:41.949 --> 00:03:44.079
+that we may want to keep for our log.
+
+00:03:44.079 --> 00:03:49.989
+Naturally the warning about the file1 and
+file2 being created afresh will stay, that
+
+00:03:49.989 --> 00:03:54.829
+is the directory should have the write permissions
+for us and if there are any files by those
+
+00:03:54.829 --> 00:03:58.560
+names, they will be overwritten and therefore
+we have to watch out what names we are giving
+
+00:03:58.560 --> 00:03:59.560
+for those files.
+
+00:03:59.560 --> 00:04:05.769
+So, now we will try to do this redirection
+as described just a moment back.
+
+00:04:05.769 --> 00:04:18.919
+So, we have a ls $HOME and /blah and then
+we write &gt; let us say output.txt 2&gt; error.txt.
+
+00:04:18.919 --> 00:04:24.570
+Now if I press enter what do you expect to
+come onto the screen?
+
+00:04:24.570 --> 00:04:30.470
+Both the standard output and standard error
+have been redirected, you do not expect anything
+
+00:04:30.470 --> 00:04:33.639
+to be shown on the screen and that is exactly
+what happens.
+
+00:04:33.639 --> 00:04:39.270
+And here is again another application for
+you to imagine that if you do not want any
+
+00:04:39.270 --> 00:04:45.659
+output on the screen and the script has to
+do its job silently by writing stuff onto
+
+00:04:45.659 --> 00:04:50.780
+files rather than onto the screen, and this
+is one way by which you can achieve that.
+
+00:04:50.780 --> 00:04:53.599
+Now let us look at the 2 files that have been
+created.
+
+00:04:53.599 --> 00:05:00.419
+So, the error file has been created, 53 bytes,
+and the output file has also been created
+
+00:05:00.419 --> 00:05:01.419
+126 bytes.
+
+00:05:01.419 --> 00:05:02.830
+So, what are the contents?
+
+00:05:02.830 --> 00:05:07.819
+So, the error file naturally has the content
+which is expected because /blah doesnt exist
+
+00:05:07.819 --> 00:05:13.680
+there is an error message for that and the
+output file will have the list of files and
+
+00:05:13.680 --> 00:05:17.389
+directories in the current folder of dollar
+home which is the home directory.
+
+00:05:17.389 --> 00:05:19.590
+So, that is also as expected.
+
+00:05:19.590 --> 00:05:24.720
+So, as you can see we can actually combine
+both of these in a very useful manner.
+
+00:05:24.720 --> 00:05:33.860
+So, what happens is when you try to look at
+the ls output in a recursive manner usually
+
+00:05:33.860 --> 00:05:35.770
+there will be some errors on the screen.
+
+00:05:35.770 --> 00:05:39.460
+If there are any directories which you are
+not supposed to enter because they belong
+
+00:05:39.460 --> 00:05:40.460
+to the system.
+
+00:05:40.460 --> 00:05:42.370
+Now there are such directors available in
+/etc folder.
+
+00:05:42.370 --> 00:05:44.550
+So, let us try that out.
+
+00:05:44.550 --> 00:05:49.080
+So, ls -R /etc.
+
+00:05:49.080 --> 00:05:55.040
+-R is to recursively traverse that particularly
+directory and just list those files onto the
+
+00:05:55.040 --> 00:05:56.040
+screen.
+
+00:05:56.040 --> 00:06:14.310
+So, when you type this what happens is that
+it is running, okay, and we can look at the
+
+00:06:14.310 --> 00:06:20.259
+contents of the folder /etc in a recursive
+manner and whatever are the directories and
+
+00:06:20.259 --> 00:06:25.069
+their listing we can put that in the file
+called output.txt and if there are any error
+
+00:06:25.069 --> 00:06:29.560
+messages because we are not supposed to enter
+some of the directories then that would be
+
+00:06:29.560 --> 00:06:33.009
+made available in the text file error.txt.
+
+00:06:33.009 --> 00:06:39.169
+So, when I enter here I should not see anything
+on the screen as expected, and let us look
+
+00:06:39.169 --> 00:06:42.069
+at the content of these 2 files.
+
+00:06:42.069 --> 00:06:52.189
+So, you can see that the output file has 54950
+bytes and the error file has 327 bytes.
+
+00:06:52.189 --> 00:06:56.580
+As you can see that the 2 files have been
+overwritten from our previous command.
+
+00:06:56.580 --> 00:07:02.270
+So, we have to always watch out that the &gt; symbol
+and 2&gt; symbol will always override the files
+
+00:07:02.270 --> 00:07:06.840
+if they are already existing in the current
+folder.
+
+00:07:06.840 --> 00:07:08.930
+Now let us inspect the content.
+
+00:07:08.930 --> 00:07:13.979
+So, I would use the less command to inspect
+the content of output and you can see that
+
+00:07:13.979 --> 00:07:20.979
+the files in the etc folder are being displayed
+here and for every directory it would actually
+
+00:07:20.979 --> 00:07:25.360
+list the name of the directory, put a colon,
+and then the files that are in that particular
+
+00:07:25.360 --> 00:07:26.600
+folder are listed.
+
+00:07:26.600 --> 00:07:31.450
+And it would inspect every folder recursively
+and this is a very nice way by which we can
+
+00:07:31.450 --> 00:07:35.770
+actually look at what all the files that are
+there in the particular directory, in a recursive
+
+00:07:35.770 --> 00:07:36.770
+manner.
+
+00:07:36.770 --> 00:07:39.889
+But in the process of doing that there are
+some directory which you are not supposed
+
+00:07:39.889 --> 00:07:45.520
+to enter, and so we got some errors and let
+us look at that it says that there are some
+
+00:07:45.520 --> 00:07:49.610
+directories which are not supposed to be entered
+by us and therefore we got permission denied
+
+00:07:49.610 --> 00:07:52.919
+errors and those errors are captured in the
+error.txt.
+
+00:07:52.919 --> 00:07:59.289
+We can use the &lt; symbol or the left arrow
+bracket to indicate that the standard input
+
+00:07:59.289 --> 00:08:00.960
+has to be redirected.
+
+00:08:00.960 --> 00:08:06.849
+So, any command that was expecting the input
+from the keyboard could actually take the
+
+00:08:06.849 --> 00:08:13.690
+input also from a file if we use this operator
+and if we can try that out with some commands
+
+00:08:13.690 --> 00:08:17.699
+that we have just been familiarized such as
+cat.
+
+00:08:17.699 --> 00:08:19.150
+So, let us try that out.
+
+00:08:19.150 --> 00:08:21.630
+So, we have some we have some files here.
+
+00:08:21.630 --> 00:08:24.639
+So, error.txt is one file that we can try
+out.
+
+00:08:24.639 --> 00:08:32.450
+So, when we type a cat error text cat error.txt
+then it should just display the contents of
+
+00:08:32.450 --> 00:08:33.510
+the file.
+
+00:08:33.510 --> 00:08:41.130
+Now we can actually say cat less than error.txt
+and what would happen is that it would read
+
+00:08:41.130 --> 00:08:43.180
+the content from error.txt in display.
+
+00:08:43.180 --> 00:08:45.360
+So, the behaviour is exactly the same.
+
+00:08:45.360 --> 00:08:52.910
+Now we can test less than symbol by using
+the wc command to count the number of words,
+
+00:08:52.910 --> 00:08:53.910
+lines etcetera.
+
+00:08:53.910 --> 00:08:57.670
+So, we have already seen that in the wc command
+is familiar to us.
+
+00:08:57.670 --> 00:09:00.970
+So, normally the wc command is run on a file.
+
+00:09:00.970 --> 00:09:08.090
+So, we have seen that we were running it on
+etc profile and there are 27 lines of 97 words
+
+00:09:08.090 --> 00:09:14.950
+and 581 characters in that particular file
+and if you were to run it on the error.txt
+
+00:09:14.950 --> 00:09:16.670
+which was created just now.
+
+00:09:16.670 --> 00:09:24.200
+So, it has 5 lines 35 words and 327 characters
+and look at the contents and you could actually
+
+00:09:24.200 --> 00:09:27.410
+make out that these are the 5 lines.
+
+00:09:27.410 --> 00:09:32.340
+Now what happens when we type like this wc
+and then less than.
+
+00:09:32.340 --> 00:09:38.130
+So, if you type like this wc less than error
+the text.txt, it would mean that the content
+
+00:09:38.130 --> 00:09:43.080
+has to be read from the file and that would
+be the same behaviour as what you have given
+
+00:09:43.080 --> 00:09:44.210
+on the command line.
+
+00:09:44.210 --> 00:09:48.440
+Here is a very interesting combination of
+the operators.
+
+00:09:48.440 --> 00:09:55.130
+So, here you can see that the greater than
+operator is telling that the output from the
+
+00:09:55.130 --> 00:10:02.010
+command is being redirected to the file1 and
+the 2 greater than is indicating the standard
+
+00:10:02.010 --> 00:10:07.400
+error and that is being redirected to the
+first stream which is standard out.
+
+00:10:07.400 --> 00:10:11.000
+So, what is happening that the standard out
+also is going to the same file.
+
+00:10:11.000 --> 00:10:16.780
+2 greater than indicates the standard error
+and the ampersand and one indicate that it
+
+00:10:16.780 --> 00:10:21.290
+should be redirected to the file pointer 1
+which is standard out it means that the standard
+
+00:10:21.290 --> 00:10:24.020
+error will also go to the same file, file1.
+
+00:10:24.020 --> 00:10:29.760
+So, here is a very unique situation where
+the output from the command as well as the
+
+00:10:29.760 --> 00:10:35.880
+error from the command are both sent to the
+same destination file which is file1.
+
+00:10:35.880 --> 00:10:42.770
+The usual warning about the file1 being overwritten
+and permissions to create that file should
+
+00:10:42.770 --> 00:10:45.410
+be provided etcetera will apply.
+
+00:10:45.410 --> 00:10:51.100
+Now let us look at the application of the
+command that we have just now illustrated.
+
+00:10:51.100 --> 00:10:58.490
+So, we have got the example here, so ls dollar
+home slash blah.
+
+00:10:58.490 --> 00:11:03.910
+So, we saw that this command would have 2
+outputs one is the standard out which would
+
+00:11:03.910 --> 00:11:09.210
+be the directory contents of the home folder
+and the other output is to standard error
+
+00:11:09.210 --> 00:11:16.680
+which is basically the error that the folder
+slash blah is not available.
+
+00:11:16.680 --> 00:11:19.190
+Now we would like to combine both of them
+to a file.
+
+00:11:19.190 --> 00:11:22.700
+Now what happens when we do like this?
+
+00:11:22.700 --> 00:11:30.770
+So what happens is that the output alone is
+sent to the file1 but the error is not sent
+
+00:11:30.770 --> 00:11:33.270
+and that is coming onto the screen.
+
+00:11:33.270 --> 00:11:35.810
+Now what happens when we do like this?
+
+00:11:35.810 --> 00:11:42.970
+So, we have sent the output to the file1,
+the errors also to the file1 but does file1
+
+00:11:42.970 --> 00:11:43.970
+contain both?
+
+00:11:43.970 --> 00:11:46.140
+So, let us look at that.
+
+00:11:46.140 --> 00:11:50.430
+And you see that the file1 does not contain
+both it contains only the output.
+
+00:11:50.430 --> 00:11:55.230
+The reason is that the error actually has
+come out first and it was written to the file1
+
+00:11:55.230 --> 00:11:59.160
+which is then overwritten when the output
+is being redirected to the file1.
+
+00:11:59.160 --> 00:12:04.820
+So, if you want to have both the error as
+well as the standard out to be redirected
+
+00:12:04.820 --> 00:12:11.870
+to a file then you cannot actually use this
+particular format because the file created
+
+00:12:11.870 --> 00:12:16.110
+by the error redirection would be overwritten
+by the output redirection.
+
+00:12:16.110 --> 00:12:22.760
+So, for that what we need to do is to redirect
+the error onto the out it would have no overwriting
+
+00:12:22.760 --> 00:12:23.760
+happening.
+
+00:12:23.760 --> 00:12:31.260
+So, a better way is to redirect the standard
+error onto the standard out and then let this
+
+00:12:31.260 --> 00:12:33.270
+standard out be redirected to a file.
+
+00:12:33.270 --> 00:12:39.180
+And thereby there will be no loss of the content
+that is being stored as file from both the
+
+00:12:39.180 --> 00:12:40.180
+streams.
+
+00:12:40.180 --> 00:12:45.920
+So, we will try that out now.
+
+00:12:45.920 --> 00:12:55.200
+So, that is a command and as you expect nothing
+should be on the screen because the error
+
+00:12:55.200 --> 00:12:58.670
+as well as the output are both redirected
+to the file1.
+
+00:12:58.670 --> 00:13:04.691
+So, nothing is displayed on the screen and
+let us look at the contents of the file1 and
+
+00:13:04.691 --> 00:13:10.220
+you could see that the error messages as well
+as the directory listing of the home folder
+
+00:13:10.220 --> 00:13:12.820
+are both in the same file file1.
+
+00:13:12.820 --> 00:13:17.990
+So, this is a very useful feature where output
+from the command both the standard error as
+
+00:13:17.990 --> 00:13:22.720
+well as the standard out are both redirected
+to a file which you may want to look at later
+
+00:13:22.720 --> 00:13:26.580
+on to debug if the command happens to be fairly
+complex.
+
+00:13:26.580 --> 00:13:30.960
+In this case it is a simple command but you
+could actually have a shell script in the
+
+00:13:30.960 --> 00:13:35.640
+place of the ls command and this kind of a
+redirected could be very useful in debugging
+
+00:13:35.640 --> 00:13:37.170
+what is happening to the script.
+
+00:13:37.170 --> 00:13:44.760
+So, just to recap we redirecting the standard
+error onto the standard out which is then
+
+00:13:44.760 --> 00:13:50.840
+redirected to the file1 and therefore file1
+would contain both the outputs from the 2
+
+00:13:50.840 --> 00:13:53.900
+streams namely the standard out as well as
+the standard error.
+
+00:13:53.900 --> 00:14:01.840
+Now comes a very powerful operator called
+the pipe where the output of the command 1
+
+00:14:01.840 --> 00:14:08.240
+is sent to the command 2 as an input which
+means what you are doing by this pipe is the
+
+00:14:08.240 --> 00:14:12.680
+standard out is being mapped onto the standard
+in of the command 2.
+
+00:14:12.680 --> 00:14:18.730
+If command 2 was expecting any input from
+the keyboard or from a file then it could
+
+00:14:18.730 --> 00:14:24.800
+actually take it also from the output of the
+command 1 and thereby you could actually combine
+
+00:14:24.800 --> 00:14:29.710
+the 2 commands in order to process the output
+of the first command as an input to the command
+
+00:14:29.710 --> 00:14:30.710
+2.
+
+00:14:30.710 --> 00:14:36.830
+Now this is a very very popular way of using
+the commands because it allows us to combine
+
+00:14:36.830 --> 00:14:43.280
+multiple commands for processing without writing
+to a file intermediately.
+
+00:14:43.280 --> 00:14:45.800
+Now we have not talked about the standard
+error.
+
+00:14:45.800 --> 00:14:50.870
+By default the standard error would actually
+go to the screen and that is how we are actually
+
+00:14:50.870 --> 00:14:52.020
+showing it in the graphic.
+
+00:14:52.020 --> 00:14:54.540
+So, let us illustrate the use of pipe command.
+
+00:14:54.540 --> 00:15:01.600
+So, let us say we would like to count the
+number of files in the directory user bin.
+
+00:15:01.600 --> 00:15:07.550
+One way is to redirect the output of ls command
+onto a file and then count the number of lines
+
+00:15:07.550 --> 00:15:10.560
+in that file.
+
+00:15:10.560 --> 00:15:21.120
+So, we have redirected the output of the ls
+command onto the file1 and we are now running
+
+00:15:21.120 --> 00:15:27.620
+wc on file1 to count the number of lines and
+we see that the number of lines is 2596.
+
+00:15:27.620 --> 00:15:36.110
+Let us look at the file1 itself it contains
+the list of files that are there in the directory
+
+00:15:36.110 --> 00:15:38.290
+called user bin.
+
+00:15:38.290 --> 00:15:43.440
+Now here what we have done is to write the
+output to a file and then look at the number
+
+00:15:43.440 --> 00:15:44.630
+of lines in that file.
+
+00:15:44.630 --> 00:15:48.550
+This is not very efficient because we are
+actually writing a file and then again reading
+
+00:15:48.550 --> 00:15:49.550
+it.
+
+00:15:49.550 --> 00:15:53.550
+So, we could actually do it in the memory
+where the output of the ls command is mapped
+
+00:15:53.550 --> 00:15:55.290
+as an input to the wc command.
+
+00:15:55.290 --> 00:15:59.230
+So, that is exactly what the pipe does.
+
+00:15:59.230 --> 00:16:06.860
+Now you see that the operation is much more
+efficient and we are getting our answers straight
+
+00:16:06.860 --> 00:16:10.640
+in one go and there is no file1 that is created.
+
+00:16:10.640 --> 00:16:17.840
+So, this pipe command can be used to combine
+multiple commands and these is one of the
+
+00:16:17.840 --> 00:16:26.890
+most popular ways of combining commands on
+the shell on the bash and very often complicated
+
+00:16:26.890 --> 00:16:33.200
+commands involving several pipes symbols on
+the single command line are very much possible.
+
+00:16:33.200 --> 00:16:39.470
+Let us say I would like to look at the files
+that are in the user bin folder but I would
+
+00:16:39.470 --> 00:16:43.340
+like to scroll through them and I do not want
+to write to a file.
+
+00:16:43.340 --> 00:16:45.450
+So, I could also do that now here.
+
+00:16:45.450 --> 00:16:52.570
+So, ls user bin and I can pipe it to the command
+called less and you could see that it is now
+
+00:16:52.570 --> 00:16:57.570
+available for us to scroll through up and
+down and when we are done we can press q and
+
+00:16:57.570 --> 00:16:58.570
+come out.
+
+00:16:58.570 --> 00:17:05.199
+The list of commands in the user bin directory
+are now not written to a file but are sent
+
+00:17:05.199 --> 00:17:11.419
+to the less command by a mapping of the standard
+output of the ls command to the standard in
+
+00:17:11.419 --> 00:17:13.280
+of the less command.
+
+00:17:13.280 --> 00:17:16.750
+Thereby the mapping is in the memory and therefore
+it is very efficient.
+
+00:17:16.750 --> 00:17:23.140
+Now, we can actually combine both the pipe
+as well as the greater than symbol to combine
+
+00:17:23.140 --> 00:17:28.449
+multiple commands as well as files as destinations
+for the standard output.
+
+00:17:28.449 --> 00:17:35.010
+So, here is again a very popular usage where
+the command 1 is actually combined with the
+
+00:17:35.010 --> 00:17:40.410
+command 2 using a pipe symbol which means
+the standard output of this command 1 is mapped
+
+00:17:40.410 --> 00:17:42.740
+over to the standard in of the command 2.
+
+00:17:42.740 --> 00:17:48.760
+And the standard out of the command 2 is then
+redirected to the file1 however the standard
+
+00:17:48.760 --> 00:17:53.650
+error of both the commands is still shown
+on the screen by default because we have not
+
+00:17:53.650 --> 00:17:59.420
+done anything with those 2 file pointers and
+now naturally the file1 has to be created
+
+00:17:59.420 --> 00:18:03.500
+afresh because the greater than symbol would
+actually mean that it has to be created afresh
+
+00:18:03.500 --> 00:18:07.560
+and so if that file exists earlier then it
+will be over written and so watch out for
+
+00:18:07.560 --> 00:18:08.560
+that.
+
+00:18:08.560 --> 00:18:09.560
+uh
+
+00:18:09.560 --> 00:18:11.890
+We can try out an example to illustrate how
+this can be done.
+
+00:18:11.890 --> 00:18:15.520
+So, have a look at the following command that
+we are going to do a demo.
+
+00:18:15.520 --> 00:18:20.590
+So, let us say we would like to list the number
+of commands that are there in the user bin
+
+00:18:20.590 --> 00:18:26.380
+folder and write that output onto a file so
+that we could actually use that file for some
+
+00:18:26.380 --> 00:18:27.380
+other purpose.
+
+00:18:27.380 --> 00:18:35.160
+So, if you were to do like this ls user bill
+pipe wc -l that means that the number of files
+
+00:18:35.160 --> 00:18:41.610
+in the user bin directory are being listed
+and greater than and then file1.
+
+00:18:41.610 --> 00:18:48.850
+So, what would happen is that file1 would
+have the number stored which means that we
+
+00:18:48.850 --> 00:18:55.240
+have done 2 actions here one action is the
+standard output of ls is passed on at the
+
+00:18:55.240 --> 00:19:01.550
+standard input for wc and the standard output
+of wc is redirected to the file called file1.
+
+00:19:01.550 --> 00:19:05.980
+The file1 has the content which is basically
+the number of lines that has been counted
+
+00:19:05.980 --> 00:19:09.900
+by wc which is the number of files in the
+directory user bin.
+
+00:19:09.900 --> 00:19:15.920
+There is a file in the slash dev directory
+normally we do not go there to fiddle around
+
+00:19:15.920 --> 00:19:20.920
+with those files because they belong to the
+system and some of them are very sensitive.
+
+00:19:20.920 --> 00:19:25.650
+So, we do not normally do anything with the
+slash dev folder but there is one special
+
+00:19:25.650 --> 00:19:29.050
+file there called dev null which is like a
+black hole.
+
+00:19:29.050 --> 00:19:35.100
+So, if you happen to write anything to that
+particular file then that content is basically
+
+00:19:35.100 --> 00:19:38.980
+disappeared from the system and it is actually
+used as a sink.
+
+00:19:38.980 --> 00:19:45.040
+So, sometimes when you have confidence that
+the script is running well you do not want
+
+00:19:45.040 --> 00:19:50.210
+to have any error from that script to be displayed
+on the screen for the user then you can actually
+
+00:19:50.210 --> 00:19:56.710
+redirected the standard error of the command
+to dev null and therefore the errors will
+
+00:19:56.710 --> 00:20:01.640
+actually get disappeared into the slash dev
+slash null folder and thereby they will not
+
+00:20:01.640 --> 00:20:06.980
+be seen on the screen and therefore the shell
+can actually have every clean output on the
+
+00:20:06.980 --> 00:20:07.980
+screen.
+
+00:20:07.980 --> 00:20:08.980
+So, here is a typical usage.
+
+00:20:08.980 --> 00:20:16.720
+So, you have got the command that is running
+it is giving out 2 streams of uh uh text one
+
+00:20:16.720 --> 00:20:21.300
+is the standard out which you may want to
+redirect to a file but if there were any errors
+
+00:20:21.300 --> 00:20:24.660
+then you do not want to keep them you do not
+want to also show them on the screen.
+
+00:20:24.660 --> 00:20:26.780
+So, you can actually send it off to dev null.
+
+00:20:26.780 --> 00:20:31.970
+So, that it is disappearing and that the redirection
+of standard error is already seen by us it
+
+00:20:31.970 --> 00:20:38.090
+is 2 greater than and the file itself is a
+special file where it actually destroys that
+
+00:20:38.090 --> 00:20:43.760
+content and therefore the other messages are
+not coming onto the screen which is the purpose
+
+00:20:43.760 --> 00:20:45.510
+of this kind of a command.
+
+00:20:45.510 --> 00:20:50.320
+Now to illustrate the combination of both
+greater than and dev null we have got the
+
+00:20:50.320 --> 00:20:57.090
+usual example of listing of the folders in
+the home folder as well as in a directory
+
+00:20:57.090 --> 00:21:00.440
+slash blah which does not exist therefore
+it will give you errors.
+
+00:21:00.440 --> 00:21:05.100
+So, here you see that the errors have come
+onto the screen uh but also the contents of
+
+00:21:05.100 --> 00:21:06.100
+the dollar home.
+
+00:21:06.100 --> 00:21:11.590
+So, we would like to have only the contents
+stored in a file called file1 but the errors
+
+00:21:11.590 --> 00:21:13.690
+are coming onto the screen I do not want them.
+
+00:21:13.690 --> 00:21:20.370
+So, what I do is I redirect the error to dev
+null and you see that the screen is now very
+
+00:21:20.370 --> 00:21:24.740
+clean because there is nothing on the screen
+the output is only in the file called file1
+
+00:21:24.740 --> 00:21:29.000
+which we can inspect by using the cat command.
+
+00:21:29.000 --> 00:21:33.260
+And the errors have all disappeared into the
+black hole called slash dev slash null.
+
+00:21:33.260 --> 00:21:39.250
+We have done this exercise with respect to
+the recursive listing of directories in slash
+
+00:21:39.250 --> 00:21:42.710
+etc folder where we face some permission errors
+to enter some directories.
+
+00:21:42.710 --> 00:21:51.400
+So, again here we can do ls -R slash etc we
+want to redirect the output listing to the
+
+00:21:51.400 --> 00:21:52.630
+file called file1.
+
+00:21:52.630 --> 00:22:01.550
+We would like to have the errors disappear,
+we would like to have the errors disappear
+
+00:22:01.550 --> 00:22:02.820
+to dev null.
+
+00:22:02.820 --> 00:22:07.960
+And you see that the command has executed
+in a very clean fashion typical of a Linux
+
+00:22:07.960 --> 00:22:15.390
+command and uh you could look at the file1
+contents it would contain the list of files
+
+00:22:15.390 --> 00:22:20.350
+in the etc folder recursively and the errors
+have all gone to dev null.
+
+00:22:20.350 --> 00:22:25.400
+So, that is a very clean behaviour of this
+command and this is a very typical usage of
+
+00:22:25.400 --> 00:22:29.460
+the 2 symbols greater than as well as her
+2 greater than.
+
+00:22:29.460 --> 00:22:37.590
+So, here is yet another command which helps
+us in organizing the file streams in a very
+
+00:22:37.590 --> 00:22:43.470
+clever fashion the tee command what it does
+is like the uh t shape what it does is that
+
+00:22:43.470 --> 00:22:50.700
+it would actually split the standard output
+into 2 streams one stream is redirected to
+
+00:22:50.700 --> 00:22:57.000
+the file1 and another copy of the stream is
+then sent on to the screen.
+
+00:22:57.000 --> 00:23:04.830
+So, this is used in situations where you would
+like to have a copy of the output stored in
+
+00:23:04.830 --> 00:23:07.630
+a file but also sent to the screen.
+
+00:23:07.630 --> 00:23:12.020
+So, which means that you could then further
+do another processing by writing something
+
+00:23:12.020 --> 00:23:13.450
+else after that tee command?
+
+00:23:13.450 --> 00:23:18.020
+So, we can see how it is used by some illustration.
+
+00:23:18.020 --> 00:23:20.790
+Let us test the tee command once here.
+
+00:23:20.790 --> 00:23:27.290
+So, we look at the help for the tee command
+what it says is that it would read the input
+
+00:23:27.290 --> 00:23:32.580
+from the standard input and write it to both
+standard output and any file that has been
+
+00:23:32.580 --> 00:23:35.080
+specified okay and it is using plural.
+
+00:23:35.080 --> 00:23:40.480
+So, it could actually write to multiple files
+okay and because it is reading from the standard
+
+00:23:40.480 --> 00:23:43.920
+input you could actually put the tee command
+after a pipe.
+
+00:23:43.920 --> 00:23:49.790
+So, that the output of one command is sent
+as an input to the tee command which it would
+
+00:23:49.790 --> 00:23:53.050
+actually put it on the screen and also write
+into a file.
+
+00:23:53.050 --> 00:24:00.290
+So, we will try that out using our favourite
+command a simple command, ls dollar home and
+
+00:24:00.290 --> 00:24:04.150
+pipe tee and then we write a file call file1.
+
+00:24:04.150 --> 00:24:08.960
+So, you see that the contents of the file1
+would have the same thing as what is on the
+
+00:24:08.960 --> 00:24:09.960
+screen.
+
+00:24:09.960 --> 00:24:17.450
+So, you can see that the output is the same
+which means that the tee command has a placed
+
+00:24:17.450 --> 00:24:25.470
+a copy output of ls command in the file called
+file1 and it is also sent it off to the screen
+
+00:24:25.470 --> 00:24:26.940
+for you to see.
+
+00:24:26.940 --> 00:24:32.340
+What happens when we give 2 file names.
+
+00:24:32.340 --> 00:24:38.110
+So, you could see that cat file1 cat file2.
+
+00:24:38.110 --> 00:24:44.290
+So, it has written to both the files which
+means that the tee command is useful in sending
+
+00:24:44.290 --> 00:24:49.840
+multiple copies of the standard input whatever
+input is coming in it would actually create
+
+00:24:49.840 --> 00:24:56.220
+multiple copies one to the screen by default
+and another one to the file1 another one to
+
+00:24:56.220 --> 00:24:57.220
+file2 and so on.
+
+00:24:57.220 --> 00:24:59.620
+Now what does it do to the standard error?
+
+00:24:59.620 --> 00:25:05.430
+So, that is something again we can inspect.
+
+00:25:05.430 --> 00:25:12.860
+So, here we are actually confident of raising
+an error.
+
+00:25:12.860 --> 00:25:14.770
+So, because slash blah does not exist.
+
+00:25:14.770 --> 00:25:20.110
+So, when we run this command you see that
+the error message from the slash blah is coming
+
+00:25:20.110 --> 00:25:25.460
+onto the screen and the output is slightly
+different here the name of the folder is given
+
+00:25:25.460 --> 00:25:30.270
+with a colon that is typical whenever the
+ls command has multiple folders being listed.
+
+00:25:30.270 --> 00:25:32.230
+So, each of them will have a colon.
+
+00:25:32.230 --> 00:25:35.950
+So, that the file listing below is for the
+particular folder.
+
+00:25:35.950 --> 00:25:42.650
+And the folder listing is here for the home
+folder and we can inspect the contents of
+
+00:25:42.650 --> 00:25:44.260
+file1 and file2.
+
+00:25:44.260 --> 00:25:53.170
+So, cat file1 it has the listing of a home
+folder and the cat file2 also has the listing
+
+00:25:53.170 --> 00:25:56.770
+of the home folder and look at these files.
+
+00:25:56.770 --> 00:26:03.320
+So, file1 and file2 have the the same amount
+of data let us even compare the 2 files there
+
+00:26:03.320 --> 00:26:05.230
+is a command called diff.
+
+00:26:05.230 --> 00:26:11.280
+So, diff file1 file2 and there is no output
+which means that both of them are identical
+
+00:26:11.280 --> 00:26:12.280
+files.
+
+00:26:12.280 --> 00:26:16.790
+So, let us look at the help for the diff command
+it says the diff command does by comparison
+
+00:26:16.790 --> 00:26:19.930
+of files line by line it is very useful to
+understand.
+
+00:26:19.930 --> 00:26:28.351
+So, what it does is the tee command has given
+2 copies of the standard output on file1 and
+
+00:26:28.351 --> 00:26:33.820
+file2 both are identical and the the same
+content has also been put on the screen for
+
+00:26:33.820 --> 00:26:35.970
+you to see.
+
+00:26:35.970 --> 00:26:39.200
+Now you could also pass it on to another command
+beyond that.
+
+00:26:39.200 --> 00:26:45.160
+So, you could actually put a pipe after that
+and put wc -l, so counting the number of lines
+
+00:26:45.160 --> 00:26:46.429
+in the directory listing.
+
+00:26:46.429 --> 00:26:51.660
+So, now you see that the error message has
+come onto the screen the number of files in
+
+00:26:51.660 --> 00:26:58.750
+the home folder are counted as 14 and 2 copies
+of the ls command output are placed in the
+
+00:26:58.750 --> 00:27:01.010
+file1 and file2 let us verify that.
+
+00:27:01.010 --> 00:27:08.470
+So, you could see that file1 and file2 have
+2 copies and when I run the wc -l on file1
+
+00:27:08.470 --> 00:27:13.700
+as well as on file2 you see 14 lines because
+that has been counted by wc but it is not
+
+00:27:13.700 --> 00:27:18.860
+counting from these 2 files but actually from
+the output of ls command which has been passed
+
+00:27:18.860 --> 00:27:20.250
+onto the screen by the tee command.
+
+00:27:20.250 --> 00:27:25.670
+So, you can see that the tee command helps
+in keeping a copy of the output in a file
+
+00:27:25.670 --> 00:27:29.940
+and also send it to another command that may
+actually process it further.
+
+00:27:29.940 --> 00:27:35.070
+Because it is sending it to the standard out
+which can be redirected by the pipe symbol
+
+00:27:35.070 --> 00:27:40.970
+to another command So, that way you can actually
+combine multiple commands on the uh command
+
+00:27:40.970 --> 00:27:47.500
+line by using multiple pipe symbols as well
+as the tee command to keep copies of those
+
+00:27:47.500 --> 00:27:49.360
+outputs intermediately.
+
+00:27:49.360 --> 00:27:56.260
+Now we will suppress the uh standard error
+message that has come here by using the 2
+
+00:27:56.260 --> 00:27:57.309
+greater than symbol.
+
+00:27:57.309 --> 00:27:59.850
+So, let us do that now here.
+
+00:27:59.850 --> 00:28:06.610
+So, I should do it here because here is where
+the error is raised.
+
+00:28:06.610 --> 00:28:09.600
+So, I would send it to the dev null.
+
+00:28:09.600 --> 00:28:15.380
+So, now you see that the number of lines has
+been printed on the screen but there is no
+
+00:28:15.380 --> 00:28:18.059
+error message on the screen that is pretty
+neat.
+
+00:28:18.059 --> 00:28:23.970
+And we also have 2 copies of the listing of
+the uh home folder in file1 and file2 respectively.
+
+00:28:23.970 --> 00:28:27.120
+So, this is a pretty neat way of combining
+many, many things.
+
+00:28:27.120 --> 00:28:34.240
+So, you can see that what we have done we
+have given ah the redirection of the standard
+
+00:28:34.240 --> 00:28:37.240
+error onto the black hole called dev null.
+
+00:28:37.240 --> 00:28:42.210
+We have piped the, we have piped the output
+to tee command which has copied the output
+
+00:28:42.210 --> 00:28:47.370
+to the 2 files and then we have piped the
+standard output onto the wc which has counted
+
+00:28:47.370 --> 00:28:48.370
+the number of lines.
+
+00:28:48.370 --> 00:28:53.530
+So, like that you can assemble multiple commands
+to achieve a very complicated task.
+
+00:28:53.530 --> 00:29:00.480
+So, now as you can see that we are able to
+combine the operators as well as multiple
+
+00:29:00.480 --> 00:29:04.560
+commands and file names to achieve fairly
+complicated task.
+
+00:29:04.560 --> 00:29:10.520
+Where we have one command creating an output
+which is then passed on to another command
+
+00:29:10.520 --> 00:29:17.799
+as an input which is then passed on to a file
+to storage or to yet another command to do
+
+00:29:17.799 --> 00:29:20.490
+some more processing like counting the number
+of lines etcetera.
+
+00:29:20.490 --> 00:29:25.590
+So, each of these commands can actually be
+a bash script which is where you can start
+
+00:29:25.590 --> 00:29:32.230
+imagining that you can actually create a very
+complicated task to be achieved by the command
+
+00:29:32.230 --> 00:29:37.600
+line as well as multiple commands being placed
+in a script which we will be learning shortly.
+

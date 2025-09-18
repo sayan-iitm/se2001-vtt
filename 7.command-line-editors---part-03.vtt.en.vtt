@@ -1,0 +1,4832 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:14.150 align:start position:0%
+ 
+[Music]
+
+00:00:14.150 --> 00:00:14.160 align:start position:0%
+ 
+ 
+
+00:00:14.160 --> 00:00:17.109 align:start position:0%
+ 
+now<00:00:14.400><c> to</c><00:00:14.639><c> illustrate</c><00:00:15.280><c> the</c><00:00:15.759><c> usefulness</c><00:00:16.480><c> of</c><00:00:16.720><c> va</c>
+
+00:00:17.109 --> 00:00:17.119 align:start position:0%
+now to illustrate the usefulness of va
+ 
+
+00:00:17.119 --> 00:00:20.390 align:start position:0%
+now to illustrate the usefulness of va
+editor<00:00:17.600><c> in</c><00:00:18.160><c> editing</c><00:00:18.560><c> some</c><00:00:18.880><c> source</c><00:00:19.279><c> codes</c>
+
+00:00:20.390 --> 00:00:20.400 align:start position:0%
+editor in editing some source codes
+ 
+
+00:00:20.400 --> 00:00:22.630 align:start position:0%
+editor in editing some source codes
+in<00:00:20.640><c> languages</c><00:00:21.199><c> such</c><00:00:21.439><c> as</c><00:00:21.840><c> c</c>
+
+00:00:22.630 --> 00:00:22.640 align:start position:0%
+in languages such as c
+ 
+
+00:00:22.640 --> 00:00:25.429 align:start position:0%
+in languages such as c
+i<00:00:22.800><c> will</c><00:00:23.119><c> fetch</c><00:00:23.439><c> one</c><00:00:23.680><c> of</c><00:00:23.840><c> my</c><00:00:24.160><c> old</c><00:00:24.480><c> program</c><00:00:24.960><c> codes</c>
+
+00:00:25.429 --> 00:00:25.439 align:start position:0%
+i will fetch one of my old program codes
+ 
+
+00:00:25.439 --> 00:00:26.950 align:start position:0%
+i will fetch one of my old program codes
+from<00:00:25.680><c> another</c><00:00:26.080><c> machine</c>
+
+00:00:26.950 --> 00:00:26.960 align:start position:0%
+from another machine
+ 
+
+00:00:26.960 --> 00:00:29.109 align:start position:0%
+from another machine
+and<00:00:27.119><c> then</c><00:00:27.359><c> i</c><00:00:27.519><c> will</c><00:00:27.840><c> show</c><00:00:28.000><c> them</c><00:00:28.160><c> to</c><00:00:28.320><c> you</c><00:00:28.800><c> how</c><00:00:28.960><c> the</c>
+
+00:00:29.109 --> 00:00:29.119 align:start position:0%
+and then i will show them to you how the
+ 
+
+00:00:29.119 --> 00:00:31.589 align:start position:0%
+and then i will show them to you how the
+syntax<00:00:29.519><c> highlighting</c><00:00:30.000><c> etc</c><00:00:30.480><c> would</c><00:00:30.720><c> work</c>
+
+00:00:31.589 --> 00:00:31.599 align:start position:0%
+syntax highlighting etc would work
+ 
+
+00:00:31.599 --> 00:00:33.590 align:start position:0%
+syntax highlighting etc would work
+so<00:00:31.920><c> the</c><00:00:32.160><c> file</c><00:00:32.399><c> is</c><00:00:32.559><c> actually</c><00:00:32.880><c> in</c><00:00:33.040><c> my</c><00:00:33.360><c> other</c>
+
+00:00:33.590 --> 00:00:33.600 align:start position:0%
+so the file is actually in my other
+ 
+
+00:00:33.600 --> 00:00:35.670 align:start position:0%
+so the file is actually in my other
+machine<00:00:34.000><c> so</c><00:00:34.239><c> i</c><00:00:34.399><c> would</c><00:00:34.640><c> bring</c><00:00:34.880><c> that</c><00:00:35.120><c> up</c><00:00:35.440><c> using</c>
+
+00:00:35.670 --> 00:00:35.680 align:start position:0%
+machine so i would bring that up using
+ 
+
+00:00:35.680 --> 00:00:37.750 align:start position:0%
+machine so i would bring that up using
+the<00:00:35.920><c> secure</c><00:00:36.399><c> copy</c><00:00:36.960><c> so</c><00:00:37.120><c> you</c><00:00:37.200><c> can</c><00:00:37.280><c> see</c><00:00:37.440><c> that</c><00:00:37.600><c> i</c><00:00:37.680><c> am</c>
+
+00:00:37.750 --> 00:00:37.760 align:start position:0%
+the secure copy so you can see that i am
+ 
+
+00:00:37.760 --> 00:00:39.350 align:start position:0%
+the secure copy so you can see that i am
+moving<00:00:38.079><c> the</c><00:00:38.239><c> files</c><00:00:38.559><c> using</c><00:00:38.800><c> the</c><00:00:38.879><c> command</c><00:00:39.120><c> line</c>
+
+00:00:39.350 --> 00:00:39.360 align:start position:0%
+moving the files using the command line
+ 
+
+00:00:39.360 --> 00:00:41.750 align:start position:0%
+moving the files using the command line
+environment<00:00:40.399><c> so</c>
+
+00:00:41.750 --> 00:00:41.760 align:start position:0%
+environment so
+ 
+
+00:00:41.760 --> 00:00:42.830 align:start position:0%
+environment so
+secure
+
+00:00:42.830 --> 00:00:42.840 align:start position:0%
+secure
+ 
+
+00:00:42.840 --> 00:00:46.470 align:start position:0%
+secure
+copy<00:00:43.920><c> from</c><00:00:44.239><c> the</c><00:00:44.559><c> ip</c><00:00:44.960><c> address</c><00:00:45.840><c> which</c><00:00:46.079><c> is</c><00:00:46.239><c> next</c>
+
+00:00:46.470 --> 00:00:46.480 align:start position:0%
+copy from the ip address which is next
+ 
+
+00:00:46.480 --> 00:00:49.590 align:start position:0%
+copy from the ip address which is next
+to<00:00:46.640><c> me</c><00:00:47.360><c> from</c><00:00:47.600><c> the</c><00:00:47.840><c> folder</c><00:00:48.239><c> called</c><00:00:48.559><c> documents</c><00:00:49.440><c> i</c>
+
+00:00:49.590 --> 00:00:49.600 align:start position:0%
+to me from the folder called documents i
+ 
+
+00:00:49.600 --> 00:00:50.709 align:start position:0%
+to me from the folder called documents i
+am<00:00:49.760><c> getting</c>
+
+00:00:50.709 --> 00:00:50.719 align:start position:0%
+am getting
+ 
+
+00:00:50.719 --> 00:00:53.270 align:start position:0%
+am getting
+code<00:00:51.199><c> 3d</c><00:00:51.680><c> dot</c><00:00:52.399><c> tar</c>
+
+00:00:53.270 --> 00:00:53.280 align:start position:0%
+code 3d dot tar
+ 
+
+00:00:53.280 --> 00:00:54.950 align:start position:0%
+code 3d dot tar
+and<00:00:53.440><c> that</c><00:00:53.680><c> file</c><00:00:53.920><c> i</c><00:00:54.000><c> want</c><00:00:54.160><c> to</c><00:00:54.239><c> bring</c><00:00:54.559><c> it</c><00:00:54.719><c> at</c><00:00:54.800><c> the</c>
+
+00:00:54.950 --> 00:00:54.960 align:start position:0%
+and that file i want to bring it at the
+ 
+
+00:00:54.960 --> 00:00:57.590 align:start position:0%
+and that file i want to bring it at the
+current<00:00:55.680><c> that</c><00:00:55.920><c> is</c><00:00:56.000><c> current</c><00:00:56.239><c> directory</c>
+
+00:00:57.590 --> 00:00:57.600 align:start position:0%
+current that is current directory
+ 
+
+00:00:57.600 --> 00:00:59.750 align:start position:0%
+current that is current directory
+and<00:00:57.760><c> it</c><00:00:58.000><c> asked</c><00:00:58.160><c> me</c><00:00:58.320><c> for</c><00:00:58.480><c> my</c><00:00:58.719><c> password</c><00:00:59.520><c> of</c><00:00:59.600><c> the</c>
+
+00:00:59.750 --> 00:00:59.760 align:start position:0%
+and it asked me for my password of the
+ 
+
+00:00:59.760 --> 00:01:02.229 align:start position:0%
+and it asked me for my password of the
+particular<00:01:00.239><c> machine</c><00:01:00.559><c> i</c><00:01:00.640><c> have</c><00:01:00.800><c> done</c><00:01:01.039><c> it</c><00:01:01.600><c> so</c><00:01:02.160><c> you</c>
+
+00:01:02.229 --> 00:01:02.239 align:start position:0%
+particular machine i have done it so you
+ 
+
+00:01:02.239 --> 00:01:05.830 align:start position:0%
+particular machine i have done it so you
+can<00:01:02.480><c> see</c><00:01:02.719><c> that</c><00:01:02.960><c> i</c><00:01:03.039><c> have</c><00:01:03.359><c> now</c><00:01:03.600><c> downloaded</c><00:01:04.720><c> a</c>
+
+00:01:05.830 --> 00:01:05.840 align:start position:0%
+can see that i have now downloaded a
+ 
+
+00:01:05.840 --> 00:01:08.710 align:start position:0%
+can see that i have now downloaded a
+tar<00:01:06.159><c> file</c><00:01:06.400><c> called</c><00:01:06.720><c> code</c><00:01:07.040><c> 3d</c><00:01:07.439><c> dot</c><00:01:07.760><c> r</c><00:01:08.159><c> so</c><00:01:08.400><c> what</c><00:01:08.640><c> is</c>
+
+00:01:08.710 --> 00:01:08.720 align:start position:0%
+tar file called code 3d dot r so what is
+ 
+
+00:01:08.720 --> 00:01:12.070 align:start position:0%
+tar file called code 3d dot r so what is
+this<00:01:09.040><c> file</c><00:01:09.600><c> type</c>
+
+00:01:12.070 --> 00:01:12.080 align:start position:0%
+this file type
+ 
+
+00:01:12.080 --> 00:01:14.950 align:start position:0%
+this file type
+so<00:01:12.320><c> it's</c><00:01:12.560><c> an</c><00:01:12.720><c> archive</c><00:01:13.280><c> file</c><00:01:14.000><c> and</c><00:01:14.159><c> i</c><00:01:14.240><c> can</c><00:01:14.479><c> unpar</c>
+
+00:01:14.950 --> 00:01:14.960 align:start position:0%
+so it's an archive file and i can unpar
+ 
+
+00:01:14.960 --> 00:01:17.990 align:start position:0%
+so it's an archive file and i can unpar
+it<00:01:15.040><c> so</c><00:01:15.280><c> i</c><00:01:15.360><c> can</c><00:01:15.600><c> open</c><00:01:15.840><c> up</c><00:01:16.080><c> all</c><00:01:16.240><c> the</c><00:01:16.400><c> files</c><00:01:16.720><c> so</c><00:01:17.200><c> car</c>
+
+00:01:17.990 --> 00:01:18.000 align:start position:0%
+it so i can open up all the files so car
+ 
+
+00:01:18.000 --> 00:01:19.990 align:start position:0%
+it so i can open up all the files so car
+minus<00:01:18.560><c> xvf</c>
+
+00:01:19.990 --> 00:01:20.000 align:start position:0%
+minus xvf
+ 
+
+00:01:20.000 --> 00:01:22.070 align:start position:0%
+minus xvf
+code<00:01:20.479><c> 3d</c><00:01:20.880><c> dot</c><00:01:21.200><c> tar</c>
+
+00:01:22.070 --> 00:01:22.080 align:start position:0%
+code 3d dot tar
+ 
+
+00:01:22.080 --> 00:01:24.149 align:start position:0%
+code 3d dot tar
+and<00:01:22.320><c> it</c><00:01:22.479><c> has</c><00:01:22.799><c> created</c><00:01:23.119><c> a</c><00:01:23.200><c> directory</c><00:01:23.840><c> in</c><00:01:23.920><c> which</c>
+
+00:01:24.149 --> 00:01:24.159 align:start position:0%
+and it has created a directory in which
+ 
+
+00:01:24.159 --> 00:01:27.190 align:start position:0%
+and it has created a directory in which
+there<00:01:24.400><c> are</c><00:01:24.560><c> number</c><00:01:24.799><c> of</c><00:01:25.119><c> files</c>
+
+00:01:27.190 --> 00:01:27.200 align:start position:0%
+there are number of files
+ 
+
+00:01:27.200 --> 00:01:30.630 align:start position:0%
+there are number of files
+so<00:01:27.600><c> i</c><00:01:27.840><c> go</c><00:01:28.000><c> to</c><00:01:28.159><c> the</c><00:01:28.320><c> directory</c>
+
+00:01:30.630 --> 00:01:30.640 align:start position:0%
+so i go to the directory
+ 
+
+00:01:30.640 --> 00:01:32.390 align:start position:0%
+so i go to the directory
+and
+
+00:01:32.390 --> 00:01:32.400 align:start position:0%
+and
+ 
+
+00:01:32.400 --> 00:01:34.550 align:start position:0%
+and
+i<00:01:32.560><c> want</c><00:01:32.720><c> to</c><00:01:32.880><c> now</c>
+
+00:01:34.550 --> 00:01:34.560 align:start position:0%
+i want to now
+ 
+
+00:01:34.560 --> 00:01:37.190 align:start position:0%
+i want to now
+view<00:01:34.960><c> some</c><00:01:35.200><c> of</c><00:01:35.280><c> these</c><00:01:35.840><c> text</c><00:01:36.240><c> files</c><00:01:36.720><c> using</c>
+
+00:01:37.190 --> 00:01:37.200 align:start position:0%
+view some of these text files using
+ 
+
+00:01:37.200 --> 00:01:39.270 align:start position:0%
+view some of these text files using
+editors<00:01:38.000><c> so</c><00:01:38.240><c> first</c><00:01:38.479><c> i</c><00:01:38.640><c> will</c><00:01:38.799><c> show</c><00:01:38.960><c> you</c><00:01:39.040><c> with</c>
+
+00:01:39.270 --> 00:01:39.280 align:start position:0%
+editors so first i will show you with
+ 
+
+00:01:39.280 --> 00:01:40.950 align:start position:0%
+editors so first i will show you with
+the<00:01:39.439><c> pico</c><00:01:39.759><c> editor</c><00:01:40.079><c> which</c><00:01:40.240><c> you</c><00:01:40.400><c> have</c><00:01:40.560><c> seen</c><00:01:40.799><c> the</c>
+
+00:01:40.950 --> 00:01:40.960 align:start position:0%
+the pico editor which you have seen the
+ 
+
+00:01:40.960 --> 00:01:42.789 align:start position:0%
+the pico editor which you have seen the
+main.c<00:01:41.600><c> i</c><00:01:41.680><c> want</c><00:01:41.840><c> to</c><00:01:42.000><c> open</c>
+
+00:01:42.789 --> 00:01:42.799 align:start position:0%
+main.c i want to open
+ 
+
+00:01:42.799 --> 00:01:44.389 align:start position:0%
+main.c i want to open
+so
+
+00:01:44.389 --> 00:01:44.399 align:start position:0%
+so
+ 
+
+00:01:44.399 --> 00:01:45.990 align:start position:0%
+so
+nano
+
+00:01:45.990 --> 00:01:46.000 align:start position:0%
+nano
+ 
+
+00:01:46.000 --> 00:01:48.310 align:start position:0%
+nano
+main.c
+
+00:01:48.310 --> 00:01:48.320 align:start position:0%
+main.c
+ 
+
+00:01:48.320 --> 00:01:51.270 align:start position:0%
+main.c
+and<00:01:48.479><c> you</c><00:01:48.640><c> can</c><00:01:48.799><c> see</c><00:01:49.040><c> that</c><00:01:49.200><c> the</c>
+
+00:01:51.270 --> 00:01:51.280 align:start position:0%
+and you can see that the
+ 
+
+00:01:51.280 --> 00:01:52.950 align:start position:0%
+and you can see that the
+file<00:01:51.600><c> is</c><00:01:51.680><c> visible</c><00:01:52.240><c> with</c><00:01:52.479><c> the</c><00:01:52.560><c> different</c>
+
+00:01:52.950 --> 00:01:52.960 align:start position:0%
+file is visible with the different
+ 
+
+00:01:52.960 --> 00:01:54.389 align:start position:0%
+file is visible with the different
+colors<00:01:53.280><c> for</c><00:01:53.439><c> different</c>
+
+00:01:54.389 --> 00:01:54.399 align:start position:0%
+colors for different
+ 
+
+00:01:54.399 --> 00:01:56.310 align:start position:0%
+colors for different
+keywords<00:01:54.880><c> of</c><00:01:54.960><c> the</c><00:01:55.119><c> c</c><00:01:55.280><c> language</c>
+
+00:01:56.310 --> 00:01:56.320 align:start position:0%
+keywords of the c language
+ 
+
+00:01:56.320 --> 00:01:58.630 align:start position:0%
+keywords of the c language
+and<00:01:56.560><c> you</c><00:01:56.640><c> are</c><00:01:56.799><c> able</c><00:01:57.040><c> to</c><00:01:57.600><c> move</c><00:01:57.840><c> around</c><00:01:58.240><c> within</c>
+
+00:01:58.630 --> 00:01:58.640 align:start position:0%
+and you are able to move around within
+ 
+
+00:01:58.640 --> 00:02:00.149 align:start position:0%
+and you are able to move around within
+the<00:01:59.200><c> file</c>
+
+00:02:00.149 --> 00:02:00.159 align:start position:0%
+the file
+ 
+
+00:02:00.159 --> 00:02:03.350 align:start position:0%
+the file
+using<00:02:00.719><c> the</c><00:02:00.960><c> arrow</c><00:02:01.280><c> keys</c><00:02:01.600><c> itself</c>
+
+00:02:03.350 --> 00:02:03.360 align:start position:0%
+using the arrow keys itself
+ 
+
+00:02:03.360 --> 00:02:06.149 align:start position:0%
+using the arrow keys itself
+and<00:02:04.000><c> you</c><00:02:04.159><c> could</c><00:02:04.399><c> also</c><00:02:04.880><c> make</c><00:02:05.119><c> some</c><00:02:05.360><c> changes</c><00:02:05.840><c> so</c>
+
+00:02:06.149 --> 00:02:06.159 align:start position:0%
+and you could also make some changes so
+ 
+
+00:02:06.159 --> 00:02:07.350 align:start position:0%
+and you could also make some changes so
+i<00:02:06.320><c> can</c><00:02:06.560><c> just</c>
+
+00:02:07.350 --> 00:02:07.360 align:start position:0%
+i can just
+ 
+
+00:02:07.360 --> 00:02:09.270 align:start position:0%
+i can just
+try<00:02:07.520><c> to</c><00:02:07.680><c> make</c><00:02:07.920><c> a</c><00:02:08.000><c> change</c><00:02:08.399><c> here</c>
+
+00:02:09.270 --> 00:02:09.280 align:start position:0%
+try to make a change here
+ 
+
+00:02:09.280 --> 00:02:19.270 align:start position:0%
+try to make a change here
+which<00:02:09.520><c> is</c><00:02:09.599><c> like</c><00:02:09.840><c> a</c><00:02:09.920><c> comment</c>
+
+00:02:19.270 --> 00:02:19.280 align:start position:0%
+ 
+ 
+
+00:02:19.280 --> 00:02:22.150 align:start position:0%
+ 
+so<00:02:19.520><c> i</c><00:02:19.599><c> have</c><00:02:19.760><c> just</c><00:02:20.000><c> made</c><00:02:20.239><c> a</c><00:02:20.319><c> comment</c><00:02:20.879><c> and</c>
+
+00:02:22.150 --> 00:02:22.160 align:start position:0%
+so i have just made a comment and
+ 
+
+00:02:22.160 --> 00:02:23.990 align:start position:0%
+so i have just made a comment and
+already<00:02:22.560><c> it</c><00:02:22.720><c> is</c><00:02:23.040><c> getting</c>
+
+00:02:23.990 --> 00:02:24.000 align:start position:0%
+already it is getting
+ 
+
+00:02:24.000 --> 00:02:26.229 align:start position:0%
+already it is getting
+in<00:02:24.160><c> a</c><00:02:24.239><c> different</c><00:02:24.560><c> color</c><00:02:24.959><c> to</c><00:02:25.120><c> indicate</c>
+
+00:02:26.229 --> 00:02:26.239 align:start position:0%
+in a different color to indicate
+ 
+
+00:02:26.239 --> 00:02:27.750 align:start position:0%
+in a different color to indicate
+the<00:02:26.400><c> syntax</c>
+
+00:02:27.750 --> 00:02:27.760 align:start position:0%
+the syntax
+ 
+
+00:02:27.760 --> 00:02:28.790 align:start position:0%
+the syntax
+and
+
+00:02:28.790 --> 00:02:28.800 align:start position:0%
+and
+ 
+
+00:02:28.800 --> 00:02:31.670 align:start position:0%
+and
+i<00:02:28.959><c> can</c><00:02:29.120><c> now</c><00:02:29.360><c> save</c><00:02:29.680><c> and</c><00:02:29.840><c> come</c><00:02:30.080><c> out</c><00:02:30.319><c> so</c><00:02:30.720><c> ctrl</c><00:02:31.200><c> o</c><00:02:31.440><c> to</c>
+
+00:02:31.670 --> 00:02:31.680 align:start position:0%
+i can now save and come out so ctrl o to
+ 
+
+00:02:31.680 --> 00:02:34.229 align:start position:0%
+i can now save and come out so ctrl o to
+save<00:02:31.920><c> the</c><00:02:32.160><c> file</c><00:02:32.560><c> and</c><00:02:32.720><c> ctrl</c><00:02:33.200><c> x</c><00:02:33.280><c> to</c><00:02:33.440><c> come</c><00:02:33.680><c> out</c><00:02:34.000><c> so</c>
+
+00:02:34.229 --> 00:02:34.239 align:start position:0%
+save the file and ctrl x to come out so
+ 
+
+00:02:34.239 --> 00:02:35.990 align:start position:0%
+save the file and ctrl x to come out so
+you<00:02:34.319><c> can</c><00:02:34.480><c> use</c><00:02:34.800><c> nano</c><00:02:35.120><c> editor</c><00:02:35.440><c> to</c><00:02:35.599><c> edit</c><00:02:35.840><c> your</c>
+
+00:02:35.990 --> 00:02:36.000 align:start position:0%
+you can use nano editor to edit your
+ 
+
+00:02:36.000 --> 00:02:38.309 align:start position:0%
+you can use nano editor to edit your
+source<00:02:36.400><c> codes</c><00:02:37.040><c> quite</c><00:02:37.280><c> convenient</c><00:02:37.920><c> and</c><00:02:38.000><c> within</c>
+
+00:02:38.309 --> 00:02:38.319 align:start position:0%
+source codes quite convenient and within
+ 
+
+00:02:38.319 --> 00:02:40.390 align:start position:0%
+source codes quite convenient and within
+the<00:02:38.400><c> terminal</c><00:02:38.800><c> environment</c><00:02:39.360><c> itself</c>
+
+00:02:40.390 --> 00:02:40.400 align:start position:0%
+the terminal environment itself
+ 
+
+00:02:40.400 --> 00:02:42.470 align:start position:0%
+the terminal environment itself
+now<00:02:40.640><c> i</c><00:02:40.720><c> want</c><00:02:40.879><c> to</c><00:02:41.040><c> show</c><00:02:41.200><c> the</c><00:02:41.280><c> same</c><00:02:41.599><c> thing</c><00:02:41.840><c> in</c><00:02:42.000><c> a</c>
+
+00:02:42.470 --> 00:02:42.480 align:start position:0%
+now i want to show the same thing in a
+ 
+
+00:02:42.480 --> 00:02:46.070 align:start position:0%
+now i want to show the same thing in a
+va<00:02:42.879><c> editor</c>
+
+00:02:46.070 --> 00:02:46.080 align:start position:0%
+ 
+ 
+
+00:02:46.080 --> 00:02:47.430 align:start position:0%
+ 
+so<00:02:46.319><c> when</c><00:02:46.480><c> you</c><00:02:46.640><c> open</c>
+
+00:02:47.430 --> 00:02:47.440 align:start position:0%
+so when you open
+ 
+
+00:02:47.440 --> 00:02:49.350 align:start position:0%
+so when you open
+you<00:02:47.519><c> can</c><00:02:47.680><c> see</c><00:02:47.920><c> that</c><00:02:48.160><c> there</c><00:02:48.319><c> is</c><00:02:48.480><c> no</c><00:02:48.800><c> menu</c><00:02:49.200><c> on</c><00:02:49.280><c> the</c>
+
+00:02:49.350 --> 00:02:49.360 align:start position:0%
+you can see that there is no menu on the
+ 
+
+00:02:49.360 --> 00:02:51.270 align:start position:0%
+you can see that there is no menu on the
+top<00:02:49.599><c> etcetera</c><00:02:50.000><c> it's</c><00:02:50.160><c> a</c><00:02:50.239><c> little</c><00:02:50.400><c> bit</c><00:02:50.640><c> more</c>
+
+00:02:51.270 --> 00:02:51.280 align:start position:0%
+top etcetera it's a little bit more
+ 
+
+00:02:51.280 --> 00:02:53.830 align:start position:0%
+top etcetera it's a little bit more
+convenient<00:02:52.400><c> and</c><00:02:52.640><c> it</c><00:02:52.800><c> says</c><00:02:53.040><c> that</c><00:02:53.360><c> there</c><00:02:53.519><c> is</c><00:02:53.680><c> a</c>
+
+00:02:53.830 --> 00:02:53.840 align:start position:0%
+convenient and it says that there is a
+ 
+
+00:02:53.840 --> 00:02:56.710 align:start position:0%
+convenient and it says that there is a
+this<00:02:54.080><c> file</c><00:02:54.319><c> is</c><00:02:54.480><c> actually</c><00:02:55.280><c> dos</c><00:02:55.599><c> format</c><00:02:56.080><c> so</c><00:02:56.400><c> here</c>
+
+00:02:56.710 --> 00:02:56.720 align:start position:0%
+this file is actually dos format so here
+ 
+
+00:02:56.720 --> 00:02:58.470 align:start position:0%
+this file is actually dos format so here
+at<00:02:56.800><c> the</c><00:02:56.959><c> bottom</c><00:02:57.280><c> you</c><00:02:57.440><c> see</c><00:02:57.599><c> that</c><00:02:57.840><c> it</c><00:02:57.920><c> says</c><00:02:58.159><c> dos</c>
+
+00:02:58.470 --> 00:02:58.480 align:start position:0%
+at the bottom you see that it says dos
+ 
+
+00:02:58.480 --> 00:03:00.149 align:start position:0%
+at the bottom you see that it says dos
+format<00:02:58.879><c> which</c><00:02:59.040><c> means</c><00:02:59.280><c> that</c><00:02:59.599><c> the</c><00:02:59.760><c> file</c><00:03:00.000><c> was</c>
+
+00:03:00.149 --> 00:03:00.159 align:start position:0%
+format which means that the file was
+ 
+
+00:03:00.159 --> 00:03:02.470 align:start position:0%
+format which means that the file was
+originally<00:03:00.640><c> created</c><00:03:01.120><c> in</c><00:03:01.280><c> a</c><00:03:01.360><c> windows</c><00:03:01.760><c> system</c>
+
+00:03:02.470 --> 00:03:02.480 align:start position:0%
+originally created in a windows system
+ 
+
+00:03:02.480 --> 00:03:04.869 align:start position:0%
+originally created in a windows system
+and<00:03:02.560><c> therefore</c><00:03:02.959><c> at</c><00:03:03.120><c> the</c><00:03:03.200><c> end</c><00:03:03.360><c> of</c><00:03:03.519><c> every</c><00:03:03.920><c> line</c>
+
+00:03:04.869 --> 00:03:04.879 align:start position:0%
+and therefore at the end of every line
+ 
+
+00:03:04.879 --> 00:03:07.110 align:start position:0%
+and therefore at the end of every line
+there<00:03:05.120><c> is</c><00:03:05.280><c> a</c><00:03:05.440><c> character</c>
+
+00:03:07.110 --> 00:03:07.120 align:start position:0%
+there is a character
+ 
+
+00:03:07.120 --> 00:03:09.270 align:start position:0%
+there is a character
+which<00:03:07.360><c> is</c><00:03:07.440><c> like</c><00:03:07.599><c> you</c><00:03:07.680><c> know</c><00:03:07.920><c> carriage</c><00:03:08.239><c> written</c>
+
+00:03:09.270 --> 00:03:09.280 align:start position:0%
+which is like you know carriage written
+ 
+
+00:03:09.280 --> 00:03:12.149 align:start position:0%
+which is like you know carriage written
+which<00:03:09.519><c> is</c><00:03:09.680><c> why</c><00:03:09.840><c> this</c><00:03:10.080><c> calls</c><00:03:10.480><c> a</c><00:03:10.879><c> as</c><00:03:11.120><c> a</c><00:03:11.200><c> dos</c><00:03:11.920><c> file</c>
+
+00:03:12.149 --> 00:03:12.159 align:start position:0%
+which is why this calls a as a dos file
+ 
+
+00:03:12.159 --> 00:03:14.949 align:start position:0%
+which is why this calls a as a dos file
+so<00:03:12.400><c> let</c><00:03:12.560><c> us</c><00:03:12.959><c> view</c><00:03:13.200><c> that</c><00:03:13.519><c> character</c><00:03:14.080><c> so</c><00:03:14.319><c> i</c><00:03:14.400><c> can</c>
+
+00:03:14.949 --> 00:03:14.959 align:start position:0%
+so let us view that character so i can
+ 
+
+00:03:14.959 --> 00:03:18.070 align:start position:0%
+so let us view that character so i can
+ask<00:03:15.360><c> va</c><00:03:15.760><c> editor</c><00:03:16.560><c> in</c><00:03:16.720><c> the</c><00:03:16.800><c> binary</c><00:03:17.280><c> mode</c><00:03:17.680><c> so</c><00:03:18.000><c> i</c>
+
+00:03:18.070 --> 00:03:18.080 align:start position:0%
+ask va editor in the binary mode so i
+ 
+
+00:03:18.080 --> 00:03:19.670 align:start position:0%
+ask va editor in the binary mode so i
+can<00:03:18.239><c> now</c><00:03:18.400><c> see</c><00:03:18.640><c> what</c><00:03:18.800><c> is</c><00:03:18.959><c> the</c><00:03:19.040><c> character</c><00:03:19.440><c> it</c><00:03:19.599><c> is</c>
+
+00:03:19.670 --> 00:03:19.680 align:start position:0%
+can now see what is the character it is
+ 
+
+00:03:19.680 --> 00:03:21.270 align:start position:0%
+can now see what is the character it is
+complaining<00:03:20.159><c> of</c><00:03:20.480><c> so</c><00:03:20.640><c> you</c><00:03:20.720><c> can</c><00:03:20.879><c> see</c><00:03:21.040><c> that</c><00:03:21.200><c> there</c>
+
+00:03:21.270 --> 00:03:21.280 align:start position:0%
+complaining of so you can see that there
+ 
+
+00:03:21.280 --> 00:03:24.949 align:start position:0%
+complaining of so you can see that there
+is<00:03:21.440><c> a</c><00:03:22.000><c> control</c><00:03:22.480><c> m</c><00:03:22.720><c> at</c><00:03:23.040><c> the</c><00:03:23.599><c> end</c><00:03:23.840><c> of</c><00:03:24.000><c> every</c><00:03:24.640><c> line</c>
+
+00:03:24.949 --> 00:03:24.959 align:start position:0%
+is a control m at the end of every line
+ 
+
+00:03:24.959 --> 00:03:26.710 align:start position:0%
+is a control m at the end of every line
+which<00:03:25.120><c> is</c><00:03:25.280><c> actually</c><00:03:25.599><c> what</c><00:03:25.840><c> makes</c><00:03:26.080><c> it</c><00:03:26.239><c> a</c><00:03:26.400><c> dos</c>
+
+00:03:26.710 --> 00:03:26.720 align:start position:0%
+which is actually what makes it a dos
+ 
+
+00:03:26.720 --> 00:03:28.949 align:start position:0%
+which is actually what makes it a dos
+file<00:03:27.440><c> so</c><00:03:27.680><c> i</c><00:03:27.760><c> want</c><00:03:27.920><c> to</c><00:03:28.080><c> remove</c><00:03:28.319><c> that</c><00:03:28.560><c> additional</c>
+
+00:03:28.949 --> 00:03:28.959 align:start position:0%
+file so i want to remove that additional
+ 
+
+00:03:28.959 --> 00:03:30.550 align:start position:0%
+file so i want to remove that additional
+character<00:03:29.519><c> from</c><00:03:29.760><c> the</c>
+
+00:03:30.550 --> 00:03:30.560 align:start position:0%
+character from the
+ 
+
+00:03:30.560 --> 00:03:32.390 align:start position:0%
+character from the
+file<00:03:30.879><c> so</c><00:03:31.120><c> i</c><00:03:31.200><c> can</c><00:03:31.360><c> do</c><00:03:31.519><c> that</c><00:03:31.760><c> by</c><00:03:32.000><c> search</c><00:03:32.239><c> and</c>
+
+00:03:32.390 --> 00:03:32.400 align:start position:0%
+file so i can do that by search and
+ 
+
+00:03:32.400 --> 00:03:34.789 align:start position:0%
+file so i can do that by search and
+replace<00:03:33.200><c> so</c><00:03:33.680><c> this</c><00:03:33.840><c> is</c><00:03:34.000><c> the</c><00:03:34.080><c> power</c><00:03:34.319><c> of</c><00:03:34.480><c> va</c>
+
+00:03:34.789 --> 00:03:34.799 align:start position:0%
+replace so this is the power of va
+ 
+
+00:03:34.799 --> 00:03:37.110 align:start position:0%
+replace so this is the power of va
+editor<00:03:35.120><c> i</c><00:03:35.120><c> am</c><00:03:35.280><c> illustrating</c><00:03:35.840><c> to</c><00:03:36.000><c> you</c><00:03:36.480><c> so</c><00:03:36.879><c> i</c>
+
+00:03:37.110 --> 00:03:37.120 align:start position:0%
+editor i am illustrating to you so i
+ 
+
+00:03:37.120 --> 00:03:39.110 align:start position:0%
+editor i am illustrating to you so i
+press<00:03:37.680><c> escape</c><00:03:38.080><c> to</c><00:03:38.319><c> ensure</c><00:03:38.640><c> that</c><00:03:38.799><c> i</c><00:03:38.799><c> am</c><00:03:38.959><c> in</c><00:03:39.040><c> the</c>
+
+00:03:39.110 --> 00:03:39.120 align:start position:0%
+press escape to ensure that i am in the
+ 
+
+00:03:39.120 --> 00:03:41.990 align:start position:0%
+press escape to ensure that i am in the
+command<00:03:39.519><c> mode</c><00:03:40.159><c> press</c><00:03:40.879><c> colon</c>
+
+00:03:41.990 --> 00:03:42.000 align:start position:0%
+command mode press colon
+ 
+
+00:03:42.000 --> 00:03:43.990 align:start position:0%
+command mode press colon
+shift<00:03:42.319><c> colon</c><00:03:42.640><c> so</c><00:03:42.799><c> that</c><00:03:42.959><c> i</c><00:03:42.959><c> am</c><00:03:43.120><c> in</c><00:03:43.200><c> the</c><00:03:43.360><c> x</c><00:03:43.680><c> mode</c>
+
+00:03:43.990 --> 00:03:44.000 align:start position:0%
+shift colon so that i am in the x mode
+ 
+
+00:03:44.000 --> 00:03:45.509 align:start position:0%
+shift colon so that i am in the x mode
+at<00:03:44.080><c> the</c><00:03:44.159><c> bottom</c><00:03:44.560><c> you</c><00:03:44.640><c> can</c><00:03:44.799><c> see</c><00:03:44.959><c> i'm</c><00:03:45.120><c> in</c><00:03:45.200><c> the</c><00:03:45.280><c> x</c>
+
+00:03:45.509 --> 00:03:45.519 align:start position:0%
+at the bottom you can see i'm in the x
+ 
+
+00:03:45.519 --> 00:03:48.630 align:start position:0%
+at the bottom you can see i'm in the x
+mode<00:03:46.319><c> and</c><00:03:46.640><c> i</c><00:03:46.799><c> want</c><00:03:47.040><c> to</c><00:03:47.519><c> remove</c><00:03:47.920><c> it</c><00:03:48.000><c> from</c><00:03:48.239><c> every</c>
+
+00:03:48.630 --> 00:03:48.640 align:start position:0%
+mode and i want to remove it from every
+ 
+
+00:03:48.640 --> 00:03:51.830 align:start position:0%
+mode and i want to remove it from every
+line<00:03:49.280><c> so</c><00:03:50.000><c> percentage</c><00:03:50.560><c> sign</c><00:03:50.799><c> means</c><00:03:51.040><c> everywhere</c>
+
+00:03:51.830 --> 00:03:51.840 align:start position:0%
+line so percentage sign means everywhere
+ 
+
+00:03:51.840 --> 00:03:54.949 align:start position:0%
+line so percentage sign means everywhere
+substitute<00:03:53.040><c> and</c><00:03:53.200><c> then</c><00:03:53.439><c> what</c><00:03:53.680><c> do</c><00:03:53.840><c> i</c>
+
+00:03:54.949 --> 00:03:54.959 align:start position:0%
+substitute and then what do i
+ 
+
+00:03:54.959 --> 00:03:58.309 align:start position:0%
+substitute and then what do i
+use<00:03:55.280><c> to</c><00:03:55.439><c> capture</c><00:03:55.920><c> this</c><00:03:56.159><c> command</c><00:03:56.560><c> so</c><00:03:56.799><c> control</c><00:03:57.280><c> v</c>
+
+00:03:58.309 --> 00:03:58.319 align:start position:0%
+use to capture this command so control v
+ 
+
+00:03:58.319 --> 00:04:00.149 align:start position:0%
+use to capture this command so control v
+and<00:03:58.400><c> then</c><00:03:58.640><c> control</c><00:03:59.120><c> m</c><00:03:59.439><c> would</c><00:03:59.680><c> capture</c><00:04:00.000><c> the</c>
+
+00:04:00.149 --> 00:04:00.159 align:start position:0%
+and then control m would capture the
+ 
+
+00:04:00.159 --> 00:04:03.110 align:start position:0%
+and then control m would capture the
+special<00:04:00.560><c> character</c><00:04:01.280><c> so</c><00:04:01.519><c> ctrl</c><00:04:02.000><c> v</c><00:04:02.159><c> control</c><00:04:02.640><c> m</c>
+
+00:04:03.110 --> 00:04:03.120 align:start position:0%
+special character so ctrl v control m
+ 
+
+00:04:03.120 --> 00:04:04.550 align:start position:0%
+special character so ctrl v control m
+okay<00:04:03.360><c> it</c><00:04:03.519><c> has</c><00:04:03.760><c> captured</c><00:04:04.080><c> the</c><00:04:04.239><c> special</c>
+
+00:04:04.550 --> 00:04:04.560 align:start position:0%
+okay it has captured the special
+ 
+
+00:04:04.560 --> 00:04:06.949 align:start position:0%
+okay it has captured the special
+character<00:04:05.519><c> and</c><00:04:05.680><c> i</c><00:04:05.840><c> want</c><00:04:06.080><c> to</c><00:04:06.239><c> replace</c><00:04:06.640><c> with</c><00:04:06.879><c> a</c>
+
+00:04:06.949 --> 00:04:06.959 align:start position:0%
+character and i want to replace with a
+ 
+
+00:04:06.959 --> 00:04:09.589 align:start position:0%
+character and i want to replace with a
+null<00:04:07.680><c> so</c><00:04:07.840><c> that</c><00:04:08.239><c> there</c><00:04:08.400><c> is</c><00:04:08.640><c> a</c><00:04:08.959><c> deletion</c><00:04:09.360><c> of</c><00:04:09.439><c> that</c>
+
+00:04:09.589 --> 00:04:09.599 align:start position:0%
+null so that there is a deletion of that
+ 
+
+00:04:09.599 --> 00:04:11.589 align:start position:0%
+null so that there is a deletion of that
+character<00:04:10.400><c> and</c><00:04:10.560><c> i</c><00:04:10.640><c> want</c><00:04:10.799><c> to</c><00:04:10.879><c> do</c><00:04:11.040><c> it</c><00:04:11.200><c> everywhere</c>
+
+00:04:11.589 --> 00:04:11.599 align:start position:0%
+character and i want to do it everywhere
+ 
+
+00:04:11.599 --> 00:04:13.429 align:start position:0%
+character and i want to do it everywhere
+so<00:04:11.760><c> i</c><00:04:11.920><c> press</c><00:04:12.159><c> a</c><00:04:12.319><c> g</c>
+
+00:04:13.429 --> 00:04:13.439 align:start position:0%
+so i press a g
+ 
+
+00:04:13.439 --> 00:04:15.429 align:start position:0%
+so i press a g
+now<00:04:13.599><c> you</c><00:04:13.760><c> see</c><00:04:14.000><c> that</c><00:04:14.080><c> when</c><00:04:14.319><c> i</c><00:04:14.560><c> press</c><00:04:14.959><c> enter</c><00:04:15.280><c> what</c>
+
+00:04:15.429 --> 00:04:15.439 align:start position:0%
+now you see that when i press enter what
+ 
+
+00:04:15.439 --> 00:04:17.509 align:start position:0%
+now you see that when i press enter what
+happens<00:04:16.000><c> that</c><00:04:16.239><c> character</c><00:04:16.639><c> has</c><00:04:16.799><c> been</c><00:04:16.959><c> removed</c>
+
+00:04:17.509 --> 00:04:17.519 align:start position:0%
+happens that character has been removed
+ 
+
+00:04:17.519 --> 00:04:19.430 align:start position:0%
+happens that character has been removed
+from<00:04:17.759><c> the</c><00:04:17.919><c> whole</c><00:04:18.400><c> file</c>
+
+00:04:19.430 --> 00:04:19.440 align:start position:0%
+from the whole file
+ 
+
+00:04:19.440 --> 00:04:22.790 align:start position:0%
+from the whole file
+and<00:04:19.840><c> now</c><00:04:20.079><c> i</c><00:04:20.160><c> can</c><00:04:20.400><c> save</c><00:04:20.720><c> the</c><00:04:20.799><c> file</c><00:04:21.120><c> and</c><00:04:21.199><c> come</c><00:04:21.519><c> out</c>
+
+00:04:22.790 --> 00:04:22.800 align:start position:0%
+and now i can save the file and come out
+ 
+
+00:04:22.800 --> 00:04:25.030 align:start position:0%
+and now i can save the file and come out
+and<00:04:23.040><c> i</c><00:04:23.280><c> open</c><00:04:23.520><c> the</c><00:04:23.680><c> file</c><00:04:24.080><c> once</c><00:04:24.400><c> more</c><00:04:24.720><c> and</c><00:04:24.880><c> it</c>
+
+00:04:25.030 --> 00:04:25.040 align:start position:0%
+and i open the file once more and it
+ 
+
+00:04:25.040 --> 00:04:26.790 align:start position:0%
+and i open the file once more and it
+does<00:04:25.199><c> not</c><00:04:25.440><c> complain</c><00:04:25.840><c> that</c><00:04:25.919><c> it</c><00:04:26.000><c> is</c><00:04:26.160><c> a</c><00:04:26.240><c> dos</c><00:04:26.560><c> file</c>
+
+00:04:26.790 --> 00:04:26.800 align:start position:0%
+does not complain that it is a dos file
+ 
+
+00:04:26.800 --> 00:04:28.710 align:start position:0%
+does not complain that it is a dos file
+because<00:04:27.360><c> there</c><00:04:27.520><c> is</c><00:04:27.680><c> no</c><00:04:27.919><c> carriage</c><00:04:28.240><c> written</c><00:04:28.639><c> at</c>
+
+00:04:28.710 --> 00:04:28.720 align:start position:0%
+because there is no carriage written at
+ 
+
+00:04:28.720 --> 00:04:30.230 align:start position:0%
+because there is no carriage written at
+the<00:04:28.800><c> end</c><00:04:29.040><c> of</c><00:04:29.199><c> each</c><00:04:29.440><c> line</c>
+
+00:04:30.230 --> 00:04:30.240 align:start position:0%
+the end of each line
+ 
+
+00:04:30.240 --> 00:04:32.950 align:start position:0%
+the end of each line
+so<00:04:30.479><c> you</c><00:04:30.560><c> have</c><00:04:31.040><c> removed</c><00:04:31.919><c> one</c><00:04:32.160><c> character</c><00:04:32.639><c> from</c>
+
+00:04:32.950 --> 00:04:32.960 align:start position:0%
+so you have removed one character from
+ 
+
+00:04:32.960 --> 00:04:36.230 align:start position:0%
+so you have removed one character from
+every<00:04:33.360><c> of</c><00:04:33.440><c> these</c><00:04:33.759><c> lines</c><00:04:34.240><c> in</c><00:04:34.320><c> 216</c><00:04:35.199><c> lines</c><00:04:35.840><c> in</c><00:04:36.000><c> one</c>
+
+00:04:36.230 --> 00:04:36.240 align:start position:0%
+every of these lines in 216 lines in one
+ 
+
+00:04:36.240 --> 00:04:39.110 align:start position:0%
+every of these lines in 216 lines in one
+go<00:04:36.639><c> so</c><00:04:36.800><c> that</c><00:04:36.960><c> is</c><00:04:37.040><c> the</c><00:04:37.120><c> power</c><00:04:37.440><c> of</c><00:04:37.600><c> a</c><00:04:37.680><c> va</c><00:04:38.000><c> editor</c>
+
+00:04:39.110 --> 00:04:39.120 align:start position:0%
+go so that is the power of a va editor
+ 
+
+00:04:39.120 --> 00:04:41.430 align:start position:0%
+go so that is the power of a va editor
+now<00:04:39.280><c> let</c><00:04:39.520><c> us</c><00:04:39.600><c> say</c><00:04:39.840><c> that</c><00:04:40.400><c> we</c><00:04:40.639><c> want</c><00:04:40.800><c> to</c><00:04:40.960><c> also</c>
+
+00:04:41.430 --> 00:04:41.440 align:start position:0%
+now let us say that we want to also
+ 
+
+00:04:41.440 --> 00:04:44.070 align:start position:0%
+now let us say that we want to also
+explore<00:04:41.840><c> this</c><00:04:42.080><c> further</c><00:04:42.800><c> so</c>
+
+00:04:44.070 --> 00:04:44.080 align:start position:0%
+explore this further so
+ 
+
+00:04:44.080 --> 00:04:46.950 align:start position:0%
+explore this further so
+control<00:04:44.639><c> f</c><00:04:44.960><c> would</c><00:04:45.680><c> scroll</c><00:04:46.080><c> the</c><00:04:46.240><c> page</c>
+
+00:04:46.950 --> 00:04:46.960 align:start position:0%
+control f would scroll the page
+ 
+
+00:04:46.960 --> 00:04:48.629 align:start position:0%
+control f would scroll the page
+downwards<00:04:47.919><c> so</c>
+
+00:04:48.629 --> 00:04:48.639 align:start position:0%
+downwards so
+ 
+
+00:04:48.639 --> 00:04:50.629 align:start position:0%
+downwards so
+let<00:04:48.800><c> me</c><00:04:48.960><c> go</c><00:04:49.120><c> to</c><00:04:49.280><c> the</c><00:04:49.360><c> first</c><00:04:49.680><c> line</c>
+
+00:04:50.629 --> 00:04:50.639 align:start position:0%
+let me go to the first line
+ 
+
+00:04:50.639 --> 00:04:52.230 align:start position:0%
+let me go to the first line
+and<00:04:51.040><c> let</c><00:04:51.199><c> me</c><00:04:51.360><c> also</c>
+
+00:04:52.230 --> 00:04:52.240 align:start position:0%
+and let me also
+ 
+
+00:04:52.240 --> 00:04:54.070 align:start position:0%
+and let me also
+set<00:04:52.479><c> the</c><00:04:52.639><c> numbers</c><00:04:53.120><c> so</c><00:04:53.280><c> you</c><00:04:53.440><c> can</c><00:04:53.520><c> see</c><00:04:53.680><c> that</c><00:04:53.840><c> i</c><00:04:53.919><c> am</c>
+
+00:04:54.070 --> 00:04:54.080 align:start position:0%
+set the numbers so you can see that i am
+ 
+
+00:04:54.080 --> 00:04:56.469 align:start position:0%
+set the numbers so you can see that i am
+in<00:04:54.160><c> the</c><00:04:54.320><c> 27</c><00:04:55.040><c> the</c><00:04:55.199><c> line</c><00:04:55.440><c> at</c><00:04:55.520><c> the</c><00:04:55.600><c> bottom</c><00:04:56.080><c> of</c><00:04:56.240><c> my</c>
+
+00:04:56.469 --> 00:04:56.479 align:start position:0%
+in the 27 the line at the bottom of my
+ 
+
+00:04:56.479 --> 00:04:59.270 align:start position:0%
+in the 27 the line at the bottom of my
+screen<00:04:57.280><c> so</c><00:04:57.440><c> when</c><00:04:57.600><c> i</c><00:04:57.759><c> press</c><00:04:58.000><c> ctrl</c><00:04:58.560><c> f</c><00:04:58.880><c> you</c><00:04:59.040><c> see</c>
+
+00:04:59.270 --> 00:04:59.280 align:start position:0%
+screen so when i press ctrl f you see
+ 
+
+00:04:59.280 --> 00:05:01.749 align:start position:0%
+screen so when i press ctrl f you see
+that<00:04:59.840><c> 27th</c><00:05:00.560><c> line</c><00:05:00.960><c> is</c><00:05:01.120><c> at</c><00:05:01.199><c> the</c><00:05:01.280><c> top</c><00:05:01.520><c> of</c><00:05:01.600><c> the</c>
+
+00:05:01.749 --> 00:05:01.759 align:start position:0%
+that 27th line is at the top of the
+ 
+
+00:05:01.759 --> 00:05:03.670 align:start position:0%
+that 27th line is at the top of the
+screen<00:05:02.080><c> and</c><00:05:02.240><c> one</c><00:05:02.479><c> whole</c><00:05:02.720><c> screen</c><00:05:03.039><c> has</c><00:05:03.199><c> been</c>
+
+00:05:03.670 --> 00:05:03.680 align:start position:0%
+screen and one whole screen has been
+ 
+
+00:05:03.680 --> 00:05:06.230 align:start position:0%
+screen and one whole screen has been
+scrolled<00:05:04.720><c> now</c><00:05:04.960><c> i</c><00:05:05.039><c> want</c><00:05:05.199><c> to</c><00:05:05.360><c> scroll</c><00:05:05.680><c> only</c><00:05:06.000><c> half</c>
+
+00:05:06.230 --> 00:05:06.240 align:start position:0%
+scrolled now i want to scroll only half
+ 
+
+00:05:06.240 --> 00:05:09.350 align:start position:0%
+scrolled now i want to scroll only half
+a<00:05:06.400><c> screen</c><00:05:06.800><c> so</c><00:05:07.520><c> i</c><00:05:07.680><c> could</c><00:05:07.840><c> do</c><00:05:08.080><c> that</c><00:05:08.560><c> by</c><00:05:08.800><c> using</c>
+
+00:05:09.350 --> 00:05:09.360 align:start position:0%
+a screen so i could do that by using
+ 
+
+00:05:09.360 --> 00:05:10.870 align:start position:0%
+a screen so i could do that by using
+ctrl<00:05:09.759><c> d</c>
+
+00:05:10.870 --> 00:05:10.880 align:start position:0%
+ctrl d
+ 
+
+00:05:10.880 --> 00:05:12.469 align:start position:0%
+ctrl d
+okay<00:05:11.120><c> so</c><00:05:11.280><c> you</c><00:05:11.360><c> can</c><00:05:11.520><c> see</c><00:05:11.680><c> that</c><00:05:11.840><c> i</c><00:05:11.919><c> am</c><00:05:12.080><c> scrolling</c>
+
+00:05:12.469 --> 00:05:12.479 align:start position:0%
+okay so you can see that i am scrolling
+ 
+
+00:05:12.479 --> 00:05:14.550 align:start position:0%
+okay so you can see that i am scrolling
+only<00:05:12.639><c> half</c><00:05:12.880><c> of</c><00:05:12.960><c> the</c><00:05:13.120><c> screen</c><00:05:13.680><c> control</c><00:05:14.160><c> d</c><00:05:14.400><c> would</c>
+
+00:05:14.550 --> 00:05:14.560 align:start position:0%
+only half of the screen control d would
+ 
+
+00:05:14.560 --> 00:05:15.909 align:start position:0%
+only half of the screen control d would
+be<00:05:14.800><c> down</c><00:05:15.120><c> half</c>
+
+00:05:15.909 --> 00:05:15.919 align:start position:0%
+be down half
+ 
+
+00:05:15.919 --> 00:05:18.950 align:start position:0%
+be down half
+control<00:05:16.320><c> u</c><00:05:16.479><c> will</c><00:05:16.560><c> be</c><00:05:16.720><c> up</c><00:05:17.039><c> half</c><00:05:17.520><c> up</c><00:05:17.840><c> half</c><00:05:18.320><c> okay</c>
+
+00:05:18.950 --> 00:05:18.960 align:start position:0%
+control u will be up half up half okay
+ 
+
+00:05:18.960 --> 00:05:21.430 align:start position:0%
+control u will be up half up half okay
+so<00:05:19.199><c> you</c><00:05:19.280><c> could</c><00:05:19.440><c> scroll</c><00:05:19.840><c> either</c><00:05:20.160><c> full</c><00:05:20.400><c> screens</c>
+
+00:05:21.430 --> 00:05:21.440 align:start position:0%
+so you could scroll either full screens
+ 
+
+00:05:21.440 --> 00:05:24.390 align:start position:0%
+so you could scroll either full screens
+or<00:05:21.759><c> you</c><00:05:21.919><c> could</c><00:05:22.080><c> scroll</c><00:05:22.880><c> half</c><00:05:23.120><c> screens</c><00:05:24.160><c> and</c><00:05:24.320><c> you</c>
+
+00:05:24.390 --> 00:05:24.400 align:start position:0%
+or you could scroll half screens and you
+ 
+
+00:05:24.400 --> 00:05:27.029 align:start position:0%
+or you could scroll half screens and you
+can<00:05:24.560><c> always</c><00:05:24.880><c> go</c><00:05:25.039><c> to</c><00:05:25.199><c> a</c><00:05:25.520><c> specific</c><00:05:26.000><c> line</c><00:05:26.639><c> so</c><00:05:26.800><c> let</c>
+
+00:05:27.029 --> 00:05:27.039 align:start position:0%
+can always go to a specific line so let
+ 
+
+00:05:27.039 --> 00:05:30.230 align:start position:0%
+can always go to a specific line so let
+us<00:05:27.120><c> say</c><00:05:27.360><c> at</c><00:05:27.960><c> 128th</c><00:05:29.199><c> line</c><00:05:29.360><c> there</c><00:05:29.520><c> is</c><00:05:29.600><c> an</c><00:05:29.759><c> error</c>
+
+00:05:30.230 --> 00:05:30.240 align:start position:0%
+us say at 128th line there is an error
+ 
+
+00:05:30.240 --> 00:05:32.710 align:start position:0%
+us say at 128th line there is an error
+so<00:05:30.400><c> i</c><00:05:30.479><c> can</c><00:05:30.639><c> press</c><00:05:30.960><c> colon</c><00:05:31.360><c> 128</c><00:05:32.000><c> and</c><00:05:32.080><c> go</c><00:05:32.320><c> exactly</c>
+
+00:05:32.710 --> 00:05:32.720 align:start position:0%
+so i can press colon 128 and go exactly
+ 
+
+00:05:32.720 --> 00:05:33.990 align:start position:0%
+so i can press colon 128 and go exactly
+to<00:05:32.880><c> that</c><00:05:33.120><c> line</c>
+
+00:05:33.990 --> 00:05:34.000 align:start position:0%
+to that line
+ 
+
+00:05:34.000 --> 00:05:35.749 align:start position:0%
+to that line
+and<00:05:34.160><c> you</c><00:05:34.240><c> can</c><00:05:34.400><c> see</c><00:05:34.560><c> that</c><00:05:34.880><c> the</c>
+
+00:05:35.749 --> 00:05:35.759 align:start position:0%
+and you can see that the
+ 
+
+00:05:35.759 --> 00:05:37.590 align:start position:0%
+and you can see that the
+syntax<00:05:36.160><c> highlighting</c><00:05:36.720><c> is</c><00:05:36.880><c> happening</c><00:05:37.280><c> to</c><00:05:37.440><c> show</c>
+
+00:05:37.590 --> 00:05:37.600 align:start position:0%
+syntax highlighting is happening to show
+ 
+
+00:05:37.600 --> 00:05:39.749 align:start position:0%
+syntax highlighting is happening to show
+you<00:05:37.759><c> the</c><00:05:37.919><c> matching</c><00:05:38.240><c> brace</c><00:05:39.039><c> so</c><00:05:39.199><c> it</c><00:05:39.360><c> is</c><00:05:39.440><c> useful</c>
+
+00:05:39.749 --> 00:05:39.759 align:start position:0%
+you the matching brace so it is useful
+ 
+
+00:05:39.759 --> 00:05:41.590 align:start position:0%
+you the matching brace so it is useful
+for<00:05:39.919><c> programmers</c><00:05:40.560><c> to</c><00:05:40.720><c> also</c><00:05:40.960><c> identify</c><00:05:41.520><c> the</c>
+
+00:05:41.590 --> 00:05:41.600 align:start position:0%
+for programmers to also identify the
+ 
+
+00:05:41.600 --> 00:05:43.749 align:start position:0%
+for programmers to also identify the
+loops<00:05:41.919><c> that</c><00:05:42.080><c> are</c><00:05:42.240><c> closing</c><00:05:42.560><c> properly</c>
+
+00:05:43.749 --> 00:05:43.759 align:start position:0%
+loops that are closing properly
+ 
+
+00:05:43.759 --> 00:05:45.990 align:start position:0%
+loops that are closing properly
+and<00:05:44.400><c> you</c><00:05:44.560><c> can</c><00:05:44.720><c> actually</c><00:05:44.960><c> move</c><00:05:45.280><c> up</c><00:05:45.440><c> and</c><00:05:45.600><c> down</c>
+
+00:05:45.990 --> 00:05:46.000 align:start position:0%
+and you can actually move up and down
+ 
+
+00:05:46.000 --> 00:05:48.230 align:start position:0%
+and you can actually move up and down
+using<00:05:46.320><c> the</c><00:05:46.479><c> arrow</c><00:05:46.880><c> keys</c><00:05:47.680><c> and</c><00:05:47.840><c> then</c><00:05:48.000><c> you</c><00:05:48.080><c> can</c>
+
+00:05:48.230 --> 00:05:48.240 align:start position:0%
+using the arrow keys and then you can
+ 
+
+00:05:48.240 --> 00:05:50.390 align:start position:0%
+using the arrow keys and then you can
+start<00:05:48.479><c> making</c><00:05:48.800><c> some</c><00:05:48.960><c> changes</c><00:05:49.280><c> to</c><00:05:49.440><c> the</c><00:05:49.600><c> text</c><00:05:50.160><c> so</c>
+
+00:05:50.390 --> 00:05:50.400 align:start position:0%
+start making some changes to the text so
+ 
+
+00:05:50.400 --> 00:05:52.390 align:start position:0%
+start making some changes to the text so
+i<00:05:50.479><c> want</c><00:05:50.720><c> to</c><00:05:50.800><c> make</c><00:05:51.039><c> let</c><00:05:51.280><c> us</c><00:05:51.360><c> say</c><00:05:51.520><c> this</c><00:05:51.680><c> value</c><00:05:52.080><c> not</c>
+
+00:05:52.390 --> 00:05:52.400 align:start position:0%
+i want to make let us say this value not
+ 
+
+00:05:52.400 --> 00:05:55.189 align:start position:0%
+i want to make let us say this value not
+0<00:05:52.639><c> and</c><00:05:52.800><c> 1</c><00:05:53.360><c> so</c><00:05:53.520><c> i</c><00:05:53.600><c> can</c><00:05:53.840><c> press</c><00:05:54.160><c> r</c><00:05:54.479><c> to</c><00:05:54.639><c> replace</c><00:05:55.120><c> the</c>
+
+00:05:55.189 --> 00:05:55.199 align:start position:0%
+0 and 1 so i can press r to replace the
+ 
+
+00:05:55.199 --> 00:05:57.029 align:start position:0%
+0 and 1 so i can press r to replace the
+character<00:05:55.840><c> and</c><00:05:56.160><c> the</c><00:05:56.319><c> character</c><00:05:56.720><c> i</c><00:05:56.800><c> want</c><00:05:56.960><c> to</c>
+
+00:05:57.029 --> 00:05:57.039 align:start position:0%
+character and the character i want to
+ 
+
+00:05:57.039 --> 00:05:59.510 align:start position:0%
+character and the character i want to
+replace<00:05:57.440><c> is</c><00:05:57.600><c> 1</c><00:05:57.759><c> so</c><00:05:57.919><c> i</c><00:05:58.000><c> press</c><00:05:58.319><c> 1</c><00:05:58.960><c> and</c><00:05:59.199><c> press</c>
+
+00:05:59.510 --> 00:05:59.520 align:start position:0%
+replace is 1 so i press 1 and press
+ 
+
+00:05:59.520 --> 00:06:02.150 align:start position:0%
+replace is 1 so i press 1 and press
+escape<00:06:00.000><c> i</c><00:06:00.000><c> am</c><00:06:00.160><c> done</c><00:06:00.720><c> ok</c><00:06:00.960><c> now</c><00:06:01.120><c> again</c><00:06:01.440><c> i</c><00:06:01.520><c> can</c><00:06:01.919><c> move</c>
+
+00:06:02.150 --> 00:06:02.160 align:start position:0%
+escape i am done ok now again i can move
+ 
+
+00:06:02.160 --> 00:06:04.309 align:start position:0%
+escape i am done ok now again i can move
+around<00:06:02.800><c> so</c><00:06:02.960><c> you</c><00:06:03.039><c> can</c><00:06:03.199><c> see</c><00:06:03.360><c> that</c><00:06:03.680><c> we</c><00:06:03.919><c> are</c><00:06:04.080><c> able</c>
+
+00:06:04.309 --> 00:06:04.319 align:start position:0%
+around so you can see that we are able
+ 
+
+00:06:04.319 --> 00:06:05.350 align:start position:0%
+around so you can see that we are able
+to<00:06:04.479><c> make</c>
+
+00:06:05.350 --> 00:06:05.360 align:start position:0%
+to make
+ 
+
+00:06:05.360 --> 00:06:08.790 align:start position:0%
+to make
+extremely<00:06:06.160><c> precise</c><00:06:06.800><c> editing</c><00:06:07.600><c> into</c><00:06:07.840><c> the</c><00:06:08.000><c> file</c>
+
+00:06:08.790 --> 00:06:08.800 align:start position:0%
+extremely precise editing into the file
+ 
+
+00:06:08.800 --> 00:06:10.309 align:start position:0%
+extremely precise editing into the file
+but<00:06:09.199><c> also</c>
+
+00:06:10.309 --> 00:06:10.319 align:start position:0%
+but also
+ 
+
+00:06:10.319 --> 00:06:12.390 align:start position:0%
+but also
+able<00:06:10.560><c> to</c><00:06:10.720><c> move</c><00:06:10.960><c> around</c><00:06:11.360><c> quite</c><00:06:11.600><c> conveniently</c>
+
+00:06:12.390 --> 00:06:12.400 align:start position:0%
+able to move around quite conveniently
+ 
+
+00:06:12.400 --> 00:06:14.710 align:start position:0%
+able to move around quite conveniently
+in<00:06:12.560><c> a</c><00:06:12.639><c> visual</c><00:06:13.039><c> manner</c><00:06:13.520><c> so</c><00:06:13.680><c> va</c><00:06:14.000><c> editor</c><00:06:14.400><c> that</c><00:06:14.560><c> way</c>
+
+00:06:14.710 --> 00:06:14.720 align:start position:0%
+in a visual manner so va editor that way
+ 
+
+00:06:14.720 --> 00:06:17.990 align:start position:0%
+in a visual manner so va editor that way
+is<00:06:14.880><c> quite</c><00:06:15.440><c> convenient</c>
+
+00:06:17.990 --> 00:06:18.000 align:start position:0%
+is quite convenient
+ 
+
+00:06:18.000 --> 00:06:22.309 align:start position:0%
+is quite convenient
+i<00:06:18.240><c> go</c><00:06:18.400><c> to</c><00:06:18.479><c> the</c><00:06:18.639><c> last</c><00:06:18.960><c> line</c><00:06:20.000><c> okay</c><00:06:20.720><c> and</c><00:06:21.520><c> last</c><00:06:21.759><c> line</c>
+
+00:06:22.309 --> 00:06:22.319 align:start position:0%
+i go to the last line okay and last line
+ 
+
+00:06:22.319 --> 00:06:24.150 align:start position:0%
+i go to the last line okay and last line
+now<00:06:22.639><c> let</c><00:06:22.800><c> us</c><00:06:22.880><c> say</c><00:06:23.199><c> let</c><00:06:23.360><c> me</c><00:06:23.440><c> look</c><00:06:23.680><c> at</c><00:06:23.840><c> some</c>
+
+00:06:24.150 --> 00:06:24.160 align:start position:0%
+now let us say let me look at some
+ 
+
+00:06:24.160 --> 00:06:27.270 align:start position:0%
+now let us say let me look at some
+variables<00:06:24.720><c> so</c><00:06:25.039><c> there</c><00:06:25.199><c> is</c><00:06:25.360><c> a</c>
+
+00:06:27.270 --> 00:06:27.280 align:start position:0%
+variables so there is a
+ 
+
+00:06:27.280 --> 00:06:29.670 align:start position:0%
+variables so there is a
+structure<00:06:27.759><c> called</c><00:06:28.560><c> converge</c>
+
+00:06:29.670 --> 00:06:29.680 align:start position:0%
+structure called converge
+ 
+
+00:06:29.680 --> 00:06:32.070 align:start position:0%
+structure called converge
+which<00:06:30.240><c> has</c><00:06:30.400><c> been</c><00:06:30.639><c> used</c><00:06:31.039><c> here</c><00:06:31.520><c> so</c><00:06:31.680><c> you</c><00:06:31.759><c> can</c><00:06:31.919><c> see</c>
+
+00:06:32.070 --> 00:06:32.080 align:start position:0%
+which has been used here so you can see
+ 
+
+00:06:32.080 --> 00:06:33.270 align:start position:0%
+which has been used here so you can see
+converge<00:06:32.639><c> is</c>
+
+00:06:33.270 --> 00:06:33.280 align:start position:0%
+converge is
+ 
+
+00:06:33.280 --> 00:06:35.510 align:start position:0%
+converge is
+is<00:06:33.440><c> the</c><00:06:33.520><c> name</c><00:06:33.759><c> of</c><00:06:33.919><c> the</c><00:06:34.479><c> structure</c>
+
+00:06:35.510 --> 00:06:35.520 align:start position:0%
+is the name of the structure
+ 
+
+00:06:35.520 --> 00:06:37.510 align:start position:0%
+is the name of the structure
+and<00:06:35.759><c> i</c><00:06:35.919><c> want</c><00:06:36.080><c> to</c><00:06:36.319><c> name</c><00:06:36.800><c> that</c><00:06:37.039><c> converge</c>
+
+00:06:37.510 --> 00:06:37.520 align:start position:0%
+and i want to name that converge
+ 
+
+00:06:37.520 --> 00:06:40.150 align:start position:0%
+and i want to name that converge
+structure<00:06:38.400><c> to</c><00:06:38.639><c> something</c><00:06:38.960><c> else</c><00:06:39.360><c> so</c><00:06:39.600><c> i</c><00:06:39.759><c> will</c><00:06:39.919><c> go</c>
+
+00:06:40.150 --> 00:06:40.160 align:start position:0%
+structure to something else so i will go
+ 
+
+00:06:40.160 --> 00:06:42.390 align:start position:0%
+structure to something else so i will go
+and<00:06:40.400><c> check</c><00:06:40.639><c> where</c><00:06:40.880><c> all</c><00:06:41.039><c> that</c><00:06:41.199><c> word</c><00:06:41.440><c> comes</c><00:06:41.840><c> so</c>
+
+00:06:42.390 --> 00:06:42.400 align:start position:0%
+and check where all that word comes so
+ 
+
+00:06:42.400 --> 00:06:43.430 align:start position:0%
+and check where all that word comes so
+slash
+
+00:06:43.430 --> 00:06:43.440 align:start position:0%
+slash
+ 
+
+00:06:43.440 --> 00:06:44.629 align:start position:0%
+slash
+converge
+
+00:06:44.629 --> 00:06:44.639 align:start position:0%
+converge
+ 
+
+00:06:44.639 --> 00:06:46.469 align:start position:0%
+converge
+and<00:06:44.800><c> you</c><00:06:44.960><c> see</c><00:06:45.199><c> that</c><00:06:45.440><c> i</c><00:06:45.440><c> am</c><00:06:45.600><c> able</c><00:06:45.759><c> to</c><00:06:45.919><c> press</c><00:06:46.160><c> now</c>
+
+00:06:46.469 --> 00:06:46.479 align:start position:0%
+and you see that i am able to press now
+ 
+
+00:06:46.479 --> 00:06:47.270 align:start position:0%
+and you see that i am able to press now
+n
+
+00:06:47.270 --> 00:06:47.280 align:start position:0%
+n
+ 
+
+00:06:47.280 --> 00:06:49.670 align:start position:0%
+n
+to<00:06:47.440><c> check</c><00:06:47.680><c> wherever</c><00:06:48.160><c> it</c><00:06:48.319><c> comes</c><00:06:48.800><c> so</c><00:06:48.960><c> i</c><00:06:49.199><c> ensure</c>
+
+00:06:49.670 --> 00:06:49.680 align:start position:0%
+to check wherever it comes so i ensure
+ 
+
+00:06:49.680 --> 00:06:50.550 align:start position:0%
+to check wherever it comes so i ensure
+that
+
+00:06:50.550 --> 00:06:50.560 align:start position:0%
+that
+ 
+
+00:06:50.560 --> 00:06:52.790 align:start position:0%
+that
+it<00:06:50.720><c> is</c><00:06:50.880><c> available</c><00:06:51.440><c> only</c><00:06:51.919><c> as</c><00:06:52.240><c> part</c><00:06:52.479><c> of</c><00:06:52.639><c> the</c>
+
+00:06:52.790 --> 00:06:52.800 align:start position:0%
+it is available only as part of the
+ 
+
+00:06:52.800 --> 00:06:55.270 align:start position:0%
+it is available only as part of the
+structure<00:06:53.360><c> and</c><00:06:53.520><c> not</c><00:06:53.840><c> in</c><00:06:54.400><c> not</c><00:06:54.639><c> as</c><00:06:54.800><c> a</c><00:06:54.880><c> part</c><00:06:55.120><c> of</c>
+
+00:06:55.270 --> 00:06:55.280 align:start position:0%
+structure and not in not as a part of
+ 
+
+00:06:55.280 --> 00:06:58.390 align:start position:0%
+structure and not in not as a part of
+any<00:06:55.680><c> function</c><00:06:56.160><c> name</c><00:06:56.880><c> and</c>
+
+00:06:58.390 --> 00:06:58.400 align:start position:0%
+any function name and
+ 
+
+00:06:58.400 --> 00:07:00.629 align:start position:0%
+any function name and
+look<00:06:58.639><c> around</c><00:06:59.039><c> and</c><00:06:59.280><c> ensure</c><00:06:59.680><c> that</c><00:06:59.840><c> it</c><00:07:00.000><c> is</c>
+
+00:07:00.629 --> 00:07:00.639 align:start position:0%
+look around and ensure that it is
+ 
+
+00:07:00.639 --> 00:07:02.550 align:start position:0%
+look around and ensure that it is
+occurring<00:07:01.039><c> only</c><00:07:01.360><c> as</c><00:07:01.599><c> name</c><00:07:01.919><c> of</c>
+
+00:07:02.550 --> 00:07:02.560 align:start position:0%
+occurring only as name of
+ 
+
+00:07:02.560 --> 00:07:04.710 align:start position:0%
+occurring only as name of
+the<00:07:02.720><c> structure</c><00:07:03.199><c> alone</c><00:07:03.759><c> okay</c><00:07:04.080><c> so</c><00:07:04.240><c> once</c><00:07:04.560><c> i</c>
+
+00:07:04.710 --> 00:07:04.720 align:start position:0%
+the structure alone okay so once i
+ 
+
+00:07:04.720 --> 00:07:06.950 align:start position:0%
+the structure alone okay so once i
+confirm<00:07:05.440><c> then</c><00:07:05.680><c> what</c><00:07:05.919><c> i</c><00:07:06.000><c> can</c><00:07:06.160><c> do</c><00:07:06.400><c> is</c><00:07:06.560><c> that</c><00:07:06.720><c> i</c><00:07:06.800><c> can</c>
+
+00:07:06.950 --> 00:07:06.960 align:start position:0%
+confirm then what i can do is that i can
+ 
+
+00:07:06.960 --> 00:07:10.710 align:start position:0%
+confirm then what i can do is that i can
+go<00:07:07.199><c> ahead</c><00:07:07.280><c> and</c><00:07:07.440><c> replace</c><00:07:07.919><c> it</c><00:07:08.319><c> so</c><00:07:09.039><c> colon</c>
+
+00:07:10.710 --> 00:07:10.720 align:start position:0%
+go ahead and replace it so colon
+ 
+
+00:07:10.720 --> 00:07:13.990 align:start position:0%
+go ahead and replace it so colon
+percentage<00:07:11.360><c> substitute</c><00:07:12.479><c> converge</c><00:07:13.759><c> to</c>
+
+00:07:13.990 --> 00:07:14.000 align:start position:0%
+percentage substitute converge to
+ 
+
+00:07:14.000 --> 00:07:15.830 align:start position:0%
+percentage substitute converge to
+something<00:07:14.400><c> else</c><00:07:14.639><c> name</c><00:07:14.880><c> let</c><00:07:15.039><c> us</c><00:07:15.120><c> say</c><00:07:15.360><c> i</c><00:07:15.520><c> happen</c>
+
+00:07:15.830 --> 00:07:15.840 align:start position:0%
+something else name let us say i happen
+ 
+
+00:07:15.840 --> 00:07:16.629 align:start position:0%
+something else name let us say i happen
+to
+
+00:07:16.629 --> 00:07:16.639 align:start position:0%
+to
+ 
+
+00:07:16.639 --> 00:07:18.710 align:start position:0%
+to
+rename<00:07:17.039><c> it</c><00:07:17.280><c> to</c><00:07:17.599><c> capital</c>
+
+00:07:18.710 --> 00:07:18.720 align:start position:0%
+rename it to capital
+ 
+
+00:07:18.720 --> 00:07:20.309 align:start position:0%
+rename it to capital
+converge<00:07:19.280><c> because</c><00:07:19.680><c> that</c><00:07:19.840><c> is</c><00:07:19.919><c> what</c><00:07:20.160><c> is</c>
+
+00:07:20.309 --> 00:07:20.319 align:start position:0%
+converge because that is what is
+ 
+
+00:07:20.319 --> 00:07:22.629 align:start position:0%
+converge because that is what is
+correctly<00:07:20.720><c> given</c><00:07:20.960><c> in</c><00:07:21.520><c> the</c><00:07:21.759><c> input</c><00:07:22.080><c> file</c><00:07:22.319><c> let</c><00:07:22.479><c> us</c>
+
+00:07:22.629 --> 00:07:22.639 align:start position:0%
+correctly given in the input file let us
+ 
+
+00:07:22.639 --> 00:07:24.710 align:start position:0%
+correctly given in the input file let us
+say<00:07:23.199><c> so</c><00:07:23.520><c> i</c><00:07:23.599><c> can</c><00:07:23.840><c> apply</c><00:07:24.160><c> this</c><00:07:24.319><c> change</c>
+
+00:07:24.710 --> 00:07:24.720 align:start position:0%
+say so i can apply this change
+ 
+
+00:07:24.720 --> 00:07:26.629 align:start position:0%
+say so i can apply this change
+everywhere<00:07:25.280><c> in</c><00:07:25.360><c> the</c><00:07:25.599><c> file</c><00:07:26.000><c> and</c><00:07:26.160><c> you</c><00:07:26.319><c> see</c><00:07:26.479><c> that</c>
+
+00:07:26.629 --> 00:07:26.639 align:start position:0%
+everywhere in the file and you see that
+ 
+
+00:07:26.639 --> 00:07:28.309 align:start position:0%
+everywhere in the file and you see that
+everywhere<00:07:27.120><c> the</c><00:07:27.280><c> converse</c><00:07:27.759><c> has</c><00:07:27.919><c> been</c><00:07:28.080><c> changed</c>
+
+00:07:28.309 --> 00:07:28.319 align:start position:0%
+everywhere the converse has been changed
+ 
+
+00:07:28.319 --> 00:07:31.749 align:start position:0%
+everywhere the converse has been changed
+to<00:07:28.560><c> capital</c><00:07:29.120><c> c</c><00:07:30.000><c> so</c><00:07:30.240><c> we</c><00:07:30.400><c> can</c><00:07:30.560><c> do</c><00:07:30.880><c> some</c><00:07:31.199><c> variables</c>
+
+00:07:31.749 --> 00:07:31.759 align:start position:0%
+to capital c so we can do some variables
+ 
+
+00:07:31.759 --> 00:07:34.870 align:start position:0%
+to capital c so we can do some variables
+name<00:07:32.000><c> changes</c><00:07:32.400><c> in</c><00:07:32.560><c> one</c><00:07:32.800><c> go</c><00:07:33.199><c> everywhere</c><00:07:34.240><c> or</c><00:07:34.800><c> you</c>
+
+00:07:34.870 --> 00:07:34.880 align:start position:0%
+name changes in one go everywhere or you
+ 
+
+00:07:34.880 --> 00:07:37.110 align:start position:0%
+name changes in one go everywhere or you
+can<00:07:34.960><c> see</c><00:07:35.199><c> 39</c><00:07:35.599><c> substitutions</c><00:07:36.240><c> on</c><00:07:36.400><c> 33</c><00:07:36.880><c> lines</c>
+
+00:07:37.110 --> 00:07:37.120 align:start position:0%
+can see 39 substitutions on 33 lines
+ 
+
+00:07:37.120 --> 00:07:38.870 align:start position:0%
+can see 39 substitutions on 33 lines
+have<00:07:37.360><c> been</c><00:07:37.440><c> affected</c><00:07:37.840><c> with</c><00:07:38.080><c> just</c><00:07:38.319><c> one</c><00:07:38.479><c> command</c>
+
+00:07:38.870 --> 00:07:38.880 align:start position:0%
+have been affected with just one command
+ 
+
+00:07:38.880 --> 00:07:41.029 align:start position:0%
+have been affected with just one command
+so<00:07:39.039><c> that</c><00:07:39.199><c> is</c><00:07:39.280><c> the</c><00:07:39.360><c> power</c><00:07:39.599><c> of</c><00:07:39.759><c> va</c><00:07:40.080><c> editor</c><00:07:40.800><c> which</c>
+
+00:07:41.029 --> 00:07:41.039 align:start position:0%
+so that is the power of va editor which
+ 
+
+00:07:41.039 --> 00:07:42.950 align:start position:0%
+so that is the power of va editor which
+i<00:07:41.120><c> would</c><00:07:41.360><c> say</c><00:07:41.599><c> is</c><00:07:41.840><c> available</c><00:07:42.240><c> perhaps</c><00:07:42.720><c> only</c>
+
+00:07:42.950 --> 00:07:42.960 align:start position:0%
+i would say is available perhaps only
+ 
+
+00:07:42.960 --> 00:07:45.510 align:start position:0%
+i would say is available perhaps only
+with<00:07:43.280><c> emacs</c><00:07:43.759><c> but</c><00:07:44.240><c> any</c><00:07:44.400><c> other</c><00:07:44.639><c> editor</c><00:07:45.280><c> would</c>
+
+00:07:45.510 --> 00:07:45.520 align:start position:0%
+with emacs but any other editor would
+ 
+
+00:07:45.520 --> 00:07:48.950 align:start position:0%
+with emacs but any other editor would
+not<00:07:45.759><c> make</c><00:07:46.000><c> it</c><00:07:46.319><c> that</c><00:07:46.560><c> easy</c><00:07:47.280><c> okay</c><00:07:48.000><c> and</c><00:07:48.639><c> i</c><00:07:48.720><c> could</c>
+
+00:07:48.950 --> 00:07:48.960 align:start position:0%
+not make it that easy okay and i could
+ 
+
+00:07:48.960 --> 00:07:51.990 align:start position:0%
+not make it that easy okay and i could
+also<00:07:49.280><c> do</c><00:07:49.680><c> u</c><00:07:49.919><c> to</c><00:07:50.160><c> undo</c><00:07:50.479><c> the</c><00:07:50.639><c> change</c>
+
+00:07:51.990 --> 00:07:52.000 align:start position:0%
+also do u to undo the change
+ 
+
+00:07:52.000 --> 00:07:55.830 align:start position:0%
+also do u to undo the change
+okay<00:07:52.720><c> now</c><00:07:53.120><c> uh</c><00:07:53.360><c> we</c><00:07:53.520><c> could</c><00:07:53.840><c> also</c>
+
+00:07:55.830 --> 00:07:55.840 align:start position:0%
+okay now uh we could also
+ 
+
+00:07:55.840 --> 00:07:58.869 align:start position:0%
+okay now uh we could also
+see<00:07:56.160><c> the</c><00:07:56.400><c> power</c><00:07:56.720><c> of</c><00:07:56.960><c> it</c><00:07:57.199><c> by</c>
+
+00:07:58.869 --> 00:07:58.879 align:start position:0%
+see the power of it by
+ 
+
+00:07:58.879 --> 00:08:00.629 align:start position:0%
+see the power of it by
+seeing<00:07:59.120><c> that</c><00:07:59.280><c> we</c><00:07:59.360><c> are</c><00:07:59.520><c> able</c><00:07:59.680><c> to</c><00:07:59.759><c> edit</c><00:08:00.080><c> it</c><00:08:00.319><c> in</c><00:08:00.479><c> a</c>
+
+00:08:00.629 --> 00:08:00.639 align:start position:0%
+seeing that we are able to edit it in a
+ 
+
+00:08:00.639 --> 00:08:02.230 align:start position:0%
+seeing that we are able to edit it in a
+convenient<00:08:01.280><c> manner</c>
+
+00:08:02.230 --> 00:08:02.240 align:start position:0%
+convenient manner
+ 
+
+00:08:02.240 --> 00:08:04.230 align:start position:0%
+convenient manner
+so<00:08:02.560><c> i</c><00:08:02.639><c> want</c><00:08:02.879><c> to</c><00:08:03.039><c> append</c><00:08:03.360><c> something</c><00:08:03.680><c> at</c><00:08:03.759><c> the</c><00:08:04.000><c> end</c>
+
+00:08:04.230 --> 00:08:04.240 align:start position:0%
+so i want to append something at the end
+ 
+
+00:08:04.240 --> 00:08:06.790 align:start position:0%
+so i want to append something at the end
+i<00:08:04.400><c> press</c><00:08:04.639><c> capital</c><00:08:05.360><c> a</c><00:08:05.840><c> so</c><00:08:06.000><c> i</c><00:08:06.160><c> go</c><00:08:06.319><c> to</c><00:08:06.400><c> the</c><00:08:06.479><c> end</c><00:08:06.639><c> of</c>
+
+00:08:06.790 --> 00:08:06.800 align:start position:0%
+i press capital a so i go to the end of
+ 
+
+00:08:06.800 --> 00:08:09.270 align:start position:0%
+i press capital a so i go to the end of
+the<00:08:06.879><c> line</c><00:08:07.120><c> and</c><00:08:07.199><c> start</c><00:08:07.440><c> appending</c><00:08:08.319><c> so</c><00:08:08.639><c> i</c><00:08:08.879><c> have</c><00:08:09.120><c> a</c>
+
+00:08:09.270 --> 00:08:09.280 align:start position:0%
+the line and start appending so i have a
+ 
+
+00:08:09.280 --> 00:08:11.350 align:start position:0%
+the line and start appending so i have a
+comment<00:08:09.840><c> here</c>
+
+00:08:11.350 --> 00:08:11.360 align:start position:0%
+comment here
+ 
+
+00:08:11.360 --> 00:08:12.469 align:start position:0%
+comment here
+okay
+
+00:08:12.469 --> 00:08:12.479 align:start position:0%
+okay
+ 
+
+00:08:12.479 --> 00:08:13.909 align:start position:0%
+okay
+then<00:08:12.639><c> i</c><00:08:12.800><c> go</c><00:08:12.960><c> to</c><00:08:13.039><c> the</c><00:08:13.120><c> beginning</c><00:08:13.440><c> of</c><00:08:13.599><c> the</c><00:08:13.680><c> line</c>
+
+00:08:13.909 --> 00:08:13.919 align:start position:0%
+then i go to the beginning of the line
+ 
+
+00:08:13.919 --> 00:08:17.110 align:start position:0%
+then i go to the beginning of the line
+pressing<00:08:14.400><c> 0</c>
+
+00:08:17.110 --> 00:08:17.120 align:start position:0%
+ 
+ 
+
+00:08:17.120 --> 00:08:19.430 align:start position:0%
+ 
+you<00:08:17.280><c> can</c><00:08:17.759><c> replace</c><00:08:18.319><c> one</c><00:08:18.560><c> single</c><00:08:18.879><c> character</c><00:08:19.199><c> by</c>
+
+00:08:19.430 --> 00:08:19.440 align:start position:0%
+you can replace one single character by
+ 
+
+00:08:19.440 --> 00:08:21.909 align:start position:0%
+you can replace one single character by
+pressing<00:08:19.919><c> r</c><00:08:20.319><c> so</c><00:08:20.560><c> i</c><00:08:20.800><c> press</c><00:08:21.199><c> r</c>
+
+00:08:21.909 --> 00:08:21.919 align:start position:0%
+pressing r so i press r
+ 
+
+00:08:21.919 --> 00:08:23.510 align:start position:0%
+pressing r so i press r
+the<00:08:22.160><c> i</c><00:08:22.319><c> will</c><00:08:22.479><c> be</c><00:08:22.639><c> changed</c><00:08:22.960><c> to</c><00:08:23.039><c> let</c><00:08:23.199><c> us</c><00:08:23.280><c> say</c>
+
+00:08:23.510 --> 00:08:23.520 align:start position:0%
+the i will be changed to let us say
+ 
+
+00:08:23.520 --> 00:08:26.309 align:start position:0%
+the i will be changed to let us say
+capital<00:08:24.080><c> i</c><00:08:24.720><c> and</c><00:08:24.800><c> then</c><00:08:25.039><c> escape</c><00:08:25.840><c> okay</c><00:08:26.000><c> so</c><00:08:26.160><c> you</c>
+
+00:08:26.309 --> 00:08:26.319 align:start position:0%
+capital i and then escape okay so you
+ 
+
+00:08:26.319 --> 00:08:28.230 align:start position:0%
+capital i and then escape okay so you
+can<00:08:26.479><c> change</c><00:08:26.800><c> one</c><00:08:27.039><c> character</c><00:08:27.440><c> at</c><00:08:27.520><c> a</c><00:08:27.599><c> time</c><00:08:28.080><c> you</c>
+
+00:08:28.230 --> 00:08:28.240 align:start position:0%
+can change one character at a time you
+ 
+
+00:08:28.240 --> 00:08:30.230 align:start position:0%
+can change one character at a time you
+could<00:08:28.400><c> also</c><00:08:28.639><c> change</c><00:08:29.120><c> until</c><00:08:29.360><c> you</c><00:08:29.520><c> press</c><00:08:29.840><c> escape</c>
+
+00:08:30.230 --> 00:08:30.240 align:start position:0%
+could also change until you press escape
+ 
+
+00:08:30.240 --> 00:08:32.790 align:start position:0%
+could also change until you press escape
+so<00:08:30.400><c> i</c><00:08:30.560><c> can</c><00:08:30.720><c> use</c><00:08:30.960><c> it</c><00:08:31.039><c> by</c><00:08:31.280><c> capital</c><00:08:31.680><c> r</c><00:08:31.919><c> so</c><00:08:32.479><c> in</c><00:08:32.560><c> the</c>
+
+00:08:32.790 --> 00:08:32.800 align:start position:0%
+so i can use it by capital r so in the
+ 
+
+00:08:32.800 --> 00:08:34.709 align:start position:0%
+so i can use it by capital r so in the
+command<00:08:33.200><c> mode</c><00:08:33.519><c> i</c><00:08:33.599><c> press</c><00:08:33.919><c> escape</c><00:08:34.240><c> to</c><00:08:34.399><c> ensure</c>
+
+00:08:34.709 --> 00:08:34.719 align:start position:0%
+command mode i press escape to ensure
+ 
+
+00:08:34.719 --> 00:08:36.469 align:start position:0%
+command mode i press escape to ensure
+that<00:08:34.880><c> i</c><00:08:34.880><c> am</c><00:08:34.959><c> in</c><00:08:35.039><c> the</c><00:08:35.120><c> command</c><00:08:35.519><c> mode</c><00:08:36.159><c> and</c><00:08:36.240><c> then</c>
+
+00:08:36.469 --> 00:08:36.479 align:start position:0%
+that i am in the command mode and then
+ 
+
+00:08:36.479 --> 00:08:38.709 align:start position:0%
+that i am in the command mode and then
+shift<00:08:36.959><c> r</c><00:08:37.360><c> which</c><00:08:37.599><c> means</c><00:08:37.839><c> that</c><00:08:38.000><c> until</c><00:08:38.320><c> i</c><00:08:38.399><c> press</c>
+
+00:08:38.709 --> 00:08:38.719 align:start position:0%
+shift r which means that until i press
+ 
+
+00:08:38.719 --> 00:08:40.149 align:start position:0%
+shift r which means that until i press
+escape<00:08:39.120><c> i</c><00:08:39.279><c> will</c><00:08:39.360><c> be</c><00:08:39.519><c> replacing</c><00:08:40.000><c> the</c>
+
+00:08:40.149 --> 00:08:40.159 align:start position:0%
+escape i will be replacing the
+ 
+
+00:08:40.159 --> 00:08:42.870 align:start position:0%
+escape i will be replacing the
+characters<00:08:41.279><c> and</c><00:08:41.680><c> i</c><00:08:41.839><c> can</c><00:08:42.000><c> do</c><00:08:42.159><c> that</c><00:08:42.399><c> by</c><00:08:42.640><c> saying</c>
+
+00:08:42.870 --> 00:08:42.880 align:start position:0%
+characters and i can do that by saying
+ 
+
+00:08:42.880 --> 00:08:44.550 align:start position:0%
+characters and i can do that by saying
+that<00:08:43.120><c> okay</c><00:08:43.599><c> i</c>
+
+00:08:44.550 --> 00:08:44.560 align:start position:0%
+that okay i
+ 
+
+00:08:44.560 --> 00:08:46.070 align:start position:0%
+that okay i
+then<00:08:45.279><c> c</c>
+
+00:08:46.070 --> 00:08:46.080 align:start position:0%
+then c
+ 
+
+00:08:46.080 --> 00:08:48.310 align:start position:0%
+then c
+o<00:08:46.560><c> n</c><00:08:46.959><c> so</c><00:08:47.120><c> i</c><00:08:47.200><c> can</c><00:08:47.360><c> keep</c><00:08:47.600><c> on</c><00:08:47.760><c> replacing</c><00:08:48.240><c> the</c>
+
+00:08:48.310 --> 00:08:48.320 align:start position:0%
+o n so i can keep on replacing the
+ 
+
+00:08:48.320 --> 00:08:49.670 align:start position:0%
+o n so i can keep on replacing the
+characters
+
+00:08:49.670 --> 00:08:49.680 align:start position:0%
+characters
+ 
+
+00:08:49.680 --> 00:08:51.750 align:start position:0%
+characters
+okay<00:08:50.000><c> and</c><00:08:50.160><c> i</c><00:08:50.320><c> press</c><00:08:50.720><c> escape</c><00:08:51.200><c> that</c><00:08:51.360><c> means</c><00:08:51.519><c> i</c><00:08:51.600><c> am</c>
+
+00:08:51.750 --> 00:08:51.760 align:start position:0%
+okay and i press escape that means i am
+ 
+
+00:08:51.760 --> 00:08:53.430 align:start position:0%
+okay and i press escape that means i am
+done<00:08:51.920><c> with</c><00:08:52.080><c> the</c><00:08:52.160><c> replacement</c><00:08:52.720><c> so</c><00:08:52.959><c> you</c><00:08:53.040><c> can</c><00:08:53.200><c> see</c>
+
+00:08:53.430 --> 00:08:53.440 align:start position:0%
+done with the replacement so you can see
+ 
+
+00:08:53.440 --> 00:08:55.750 align:start position:0%
+done with the replacement so you can see
+that<00:08:54.160><c> the</c><00:08:54.320><c> editing</c><00:08:54.720><c> can</c><00:08:54.959><c> happen</c><00:08:55.600><c> by</c>
+
+00:08:55.750 --> 00:08:55.760 align:start position:0%
+that the editing can happen by
+ 
+
+00:08:55.760 --> 00:08:57.350 align:start position:0%
+that the editing can happen by
+replacement<00:08:56.399><c> of</c><00:08:56.560><c> characters</c><00:08:57.040><c> without</c>
+
+00:08:57.350 --> 00:08:57.360 align:start position:0%
+replacement of characters without
+ 
+
+00:08:57.360 --> 00:08:59.829 align:start position:0%
+replacement of characters without
+disturbing<00:08:58.480><c> the</c><00:08:58.640><c> layout</c><00:08:59.120><c> of</c><00:08:59.200><c> the</c><00:08:59.360><c> characters</c>
+
+00:08:59.829 --> 00:08:59.839 align:start position:0%
+disturbing the layout of the characters
+ 
+
+00:08:59.839 --> 00:09:02.470 align:start position:0%
+disturbing the layout of the characters
+in<00:09:00.000><c> the</c><00:09:00.160><c> file</c><00:09:00.480><c> so</c><00:09:01.120><c> for</c><00:09:01.360><c> the</c><00:09:01.600><c> input</c><00:09:01.920><c> files</c><00:09:02.240><c> which</c>
+
+00:09:02.470 --> 00:09:02.480 align:start position:0%
+in the file so for the input files which
+ 
+
+00:09:02.480 --> 00:09:04.070 align:start position:0%
+in the file so for the input files which
+are<00:09:02.560><c> very</c><00:09:02.880><c> specific</c><00:09:03.279><c> with</c><00:09:03.440><c> respect</c><00:09:03.760><c> to</c><00:09:03.920><c> the</c>
+
+00:09:04.070 --> 00:09:04.080 align:start position:0%
+are very specific with respect to the
+ 
+
+00:09:04.080 --> 00:09:06.389 align:start position:0%
+are very specific with respect to the
+positioning<00:09:04.720><c> and</c><00:09:04.880><c> formatting</c><00:09:05.839><c> then</c><00:09:06.080><c> very</c>
+
+00:09:06.389 --> 00:09:06.399 align:start position:0%
+positioning and formatting then very
+ 
+
+00:09:06.399 --> 00:09:08.630 align:start position:0%
+positioning and formatting then very
+precise<00:09:06.800><c> editing</c><00:09:07.200><c> can</c><00:09:07.360><c> be</c><00:09:07.519><c> done</c><00:09:07.920><c> using</c><00:09:08.240><c> va</c>
+
+00:09:08.630 --> 00:09:08.640 align:start position:0%
+precise editing can be done using va
+ 
+
+00:09:08.640 --> 00:09:09.670 align:start position:0%
+precise editing can be done using va
+editor
+
+00:09:09.670 --> 00:09:09.680 align:start position:0%
+editor
+ 
+
+00:09:09.680 --> 00:09:12.389 align:start position:0%
+editor
+and<00:09:10.320><c> you</c><00:09:10.399><c> can</c><00:09:10.560><c> go</c><00:09:10.720><c> to</c><00:09:10.880><c> the</c><00:09:10.959><c> beginning</c>
+
+00:09:12.389 --> 00:09:12.399 align:start position:0%
+and you can go to the beginning
+ 
+
+00:09:12.399 --> 00:09:13.910 align:start position:0%
+and you can go to the beginning
+and<00:09:12.800><c> use</c><00:09:13.040><c> the</c>
+
+00:09:13.910 --> 00:09:13.920 align:start position:0%
+and use the
+ 
+
+00:09:13.920 --> 00:09:16.870 align:start position:0%
+and use the
+arrow<00:09:14.240><c> keys</c><00:09:14.560><c> to</c><00:09:15.200><c> navigate</c><00:09:16.240><c> and</c><00:09:16.399><c> let</c><00:09:16.560><c> us</c><00:09:16.640><c> say</c><00:09:16.800><c> i</c>
+
+00:09:16.870 --> 00:09:16.880 align:start position:0%
+arrow keys to navigate and let us say i
+ 
+
+00:09:16.880 --> 00:09:19.110 align:start position:0%
+arrow keys to navigate and let us say i
+want<00:09:17.040><c> to</c><00:09:17.200><c> replace</c><00:09:17.680><c> this</c><00:09:17.920><c> word</c><00:09:18.240><c> i</c><00:09:18.320><c> can</c><00:09:18.480><c> press</c><00:09:18.880><c> c</c>
+
+00:09:19.110 --> 00:09:19.120 align:start position:0%
+want to replace this word i can press c
+ 
+
+00:09:19.120 --> 00:09:22.470 align:start position:0%
+want to replace this word i can press c
+w<00:09:19.440><c> to</c><00:09:19.600><c> replace</c><00:09:20.000><c> one</c><00:09:20.160><c> single</c><00:09:20.480><c> word</c><00:09:20.800><c> cw</c>
+
+00:09:22.470 --> 00:09:22.480 align:start position:0%
+w to replace one single word cw
+ 
+
+00:09:22.480 --> 00:09:24.470 align:start position:0%
+w to replace one single word cw
+and<00:09:23.440><c> then</c>
+
+00:09:24.470 --> 00:09:24.480 align:start position:0%
+and then
+ 
+
+00:09:24.480 --> 00:09:26.470 align:start position:0%
+and then
+i<00:09:24.560><c> can</c><00:09:24.800><c> press</c><00:09:25.120><c> like</c><00:09:25.360><c> that</c>
+
+00:09:26.470 --> 00:09:26.480 align:start position:0%
+i can press like that
+ 
+
+00:09:26.480 --> 00:09:29.670 align:start position:0%
+i can press like that
+okay<00:09:26.800><c> and</c><00:09:26.880><c> i</c><00:09:27.040><c> can</c><00:09:27.200><c> also</c>
+
+00:09:29.670 --> 00:09:29.680 align:start position:0%
+ 
+ 
+
+00:09:29.680 --> 00:09:32.550 align:start position:0%
+ 
+i<00:09:29.760><c> can</c><00:09:30.000><c> press</c><00:09:30.240><c> a</c><00:09:30.320><c> cw</c>
+
+00:09:32.550 --> 00:09:32.560 align:start position:0%
+i can press a cw
+ 
+
+00:09:32.560 --> 00:09:34.310 align:start position:0%
+i can press a cw
+and
+
+00:09:34.310 --> 00:09:34.320 align:start position:0%
+and
+ 
+
+00:09:34.320 --> 00:09:35.829 align:start position:0%
+and
+i<00:09:34.480><c> can</c><00:09:34.640><c> press</c><00:09:34.880><c> escape</c><00:09:35.279><c> and</c><00:09:35.440><c> done</c><00:09:35.600><c> with</c><00:09:35.760><c> the</c>
+
+00:09:35.829 --> 00:09:35.839 align:start position:0%
+i can press escape and done with the
+ 
+
+00:09:35.839 --> 00:09:37.269 align:start position:0%
+i can press escape and done with the
+editing<00:09:36.240><c> so</c><00:09:36.399><c> you</c><00:09:36.480><c> can</c><00:09:36.640><c> see</c><00:09:36.800><c> that</c><00:09:37.040><c> you</c><00:09:37.120><c> can</c>
+
+00:09:37.269 --> 00:09:37.279 align:start position:0%
+editing so you can see that you can
+ 
+
+00:09:37.279 --> 00:09:39.190 align:start position:0%
+editing so you can see that you can
+change<00:09:37.600><c> one</c><00:09:37.839><c> word</c><00:09:38.160><c> fully</c>
+
+00:09:39.190 --> 00:09:39.200 align:start position:0%
+change one word fully
+ 
+
+00:09:39.200 --> 00:09:42.230 align:start position:0%
+change one word fully
+and<00:09:39.360><c> it</c><00:09:39.519><c> will</c><00:09:39.839><c> affect</c><00:09:40.320><c> only</c><00:09:40.640><c> that</c><00:09:40.959><c> word</c>
+
+00:09:42.230 --> 00:09:42.240 align:start position:0%
+and it will affect only that word
+ 
+
+00:09:42.240 --> 00:09:44.550 align:start position:0%
+and it will affect only that word
+and<00:09:42.640><c> leave</c><00:09:42.800><c> the</c><00:09:42.959><c> blank</c><00:09:43.360><c> after</c><00:09:43.519><c> that</c><00:09:43.839><c> as</c><00:09:44.000><c> a</c><00:09:44.240><c> word</c>
+
+00:09:44.550 --> 00:09:44.560 align:start position:0%
+and leave the blank after that as a word
+ 
+
+00:09:44.560 --> 00:09:46.790 align:start position:0%
+and leave the blank after that as a word
+boundary<00:09:44.959><c> so</c><00:09:45.279><c> you</c><00:09:45.440><c> can</c><00:09:45.600><c> actually</c><00:09:45.920><c> change</c><00:09:46.560><c> one</c>
+
+00:09:46.790 --> 00:09:46.800 align:start position:0%
+boundary so you can actually change one
+ 
+
+00:09:46.800 --> 00:09:49.190 align:start position:0%
+boundary so you can actually change one
+word<00:09:47.120><c> at</c><00:09:47.279><c> a</c><00:09:47.440><c> time</c><00:09:48.080><c> which</c><00:09:48.320><c> is</c><00:09:48.480><c> a</c><00:09:48.560><c> very</c><00:09:48.720><c> precise</c>
+
+00:09:49.190 --> 00:09:49.200 align:start position:0%
+word at a time which is a very precise
+ 
+
+00:09:49.200 --> 00:09:51.990 align:start position:0%
+word at a time which is a very precise
+way<00:09:49.440><c> of</c><00:09:49.600><c> editing</c><00:09:50.000><c> the</c><00:09:50.480><c> source</c><00:09:50.800><c> code</c><00:09:51.600><c> now</c><00:09:51.839><c> let</c>
+
+00:09:51.990 --> 00:09:52.000 align:start position:0%
+way of editing the source code now let
+ 
+
+00:09:52.000 --> 00:09:54.470 align:start position:0%
+way of editing the source code now let
+us<00:09:52.080><c> say</c><00:09:52.240><c> we</c><00:09:52.480><c> want</c><00:09:52.720><c> to</c><00:09:52.959><c> edit</c><00:09:53.279><c> a</c><00:09:53.360><c> very</c><00:09:53.600><c> large</c><00:09:54.000><c> file</c>
+
+00:09:54.470 --> 00:09:54.480 align:start position:0%
+us say we want to edit a very large file
+ 
+
+00:09:54.480 --> 00:09:56.630 align:start position:0%
+us say we want to edit a very large file
+and<00:09:54.720><c> that</c><00:09:54.959><c> is</c><00:09:55.120><c> again</c><00:09:55.440><c> where</c><00:09:55.839><c> va</c><00:09:56.160><c> editor</c><00:09:56.480><c> is</c>
+
+00:09:56.630 --> 00:09:56.640 align:start position:0%
+and that is again where va editor is
+ 
+
+00:09:56.640 --> 00:09:58.550 align:start position:0%
+and that is again where va editor is
+quite<00:09:57.040><c> convenient</c><00:09:57.680><c> so</c>
+
+00:09:58.550 --> 00:09:58.560 align:start position:0%
+quite convenient so
+ 
+
+00:09:58.560 --> 00:10:00.870 align:start position:0%
+quite convenient so
+we<00:09:58.720><c> have</c><00:09:58.959><c> some</c><00:09:59.200><c> output</c><00:09:59.600><c> of</c><00:09:59.760><c> a</c><00:09:59.839><c> command</c><00:10:00.240><c> like</c><00:10:00.560><c> d</c>
+
+00:10:00.870 --> 00:10:00.880 align:start position:0%
+we have some output of a command like d
+ 
+
+00:10:00.880 --> 00:10:03.350 align:start position:0%
+we have some output of a command like d
+m<00:10:01.040><c> e</c><00:10:01.200><c> s</c><00:10:01.360><c> g</c><00:10:01.600><c> so</c><00:10:01.760><c> let</c><00:10:01.920><c> us</c><00:10:02.079><c> look</c><00:10:02.240><c> at</c><00:10:02.480><c> that</c>
+
+00:10:03.350 --> 00:10:03.360 align:start position:0%
+m e s g so let us look at that
+ 
+
+00:10:03.360 --> 00:10:06.310 align:start position:0%
+m e s g so let us look at that
+so<00:10:03.600><c> dmesj</c><00:10:04.480><c> if</c><00:10:04.640><c> i</c><00:10:04.720><c> type</c><00:10:05.200><c> then</c><00:10:05.360><c> the</c><00:10:05.600><c> long</c><00:10:06.000><c> output</c>
+
+00:10:06.310 --> 00:10:06.320 align:start position:0%
+so dmesj if i type then the long output
+ 
+
+00:10:06.320 --> 00:10:08.069 align:start position:0%
+so dmesj if i type then the long output
+that<00:10:06.480><c> is</c><00:10:06.640><c> shown</c><00:10:07.120><c> okay</c><00:10:07.279><c> this</c><00:10:07.519><c> is</c><00:10:07.600><c> all</c><00:10:07.760><c> the</c><00:10:07.839><c> error</c>
+
+00:10:08.069 --> 00:10:08.079 align:start position:0%
+that is shown okay this is all the error
+ 
+
+00:10:08.079 --> 00:10:10.550 align:start position:0%
+that is shown okay this is all the error
+messages<00:10:08.800><c> and</c><00:10:09.440><c> alerts</c><00:10:09.920><c> that</c><00:10:10.079><c> are</c><00:10:10.160><c> given</c><00:10:10.399><c> by</c>
+
+00:10:10.550 --> 00:10:10.560 align:start position:0%
+messages and alerts that are given by
+ 
+
+00:10:10.560 --> 00:10:12.870 align:start position:0%
+messages and alerts that are given by
+the<00:10:10.640><c> system</c><00:10:11.519><c> so</c><00:10:11.920><c> i</c><00:10:12.079><c> want</c><00:10:12.240><c> to</c><00:10:12.320><c> just</c><00:10:12.560><c> capture</c>
+
+00:10:12.870 --> 00:10:12.880 align:start position:0%
+the system so i want to just capture
+ 
+
+00:10:12.880 --> 00:10:16.389 align:start position:0%
+the system so i want to just capture
+that<00:10:13.120><c> into</c><00:10:13.360><c> a</c><00:10:13.519><c> file</c><00:10:13.839><c> so</c><00:10:14.079><c> i</c><00:10:14.480><c> type</c>
+
+00:10:16.389 --> 00:10:16.399 align:start position:0%
+that into a file so i type
+ 
+
+00:10:16.399 --> 00:10:20.389 align:start position:0%
+that into a file so i type
+greater<00:10:16.720><c> than</c><00:10:16.880><c> dmsg</c><00:10:17.680><c> dot</c><00:10:17.920><c> text</c><00:10:18.720><c> okay</c><00:10:19.360><c> now</c>
+
+00:10:20.389 --> 00:10:20.399 align:start position:0%
+greater than dmsg dot text okay now
+ 
+
+00:10:20.399 --> 00:10:22.310 align:start position:0%
+greater than dmsg dot text okay now
+look<00:10:20.640><c> at</c><00:10:20.800><c> the</c><00:10:20.959><c> file</c><00:10:21.279><c> size</c><00:10:21.600><c> so</c><00:10:21.760><c> you</c><00:10:21.839><c> can</c><00:10:22.079><c> see</c>
+
+00:10:22.310 --> 00:10:22.320 align:start position:0%
+look at the file size so you can see
+ 
+
+00:10:22.320 --> 00:10:23.590 align:start position:0%
+look at the file size so you can see
+that<00:10:22.640><c> it's</c><00:10:22.959><c> a</c>
+
+00:10:23.590 --> 00:10:23.600 align:start position:0%
+that it's a
+ 
+
+00:10:23.600 --> 00:10:26.630 align:start position:0%
+that it's a
+quite<00:10:23.839><c> a</c><00:10:23.920><c> big</c><00:10:24.320><c> file</c><00:10:24.640><c> you</c><00:10:24.720><c> know</c><00:10:24.800><c> 270</c><00:10:26.000><c> kilobytes</c>
+
+00:10:26.630 --> 00:10:26.640 align:start position:0%
+quite a big file you know 270 kilobytes
+ 
+
+00:10:26.640 --> 00:10:28.710 align:start position:0%
+quite a big file you know 270 kilobytes
+so<00:10:26.800><c> how</c><00:10:26.959><c> many</c><00:10:27.200><c> lines</c><00:10:27.519><c> are</c><00:10:27.600><c> there</c><00:10:27.839><c> in</c><00:10:28.000><c> that</c>
+
+00:10:28.710 --> 00:10:28.720 align:start position:0%
+so how many lines are there in that
+ 
+
+00:10:28.720 --> 00:10:32.310 align:start position:0%
+so how many lines are there in that
+wc<00:10:29.360><c> minus</c><00:10:29.760><c> l</c><00:10:30.160><c> dm</c><00:10:30.560><c> est</c><00:10:31.279><c> text</c><00:10:31.760><c> so</c><00:10:31.920><c> you</c><00:10:32.000><c> can</c><00:10:32.160><c> see</c>
+
+00:10:32.310 --> 00:10:32.320 align:start position:0%
+wc minus l dm est text so you can see
+ 
+
+00:10:32.320 --> 00:10:35.670 align:start position:0%
+wc minus l dm est text so you can see
+that<00:10:32.640><c> there</c><00:10:32.880><c> are</c><00:10:33.279><c> 3000</c><00:10:33.920><c> lines</c><00:10:34.720><c> so</c><00:10:35.040><c> i</c><00:10:35.200><c> can</c><00:10:35.440><c> go</c>
+
+00:10:35.670 --> 00:10:35.680 align:start position:0%
+that there are 3000 lines so i can go
+ 
+
+00:10:35.680 --> 00:10:39.190 align:start position:0%
+that there are 3000 lines so i can go
+ahead<00:10:36.000><c> and</c><00:10:36.560><c> load</c><00:10:36.880><c> that</c><00:10:37.120><c> in</c><00:10:37.279><c> the</c><00:10:37.760><c> text</c><00:10:38.079><c> editor</c>
+
+00:10:39.190 --> 00:10:39.200 align:start position:0%
+ahead and load that in the text editor
+ 
+
+00:10:39.200 --> 00:10:41.509 align:start position:0%
+ahead and load that in the text editor
+and<00:10:39.440><c> now</c><00:10:39.600><c> i</c><00:10:39.760><c> have</c><00:10:40.000><c> got</c><00:10:40.480><c> lot</c><00:10:40.640><c> of</c><00:10:40.800><c> lines</c><00:10:41.120><c> to</c><00:10:41.279><c> play</c>
+
+00:10:41.509 --> 00:10:41.519 align:start position:0%
+and now i have got lot of lines to play
+ 
+
+00:10:41.519 --> 00:10:43.750 align:start position:0%
+and now i have got lot of lines to play
+with<00:10:42.240><c> so</c>
+
+00:10:43.750 --> 00:10:43.760 align:start position:0%
+with so
+ 
+
+00:10:43.760 --> 00:10:45.430 align:start position:0%
+with so
+i<00:10:43.920><c> can</c><00:10:44.079><c> press</c><00:10:44.480><c> cap</c>
+
+00:10:45.430 --> 00:10:45.440 align:start position:0%
+i can press cap
+ 
+
+00:10:45.440 --> 00:10:49.110 align:start position:0%
+i can press cap
+control<00:10:45.920><c> g</c><00:10:46.160><c> to</c><00:10:46.320><c> see</c><00:10:46.800><c> the</c><00:10:46.959><c> number</c><00:10:47.200><c> of</c><00:10:47.440><c> lines</c>
+
+00:10:49.110 --> 00:10:49.120 align:start position:0%
+control g to see the number of lines
+ 
+
+00:10:49.120 --> 00:10:52.710 align:start position:0%
+control g to see the number of lines
+colon<00:10:49.760><c> f</c><00:10:49.920><c> to</c><00:10:50.160><c> see</c><00:10:50.399><c> the</c><00:10:50.560><c> file</c><00:10:50.880><c> name</c>
+
+00:10:52.710 --> 00:10:52.720 align:start position:0%
+colon f to see the file name
+ 
+
+00:10:52.720 --> 00:10:55.829 align:start position:0%
+colon f to see the file name
+dollar<00:10:53.120><c> to</c><00:10:53.279><c> go</c><00:10:53.440><c> to</c><00:10:53.519><c> the</c><00:10:53.680><c> last</c><00:10:54.000><c> line</c><00:10:54.240><c> 351</c>
+
+00:10:55.829 --> 00:10:55.839 align:start position:0%
+dollar to go to the last line 351
+ 
+
+00:10:55.839 --> 00:10:56.790 align:start position:0%
+dollar to go to the last line 351
+lines
+
+00:10:56.790 --> 00:10:56.800 align:start position:0%
+lines
+ 
+
+00:10:56.800 --> 00:10:58.790 align:start position:0%
+lines
+and<00:10:56.959><c> again</c><00:10:57.279><c> one</c><00:10:57.440><c> to</c><00:10:57.600><c> go</c><00:10:57.760><c> to</c><00:10:57.839><c> the</c><00:10:57.920><c> first</c><00:10:58.240><c> line</c>
+
+00:10:58.790 --> 00:10:58.800 align:start position:0%
+and again one to go to the first line
+ 
+
+00:10:58.800 --> 00:11:00.389 align:start position:0%
+and again one to go to the first line
+and<00:10:59.040><c> let</c><00:10:59.200><c> us</c><00:10:59.279><c> say</c><00:10:59.440><c> now</c><00:10:59.680><c> i</c><00:10:59.760><c> want</c><00:10:59.920><c> to</c><00:11:00.000><c> delete</c>
+
+00:11:00.389 --> 00:11:00.399 align:start position:0%
+and let us say now i want to delete
+ 
+
+00:11:00.399 --> 00:11:01.670 align:start position:0%
+and let us say now i want to delete
+hundred<00:11:00.800><c> lines</c>
+
+00:11:01.670 --> 00:11:01.680 align:start position:0%
+hundred lines
+ 
+
+00:11:01.680 --> 00:11:03.829 align:start position:0%
+hundred lines
+so<00:11:01.920><c> i</c><00:11:02.079><c> will</c><00:11:02.240><c> press</c><00:11:02.640><c> one</c><00:11:02.880><c> zero</c><00:11:03.200><c> zero</c><00:11:03.519><c> followed</c>
+
+00:11:03.829 --> 00:11:03.839 align:start position:0%
+so i will press one zero zero followed
+ 
+
+00:11:03.839 --> 00:11:06.150 align:start position:0%
+so i will press one zero zero followed
+by<00:11:04.000><c> dd</c><00:11:04.720><c> so</c><00:11:04.880><c> that</c><00:11:05.040><c> exactly</c><00:11:05.440><c> hundred</c><00:11:05.760><c> lines</c><00:11:06.000><c> are</c>
+
+00:11:06.150 --> 00:11:06.160 align:start position:0%
+by dd so that exactly hundred lines are
+ 
+
+00:11:06.160 --> 00:11:09.670 align:start position:0%
+by dd so that exactly hundred lines are
+deleted<00:11:06.560><c> so</c><00:11:06.720><c> i</c><00:11:06.880><c> press</c><00:11:07.200><c> one</c><00:11:07.600><c> zero</c><00:11:07.920><c> zero</c><00:11:08.399><c> dd</c>
+
+00:11:09.670 --> 00:11:09.680 align:start position:0%
+deleted so i press one zero zero dd
+ 
+
+00:11:09.680 --> 00:11:11.750 align:start position:0%
+deleted so i press one zero zero dd
+okay<00:11:10.000><c> hundred</c><00:11:10.399><c> fewer</c><00:11:10.800><c> lines</c>
+
+00:11:11.750 --> 00:11:11.760 align:start position:0%
+okay hundred fewer lines
+ 
+
+00:11:11.760 --> 00:11:15.030 align:start position:0%
+okay hundred fewer lines
+and<00:11:11.920><c> i</c><00:11:12.079><c> press</c><00:11:12.480><c> g</c><00:11:12.959><c> to</c><00:11:13.200><c> see</c><00:11:13.440><c> that</c><00:11:13.600><c> there</c><00:11:13.760><c> are</c><00:11:14.040><c> 2951</c>
+
+00:11:15.030 --> 00:11:15.040 align:start position:0%
+and i press g to see that there are 2951
+ 
+
+00:11:15.040 --> 00:11:17.350 align:start position:0%
+and i press g to see that there are 2951
+lines<00:11:15.279><c> so</c><00:11:15.360><c> 100</c><00:11:15.760><c> lines</c><00:11:16.079><c> have</c><00:11:16.160><c> been</c><00:11:16.240><c> deleted</c><00:11:17.200><c> now</c>
+
+00:11:17.350 --> 00:11:17.360 align:start position:0%
+lines so 100 lines have been deleted now
+ 
+
+00:11:17.360 --> 00:11:19.509 align:start position:0%
+lines so 100 lines have been deleted now
+i<00:11:17.440><c> can</c><00:11:17.600><c> do</c><00:11:17.760><c> that</c><00:11:18.000><c> in</c><00:11:18.160><c> a</c><00:11:18.320><c> big</c><00:11:18.560><c> way</c><00:11:18.800><c> also</c><00:11:19.200><c> so</c><00:11:19.440><c> i</c>
+
+00:11:19.509 --> 00:11:19.519 align:start position:0%
+i can do that in a big way also so i
+ 
+
+00:11:19.519 --> 00:11:23.230 align:start position:0%
+i can do that in a big way also so i
+want<00:11:19.680><c> to</c><00:11:19.760><c> delete</c><00:11:20.079><c> let</c><00:11:20.320><c> us</c><00:11:20.399><c> say</c><00:11:20.760><c> 2800</c><00:11:21.839><c> lines</c><00:11:22.240><c> so</c>
+
+00:11:23.230 --> 00:11:23.240 align:start position:0%
+want to delete let us say 2800 lines so
+ 
+
+00:11:23.240 --> 00:11:25.509 align:start position:0%
+want to delete let us say 2800 lines so
+2800<00:11:24.240><c> dd</c>
+
+00:11:25.509 --> 00:11:25.519 align:start position:0%
+2800 dd
+ 
+
+00:11:25.519 --> 00:11:27.350 align:start position:0%
+2800 dd
+so<00:11:25.760><c> you</c><00:11:25.839><c> can</c><00:11:25.920><c> see</c><00:11:26.079><c> 2800</c><00:11:26.880><c> lines</c><00:11:27.120><c> have</c><00:11:27.279><c> been</c>
+
+00:11:27.350 --> 00:11:27.360 align:start position:0%
+so you can see 2800 lines have been
+ 
+
+00:11:27.360 --> 00:11:29.590 align:start position:0%
+so you can see 2800 lines have been
+deleted<00:11:28.240><c> and</c><00:11:28.480><c> control</c><00:11:28.880><c> g</c><00:11:29.120><c> you</c><00:11:29.200><c> can</c><00:11:29.279><c> see</c><00:11:29.440><c> there</c>
+
+00:11:29.590 --> 00:11:29.600 align:start position:0%
+deleted and control g you can see there
+ 
+
+00:11:29.600 --> 00:11:31.910 align:start position:0%
+deleted and control g you can see there
+are<00:11:29.760><c> only</c><00:11:29.920><c> 151</c><00:11:30.720><c> lines</c>
+
+00:11:31.910 --> 00:11:31.920 align:start position:0%
+are only 151 lines
+ 
+
+00:11:31.920 --> 00:11:33.910 align:start position:0%
+are only 151 lines
+and<00:11:32.240><c> so</c><00:11:32.480><c> you</c><00:11:32.560><c> can</c><00:11:32.720><c> actually</c>
+
+00:11:33.910 --> 00:11:33.920 align:start position:0%
+and so you can actually
+ 
+
+00:11:33.920 --> 00:11:35.430 align:start position:0%
+and so you can actually
+see<00:11:34.160><c> that</c>
+
+00:11:35.430 --> 00:11:35.440 align:start position:0%
+see that
+ 
+
+00:11:35.440 --> 00:11:37.750 align:start position:0%
+see that
+the<00:11:35.600><c> power</c><00:11:35.920><c> of</c><00:11:36.160><c> commands</c><00:11:36.640><c> in</c><00:11:36.720><c> va</c><00:11:37.120><c> so</c><00:11:37.360><c> if</c><00:11:37.519><c> you</c><00:11:37.600><c> so</c>
+
+00:11:37.750 --> 00:11:37.760 align:start position:0%
+the power of commands in va so if you so
+ 
+
+00:11:37.760 --> 00:11:40.150 align:start position:0%
+the power of commands in va so if you so
+if<00:11:37.839><c> you</c><00:11:38.320><c> prepend</c><00:11:38.959><c> a</c><00:11:39.120><c> number</c><00:11:39.440><c> to</c><00:11:39.600><c> it</c><00:11:39.839><c> that</c>
+
+00:11:40.150 --> 00:11:40.160 align:start position:0%
+if you prepend a number to it that
+ 
+
+00:11:40.160 --> 00:11:42.069 align:start position:0%
+if you prepend a number to it that
+command<00:11:40.560><c> will</c><00:11:40.720><c> be</c><00:11:40.800><c> run</c><00:11:40.959><c> so</c><00:11:41.200><c> many</c><00:11:41.440><c> times</c><00:11:41.920><c> and</c>
+
+00:11:42.069 --> 00:11:42.079 align:start position:0%
+command will be run so many times and
+ 
+
+00:11:42.079 --> 00:11:44.470 align:start position:0%
+command will be run so many times and
+therefore<00:11:42.800><c> it</c><00:11:42.959><c> is</c><00:11:43.040><c> very</c><00:11:43.279><c> powerful</c>
+
+00:11:44.470 --> 00:11:44.480 align:start position:0%
+therefore it is very powerful
+ 
+
+00:11:44.480 --> 00:11:47.030 align:start position:0%
+therefore it is very powerful
+in<00:11:45.120><c> editing</c><00:11:45.600><c> a</c><00:11:45.760><c> large</c><00:11:46.160><c> file</c>
+
+00:11:47.030 --> 00:11:47.040 align:start position:0%
+in editing a large file
+ 
+
+00:11:47.040 --> 00:11:48.710 align:start position:0%
+in editing a large file
+without<00:11:47.360><c> the</c><00:11:47.519><c> effort</c><00:11:47.839><c> of</c><00:11:48.000><c> actually</c><00:11:48.320><c> scrolling</c>
+
+00:11:48.710 --> 00:11:48.720 align:start position:0%
+without the effort of actually scrolling
+ 
+
+00:11:48.720 --> 00:11:54.710 align:start position:0%
+without the effort of actually scrolling
+through<00:11:48.959><c> every</c><00:11:49.279><c> line</c>
+
+00:11:54.710 --> 00:11:54.720 align:start position:0%
+ 
+ 
+
+00:11:54.720 --> 00:11:57.750 align:start position:0%
+ 
+so<00:11:55.040><c> we</c><00:11:55.200><c> have</c><00:11:55.440><c> got</c><00:11:55.680><c> now</c><00:11:55.839><c> 151</c><00:11:56.639><c> lines</c><00:11:57.120><c> so</c><00:11:57.360><c> i</c><00:11:57.519><c> now</c>
+
+00:11:57.750 --> 00:11:57.760 align:start position:0%
+so we have got now 151 lines so i now
+ 
+
+00:11:57.760 --> 00:11:58.790 align:start position:0%
+so we have got now 151 lines so i now
+delete
+
+00:11:58.790 --> 00:11:58.800 align:start position:0%
+delete
+ 
+
+00:11:58.800 --> 00:12:00.710 align:start position:0%
+delete
+another<00:11:59.200><c> 100</c><00:11:59.600><c> lines</c>
+
+00:12:00.710 --> 00:12:00.720 align:start position:0%
+another 100 lines
+ 
+
+00:12:00.720 --> 00:12:03.030 align:start position:0%
+another 100 lines
+and<00:12:00.880><c> then</c><00:12:01.360><c> 20</c><00:12:01.839><c> lines</c>
+
+00:12:03.030 --> 00:12:03.040 align:start position:0%
+and then 20 lines
+ 
+
+00:12:03.040 --> 00:12:04.870 align:start position:0%
+and then 20 lines
+20<00:12:03.360><c> lines</c><00:12:03.680><c> so</c><00:12:03.839><c> now</c><00:12:04.000><c> you</c><00:12:04.079><c> can</c><00:12:04.240><c> see</c><00:12:04.399><c> that</c><00:12:04.639><c> we</c><00:12:04.720><c> have</c>
+
+00:12:04.870 --> 00:12:04.880 align:start position:0%
+20 lines so now you can see that we have
+ 
+
+00:12:04.880 --> 00:12:06.629 align:start position:0%
+20 lines so now you can see that we have
+got<00:12:05.200><c> only</c>
+
+00:12:06.629 --> 00:12:06.639 align:start position:0%
+got only
+ 
+
+00:12:06.639 --> 00:12:08.310 align:start position:0%
+got only
+11<00:12:07.040><c> lines</c><00:12:07.600><c> now</c>
+
+00:12:08.310 --> 00:12:08.320 align:start position:0%
+11 lines now
+ 
+
+00:12:08.320 --> 00:12:09.829 align:start position:0%
+11 lines now
+the<00:12:08.480><c> window</c><00:12:08.880><c> is</c><00:12:08.959><c> shown</c><00:12:09.279><c> here</c><00:12:09.440><c> so</c><00:12:09.600><c> there</c><00:12:09.760><c> are</c>
+
+00:12:09.829 --> 00:12:09.839 align:start position:0%
+the window is shown here so there are
+ 
+
+00:12:09.839 --> 00:12:11.829 align:start position:0%
+the window is shown here so there are
+some<00:12:10.079><c> tildes</c><00:12:10.560><c> in</c><00:12:10.639><c> the</c><00:12:10.800><c> end</c><00:12:11.120><c> so</c><00:12:11.360><c> these</c><00:12:11.519><c> are</c><00:12:11.680><c> all</c>
+
+00:12:11.829 --> 00:12:11.839 align:start position:0%
+some tildes in the end so these are all
+ 
+
+00:12:11.839 --> 00:12:13.990 align:start position:0%
+some tildes in the end so these are all
+basically<00:12:12.399><c> characters</c><00:12:12.880><c> that</c><00:12:13.120><c> are</c><00:12:13.440><c> indicating</c>
+
+00:12:13.990 --> 00:12:14.000 align:start position:0%
+basically characters that are indicating
+ 
+
+00:12:14.000 --> 00:12:15.990 align:start position:0%
+basically characters that are indicating
+that<00:12:14.160><c> the</c><00:12:14.320><c> file</c><00:12:14.560><c> content</c><00:12:14.959><c> is</c><00:12:15.200><c> over</c>
+
+00:12:15.990 --> 00:12:16.000 align:start position:0%
+that the file content is over
+ 
+
+00:12:16.000 --> 00:12:18.389 align:start position:0%
+that the file content is over
+and<00:12:16.480><c> up</c><00:12:16.639><c> to</c><00:12:16.800><c> here</c><00:12:17.040><c> only</c><00:12:17.200><c> the</c><00:12:17.360><c> file</c><00:12:17.519><c> content</c><00:12:18.000><c> is</c>
+
+00:12:18.389 --> 00:12:18.399 align:start position:0%
+and up to here only the file content is
+ 
+
+00:12:18.399 --> 00:12:20.150 align:start position:0%
+and up to here only the file content is
+the<00:12:18.560><c> rest</c><00:12:18.800><c> of</c><00:12:18.959><c> is</c><00:12:19.200><c> just</c>
+
+00:12:20.150 --> 00:12:20.160 align:start position:0%
+the rest of is just
+ 
+
+00:12:20.160 --> 00:12:22.629 align:start position:0%
+the rest of is just
+tilde<00:12:20.560><c> to</c><00:12:20.720><c> just</c><00:12:21.200><c> show</c><00:12:21.360><c> you</c><00:12:21.600><c> that</c><00:12:22.160><c> there</c><00:12:22.320><c> is</c><00:12:22.399><c> no</c>
+
+00:12:22.629 --> 00:12:22.639 align:start position:0%
+tilde to just show you that there is no
+ 
+
+00:12:22.639 --> 00:12:24.629 align:start position:0%
+tilde to just show you that there is no
+content<00:12:22.959><c> from</c><00:12:23.120><c> the</c><00:12:23.279><c> file</c><00:12:23.839><c> within</c><00:12:24.160><c> the</c><00:12:24.240><c> window</c>
+
+00:12:24.629 --> 00:12:24.639 align:start position:0%
+content from the file within the window
+ 
+
+00:12:24.639 --> 00:12:27.030 align:start position:0%
+content from the file within the window
+that<00:12:24.720><c> has</c><00:12:24.959><c> to</c><00:12:25.040><c> be</c><00:12:25.519><c> shown</c><00:12:26.160><c> now</c><00:12:26.320><c> let</c><00:12:26.480><c> us</c><00:12:26.639><c> say</c><00:12:26.959><c> in</c>
+
+00:12:27.030 --> 00:12:27.040 align:start position:0%
+that has to be shown now let us say in
+ 
+
+00:12:27.040 --> 00:12:29.030 align:start position:0%
+that has to be shown now let us say in
+this<00:12:27.279><c> file</c><00:12:27.680><c> i</c><00:12:27.760><c> want</c><00:12:27.920><c> to</c><00:12:28.079><c> replace</c><00:12:28.480><c> the</c><00:12:28.720><c> word</c>
+
+00:12:29.030 --> 00:12:29.040 align:start position:0%
+this file i want to replace the word
+ 
+
+00:12:29.040 --> 00:12:32.310 align:start position:0%
+this file i want to replace the word
+pcie<00:12:29.839><c> port</c><00:12:30.560><c> with</c><00:12:30.800><c> hello</c><00:12:31.360><c> so</c><00:12:31.600><c> i</c><00:12:31.760><c> can</c><00:12:31.920><c> do</c><00:12:32.079><c> that</c>
+
+00:12:32.310 --> 00:12:32.320 align:start position:0%
+pcie port with hello so i can do that
+ 
+
+00:12:32.320 --> 00:12:33.670 align:start position:0%
+pcie port with hello so i can do that
+now
+
+00:12:33.670 --> 00:12:33.680 align:start position:0%
+now
+ 
+
+00:12:33.680 --> 00:12:34.710 align:start position:0%
+now
+colon
+
+00:12:34.710 --> 00:12:34.720 align:start position:0%
+colon
+ 
+
+00:12:34.720 --> 00:12:38.870 align:start position:0%
+colon
+percentage<00:12:35.440><c> substitute</c><00:12:36.240><c> p</c><00:12:36.560><c> c</c><00:12:36.959><c> i</c><00:12:37.279><c> e</c><00:12:37.519><c> p</c><00:12:37.680><c> o</c><00:12:37.920><c> r</c><00:12:38.079><c> t</c>
+
+00:12:38.870 --> 00:12:38.880 align:start position:0%
+percentage substitute p c i e p o r t
+ 
+
+00:12:38.880 --> 00:12:39.750 align:start position:0%
+percentage substitute p c i e p o r t
+and
+
+00:12:39.750 --> 00:12:39.760 align:start position:0%
+and
+ 
+
+00:12:39.760 --> 00:12:41.910 align:start position:0%
+and
+i<00:12:40.320><c> replace</c><00:12:40.720><c> it</c><00:12:40.800><c> with</c><00:12:41.040><c> hello</c>
+
+00:12:41.910 --> 00:12:41.920 align:start position:0%
+i replace it with hello
+ 
+
+00:12:41.920 --> 00:12:43.590 align:start position:0%
+i replace it with hello
+so<00:12:42.079><c> you</c><00:12:42.160><c> can</c><00:12:42.320><c> see</c><00:12:42.480><c> that</c><00:12:42.639><c> i</c><00:12:42.720><c> have</c><00:12:42.880><c> edited</c><00:12:43.279><c> in</c><00:12:43.360><c> one</c>
+
+00:12:43.590 --> 00:12:43.600 align:start position:0%
+so you can see that i have edited in one
+ 
+
+00:12:43.600 --> 00:12:46.550 align:start position:0%
+so you can see that i have edited in one
+go<00:12:43.920><c> all</c><00:12:44.079><c> of</c><00:12:44.240><c> that</c><00:12:44.880><c> okay</c><00:12:45.519><c> now</c><00:12:45.760><c> i</c><00:12:45.920><c> want</c><00:12:46.079><c> to</c><00:12:46.240><c> also</c>
+
+00:12:46.550 --> 00:12:46.560 align:start position:0%
+go all of that okay now i want to also
+ 
+
+00:12:46.560 --> 00:12:48.550 align:start position:0%
+go all of that okay now i want to also
+use<00:12:46.959><c> the</c>
+
+00:12:48.550 --> 00:12:48.560 align:start position:0%
+use the
+ 
+
+00:12:48.560 --> 00:12:51.670 align:start position:0%
+use the
+concept<00:12:49.120><c> of</c><00:12:49.600><c> regular</c><00:12:50.000><c> expressions</c><00:12:50.959><c> to</c>
+
+00:12:51.670 --> 00:12:51.680 align:start position:0%
+concept of regular expressions to
+ 
+
+00:12:51.680 --> 00:12:53.590 align:start position:0%
+concept of regular expressions to
+find<00:12:52.000><c> something</c><00:12:52.480><c> and</c><00:12:52.560><c> then</c><00:12:52.800><c> go</c><00:12:53.040><c> on</c><00:12:53.120><c> to</c><00:12:53.279><c> change</c>
+
+00:12:53.590 --> 00:12:53.600 align:start position:0%
+find something and then go on to change
+ 
+
+00:12:53.600 --> 00:12:55.750 align:start position:0%
+find something and then go on to change
+something<00:12:54.240><c> so</c><00:12:54.480><c> i</c><00:12:54.560><c> want</c><00:12:54.720><c> to</c><00:12:54.880><c> find</c><00:12:55.200><c> out</c><00:12:55.279><c> wherever</c>
+
+00:12:55.750 --> 00:12:55.760 align:start position:0%
+something so i want to find out wherever
+ 
+
+00:12:55.760 --> 00:12:58.870 align:start position:0%
+something so i want to find out wherever
+there<00:12:56.000><c> are</c><00:12:56.160><c> four</c><00:12:56.800><c> zeros</c><00:12:57.360><c> followed</c><00:12:57.680><c> by</c><00:12:57.920><c> a</c><00:12:58.079><c> colon</c>
+
+00:12:58.870 --> 00:12:58.880 align:start position:0%
+there are four zeros followed by a colon
+ 
+
+00:12:58.880 --> 00:13:01.030 align:start position:0%
+there are four zeros followed by a colon
+and<00:12:58.959><c> then</c><00:12:59.200><c> two</c><00:12:59.440><c> zeros</c><00:13:00.160><c> i</c><00:13:00.320><c> want</c><00:13:00.480><c> to</c><00:13:00.639><c> replace</c>
+
+00:13:01.030 --> 00:13:01.040 align:start position:0%
+and then two zeros i want to replace
+ 
+
+00:13:01.040 --> 00:13:02.949 align:start position:0%
+and then two zeros i want to replace
+that<00:13:01.279><c> with</c><00:13:01.440><c> something</c><00:13:01.920><c> so</c><00:13:02.240><c> that</c><00:13:02.480><c> also</c><00:13:02.720><c> i</c><00:13:02.800><c> can</c>
+
+00:13:02.949 --> 00:13:02.959 align:start position:0%
+that with something so that also i can
+ 
+
+00:13:02.959 --> 00:13:04.949 align:start position:0%
+that with something so that also i can
+try<00:13:03.200><c> with</c><00:13:03.440><c> the</c><00:13:03.519><c> combination</c><00:13:04.000><c> of</c><00:13:04.240><c> reg</c><00:13:04.480><c> x</c><00:13:04.720><c> and</c>
+
+00:13:04.949 --> 00:13:04.959 align:start position:0%
+try with the combination of reg x and
+ 
+
+00:13:04.959 --> 00:13:07.590 align:start position:0%
+try with the combination of reg x and
+this<00:13:05.600><c> so</c><00:13:06.079><c> i</c><00:13:06.240><c> would</c><00:13:06.399><c> go</c><00:13:06.639><c> by</c><00:13:06.880><c> saying</c><00:13:07.120><c> that</c><00:13:07.360><c> okay</c>
+
+00:13:07.590 --> 00:13:07.600 align:start position:0%
+this so i would go by saying that okay
+ 
+
+00:13:07.600 --> 00:13:09.509 align:start position:0%
+this so i would go by saying that okay
+there<00:13:07.760><c> are</c><00:13:08.000><c> four</c><00:13:08.399><c> characters</c>
+
+00:13:09.509 --> 00:13:09.519 align:start position:0%
+there are four characters
+ 
+
+00:13:09.519 --> 00:13:11.590 align:start position:0%
+there are four characters
+after<00:13:09.839><c> that</c><00:13:10.000><c> there</c><00:13:10.160><c> is</c><00:13:10.240><c> a</c><00:13:10.399><c> colon</c><00:13:11.120><c> and</c><00:13:11.360><c> there</c>
+
+00:13:11.590 --> 00:13:11.600 align:start position:0%
+after that there is a colon and there
+ 
+
+00:13:11.600 --> 00:13:13.509 align:start position:0%
+after that there is a colon and there
+are<00:13:11.680><c> two</c><00:13:11.920><c> characters</c><00:13:12.880><c> so</c><00:13:13.120><c> already</c><00:13:13.440><c> the</c>
+
+00:13:13.509 --> 00:13:13.519 align:start position:0%
+are two characters so already the
+ 
+
+00:13:13.519 --> 00:13:15.030 align:start position:0%
+are two characters so already the
+highlighting<00:13:14.000><c> is</c><00:13:14.079><c> showing</c><00:13:14.320><c> what</c><00:13:14.560><c> is</c><00:13:14.720><c> likely</c>
+
+00:13:15.030 --> 00:13:15.040 align:start position:0%
+highlighting is showing what is likely
+ 
+
+00:13:15.040 --> 00:13:17.670 align:start position:0%
+highlighting is showing what is likely
+matched<00:13:15.760><c> okay</c><00:13:16.240><c> now</c><00:13:16.480><c> this</c><00:13:16.880><c> i</c><00:13:16.959><c> would</c><00:13:17.200><c> like</c><00:13:17.440><c> to</c>
+
+00:13:17.670 --> 00:13:17.680 align:start position:0%
+matched okay now this i would like to
+ 
+
+00:13:17.680 --> 00:13:23.670 align:start position:0%
+matched okay now this i would like to
+replace<00:13:18.320><c> it</c><00:13:18.959><c> with</c><00:13:19.200><c> let</c><00:13:19.360><c> us</c><00:13:19.519><c> say</c>
+
+00:13:23.670 --> 00:13:23.680 align:start position:0%
+ 
+ 
+
+00:13:23.680 --> 00:13:25.190 align:start position:0%
+ 
+null<00:13:24.240><c> okay</c>
+
+00:13:25.190 --> 00:13:25.200 align:start position:0%
+null okay
+ 
+
+00:13:25.200 --> 00:13:27.590 align:start position:0%
+null okay
+and<00:13:25.760><c> you</c><00:13:26.000><c> see</c><00:13:26.160><c> that</c><00:13:26.800><c> all</c><00:13:26.959><c> those</c><00:13:27.200><c> things</c><00:13:27.440><c> have</c>
+
+00:13:27.590 --> 00:13:27.600 align:start position:0%
+and you see that all those things have
+ 
+
+00:13:27.600 --> 00:13:28.389 align:start position:0%
+and you see that all those things have
+been
+
+00:13:28.389 --> 00:13:28.399 align:start position:0%
+been
+ 
+
+00:13:28.399 --> 00:13:31.350 align:start position:0%
+been
+modified<00:13:29.040><c> exactly</c><00:13:29.519><c> what</c><00:13:29.920><c> we</c><00:13:30.320><c> have</c><00:13:30.639><c> intended</c>
+
+00:13:31.350 --> 00:13:31.360 align:start position:0%
+modified exactly what we have intended
+ 
+
+00:13:31.360 --> 00:13:33.430 align:start position:0%
+modified exactly what we have intended
+okay<00:13:31.680><c> and</c><00:13:31.839><c> i</c><00:13:32.000><c> just</c><00:13:32.320><c> undo</c><00:13:32.880><c> so</c><00:13:33.040><c> you</c><00:13:33.120><c> can</c><00:13:33.200><c> just</c>
+
+00:13:33.430 --> 00:13:33.440 align:start position:0%
+okay and i just undo so you can just
+ 
+
+00:13:33.440 --> 00:13:37.110 align:start position:0%
+okay and i just undo so you can just
+verify<00:13:33.920><c> that</c><00:13:34.560><c> wherever</c><00:13:35.040><c> 0</c><00:13:35.279><c> 0</c><00:13:35.519><c> 0</c><00:13:35.760><c> 0</c><00:13:36.000><c> colon</c><00:13:36.399><c> 0</c><00:13:36.639><c> 0</c>
+
+00:13:37.110 --> 00:13:37.120 align:start position:0%
+verify that wherever 0 0 0 0 colon 0 0
+ 
+
+00:13:37.120 --> 00:13:39.269 align:start position:0%
+verify that wherever 0 0 0 0 colon 0 0
+is<00:13:37.279><c> there</c><00:13:37.680><c> all</c><00:13:37.839><c> that</c><00:13:38.079><c> has</c><00:13:38.160><c> been</c>
+
+00:13:39.269 --> 00:13:39.279 align:start position:0%
+is there all that has been
+ 
+
+00:13:39.279 --> 00:13:41.030 align:start position:0%
+is there all that has been
+nullified<00:13:39.920><c> but</c><00:13:40.079><c> you</c><00:13:40.160><c> can</c><00:13:40.320><c> also</c><00:13:40.560><c> see</c><00:13:40.720><c> that</c><00:13:40.880><c> it</c>
+
+00:13:41.030 --> 00:13:41.040 align:start position:0%
+nullified but you can also see that it
+ 
+
+00:13:41.040 --> 00:13:43.110 align:start position:0%
+nullified but you can also see that it
+has<00:13:41.199><c> done</c><00:13:41.440><c> beyond</c><00:13:41.839><c> that</c><00:13:42.079><c> because</c><00:13:42.560><c> here</c><00:13:42.800><c> also</c>
+
+00:13:43.110 --> 00:13:43.120 align:start position:0%
+has done beyond that because here also
+ 
+
+00:13:43.120 --> 00:13:45.910 align:start position:0%
+has done beyond that because here also
+it<00:13:43.199><c> would</c><00:13:43.440><c> match</c><00:13:44.240><c> okay</c><00:13:44.959><c> so</c><00:13:45.199><c> wherever</c><00:13:45.600><c> it</c><00:13:45.760><c> has</c>
+
+00:13:45.910 --> 00:13:45.920 align:start position:0%
+it would match okay so wherever it has
+ 
+
+00:13:45.920 --> 00:13:47.590 align:start position:0%
+it would match okay so wherever it has
+matched<00:13:46.240><c> with</c><00:13:46.399><c> the</c><00:13:46.480><c> regular</c><00:13:46.800><c> expression</c><00:13:47.440><c> it</c>
+
+00:13:47.590 --> 00:13:47.600 align:start position:0%
+matched with the regular expression it
+ 
+
+00:13:47.600 --> 00:13:49.829 align:start position:0%
+matched with the regular expression it
+has<00:13:47.760><c> gone</c><00:13:48.079><c> ahead</c><00:13:48.399><c> and</c><00:13:48.480><c> done</c><00:13:48.800><c> so</c>
+
+00:13:49.829 --> 00:13:49.839 align:start position:0%
+has gone ahead and done so
+ 
+
+00:13:49.839 --> 00:13:51.509 align:start position:0%
+has gone ahead and done so
+i<00:13:50.000><c> will</c><00:13:50.160><c> do</c><00:13:50.320><c> it</c><00:13:50.480><c> and</c><00:13:50.639><c> show</c><00:13:50.800><c> you</c><00:13:50.959><c> that</c><00:13:51.199><c> there</c><00:13:51.360><c> is</c>
+
+00:13:51.509 --> 00:13:51.519 align:start position:0%
+i will do it and show you that there is
+ 
+
+00:13:51.519 --> 00:13:53.350 align:start position:0%
+i will do it and show you that there is
+one<00:13:51.680><c> more</c><00:13:51.920><c> coming</c><00:13:52.240><c> up</c><00:13:52.399><c> here</c><00:13:52.720><c> because</c><00:13:52.959><c> it</c><00:13:53.120><c> has</c>
+
+00:13:53.350 --> 00:13:53.360 align:start position:0%
+one more coming up here because it has
+ 
+
+00:13:53.360 --> 00:13:56.310 align:start position:0%
+one more coming up here because it has
+matched<00:13:54.320><c> with</c><00:13:54.880><c> these</c><00:13:55.279><c> also</c>
+
+00:13:56.310 --> 00:13:56.320 align:start position:0%
+matched with these also
+ 
+
+00:13:56.320 --> 00:13:58.150 align:start position:0%
+matched with these also
+okay<00:13:56.720><c> so</c><00:13:56.959><c> regular</c><00:13:57.360><c> expression</c><00:13:57.680><c> that</c><00:13:57.920><c> way</c><00:13:58.079><c> if</c>
+
+00:13:58.150 --> 00:13:58.160 align:start position:0%
+okay so regular expression that way if
+ 
+
+00:13:58.160 --> 00:14:00.150 align:start position:0%
+okay so regular expression that way if
+you<00:13:58.320><c> understand</c><00:13:58.800><c> well</c><00:13:59.120><c> it</c><00:13:59.279><c> would</c><00:13:59.600><c> help</c><00:13:59.839><c> you</c>
+
+00:14:00.150 --> 00:14:00.160 align:start position:0%
+you understand well it would help you
+ 
+
+00:14:00.160 --> 00:14:01.670 align:start position:0%
+you understand well it would help you
+understand<00:14:00.639><c> where</c><00:14:00.880><c> all</c><00:14:01.040><c> the</c><00:14:01.120><c> changes</c><00:14:01.440><c> can</c>
+
+00:14:01.670 --> 00:14:01.680 align:start position:0%
+understand where all the changes can
+ 
+
+00:14:01.680 --> 00:14:02.550 align:start position:0%
+understand where all the changes can
+occur
+
+00:14:02.550 --> 00:14:02.560 align:start position:0%
+occur
+ 
+
+00:14:02.560 --> 00:14:04.470 align:start position:0%
+occur
+now<00:14:02.720><c> you</c><00:14:02.800><c> could</c><00:14:02.959><c> also</c><00:14:03.440><c> do</c><00:14:03.600><c> that</c><00:14:03.839><c> by</c><00:14:04.000><c> searching</c>
+
+00:14:04.470 --> 00:14:04.480 align:start position:0%
+now you could also do that by searching
+ 
+
+00:14:04.480 --> 00:14:06.389 align:start position:0%
+now you could also do that by searching
+so<00:14:05.040><c> press</c><00:14:05.440><c> press</c>
+
+00:14:06.389 --> 00:14:06.399 align:start position:0%
+so press press
+ 
+
+00:14:06.399 --> 00:14:09.990 align:start position:0%
+so press press
+forward<00:14:06.800><c> slash</c><00:14:07.519><c> dot</c><00:14:07.760><c> dot</c><00:14:08.000><c> dot</c><00:14:08.399><c> colon</c><00:14:08.800><c> dot</c><00:14:09.040><c> dot</c>
+
+00:14:09.990 --> 00:14:10.000 align:start position:0%
+forward slash dot dot dot colon dot dot
+ 
+
+00:14:10.000 --> 00:14:11.670 align:start position:0%
+forward slash dot dot dot colon dot dot
+okay<00:14:10.320><c> so</c><00:14:10.560><c> wherever</c><00:14:10.959><c> the</c><00:14:11.120><c> pattern</c><00:14:11.440><c> is</c><00:14:11.519><c> there</c>
+
+00:14:11.670 --> 00:14:11.680 align:start position:0%
+okay so wherever the pattern is there
+ 
+
+00:14:11.680 --> 00:14:13.910 align:start position:0%
+okay so wherever the pattern is there
+that<00:14:11.839><c> will</c><00:14:12.079><c> match</c><00:14:12.480><c> okay</c><00:14:13.040><c> so</c><00:14:13.279><c> that's</c><00:14:13.519><c> the</c><00:14:13.600><c> first</c>
+
+00:14:13.910 --> 00:14:13.920 align:start position:0%
+that will match okay so that's the first
+ 
+
+00:14:13.920 --> 00:14:16.389 align:start position:0%
+that will match okay so that's the first
+match<00:14:14.480><c> this</c><00:14:14.720><c> is</c><00:14:14.880><c> the</c><00:14:14.959><c> second</c><00:14:15.279><c> match</c><00:14:16.079><c> third</c>
+
+00:14:16.389 --> 00:14:16.399 align:start position:0%
+match this is the second match third
+ 
+
+00:14:16.399 --> 00:14:18.629 align:start position:0%
+match this is the second match third
+match<00:14:17.199><c> fourth</c><00:14:17.600><c> match</c><00:14:17.839><c> fifth</c><00:14:18.160><c> match</c><00:14:18.399><c> sixth</c>
+
+00:14:18.629 --> 00:14:18.639 align:start position:0%
+match fourth match fifth match sixth
+ 
+
+00:14:18.639 --> 00:14:20.150 align:start position:0%
+match fourth match fifth match sixth
+match<00:14:18.959><c> you</c><00:14:19.040><c> can</c><00:14:19.120><c> see</c><00:14:19.279><c> that</c><00:14:19.440><c> where</c><00:14:19.680><c> all</c><00:14:19.839><c> it</c><00:14:19.920><c> gets</c>
+
+00:14:20.150 --> 00:14:20.160 align:start position:0%
+match you can see that where all it gets
+ 
+
+00:14:20.160 --> 00:14:22.230 align:start position:0%
+match you can see that where all it gets
+matched<00:14:20.959><c> and</c><00:14:21.120><c> therefore</c><00:14:21.519><c> you</c><00:14:21.600><c> know</c><00:14:21.839><c> where</c><00:14:22.079><c> all</c>
+
+00:14:22.230 --> 00:14:22.240 align:start position:0%
+matched and therefore you know where all
+ 
+
+00:14:22.240 --> 00:14:24.310 align:start position:0%
+matched and therefore you know where all
+it<00:14:22.320><c> will</c><00:14:22.480><c> actually</c><00:14:22.720><c> go</c><00:14:22.959><c> and</c><00:14:23.199><c> do</c><00:14:23.360><c> the</c><00:14:23.600><c> change</c>
+
+00:14:24.310 --> 00:14:24.320 align:start position:0%
+it will actually go and do the change
+ 
+
+00:14:24.320 --> 00:14:26.870 align:start position:0%
+it will actually go and do the change
+and<00:14:24.560><c> this</c><00:14:24.800><c> is</c><00:14:24.880><c> something</c><00:14:25.199><c> that</c><00:14:25.360><c> you</c><00:14:25.519><c> can</c><00:14:25.680><c> also</c>
+
+00:14:26.870 --> 00:14:26.880 align:start position:0%
+and this is something that you can also
+ 
+
+00:14:26.880 --> 00:14:27.910 align:start position:0%
+and this is something that you can also
+learn<00:14:27.199><c> to</c>
+
+00:14:27.910 --> 00:14:27.920 align:start position:0%
+learn to
+ 
+
+00:14:27.920 --> 00:14:29.910 align:start position:0%
+learn to
+be<00:14:28.240><c> alert</c><00:14:28.880><c> by</c><00:14:29.120><c> becoming</c><00:14:29.440><c> more</c><00:14:29.680><c> and</c><00:14:29.760><c> more</c>
+
+00:14:29.910 --> 00:14:29.920 align:start position:0%
+be alert by becoming more and more
+ 
+
+00:14:29.920 --> 00:14:32.870 align:start position:0%
+be alert by becoming more and more
+familiar<00:14:30.320><c> with</c><00:14:30.480><c> the</c><00:14:30.639><c> regular</c><00:14:31.040><c> expressions</c>
+
+00:14:32.870 --> 00:14:32.880 align:start position:0%
+familiar with the regular expressions
+ 
+
+00:14:32.880 --> 00:14:34.949 align:start position:0%
+familiar with the regular expressions
+and<00:14:33.440><c> if</c><00:14:33.680><c> you</c><00:14:33.760><c> want</c><00:14:33.920><c> to</c><00:14:34.000><c> remove</c><00:14:34.320><c> whatever</c><00:14:34.720><c> is</c><00:14:34.880><c> in</c>
+
+00:14:34.949 --> 00:14:34.959 align:start position:0%
+and if you want to remove whatever is in
+ 
+
+00:14:34.959 --> 00:14:36.389 align:start position:0%
+and if you want to remove whatever is in
+the<00:14:35.040><c> square</c><00:14:35.360><c> brackets</c><00:14:35.839><c> in</c><00:14:35.920><c> the</c><00:14:36.000><c> beginning</c>
+
+00:14:36.389 --> 00:14:36.399 align:start position:0%
+the square brackets in the beginning
+ 
+
+00:14:36.399 --> 00:14:41.670 align:start position:0%
+the square brackets in the beginning
+that<00:14:36.639><c> also</c><00:14:36.800><c> we</c><00:14:36.959><c> could</c><00:14:37.120><c> do</c><00:14:37.360><c> now</c>
+
+00:14:41.670 --> 00:14:41.680 align:start position:0%
+ 
+ 
+
+00:14:41.680 --> 00:14:47.750 align:start position:0%
+ 
+okay<00:14:42.160><c> so</c>
+
+00:14:47.750 --> 00:14:47.760 align:start position:0%
+ 
+ 
+
+00:14:47.760 --> 00:14:49.430 align:start position:0%
+ 
+so<00:14:48.000><c> you</c><00:14:48.079><c> know</c><00:14:48.240><c> that</c><00:14:48.480><c> square</c><00:14:48.800><c> brackets</c><00:14:49.199><c> have</c>
+
+00:14:49.430 --> 00:14:49.440 align:start position:0%
+so you know that square brackets have
+ 
+
+00:14:49.440 --> 00:14:50.550 align:start position:0%
+so you know that square brackets have
+special<00:14:49.760><c> meaning</c><00:14:50.079><c> in</c><00:14:50.160><c> the</c><00:14:50.240><c> regular</c>
+
+00:14:50.550 --> 00:14:50.560 align:start position:0%
+special meaning in the regular
+ 
+
+00:14:50.560 --> 00:14:53.030 align:start position:0%
+special meaning in the regular
+expression<00:14:51.040><c> language</c><00:14:52.000><c> so</c><00:14:52.160><c> therefore</c><00:14:52.560><c> we</c><00:14:52.800><c> are</c>
+
+00:14:53.030 --> 00:14:53.040 align:start position:0%
+expression language so therefore we are
+ 
+
+00:14:53.040 --> 00:14:55.350 align:start position:0%
+expression language so therefore we are
+escaping<00:14:53.440><c> that</c><00:14:53.600><c> with</c><00:14:53.839><c> a</c><00:14:54.079><c> backslash</c><00:14:55.040><c> and</c><00:14:55.279><c> i</c>
+
+00:14:55.350 --> 00:14:55.360 align:start position:0%
+escaping that with a backslash and i
+ 
+
+00:14:55.360 --> 00:14:57.269 align:start position:0%
+escaping that with a backslash and i
+want<00:14:55.519><c> to</c><00:14:55.680><c> remove</c><00:14:55.920><c> whatever</c><00:14:56.320><c> is</c><00:14:56.480><c> there</c><00:14:56.720><c> in</c><00:14:56.800><c> that</c>
+
+00:14:57.269 --> 00:14:57.279 align:start position:0%
+want to remove whatever is there in that
+ 
+
+00:14:57.279 --> 00:14:58.949 align:start position:0%
+want to remove whatever is there in that
+square<00:14:57.600><c> brackets</c><00:14:58.160><c> so</c>
+
+00:14:58.949 --> 00:14:58.959 align:start position:0%
+square brackets so
+ 
+
+00:14:58.959 --> 00:15:01.189 align:start position:0%
+square brackets so
+i<00:14:59.120><c> just</c><00:14:59.360><c> removed</c><00:14:59.760><c> with</c><00:14:59.920><c> the</c><00:15:00.000><c> null</c><00:15:00.720><c> and</c><00:15:00.880><c> you</c><00:15:01.040><c> see</c>
+
+00:15:01.189 --> 00:15:01.199 align:start position:0%
+i just removed with the null and you see
+ 
+
+00:15:01.199 --> 00:15:03.189 align:start position:0%
+i just removed with the null and you see
+that<00:15:01.279><c> that</c><00:15:01.519><c> entire</c><00:15:01.839><c> part</c><00:15:02.079><c> has</c><00:15:02.240><c> been</c><00:15:02.399><c> deleted</c>
+
+00:15:03.189 --> 00:15:03.199 align:start position:0%
+that that entire part has been deleted
+ 
+
+00:15:03.199 --> 00:15:05.990 align:start position:0%
+that that entire part has been deleted
+okay<00:15:03.519><c> so</c><00:15:03.760><c> you</c><00:15:03.839><c> can</c><00:15:04.000><c> do</c><00:15:04.399><c> massive</c><00:15:04.880><c> editing</c>
+
+00:15:05.990 --> 00:15:06.000 align:start position:0%
+okay so you can do massive editing
+ 
+
+00:15:06.000 --> 00:15:08.470 align:start position:0%
+okay so you can do massive editing
+by<00:15:06.320><c> understanding</c><00:15:06.880><c> the</c><00:15:07.040><c> command</c><00:15:07.440><c> line</c><00:15:08.079><c> aspect</c>
+
+00:15:08.470 --> 00:15:08.480 align:start position:0%
+by understanding the command line aspect
+ 
+
+00:15:08.480 --> 00:15:10.310 align:start position:0%
+by understanding the command line aspect
+of<00:15:08.800><c> va</c><00:15:09.120><c> editor</c>
+
+00:15:10.310 --> 00:15:10.320 align:start position:0%
+of va editor
+ 
+
+00:15:10.320 --> 00:15:13.430 align:start position:0%
+of va editor
+on<00:15:10.639><c> any</c><00:15:10.959><c> file</c><00:15:11.360><c> log</c><00:15:11.680><c> file</c><00:15:12.000><c> or</c><00:15:12.079><c> whatever</c><00:15:12.959><c> and</c><00:15:13.279><c> do</c>
+
+00:15:13.430 --> 00:15:13.440 align:start position:0%
+on any file log file or whatever and do
+ 
+
+00:15:13.440 --> 00:15:16.790 align:start position:0%
+on any file log file or whatever and do
+these<00:15:13.680><c> kind</c><00:15:13.839><c> of</c><00:15:14.000><c> operations</c>
+
+00:15:16.790 --> 00:15:16.800 align:start position:0%
+ 
+ 
+
+00:15:16.800 --> 00:15:18.949 align:start position:0%
+ 
+okay<00:15:17.120><c> so</c><00:15:17.360><c> now</c><00:15:17.600><c> i</c><00:15:17.760><c> will</c><00:15:17.920><c> show</c><00:15:18.079><c> you</c><00:15:18.240><c> something</c>
+
+00:15:18.949 --> 00:15:18.959 align:start position:0%
+okay so now i will show you something
+ 
+
+00:15:18.959 --> 00:15:21.990 align:start position:0%
+okay so now i will show you something
+that<00:15:19.120><c> is</c><00:15:19.279><c> very</c><00:15:19.600><c> cute</c><00:15:20.160><c> which</c><00:15:20.800><c> is</c>
+
+00:15:21.990 --> 00:15:22.000 align:start position:0%
+that is very cute which is
+ 
+
+00:15:22.000 --> 00:15:23.829 align:start position:0%
+that is very cute which is
+interesting<00:15:22.399><c> for</c><00:15:22.639><c> you</c>
+
+00:15:23.829 --> 00:15:23.839 align:start position:0%
+interesting for you
+ 
+
+00:15:23.839 --> 00:15:26.949 align:start position:0%
+interesting for you
+to<00:15:24.079><c> understand</c><00:15:24.480><c> how</c><00:15:24.720><c> to</c><00:15:25.279><c> use</c><00:15:25.519><c> va</c><00:15:25.839><c> editor</c><00:15:26.240><c> to</c><00:15:26.720><c> do</c>
+
+00:15:26.949 --> 00:15:26.959 align:start position:0%
+to understand how to use va editor to do
+ 
+
+00:15:26.959 --> 00:15:36.790 align:start position:0%
+to understand how to use va editor to do
+some<00:15:27.120><c> manipulations</c><00:15:27.680><c> of</c><00:15:27.760><c> the</c><00:15:27.920><c> text</c><00:15:28.560><c> okay</c>
+
+00:15:36.790 --> 00:15:36.800 align:start position:0%
+ 
+ 
+
+00:15:36.800 --> 00:15:39.189 align:start position:0%
+ 
+so<00:15:36.959><c> i</c><00:15:37.120><c> go</c><00:15:37.279><c> to</c><00:15:37.440><c> the</c><00:15:37.519><c> test.txt</c>
+
+00:15:39.189 --> 00:15:39.199 align:start position:0%
+so i go to the test.txt
+ 
+
+00:15:39.199 --> 00:15:41.509 align:start position:0%
+so i go to the test.txt
+and<00:15:39.680><c> here</c><00:15:40.000><c> i</c><00:15:40.160><c> would</c>
+
+00:15:41.509 --> 00:15:41.519 align:start position:0%
+and here i would
+ 
+
+00:15:41.519 --> 00:15:51.269 align:start position:0%
+and here i would
+like<00:15:41.759><c> to</c><00:15:42.000><c> change</c><00:15:42.399><c> the</c><00:15:43.040><c> capital</c><00:15:43.519><c> lines</c>
+
+00:15:51.269 --> 00:15:51.279 align:start position:0%
+ 
+ 
+
+00:15:51.279 --> 00:15:53.189 align:start position:0%
+ 
+okay<00:15:51.519><c> i</c><00:15:51.600><c> have</c><00:15:51.680><c> made</c><00:15:51.920><c> all</c><00:15:52.079><c> of</c><00:15:52.160><c> them</c><00:15:52.320><c> smile</c><00:15:52.959><c> now</c>
+
+00:15:53.189 --> 00:15:53.199 align:start position:0%
+okay i have made all of them smile now
+ 
+
+00:15:53.199 --> 00:15:55.430 align:start position:0%
+okay i have made all of them smile now
+let<00:15:53.360><c> us</c><00:15:53.440><c> say</c><00:15:53.759><c> the</c><00:15:54.000><c> first</c><00:15:54.480><c> four</c><00:15:54.720><c> words</c><00:15:55.120><c> i</c><00:15:55.199><c> want</c>
+
+00:15:55.430 --> 00:15:55.440 align:start position:0%
+let us say the first four words i want
+ 
+
+00:15:55.440 --> 00:15:57.670 align:start position:0%
+let us say the first four words i want
+to<00:15:55.519><c> convert</c><00:15:56.000><c> them</c><00:15:56.240><c> to</c><00:15:56.399><c> look</c><00:15:56.720><c> like</c><00:15:57.120><c> an</c><00:15:57.360><c> email</c>
+
+00:15:57.670 --> 00:15:57.680 align:start position:0%
+to convert them to look like an email
+ 
+
+00:15:57.680 --> 00:16:00.069 align:start position:0%
+to convert them to look like an email
+address<00:15:58.000><c> let</c><00:15:58.160><c> us</c><00:15:58.320><c> say</c><00:15:58.639><c> okay</c><00:15:59.199><c> so</c><00:15:59.440><c> i</c><00:15:59.600><c> could</c><00:15:59.839><c> do</c>
+
+00:16:00.069 --> 00:16:00.079 align:start position:0%
+address let us say okay so i could do
+ 
+
+00:16:00.079 --> 00:16:01.110 align:start position:0%
+address let us say okay so i could do
+that
+
+00:16:01.110 --> 00:16:01.120 align:start position:0%
+that
+ 
+
+00:16:01.120 --> 00:16:02.389 align:start position:0%
+that
+substitute
+
+00:16:02.389 --> 00:16:02.399 align:start position:0%
+substitute
+ 
+
+00:16:02.399 --> 00:16:04.710 align:start position:0%
+substitute
+line<00:16:02.880><c> and</c><00:16:03.040><c> i</c><00:16:03.199><c> want</c><00:16:03.440><c> to</c><00:16:03.600><c> change</c><00:16:03.920><c> that</c><00:16:04.240><c> to</c><00:16:04.480><c> look</c>
+
+00:16:04.710 --> 00:16:04.720 align:start position:0%
+line and i want to change that to look
+ 
+
+00:16:04.720 --> 00:16:08.790 align:start position:0%
+line and i want to change that to look
+like
+
+00:16:08.790 --> 00:16:08.800 align:start position:0%
+ 
+ 
+
+00:16:08.800 --> 00:16:10.870 align:start position:0%
+ 
+okay<00:16:09.279><c> and</c><00:16:09.440><c> you</c><00:16:09.600><c> see</c><00:16:09.759><c> that</c><00:16:10.079><c> the</c><00:16:10.320><c> entire</c><00:16:10.639><c> text</c>
+
+00:16:10.870 --> 00:16:10.880 align:start position:0%
+okay and you see that the entire text
+ 
+
+00:16:10.880 --> 00:16:12.710 align:start position:0%
+okay and you see that the entire text
+has<00:16:11.040><c> been</c><00:16:11.199><c> modified</c><00:16:11.680><c> to</c><00:16:11.839><c> look</c><00:16:12.000><c> like</c><00:16:12.240><c> an</c><00:16:12.399><c> email</c>
+
+00:16:12.710 --> 00:16:12.720 align:start position:0%
+has been modified to look like an email
+ 
+
+00:16:12.720 --> 00:16:13.590 align:start position:0%
+has been modified to look like an email
+address
+
+00:16:13.590 --> 00:16:13.600 align:start position:0%
+address
+ 
+
+00:16:13.600 --> 00:16:15.990 align:start position:0%
+address
+so<00:16:13.920><c> we</c><00:16:14.079><c> can</c><00:16:14.399><c> actually</c><00:16:14.800><c> go</c><00:16:15.040><c> ahead</c><00:16:15.279><c> and</c><00:16:15.600><c> do</c><00:16:15.759><c> these</c>
+
+00:16:15.990 --> 00:16:16.000 align:start position:0%
+so we can actually go ahead and do these
+ 
+
+00:16:16.000 --> 00:16:18.230 align:start position:0%
+so we can actually go ahead and do these
+kind<00:16:16.160><c> of</c><00:16:16.320><c> manipulations</c><00:16:16.959><c> to</c><00:16:17.199><c> text</c><00:16:17.839><c> how</c><00:16:18.000><c> many</c>
+
+00:16:18.230 --> 00:16:18.240 align:start position:0%
+kind of manipulations to text how many
+ 
+
+00:16:18.240 --> 00:16:19.749 align:start position:0%
+kind of manipulations to text how many
+hour<00:16:18.480><c> lines</c><00:16:18.720><c> are</c><00:16:18.880><c> there</c><00:16:19.120><c> even</c><00:16:19.360><c> if</c><00:16:19.519><c> it</c><00:16:19.680><c> is</c>
+
+00:16:19.749 --> 00:16:19.759 align:start position:0%
+hour lines are there even if it is
+ 
+
+00:16:19.759 --> 00:16:21.269 align:start position:0%
+hour lines are there even if it is
+running<00:16:20.000><c> into</c><00:16:20.240><c> hundreds</c><00:16:20.560><c> and</c><00:16:20.720><c> thousands</c><00:16:21.120><c> of</c>
+
+00:16:21.269 --> 00:16:21.279 align:start position:0%
+running into hundreds and thousands of
+ 
+
+00:16:21.279 --> 00:16:23.829 align:start position:0%
+running into hundreds and thousands of
+lines<00:16:22.000><c> the</c><00:16:22.160><c> va</c><00:16:22.480><c> editor</c><00:16:22.800><c> will</c><00:16:22.959><c> be</c><00:16:23.360><c> able</c><00:16:23.600><c> to</c><00:16:23.680><c> do</c>
+
+00:16:23.829 --> 00:16:23.839 align:start position:0%
+lines the va editor will be able to do
+ 
+
+00:16:23.839 --> 00:16:26.150 align:start position:0%
+lines the va editor will be able to do
+those<00:16:24.079><c> changes</c><00:16:24.560><c> within</c><00:16:24.880><c> few</c><00:16:25.120><c> seconds</c>
+
+00:16:26.150 --> 00:16:26.160 align:start position:0%
+those changes within few seconds
+ 
+
+00:16:26.160 --> 00:16:27.590 align:start position:0%
+those changes within few seconds
+because<00:16:26.639><c> the</c>
+
+00:16:27.590 --> 00:16:27.600 align:start position:0%
+because the
+ 
+
+00:16:27.600 --> 00:16:29.430 align:start position:0%
+because the
+commands<00:16:28.079><c> are</c><00:16:28.160><c> rather</c><00:16:28.560><c> fast</c>
+
+00:16:29.430 --> 00:16:29.440 align:start position:0%
+commands are rather fast
+ 
+
+00:16:29.440 --> 00:16:31.670 align:start position:0%
+commands are rather fast
+and<00:16:29.759><c> you</c><00:16:29.839><c> can</c><00:16:30.000><c> actually</c><00:16:30.320><c> prepare</c><00:16:30.800><c> your</c><00:16:31.199><c> input</c>
+
+00:16:31.670 --> 00:16:31.680 align:start position:0%
+and you can actually prepare your input
+ 
+
+00:16:31.680 --> 00:16:34.230 align:start position:0%
+and you can actually prepare your input
+file<00:16:32.160><c> for</c><00:16:32.399><c> further</c><00:16:33.120><c> processing</c><00:16:34.000><c> using</c>
+
+00:16:34.230 --> 00:16:34.240 align:start position:0%
+file for further processing using
+ 
+
+00:16:34.240 --> 00:16:37.509 align:start position:0%
+file for further processing using
+various<00:16:34.639><c> other</c><00:16:34.880><c> commands</c><00:16:36.240><c> so</c><00:16:36.880><c> some</c><00:16:37.120><c> commands</c>
+
+00:16:37.509 --> 00:16:37.519 align:start position:0%
+various other commands so some commands
+ 
+
+00:16:37.519 --> 00:16:39.670 align:start position:0%
+various other commands so some commands
+can<00:16:37.680><c> be</c><00:16:37.839><c> run</c><00:16:38.000><c> within</c><00:16:38.320><c> the</c><00:16:38.399><c> text</c><00:16:38.639><c> editor</c><00:16:38.959><c> itself</c>
+
+00:16:39.670 --> 00:16:39.680 align:start position:0%
+can be run within the text editor itself
+ 
+
+00:16:39.680 --> 00:16:41.990 align:start position:0%
+can be run within the text editor itself
+to<00:16:39.839><c> prepare</c><00:16:40.240><c> the</c><00:16:40.399><c> input</c><00:16:40.720><c> file</c><00:16:41.360><c> for</c><00:16:41.519><c> some</c><00:16:41.759><c> other</c>
+
+00:16:41.990 --> 00:16:42.000 align:start position:0%
+to prepare the input file for some other
+ 
+
+00:16:42.000 --> 00:16:44.949 align:start position:0%
+to prepare the input file for some other
+processing<00:16:42.880><c> beyond</c><00:16:43.279><c> the</c><00:16:43.440><c> editor</c>
+
+00:16:44.949 --> 00:16:44.959 align:start position:0%
+processing beyond the editor
+ 
+
+00:16:44.959 --> 00:16:46.710 align:start position:0%
+processing beyond the editor
+now<00:16:45.120><c> the</c><00:16:45.360><c> third</c><00:16:45.680><c> editor</c><00:16:46.079><c> that</c><00:16:46.160><c> we</c><00:16:46.320><c> would</c><00:16:46.560><c> like</c>
+
+00:16:46.710 --> 00:16:46.720 align:start position:0%
+now the third editor that we would like
+ 
+
+00:16:46.720 --> 00:16:48.310 align:start position:0%
+now the third editor that we would like
+to<00:16:46.880><c> look</c><00:16:47.120><c> at</c><00:16:47.519><c> in</c><00:16:47.680><c> the</c><00:16:47.839><c> command</c><00:16:48.160><c> line</c>
+
+00:16:48.310 --> 00:16:48.320 align:start position:0%
+to look at in the command line
+ 
+
+00:16:48.320 --> 00:16:50.710 align:start position:0%
+to look at in the command line
+environment<00:16:48.959><c> is</c><00:16:49.120><c> emacs</c><00:16:49.839><c> which</c><00:16:50.000><c> is</c><00:16:50.160><c> also</c><00:16:50.399><c> very</c>
+
+00:16:50.710 --> 00:16:50.720 align:start position:0%
+environment is emacs which is also very
+ 
+
+00:16:50.720 --> 00:16:51.829 align:start position:0%
+environment is emacs which is also very
+popular
+
+00:16:51.829 --> 00:16:51.839 align:start position:0%
+popular
+ 
+
+00:16:51.839 --> 00:16:53.910 align:start position:0%
+popular
+and<00:16:52.399><c> here</c>
+
+00:16:53.910 --> 00:16:53.920 align:start position:0%
+and here
+ 
+
+00:16:53.920 --> 00:16:55.749 align:start position:0%
+and here
+there<00:16:54.079><c> is</c><00:16:54.160><c> only</c><00:16:54.480><c> one</c><00:16:54.720><c> mode</c><00:16:55.199><c> in</c><00:16:55.360><c> which</c><00:16:55.600><c> the</c>
+
+00:16:55.749 --> 00:16:55.759 align:start position:0%
+there is only one mode in which the
+ 
+
+00:16:55.759 --> 00:16:57.590 align:start position:0%
+there is only one mode in which the
+editor<00:16:56.160><c> will</c><00:16:56.399><c> work</c>
+
+00:16:57.590 --> 00:16:57.600 align:start position:0%
+editor will work
+ 
+
+00:16:57.600 --> 00:16:58.870 align:start position:0%
+editor will work
+and
+
+00:16:58.870 --> 00:16:58.880 align:start position:0%
+and
+ 
+
+00:16:58.880 --> 00:17:01.829 align:start position:0%
+and
+every<00:16:59.279><c> command</c><00:16:59.920><c> is</c><00:17:00.079><c> actually</c><00:17:00.560><c> going</c><00:17:00.800><c> to</c><00:17:00.959><c> be</c>
+
+00:17:01.829 --> 00:17:01.839 align:start position:0%
+every command is actually going to be
+ 
+
+00:17:01.839 --> 00:17:04.949 align:start position:0%
+every command is actually going to be
+either<00:17:02.320><c> a</c><00:17:02.560><c> control</c><00:17:03.040><c> plus</c><00:17:03.360><c> a</c><00:17:03.440><c> character</c><00:17:04.079><c> or</c><00:17:04.480><c> alt</c>
+
+00:17:04.949 --> 00:17:04.959 align:start position:0%
+either a control plus a character or alt
+ 
+
+00:17:04.959 --> 00:17:08.630 align:start position:0%
+either a control plus a character or alt
+plus<00:17:05.199><c> a</c><00:17:05.280><c> character</c><00:17:06.000><c> so</c><00:17:06.559><c> c</c><00:17:06.880><c> hyphen</c><00:17:07.919><c> is</c><00:17:08.079><c> used</c><00:17:08.400><c> to</c>
+
+00:17:08.630 --> 00:17:08.640 align:start position:0%
+plus a character so c hyphen is used to
+ 
+
+00:17:08.640 --> 00:17:10.470 align:start position:0%
+plus a character so c hyphen is used to
+mean<00:17:08.880><c> that</c><00:17:09.120><c> it</c><00:17:09.280><c> is</c><00:17:09.360><c> control</c><00:17:09.919><c> plus</c><00:17:10.240><c> that</c>
+
+00:17:10.470 --> 00:17:10.480 align:start position:0%
+mean that it is control plus that
+ 
+
+00:17:10.480 --> 00:17:13.350 align:start position:0%
+mean that it is control plus that
+character<00:17:11.039><c> so</c><00:17:11.280><c> c</c><00:17:11.520><c> p</c><00:17:11.679><c> means</c><00:17:12.000><c> control</c><00:17:12.400><c> plus</c><00:17:12.640><c> p</c>
+
+00:17:13.350 --> 00:17:13.360 align:start position:0%
+character so c p means control plus p
+ 
+
+00:17:13.360 --> 00:17:15.750 align:start position:0%
+character so c p means control plus p
+c<00:17:13.679><c> b</c><00:17:14.000><c> means</c><00:17:14.240><c> control</c><00:17:14.640><c> plus</c><00:17:14.880><c> b</c><00:17:15.120><c> c</c><00:17:15.360><c> f</c><00:17:15.520><c> means</c>
+
+00:17:15.750 --> 00:17:15.760 align:start position:0%
+c b means control plus b c f means
+ 
+
+00:17:15.760 --> 00:17:18.710 align:start position:0%
+c b means control plus b c f means
+control<00:17:16.079><c> plus</c><00:17:16.400><c> f</c><00:17:16.720><c> okay</c><00:17:17.280><c> so</c><00:17:17.760><c> you</c><00:17:18.000><c> have</c><00:17:18.240><c> commands</c>
+
+00:17:18.710 --> 00:17:18.720 align:start position:0%
+control plus f okay so you have commands
+ 
+
+00:17:18.720 --> 00:17:21.189 align:start position:0%
+control plus f okay so you have commands
+basically<00:17:19.360><c> either</c><00:17:19.600><c> control</c><00:17:20.079><c> plus</c><00:17:20.319><c> something</c>
+
+00:17:21.189 --> 00:17:21.199 align:start position:0%
+basically either control plus something
+ 
+
+00:17:21.199 --> 00:17:23.990 align:start position:0%
+basically either control plus something
+or<00:17:21.839><c> meta</c><00:17:22.160><c> key</c><00:17:22.480><c> or</c><00:17:22.640><c> alt</c><00:17:22.880><c> key</c><00:17:23.039><c> plus</c><00:17:23.280><c> something</c><00:17:23.679><c> so</c>
+
+00:17:23.990 --> 00:17:24.000 align:start position:0%
+or meta key or alt key plus something so
+ 
+
+00:17:24.000 --> 00:17:26.150 align:start position:0%
+or meta key or alt key plus something so
+in<00:17:24.160><c> that</c><00:17:24.400><c> way</c><00:17:24.959><c> when</c><00:17:25.120><c> you</c><00:17:25.280><c> press</c><00:17:25.600><c> the</c><00:17:25.679><c> regular</c>
+
+00:17:26.150 --> 00:17:26.160 align:start position:0%
+in that way when you press the regular
+ 
+
+00:17:26.160 --> 00:17:27.750 align:start position:0%
+in that way when you press the regular
+keys<00:17:26.559><c> you</c><00:17:26.640><c> are</c><00:17:26.799><c> basically</c><00:17:27.199><c> doing</c><00:17:27.520><c> the</c>
+
+00:17:27.750 --> 00:17:27.760 align:start position:0%
+keys you are basically doing the
+ 
+
+00:17:27.760 --> 00:17:30.150 align:start position:0%
+keys you are basically doing the
+inputting<00:17:28.480><c> of</c><00:17:28.960><c> the</c><00:17:29.200><c> characters</c><00:17:29.679><c> for</c><00:17:29.840><c> your</c>
+
+00:17:30.150 --> 00:17:30.160 align:start position:0%
+inputting of the characters for your
+ 
+
+00:17:30.160 --> 00:17:31.270 align:start position:0%
+inputting of the characters for your
+text<00:17:30.480><c> file</c>
+
+00:17:31.270 --> 00:17:31.280 align:start position:0%
+text file
+ 
+
+00:17:31.280 --> 00:17:33.750 align:start position:0%
+text file
+but<00:17:31.520><c> when</c><00:17:31.679><c> you</c><00:17:31.840><c> are</c><00:17:32.000><c> pressing</c><00:17:32.400><c> controller</c><00:17:33.440><c> alt</c>
+
+00:17:33.750 --> 00:17:33.760 align:start position:0%
+but when you are pressing controller alt
+ 
+
+00:17:33.760 --> 00:17:35.350 align:start position:0%
+but when you are pressing controller alt
+it<00:17:33.919><c> means</c><00:17:34.160><c> that</c><00:17:34.240><c> you</c><00:17:34.320><c> are</c><00:17:34.480><c> going</c><00:17:34.640><c> to</c><00:17:34.720><c> do</c><00:17:34.960><c> some</c>
+
+00:17:35.350 --> 00:17:35.360 align:start position:0%
+it means that you are going to do some
+ 
+
+00:17:35.360 --> 00:17:36.789 align:start position:0%
+it means that you are going to do some
+operations
+
+00:17:36.789 --> 00:17:36.799 align:start position:0%
+operations
+ 
+
+00:17:36.799 --> 00:17:38.230 align:start position:0%
+operations
+running<00:17:37.120><c> commands</c><00:17:37.600><c> and</c><00:17:37.679><c> moving</c><00:17:37.919><c> around</c>
+
+00:17:38.230 --> 00:17:38.240 align:start position:0%
+running commands and moving around
+ 
+
+00:17:38.240 --> 00:17:39.669 align:start position:0%
+running commands and moving around
+etcetera<00:17:38.640><c> so</c><00:17:38.799><c> therefore</c><00:17:39.120><c> there</c><00:17:39.200><c> is</c><00:17:39.280><c> only</c><00:17:39.440><c> one</c>
+
+00:17:39.669 --> 00:17:39.679 align:start position:0%
+etcetera so therefore there is only one
+ 
+
+00:17:39.679 --> 00:17:41.510 align:start position:0%
+etcetera so therefore there is only one
+mode<00:17:40.160><c> in</c><00:17:40.240><c> which</c><00:17:40.480><c> way</c>
+
+00:17:41.510 --> 00:17:41.520 align:start position:0%
+mode in which way
+ 
+
+00:17:41.520 --> 00:17:43.590 align:start position:0%
+mode in which way
+it<00:17:41.679><c> is</c><00:17:41.840><c> very</c><00:17:42.080><c> different</c><00:17:42.400><c> from</c><00:17:42.640><c> va</c><00:17:42.960><c> editor</c>
+
+00:17:43.590 --> 00:17:43.600 align:start position:0%
+it is very different from va editor
+ 
+
+00:17:43.600 --> 00:17:45.350 align:start position:0%
+it is very different from va editor
+which<00:17:43.840><c> has</c><00:17:44.080><c> three</c><00:17:44.320><c> different</c><00:17:44.640><c> modes</c><00:17:45.120><c> in</c><00:17:45.200><c> which</c>
+
+00:17:45.350 --> 00:17:45.360 align:start position:0%
+which has three different modes in which
+ 
+
+00:17:45.360 --> 00:17:46.549 align:start position:0%
+which has three different modes in which
+it<00:17:45.520><c> is</c><00:17:45.600><c> running</c>
+
+00:17:46.549 --> 00:17:46.559 align:start position:0%
+it is running
+ 
+
+00:17:46.559 --> 00:17:48.310 align:start position:0%
+it is running
+and<00:17:46.799><c> here</c><00:17:47.039><c> i</c><00:17:47.120><c> am</c><00:17:47.200><c> giving</c><00:17:47.440><c> you</c><00:17:47.600><c> some</c><00:17:47.840><c> summary</c>
+
+00:17:48.310 --> 00:17:48.320 align:start position:0%
+and here i am giving you some summary
+ 
+
+00:17:48.320 --> 00:17:49.669 align:start position:0%
+and here i am giving you some summary
+which<00:17:48.480><c> we</c><00:17:48.640><c> could</c><00:17:48.799><c> actually</c><00:17:49.120><c> explore</c><00:17:49.440><c> in</c><00:17:49.600><c> a</c>
+
+00:17:49.669 --> 00:17:49.679 align:start position:0%
+which we could actually explore in a
+ 
+
+00:17:49.679 --> 00:17:51.590 align:start position:0%
+which we could actually explore in a
+moment<00:17:50.480><c> and</c><00:17:50.799><c> you</c><00:17:50.960><c> could</c><00:17:51.120><c> look</c><00:17:51.280><c> at</c><00:17:51.360><c> the</c>
+
+00:17:51.590 --> 00:17:51.600 align:start position:0%
+moment and you could look at the
+ 
+
+00:17:51.600 --> 00:17:55.190 align:start position:0%
+moment and you could look at the
+reference<00:17:52.080><c> card</c><00:17:52.720><c> from</c><00:17:52.880><c> the</c><00:17:53.039><c> gne</c><00:17:53.440><c> website</c>
+
+00:17:55.190 --> 00:17:55.200 align:start position:0%
+reference card from the gne website
+ 
+
+00:17:55.200 --> 00:17:57.430 align:start position:0%
+reference card from the gne website
+for<00:17:55.440><c> a</c><00:17:55.520><c> quick</c><00:17:56.240><c> summary</c><00:17:56.720><c> of</c>
+
+00:17:57.430 --> 00:17:57.440 align:start position:0%
+for a quick summary of
+ 
+
+00:17:57.440 --> 00:18:00.310 align:start position:0%
+for a quick summary of
+various<00:17:57.919><c> options</c><00:17:58.240><c> in</c><00:17:58.320><c> the</c><00:17:58.400><c> emacs</c>
+
+00:18:00.310 --> 00:18:00.320 align:start position:0%
+various options in the emacs
+ 
+
+00:18:00.320 --> 00:18:02.470 align:start position:0%
+various options in the emacs
+and<00:18:00.559><c> here</c><00:18:00.799><c> are</c><00:18:00.960><c> some</c><00:18:01.280><c> major</c><00:18:01.679><c> features</c><00:18:02.080><c> that</c><00:18:02.320><c> we</c>
+
+00:18:02.470 --> 00:18:02.480 align:start position:0%
+and here are some major features that we
+ 
+
+00:18:02.480 --> 00:18:04.070 align:start position:0%
+and here are some major features that we
+would<00:18:02.640><c> like</c><00:18:02.799><c> to</c><00:18:02.880><c> look</c><00:18:03.120><c> at</c>
+
+00:18:04.070 --> 00:18:04.080 align:start position:0%
+would like to look at
+ 
+
+00:18:04.080 --> 00:18:06.070 align:start position:0%
+would like to look at
+so<00:18:04.720><c> first</c><00:18:05.039><c> thing</c><00:18:05.200><c> that</c><00:18:05.360><c> we</c><00:18:05.440><c> need</c><00:18:05.600><c> to</c><00:18:05.760><c> know</c><00:18:05.919><c> when</c>
+
+00:18:06.070 --> 00:18:06.080 align:start position:0%
+so first thing that we need to know when
+ 
+
+00:18:06.080 --> 00:18:07.190 align:start position:0%
+so first thing that we need to know when
+we<00:18:06.240><c> enter</c><00:18:06.559><c> a</c>
+
+00:18:07.190 --> 00:18:07.200 align:start position:0%
+we enter a
+ 
+
+00:18:07.200 --> 00:18:09.990 align:start position:0%
+we enter a
+editor<00:18:07.679><c> is</c><00:18:07.840><c> to</c><00:18:08.400><c> learn</c><00:18:08.640><c> how</c><00:18:08.799><c> to</c><00:18:08.880><c> come</c><00:18:09.120><c> out</c><00:18:09.679><c> so</c><00:18:09.919><c> as</c>
+
+00:18:09.990 --> 00:18:10.000 align:start position:0%
+editor is to learn how to come out so as
+ 
+
+00:18:10.000 --> 00:18:11.669 align:start position:0%
+editor is to learn how to come out so as
+soon<00:18:10.240><c> as</c><00:18:10.400><c> we</c><00:18:10.559><c> enter</c><00:18:11.039><c> if</c><00:18:11.120><c> you</c><00:18:11.280><c> want</c><00:18:11.440><c> to</c><00:18:11.520><c> look</c>
+
+00:18:11.669 --> 00:18:11.679 align:start position:0%
+soon as we enter if you want to look
+ 
+
+00:18:11.679 --> 00:18:12.870 align:start position:0%
+soon as we enter if you want to look
+around<00:18:12.000><c> and</c><00:18:12.080><c> then</c><00:18:12.240><c> you</c><00:18:12.320><c> want</c><00:18:12.400><c> to</c><00:18:12.480><c> come</c><00:18:12.720><c> out</c>
+
+00:18:12.870 --> 00:18:12.880 align:start position:0%
+around and then you want to come out
+ 
+
+00:18:12.880 --> 00:18:14.870 align:start position:0%
+around and then you want to come out
+control<00:18:13.360><c> x</c><00:18:13.600><c> control</c>
+
+00:18:14.870 --> 00:18:14.880 align:start position:0%
+control x control
+ 
+
+00:18:14.880 --> 00:18:16.549 align:start position:0%
+control x control
+c<00:18:15.280><c> would</c><00:18:15.520><c> mean</c><00:18:15.679><c> that</c><00:18:15.840><c> you</c><00:18:15.919><c> would</c><00:18:16.080><c> come</c><00:18:16.320><c> out</c><00:18:16.480><c> of</c>
+
+00:18:16.549 --> 00:18:16.559 align:start position:0%
+c would mean that you would come out of
+ 
+
+00:18:16.559 --> 00:18:18.870 align:start position:0%
+c would mean that you would come out of
+the<00:18:16.640><c> e</c><00:18:16.799><c> max</c><00:18:17.039><c> editor</c><00:18:17.600><c> okay</c><00:18:18.160><c> and</c><00:18:18.320><c> if</c><00:18:18.480><c> you</c><00:18:18.640><c> happen</c>
+
+00:18:18.870 --> 00:18:18.880 align:start position:0%
+the e max editor okay and if you happen
+ 
+
+00:18:18.880 --> 00:18:20.950 align:start position:0%
+the e max editor okay and if you happen
+to<00:18:19.039><c> make</c><00:18:19.200><c> some</c><00:18:19.440><c> changes</c><00:18:19.840><c> and</c><00:18:20.000><c> save</c><00:18:20.320><c> it</c><00:18:20.720><c> then</c>
+
+00:18:20.950 --> 00:18:20.960 align:start position:0%
+to make some changes and save it then
+ 
+
+00:18:20.960 --> 00:18:23.270 align:start position:0%
+to make some changes and save it then
+ctrl<00:18:21.440><c> x</c><00:18:21.600><c> and</c><00:18:21.760><c> ctrl</c><00:18:22.240><c> s</c>
+
+00:18:23.270 --> 00:18:23.280 align:start position:0%
+ctrl x and ctrl s
+ 
+
+00:18:23.280 --> 00:18:25.110 align:start position:0%
+ctrl x and ctrl s
+and<00:18:23.679><c> if</c><00:18:23.760><c> you</c><00:18:23.919><c> want</c><00:18:24.080><c> to</c><00:18:24.160><c> just</c><00:18:24.320><c> suspend</c><00:18:24.799><c> the</c><00:18:24.960><c> e</c>
+
+00:18:25.110 --> 00:18:25.120 align:start position:0%
+and if you want to just suspend the e
+ 
+
+00:18:25.120 --> 00:18:26.630 align:start position:0%
+and if you want to just suspend the e
+max<00:18:25.360><c> editor</c><00:18:25.679><c> but</c><00:18:25.840><c> just</c><00:18:26.000><c> come</c><00:18:26.240><c> out</c><00:18:26.400><c> to</c><00:18:26.480><c> do</c>
+
+00:18:26.630 --> 00:18:26.640 align:start position:0%
+max editor but just come out to do
+ 
+
+00:18:26.640 --> 00:18:28.789 align:start position:0%
+max editor but just come out to do
+something<00:18:27.039><c> else</c><00:18:27.600><c> so</c><00:18:27.840><c> control</c><00:18:28.320><c> z</c><00:18:28.640><c> would</c>
+
+00:18:28.789 --> 00:18:28.799 align:start position:0%
+something else so control z would
+ 
+
+00:18:28.799 --> 00:18:31.110 align:start position:0%
+something else so control z would
+actually<00:18:29.600><c> help</c><00:18:29.919><c> you</c><00:18:30.400><c> to</c><00:18:30.559><c> just</c><00:18:30.720><c> come</c><00:18:30.960><c> out</c>
+
+00:18:31.110 --> 00:18:31.120 align:start position:0%
+actually help you to just come out
+ 
+
+00:18:31.120 --> 00:18:33.110 align:start position:0%
+actually help you to just come out
+quickly<00:18:31.520><c> to</c><00:18:31.600><c> do</c><00:18:31.760><c> some</c><00:18:32.000><c> other</c><00:18:32.559><c> command</c><00:18:32.960><c> line</c>
+
+00:18:33.110 --> 00:18:33.120 align:start position:0%
+quickly to do some other command line
+ 
+
+00:18:33.120 --> 00:18:35.510 align:start position:0%
+quickly to do some other command line
+work<00:18:33.440><c> that</c><00:18:33.520><c> you</c><00:18:33.679><c> may</c><00:18:33.840><c> have</c><00:18:34.000><c> on</c><00:18:34.080><c> the</c><00:18:34.240><c> shell</c>
+
+00:18:35.510 --> 00:18:35.520 align:start position:0%
+work that you may have on the shell
+ 
+
+00:18:35.520 --> 00:18:37.750 align:start position:0%
+work that you may have on the shell
+and<00:18:36.000><c> the</c><00:18:36.160><c> search</c><00:18:36.480><c> and</c><00:18:36.559><c> replace</c><00:18:37.200><c> aspects</c><00:18:37.600><c> are</c>
+
+00:18:37.750 --> 00:18:37.760 align:start position:0%
+and the search and replace aspects are
+ 
+
+00:18:37.760 --> 00:18:39.909 align:start position:0%
+and the search and replace aspects are
+also<00:18:37.919><c> available</c><00:18:38.320><c> in</c><00:18:38.640><c> emacs</c><00:18:39.440><c> you</c><00:18:39.520><c> could</c><00:18:39.679><c> also</c>
+
+00:18:39.909 --> 00:18:39.919 align:start position:0%
+also available in emacs you could also
+ 
+
+00:18:39.919 --> 00:18:42.710 align:start position:0%
+also available in emacs you could also
+copy<00:18:40.240><c> paste</c><00:18:40.640><c> text</c><00:18:40.960><c> in</c><00:18:41.120><c> emacs</c><00:18:41.600><c> so</c><00:18:42.080><c> in</c><00:18:42.240><c> many</c><00:18:42.480><c> ways</c>
+
+00:18:42.710 --> 00:18:42.720 align:start position:0%
+copy paste text in emacs so in many ways
+ 
+
+00:18:42.720 --> 00:18:44.390 align:start position:0%
+copy paste text in emacs so in many ways
+it<00:18:42.880><c> is</c><00:18:43.039><c> as</c><00:18:43.200><c> powerful</c>
+
+00:18:44.390 --> 00:18:44.400 align:start position:0%
+it is as powerful
+ 
+
+00:18:44.400 --> 00:18:47.190 align:start position:0%
+it is as powerful
+as<00:18:44.799><c> the</c><00:18:45.280><c> ba</c><00:18:45.600><c> editor</c>
+
+00:18:47.190 --> 00:18:47.200 align:start position:0%
+as the ba editor
+ 
+
+00:18:47.200 --> 00:18:49.190 align:start position:0%
+as the ba editor
+so<00:18:47.360><c> let</c><00:18:47.520><c> us</c><00:18:47.679><c> try</c><00:18:47.840><c> it</c><00:18:48.000><c> out</c>
+
+00:18:49.190 --> 00:18:49.200 align:start position:0%
+so let us try it out
+ 
+
+00:18:49.200 --> 00:18:51.190 align:start position:0%
+so let us try it out
+to<00:18:49.440><c> see</c><00:18:49.600><c> how</c><00:18:49.760><c> it</c><00:18:49.919><c> looks</c><00:18:50.160><c> like</c><00:18:50.400><c> in</c><00:18:50.480><c> the</c>
+
+00:18:51.190 --> 00:18:51.200 align:start position:0%
+to see how it looks like in the
+ 
+
+00:18:51.200 --> 00:18:54.150 align:start position:0%
+to see how it looks like in the
+terminal<00:18:52.000><c> so</c><00:18:52.160><c> when</c><00:18:52.400><c> we</c><00:18:52.559><c> type</c><00:18:53.039><c> emacs</c>
+
+00:18:54.150 --> 00:18:54.160 align:start position:0%
+terminal so when we type emacs
+ 
+
+00:18:54.160 --> 00:18:56.710 align:start position:0%
+terminal so when we type emacs
+it<00:18:54.320><c> would</c><00:18:54.640><c> usually</c><00:18:55.200><c> open</c><00:18:55.600><c> a</c><00:18:55.919><c> graphical</c><00:18:56.400><c> user</c>
+
+00:18:56.710 --> 00:18:56.720 align:start position:0%
+it would usually open a graphical user
+ 
+
+00:18:56.720 --> 00:18:59.350 align:start position:0%
+it would usually open a graphical user
+interface<00:18:57.760><c> because</c><00:18:58.080><c> we</c><00:18:58.240><c> are</c><00:18:58.320><c> running</c><00:18:58.640><c> it</c><00:18:58.799><c> in</c>
+
+00:18:59.350 --> 00:18:59.360 align:start position:0%
+interface because we are running it in
+ 
+
+00:18:59.360 --> 00:19:02.310 align:start position:0%
+interface because we are running it in
+the<00:18:59.679><c> gui</c><00:19:00.240><c> mode</c><00:19:00.960><c> but</c><00:19:01.280><c> you</c><00:19:01.440><c> can</c><00:19:01.679><c> actually</c><00:19:02.000><c> force</c>
+
+00:19:02.310 --> 00:19:02.320 align:start position:0%
+the gui mode but you can actually force
+ 
+
+00:19:02.320 --> 00:19:04.630 align:start position:0%
+the gui mode but you can actually force
+it<00:19:02.400><c> to</c><00:19:02.640><c> open</c><00:19:02.880><c> only</c><00:19:03.200><c> in</c><00:19:03.280><c> the</c><00:19:03.360><c> terminal</c><00:19:03.840><c> by</c><00:19:04.240><c> using</c>
+
+00:19:04.630 --> 00:19:04.640 align:start position:0%
+it to open only in the terminal by using
+ 
+
+00:19:04.640 --> 00:19:09.110 align:start position:0%
+it to open only in the terminal by using
+the<00:19:04.960><c> minus</c><00:19:05.600><c> nw</c><00:19:06.320><c> option</c><00:19:07.120><c> so</c><00:19:07.679><c> i</c><00:19:07.919><c> have</c><00:19:08.160><c> the</c>
+
+00:19:09.110 --> 00:19:09.120 align:start position:0%
+the minus nw option so i have the
+ 
+
+00:19:09.120 --> 00:19:13.270 align:start position:0%
+the minus nw option so i have the
+source<00:19:09.440><c> code</c><00:19:09.760><c> so</c><00:19:10.000><c> cd</c><00:19:10.640><c> code</c><00:19:11.440><c> 3d</c><00:19:12.400><c> and</c><00:19:12.799><c> i</c><00:19:12.960><c> would</c>
+
+00:19:13.270 --> 00:19:13.280 align:start position:0%
+source code so cd code 3d and i would
+ 
+
+00:19:13.280 --> 00:19:15.590 align:start position:0%
+source code so cd code 3d and i would
+open<00:19:13.600><c> one</c><00:19:13.840><c> of</c><00:19:13.919><c> the</c><00:19:14.080><c> codes</c>
+
+00:19:15.590 --> 00:19:15.600 align:start position:0%
+open one of the codes
+ 
+
+00:19:15.600 --> 00:19:18.470 align:start position:0%
+open one of the codes
+main.c<00:19:16.320><c> using</c><00:19:16.640><c> the</c><00:19:16.960><c> option</c><00:19:17.440><c> minus</c>
+
+00:19:18.470 --> 00:19:18.480 align:start position:0%
+main.c using the option minus
+ 
+
+00:19:18.480 --> 00:19:21.270 align:start position:0%
+main.c using the option minus
+nw<00:19:19.200><c> okay</c><00:19:19.919><c> so</c><00:19:20.080><c> then</c><00:19:20.320><c> it</c><00:19:20.400><c> is</c><00:19:20.559><c> opening</c><00:19:20.880><c> within</c><00:19:21.200><c> the</c>
+
+00:19:21.270 --> 00:19:21.280 align:start position:0%
+nw okay so then it is opening within the
+ 
+
+00:19:21.280 --> 00:19:22.950 align:start position:0%
+nw okay so then it is opening within the
+terminal<00:19:21.600><c> window</c><00:19:21.919><c> itself</c><00:19:22.400><c> now</c><00:19:22.559><c> you</c><00:19:22.640><c> can</c><00:19:22.799><c> see</c>
+
+00:19:22.950 --> 00:19:22.960 align:start position:0%
+terminal window itself now you can see
+ 
+
+00:19:22.960 --> 00:19:24.549 align:start position:0%
+terminal window itself now you can see
+that<00:19:23.120><c> you</c><00:19:23.280><c> are</c><00:19:23.360><c> able</c><00:19:23.600><c> to</c><00:19:23.679><c> move</c><00:19:23.919><c> around</c><00:19:24.320><c> using</c>
+
+00:19:24.549 --> 00:19:24.559 align:start position:0%
+that you are able to move around using
+ 
+
+00:19:24.559 --> 00:19:26.390 align:start position:0%
+that you are able to move around using
+the<00:19:24.640><c> cursor</c><00:19:25.120><c> keys</c>
+
+00:19:26.390 --> 00:19:26.400 align:start position:0%
+the cursor keys
+ 
+
+00:19:26.400 --> 00:19:28.390 align:start position:0%
+the cursor keys
+and<00:19:26.799><c> you</c><00:19:26.960><c> can</c><00:19:27.120><c> start</c><00:19:27.360><c> typing</c><00:19:27.760><c> already</c><00:19:28.160><c> because</c>
+
+00:19:28.390 --> 00:19:28.400 align:start position:0%
+and you can start typing already because
+ 
+
+00:19:28.400 --> 00:19:30.470 align:start position:0%
+and you can start typing already because
+there<00:19:28.480><c> is</c><00:19:28.559><c> only</c><00:19:28.799><c> one</c><00:19:29.039><c> mode</c><00:19:29.280><c> you</c><00:19:29.360><c> know</c><00:19:29.840><c> so</c><00:19:30.320><c> i</c>
+
+00:19:30.470 --> 00:19:30.480 align:start position:0%
+there is only one mode you know so i
+ 
+
+00:19:30.480 --> 00:19:34.630 align:start position:0%
+there is only one mode you know so i
+just<00:19:30.720><c> go</c><00:19:30.960><c> and</c><00:19:31.120><c> then</c><00:19:31.280><c> start</c><00:19:31.600><c> typing</c><00:19:32.160><c> okay</c>
+
+00:19:34.630 --> 00:19:34.640 align:start position:0%
+ 
+ 
+
+00:19:34.640 --> 00:19:36.710 align:start position:0%
+ 
+so<00:19:34.799><c> that</c><00:19:35.039><c> seems</c><00:19:35.280><c> to</c><00:19:35.440><c> be</c><00:19:35.600><c> quite</c><00:19:35.919><c> nice</c><00:19:36.400><c> and</c><00:19:36.640><c> you</c>
+
+00:19:36.710 --> 00:19:36.720 align:start position:0%
+so that seems to be quite nice and you
+ 
+
+00:19:36.720 --> 00:19:38.789 align:start position:0%
+so that seems to be quite nice and you
+can<00:19:37.280><c> delete</c><00:19:37.760><c> the</c><00:19:37.919><c> characters</c><00:19:38.400><c> using</c><00:19:38.640><c> the</c>
+
+00:19:38.789 --> 00:19:38.799 align:start position:0%
+can delete the characters using the
+ 
+
+00:19:38.799 --> 00:19:39.990 align:start position:0%
+can delete the characters using the
+backspace
+
+00:19:39.990 --> 00:19:40.000 align:start position:0%
+backspace
+ 
+
+00:19:40.000 --> 00:19:41.190 align:start position:0%
+backspace
+okay<00:19:40.240><c> you</c><00:19:40.320><c> can</c><00:19:40.400><c> see</c><00:19:40.559><c> that</c><00:19:40.720><c> i</c><00:19:40.799><c> am</c><00:19:40.880><c> able</c><00:19:41.120><c> to</c>
+
+00:19:41.190 --> 00:19:41.200 align:start position:0%
+okay you can see that i am able to
+ 
+
+00:19:41.200 --> 00:19:43.270 align:start position:0%
+okay you can see that i am able to
+delete<00:19:41.600><c> now</c>
+
+00:19:43.270 --> 00:19:43.280 align:start position:0%
+delete now
+ 
+
+00:19:43.280 --> 00:19:48.789 align:start position:0%
+delete now
+okay<00:19:43.919><c> and</c><00:19:44.240><c> i</c><00:19:44.400><c> can</c><00:19:44.559><c> also</c><00:19:44.880><c> type</c><00:19:45.120><c> something</c><00:19:45.600><c> here</c>
+
+00:19:48.789 --> 00:19:48.799 align:start position:0%
+ 
+ 
+
+00:19:48.799 --> 00:19:52.789 align:start position:0%
+ 
+okay<00:19:49.520><c> and</c>
+
+00:19:52.789 --> 00:19:52.799 align:start position:0%
+ 
+ 
+
+00:19:52.799 --> 00:19:54.789 align:start position:0%
+ 
+okay<00:19:53.440><c> so</c><00:19:53.679><c> you</c><00:19:53.840><c> could</c><00:19:54.000><c> see</c><00:19:54.160><c> that</c><00:19:54.320><c> you</c><00:19:54.480><c> are</c><00:19:54.559><c> able</c>
+
+00:19:54.789 --> 00:19:54.799 align:start position:0%
+okay so you could see that you are able
+ 
+
+00:19:54.799 --> 00:19:56.950 align:start position:0%
+okay so you could see that you are able
+to<00:19:54.880><c> edit</c><00:19:55.600><c> okay</c><00:19:55.840><c> quite</c><00:19:56.080><c> comfortably</c><00:19:56.720><c> and</c><00:19:56.799><c> you</c>
+
+00:19:56.950 --> 00:19:56.960 align:start position:0%
+to edit okay quite comfortably and you
+ 
+
+00:19:56.960 --> 00:19:58.789 align:start position:0%
+to edit okay quite comfortably and you
+can<00:19:57.039><c> go</c><00:19:57.280><c> forward</c>
+
+00:19:58.789 --> 00:19:58.799 align:start position:0%
+can go forward
+ 
+
+00:19:58.799 --> 00:19:59.909 align:start position:0%
+can go forward
+okay
+
+00:19:59.909 --> 00:19:59.919 align:start position:0%
+okay
+ 
+
+00:19:59.919 --> 00:20:04.070 align:start position:0%
+okay
+control<00:20:00.400><c> down</c><00:20:01.039><c> ctrl</c><00:20:01.440><c> delete</c>
+
+00:20:04.070 --> 00:20:04.080 align:start position:0%
+ 
+ 
+
+00:20:04.080 --> 00:20:06.470 align:start position:0%
+ 
+ctrl<00:20:04.400><c> d</c><00:20:04.640><c> to</c><00:20:04.720><c> delete</c><00:20:05.039><c> the</c><00:20:05.200><c> characters</c><00:20:06.080><c> so</c><00:20:06.320><c> when</c>
+
+00:20:06.470 --> 00:20:06.480 align:start position:0%
+ctrl d to delete the characters so when
+ 
+
+00:20:06.480 --> 00:20:08.950 align:start position:0%
+ctrl d to delete the characters so when
+you<00:20:06.880><c> press</c><00:20:07.200><c> ctrl</c><00:20:07.840><c> p</c>
+
+00:20:08.950 --> 00:20:08.960 align:start position:0%
+you press ctrl p
+ 
+
+00:20:08.960 --> 00:20:10.630 align:start position:0%
+you press ctrl p
+then<00:20:09.280><c> you</c><00:20:09.440><c> are</c><00:20:09.600><c> going</c>
+
+00:20:10.630 --> 00:20:10.640 align:start position:0%
+then you are going
+ 
+
+00:20:10.640 --> 00:20:12.470 align:start position:0%
+then you are going
+up<00:20:10.960><c> one</c><00:20:11.200><c> line</c>
+
+00:20:12.470 --> 00:20:12.480 align:start position:0%
+up one line
+ 
+
+00:20:12.480 --> 00:20:14.950 align:start position:0%
+up one line
+okay<00:20:12.640><c> when</c><00:20:12.880><c> you</c><00:20:12.960><c> press</c><00:20:13.200><c> ctrl</c><00:20:14.000><c> b</c>
+
+00:20:14.950 --> 00:20:14.960 align:start position:0%
+okay when you press ctrl b
+ 
+
+00:20:14.960 --> 00:20:17.270 align:start position:0%
+okay when you press ctrl b
+you<00:20:15.120><c> are</c><00:20:15.200><c> moving</c><00:20:15.679><c> left</c><00:20:16.080><c> one</c><00:20:16.400><c> line</c>
+
+00:20:17.270 --> 00:20:17.280 align:start position:0%
+you are moving left one line
+ 
+
+00:20:17.280 --> 00:20:21.590 align:start position:0%
+you are moving left one line
+then<00:20:17.520><c> when</c><00:20:17.679><c> you</c><00:20:17.919><c> press</c><00:20:18.480><c> meta</c><00:20:19.039><c> that</c><00:20:19.280><c> is</c><00:20:19.440><c> alt</c><00:20:19.760><c> key</c>
+
+00:20:21.590 --> 00:20:21.600 align:start position:0%
+then when you press meta that is alt key
+ 
+
+00:20:21.600 --> 00:20:23.510 align:start position:0%
+then when you press meta that is alt key
+then<00:20:22.000><c> meta</c><00:20:22.400><c> b</c>
+
+00:20:23.510 --> 00:20:23.520 align:start position:0%
+then meta b
+ 
+
+00:20:23.520 --> 00:20:26.230 align:start position:0%
+then meta b
+then<00:20:23.760><c> you</c><00:20:23.840><c> would</c><00:20:24.080><c> go</c>
+
+00:20:26.230 --> 00:20:26.240 align:start position:0%
+then you would go
+ 
+
+00:20:26.240 --> 00:20:28.230 align:start position:0%
+then you would go
+left<00:20:26.480><c> of</c><00:20:26.640><c> the</c><00:20:26.720><c> previous</c><00:20:27.200><c> word</c>
+
+00:20:28.230 --> 00:20:28.240 align:start position:0%
+left of the previous word
+ 
+
+00:20:28.240 --> 00:20:29.669 align:start position:0%
+left of the previous word
+meta<00:20:28.720><c> f</c>
+
+00:20:29.669 --> 00:20:29.679 align:start position:0%
+meta f
+ 
+
+00:20:29.679 --> 00:20:31.350 align:start position:0%
+meta f
+would<00:20:30.080><c> go</c>
+
+00:20:31.350 --> 00:20:31.360 align:start position:0%
+would go
+ 
+
+00:20:31.360 --> 00:20:33.510 align:start position:0%
+would go
+right<00:20:31.679><c> of</c><00:20:31.760><c> the</c><00:20:31.840><c> next</c><00:20:32.159><c> word</c>
+
+00:20:33.510 --> 00:20:33.520 align:start position:0%
+right of the next word
+ 
+
+00:20:33.520 --> 00:20:36.710 align:start position:0%
+right of the next word
+then<00:20:34.240><c> meta</c><00:20:34.720><c> a</c><00:20:35.360><c> would</c><00:20:35.600><c> go</c><00:20:35.760><c> to</c><00:20:35.919><c> the</c><00:20:36.159><c> beginning</c><00:20:36.640><c> of</c>
+
+00:20:36.710 --> 00:20:36.720 align:start position:0%
+then meta a would go to the beginning of
+ 
+
+00:20:36.720 --> 00:20:38.549 align:start position:0%
+then meta a would go to the beginning of
+the<00:20:36.880><c> line</c>
+
+00:20:38.549 --> 00:20:38.559 align:start position:0%
+the line
+ 
+
+00:20:38.559 --> 00:20:40.549 align:start position:0%
+the line
+and<00:20:38.799><c> meta</c><00:20:39.360><c> e</c><00:20:39.600><c> would</c><00:20:39.760><c> take</c><00:20:39.919><c> you</c><00:20:40.080><c> to</c><00:20:40.159><c> the</c><00:20:40.320><c> end</c><00:20:40.400><c> of</c>
+
+00:20:40.549 --> 00:20:40.559 align:start position:0%
+and meta e would take you to the end of
+ 
+
+00:20:40.559 --> 00:20:42.070 align:start position:0%
+and meta e would take you to the end of
+the<00:20:40.640><c> line</c>
+
+00:20:42.070 --> 00:20:42.080 align:start position:0%
+the line
+ 
+
+00:20:42.080 --> 00:20:44.070 align:start position:0%
+the line
+meta<00:20:42.480><c> v</c><00:20:43.120><c> would</c>
+
+00:20:44.070 --> 00:20:44.080 align:start position:0%
+meta v would
+ 
+
+00:20:44.080 --> 00:20:47.190 align:start position:0%
+meta v would
+scroll<00:20:44.559><c> the</c><00:20:44.720><c> page</c><00:20:45.520><c> by</c><00:20:45.679><c> one</c><00:20:45.919><c> screen</c>
+
+00:20:47.190 --> 00:20:47.200 align:start position:0%
+scroll the page by one screen
+ 
+
+00:20:47.200 --> 00:20:49.590 align:start position:0%
+scroll the page by one screen
+and<00:20:47.520><c> the</c><00:20:47.679><c> control</c><00:20:48.240><c> v</c><00:20:48.480><c> would</c><00:20:48.720><c> actually</c>
+
+00:20:49.590 --> 00:20:49.600 align:start position:0%
+and the control v would actually
+ 
+
+00:20:49.600 --> 00:20:51.029 align:start position:0%
+and the control v would actually
+move<00:20:49.919><c> the</c>
+
+00:20:51.029 --> 00:20:51.039 align:start position:0%
+move the
+ 
+
+00:20:51.039 --> 00:20:52.070 align:start position:0%
+move the
+page
+
+00:20:52.070 --> 00:20:52.080 align:start position:0%
+page
+ 
+
+00:20:52.080 --> 00:20:54.470 align:start position:0%
+page
+forward<00:20:52.480><c> by</c><00:20:52.640><c> one</c><00:20:52.880><c> screen</c>
+
+00:20:54.470 --> 00:20:54.480 align:start position:0%
+forward by one screen
+ 
+
+00:20:54.480 --> 00:20:56.950 align:start position:0%
+forward by one screen
+ctrl<00:20:54.960><c> a</c><00:20:55.120><c> go</c><00:20:55.360><c> to</c><00:20:55.440><c> the</c><00:20:55.520><c> beginning</c><00:20:55.840><c> of</c><00:20:56.000><c> the</c><00:20:56.080><c> line</c>
+
+00:20:56.950 --> 00:20:56.960 align:start position:0%
+ctrl a go to the beginning of the line
+ 
+
+00:20:56.960 --> 00:20:59.990 align:start position:0%
+ctrl a go to the beginning of the line
+ctrl<00:20:57.520><c> e</c><00:20:57.760><c> to</c><00:20:57.919><c> the</c><00:20:58.240><c> end</c><00:20:58.400><c> of</c><00:20:58.480><c> the</c><00:20:58.640><c> line</c><00:20:59.039><c> so</c><00:20:59.280><c> meta</c><00:20:59.679><c> is</c>
+
+00:20:59.990 --> 00:21:00.000 align:start position:0%
+ctrl e to the end of the line so meta is
+ 
+
+00:21:00.000 --> 00:21:02.390 align:start position:0%
+ctrl e to the end of the line so meta is
+for<00:21:00.240><c> the</c><00:21:00.400><c> words</c><00:21:00.880><c> so</c><00:21:01.039><c> i</c><00:21:01.280><c> come</c><00:21:01.520><c> here</c><00:21:02.000><c> and</c><00:21:02.159><c> show</c>
+
+00:21:02.390 --> 00:21:02.400 align:start position:0%
+for the words so i come here and show
+ 
+
+00:21:02.400 --> 00:21:03.590 align:start position:0%
+for the words so i come here and show
+you<00:21:02.559><c> here</c>
+
+00:21:03.590 --> 00:21:03.600 align:start position:0%
+you here
+ 
+
+00:21:03.600 --> 00:21:04.710 align:start position:0%
+you here
+okay
+
+00:21:04.710 --> 00:21:04.720 align:start position:0%
+okay
+ 
+
+00:21:04.720 --> 00:21:06.710 align:start position:0%
+okay
+alt
+
+00:21:06.710 --> 00:21:06.720 align:start position:0%
+alt
+ 
+
+00:21:06.720 --> 00:21:08.070 align:start position:0%
+alt
+a
+
+00:21:08.070 --> 00:21:08.080 align:start position:0%
+a
+ 
+
+00:21:08.080 --> 00:21:10.470 align:start position:0%
+a
+goes<00:21:08.320><c> to</c><00:21:08.480><c> the</c><00:21:08.559><c> beginning</c><00:21:08.960><c> of</c><00:21:09.039><c> the</c><00:21:09.520><c> text</c>
+
+00:21:10.470 --> 00:21:10.480 align:start position:0%
+goes to the beginning of the text
+ 
+
+00:21:10.480 --> 00:21:12.710 align:start position:0%
+goes to the beginning of the text
+alt<00:21:10.799><c> e</c><00:21:11.039><c> to</c><00:21:11.120><c> the</c><00:21:11.280><c> end</c><00:21:11.440><c> of</c><00:21:11.520><c> the</c><00:21:11.600><c> text</c>
+
+00:21:12.710 --> 00:21:12.720 align:start position:0%
+alt e to the end of the text
+ 
+
+00:21:12.720 --> 00:21:14.310 align:start position:0%
+alt e to the end of the text
+but<00:21:13.280><c> meta</c>
+
+00:21:14.310 --> 00:21:14.320 align:start position:0%
+but meta
+ 
+
+00:21:14.320 --> 00:21:15.750 align:start position:0%
+but meta
+control<00:21:14.799><c> a</c><00:21:15.039><c> would</c><00:21:15.200><c> actually</c><00:21:15.440><c> go</c><00:21:15.600><c> to</c><00:21:15.679><c> the</c>
+
+00:21:15.750 --> 00:21:15.760 align:start position:0%
+control a would actually go to the
+ 
+
+00:21:15.760 --> 00:21:17.190 align:start position:0%
+control a would actually go to the
+beginning<00:21:16.159><c> of</c><00:21:16.320><c> the</c>
+
+00:21:17.190 --> 00:21:17.200 align:start position:0%
+beginning of the
+ 
+
+00:21:17.200 --> 00:21:19.590 align:start position:0%
+beginning of the
+line<00:21:17.520><c> itself</c><00:21:17.840><c> but</c><00:21:18.080><c> not</c><00:21:18.240><c> the</c><00:21:18.400><c> text</c><00:21:18.799><c> so</c>
+
+00:21:19.590 --> 00:21:19.600 align:start position:0%
+line itself but not the text so
+ 
+
+00:21:19.600 --> 00:21:21.590 align:start position:0%
+line itself but not the text so
+it<00:21:19.760><c> is</c><00:21:19.919><c> also</c><00:21:20.159><c> useful</c><00:21:20.559><c> for</c>
+
+00:21:21.590 --> 00:21:21.600 align:start position:0%
+it is also useful for
+ 
+
+00:21:21.600 --> 00:21:24.310 align:start position:0%
+it is also useful for
+changing<00:21:22.000><c> the</c><00:21:22.559><c> text</c><00:21:23.039><c> or</c><00:21:23.520><c> go</c><00:21:23.760><c> to</c><00:21:23.919><c> the</c><00:21:24.000><c> beginning</c>
+
+00:21:24.310 --> 00:21:24.320 align:start position:0%
+changing the text or go to the beginning
+ 
+
+00:21:24.320 --> 00:21:25.909 align:start position:0%
+changing the text or go to the beginning
+of<00:21:24.480><c> the</c><00:21:24.559><c> line</c><00:21:24.799><c> to</c><00:21:25.039><c> add</c><00:21:25.280><c> some</c><00:21:25.520><c> character</c>
+
+00:21:25.909 --> 00:21:25.919 align:start position:0%
+of the line to add some character
+ 
+
+00:21:25.919 --> 00:21:29.990 align:start position:0%
+of the line to add some character
+etcetera<00:21:26.880><c> so</c><00:21:27.520><c> the</c><00:21:27.679><c> meta</c><00:21:28.080><c> and</c><00:21:28.320><c> alt</c><00:21:28.960><c> meta</c><00:21:29.760><c> which</c>
+
+00:21:29.990 --> 00:21:30.000 align:start position:0%
+etcetera so the meta and alt meta which
+ 
+
+00:21:30.000 --> 00:21:32.390 align:start position:0%
+etcetera so the meta and alt meta which
+is<00:21:30.320><c> alt</c><00:21:30.640><c> key</c><00:21:31.039><c> and</c><00:21:31.200><c> the</c><00:21:31.280><c> control</c><00:21:31.679><c> character</c><00:21:32.240><c> are</c>
+
+00:21:32.390 --> 00:21:32.400 align:start position:0%
+is alt key and the control character are
+ 
+
+00:21:32.400 --> 00:21:33.830 align:start position:0%
+is alt key and the control character are
+both<00:21:32.720><c> used</c><00:21:33.120><c> for</c>
+
+00:21:33.830 --> 00:21:33.840 align:start position:0%
+both used for
+ 
+
+00:21:33.840 --> 00:21:37.350 align:start position:0%
+both used for
+composing<00:21:34.480><c> the</c><00:21:34.720><c> commands</c><00:21:35.440><c> and</c><00:21:35.840><c> there</c><00:21:36.080><c> are</c>
+
+00:21:37.350 --> 00:21:37.360 align:start position:0%
+composing the commands and there are
+ 
+
+00:21:37.360 --> 00:21:40.149 align:start position:0%
+composing the commands and there are
+various<00:21:37.760><c> commands</c><00:21:38.240><c> like</c><00:21:38.400><c> that</c><00:21:38.720><c> so</c>
+
+00:21:40.149 --> 00:21:40.159 align:start position:0%
+various commands like that so
+ 
+
+00:21:40.159 --> 00:21:41.990 align:start position:0%
+various commands like that so
+some<00:21:40.320><c> of</c><00:21:40.480><c> the</c><00:21:40.640><c> popularly</c><00:21:41.120><c> used</c><00:21:41.440><c> commands</c><00:21:41.840><c> to</c>
+
+00:21:41.990 --> 00:21:42.000 align:start position:0%
+some of the popularly used commands to
+ 
+
+00:21:42.000 --> 00:21:45.270 align:start position:0%
+some of the popularly used commands to
+move<00:21:42.240><c> around</c><00:21:42.840><c> and</c><00:21:43.919><c> delete</c><00:21:44.240><c> text</c><00:21:44.559><c> etc</c><00:21:45.039><c> you</c><00:21:45.120><c> may</c>
+
+00:21:45.270 --> 00:21:45.280 align:start position:0%
+move around and delete text etc you may
+ 
+
+00:21:45.280 --> 00:21:46.870 align:start position:0%
+move around and delete text etc you may
+want<00:21:45.440><c> to</c><00:21:45.600><c> have</c><00:21:45.760><c> a</c><00:21:45.840><c> look</c>
+
+00:21:46.870 --> 00:21:46.880 align:start position:0%
+want to have a look
+ 
+
+00:21:46.880 --> 00:21:48.470 align:start position:0%
+want to have a look
+you<00:21:46.960><c> could</c><00:21:47.200><c> always</c><00:21:47.520><c> delete</c><00:21:47.840><c> the</c><00:21:48.000><c> text</c><00:21:48.240><c> using</c>
+
+00:21:48.470 --> 00:21:48.480 align:start position:0%
+you could always delete the text using
+ 
+
+00:21:48.480 --> 00:21:50.230 align:start position:0%
+you could always delete the text using
+the<00:21:48.640><c> backspace</c><00:21:49.280><c> so</c><00:21:49.520><c> you</c><00:21:49.760><c> don't</c><00:21:49.919><c> need</c><00:21:50.080><c> to</c>
+
+00:21:50.230 --> 00:21:50.240 align:start position:0%
+the backspace so you don't need to
+ 
+
+00:21:50.240 --> 00:21:51.909 align:start position:0%
+the backspace so you don't need to
+actually<00:21:50.559><c> have</c><00:21:50.880><c> a</c>
+
+00:21:51.909 --> 00:21:51.919 align:start position:0%
+actually have a
+ 
+
+00:21:51.919 --> 00:21:54.630 align:start position:0%
+actually have a
+key<00:21:52.159><c> for</c><00:21:52.400><c> that</c><00:21:53.120><c> okay</c><00:21:53.520><c> and</c><00:21:53.679><c> you</c><00:21:53.840><c> can</c><00:21:54.000><c> add</c><00:21:54.240><c> a</c><00:21:54.320><c> text</c>
+
+00:21:54.630 --> 00:21:54.640 align:start position:0%
+key for that okay and you can add a text
+ 
+
+00:21:54.640 --> 00:21:56.710 align:start position:0%
+key for that okay and you can add a text
+just<00:21:54.880><c> by</c><00:21:55.200><c> typing</c><00:21:55.600><c> always</c>
+
+00:21:56.710 --> 00:21:56.720 align:start position:0%
+just by typing always
+ 
+
+00:21:56.720 --> 00:21:59.190 align:start position:0%
+just by typing always
+okay
+
+00:21:59.190 --> 00:21:59.200 align:start position:0%
+okay
+ 
+
+00:21:59.200 --> 00:22:01.190 align:start position:0%
+okay
+so<00:21:59.760><c> basic</c><00:22:00.159><c> editing</c><00:22:00.559><c> is</c><00:22:00.640><c> something</c><00:22:00.960><c> that</c><00:22:01.039><c> you</c>
+
+00:22:01.190 --> 00:22:01.200 align:start position:0%
+so basic editing is something that you
+ 
+
+00:22:01.200 --> 00:22:02.789 align:start position:0%
+so basic editing is something that you
+don't<00:22:01.360><c> have</c><00:22:01.520><c> to</c><00:22:01.600><c> worry</c><00:22:01.919><c> at</c><00:22:02.080><c> all</c><00:22:02.240><c> you</c><00:22:02.320><c> can</c><00:22:02.640><c> right</c>
+
+00:22:02.789 --> 00:22:02.799 align:start position:0%
+don't have to worry at all you can right
+ 
+
+00:22:02.799 --> 00:22:04.950 align:start position:0%
+don't have to worry at all you can right
+away<00:22:03.039><c> start</c><00:22:03.360><c> editing</c><00:22:03.919><c> whenever</c><00:22:04.480><c> whenever</c><00:22:04.880><c> you</c>
+
+00:22:04.950 --> 00:22:04.960 align:start position:0%
+away start editing whenever whenever you
+ 
+
+00:22:04.960 --> 00:22:06.710 align:start position:0%
+away start editing whenever whenever you
+are<00:22:05.039><c> done</c><00:22:05.280><c> with</c><00:22:05.360><c> your</c><00:22:05.520><c> editing</c><00:22:05.919><c> you</c><00:22:06.159><c> can</c><00:22:06.640><c> you</c>
+
+00:22:06.710 --> 00:22:06.720 align:start position:0%
+are done with your editing you can you
+ 
+
+00:22:06.720 --> 00:22:07.990 align:start position:0%
+are done with your editing you can you
+can<00:22:06.880><c> save</c><00:22:07.200><c> your</c>
+
+00:22:07.990 --> 00:22:08.000 align:start position:0%
+can save your
+ 
+
+00:22:08.000 --> 00:22:11.110 align:start position:0%
+can save your
+work<00:22:08.320><c> by</c><00:22:08.559><c> pressing</c><00:22:08.960><c> ctrl</c>
+
+00:22:11.110 --> 00:22:11.120 align:start position:0%
+work by pressing ctrl
+ 
+
+00:22:11.120 --> 00:22:12.950 align:start position:0%
+work by pressing ctrl
+x<00:22:11.440><c> and</c><00:22:11.520><c> then</c><00:22:11.760><c> control</c><00:22:12.240><c> s</c>
+
+00:22:12.950 --> 00:22:12.960 align:start position:0%
+x and then control s
+ 
+
+00:22:12.960 --> 00:22:15.110 align:start position:0%
+x and then control s
+okay<00:22:13.200><c> so</c><00:22:13.360><c> then</c><00:22:13.600><c> it</c><00:22:13.679><c> would</c><00:22:13.919><c> write</c><00:22:14.159><c> the</c><00:22:14.320><c> file</c><00:22:15.039><c> and</c>
+
+00:22:15.110 --> 00:22:15.120 align:start position:0%
+okay so then it would write the file and
+ 
+
+00:22:15.120 --> 00:22:17.190 align:start position:0%
+okay so then it would write the file and
+then<00:22:15.360><c> you</c><00:22:15.440><c> want</c><00:22:15.600><c> to</c><00:22:15.679><c> come</c><00:22:15.919><c> out</c><00:22:16.320><c> control</c><00:22:16.799><c> x</c><00:22:17.120><c> and</c>
+
+00:22:17.190 --> 00:22:17.200 align:start position:0%
+then you want to come out control x and
+ 
+
+00:22:17.200 --> 00:22:19.190 align:start position:0%
+then you want to come out control x and
+then<00:22:17.360><c> control</c><00:22:17.840><c> c</c><00:22:18.320><c> so</c><00:22:18.480><c> you</c><00:22:18.640><c> come</c><00:22:18.880><c> out</c><00:22:18.960><c> of</c><00:22:19.120><c> the</c>
+
+00:22:19.190 --> 00:22:19.200 align:start position:0%
+then control c so you come out of the
+ 
+
+00:22:19.200 --> 00:22:22.950 align:start position:0%
+then control c so you come out of the
+emax<00:22:19.679><c> editor</c><00:22:20.400><c> okay</c><00:22:20.960><c> so</c><00:22:21.200><c> like</c><00:22:21.360><c> this</c><00:22:21.600><c> you</c><00:22:21.840><c> have</c>
+
+00:22:22.950 --> 00:22:22.960 align:start position:0%
+emax editor okay so like this you have
+ 
+
+00:22:22.960 --> 00:22:25.510 align:start position:0%
+emax editor okay so like this you have
+many<00:22:23.200><c> features</c><00:22:23.919><c> of</c><00:22:24.320><c> emacs</c><00:22:24.799><c> which</c><00:22:25.120><c> we</c><00:22:25.280><c> have</c>
+
+00:22:25.510 --> 00:22:25.520 align:start position:0%
+many features of emacs which we have
+ 
+
+00:22:25.520 --> 00:22:28.549 align:start position:0%
+many features of emacs which we have
+summarized<00:22:26.480><c> so</c>
+
+00:22:28.549 --> 00:22:28.559 align:start position:0%
+summarized so
+ 
+
+00:22:28.559 --> 00:22:31.190 align:start position:0%
+summarized so
+try<00:22:28.799><c> it</c><00:22:28.960><c> out</c><00:22:29.360><c> and</c><00:22:30.000><c> see</c><00:22:30.159><c> which</c><00:22:30.400><c> one</c><00:22:30.720><c> you</c><00:22:30.880><c> like</c>
+
+00:22:31.190 --> 00:22:31.200 align:start position:0%
+try it out and see which one you like
+ 
+
+00:22:31.200 --> 00:22:33.270 align:start position:0%
+try it out and see which one you like
+either<00:22:31.520><c> e</c><00:22:31.679><c> max</c><00:22:32.000><c> or</c><00:22:32.080><c> va</c><00:22:32.559><c> both</c><00:22:32.720><c> the</c><00:22:32.799><c> editors</c><00:22:33.200><c> are</c>
+
+00:22:33.270 --> 00:22:33.280 align:start position:0%
+either e max or va both the editors are
+ 
+
+00:22:33.280 --> 00:22:35.029 align:start position:0%
+either e max or va both the editors are
+anyway<00:22:33.600><c> available</c><00:22:34.159><c> in</c>
+
+00:22:35.029 --> 00:22:35.039 align:start position:0%
+anyway available in
+ 
+
+00:22:35.039 --> 00:22:37.990 align:start position:0%
+anyway available in
+all<00:22:35.200><c> the</c><00:22:35.280><c> linux</c><00:22:35.679><c> variants</c><00:22:36.159><c> so</c><00:22:36.720><c> once</c><00:22:36.960><c> you</c><00:22:37.200><c> learn</c>
+
+00:22:37.990 --> 00:22:38.000 align:start position:0%
+all the linux variants so once you learn
+ 
+
+00:22:38.000 --> 00:22:40.149 align:start position:0%
+all the linux variants so once you learn
+to<00:22:38.159><c> use</c><00:22:38.400><c> one</c><00:22:38.559><c> of</c><00:22:38.720><c> the</c><00:22:38.799><c> two</c><00:22:38.960><c> editors</c><00:22:39.360><c> either</c><00:22:39.600><c> vi</c>
+
+00:22:40.149 --> 00:22:40.159 align:start position:0%
+to use one of the two editors either vi
+ 
+
+00:22:40.159 --> 00:22:42.470 align:start position:0%
+to use one of the two editors either vi
+or<00:22:40.400><c> emacs</c><00:22:41.200><c> you</c><00:22:41.280><c> can</c><00:22:41.440><c> stick</c><00:22:41.679><c> to</c><00:22:41.840><c> it</c><00:22:42.000><c> and</c><00:22:42.159><c> become</c>
+
+00:22:42.470 --> 00:22:42.480 align:start position:0%
+or emacs you can stick to it and become
+ 
+
+00:22:42.480 --> 00:22:45.750 align:start position:0%
+or emacs you can stick to it and become
+expert<00:22:42.880><c> at</c><00:22:43.039><c> it</c><00:22:43.440><c> with</c><00:22:43.760><c> time</c><00:22:44.400><c> the</c><00:22:44.559><c> movie</c>
+
+00:22:45.750 --> 00:22:45.760 align:start position:0%
+expert at it with time the movie
+ 
+
+00:22:45.760 --> 00:22:47.110 align:start position:0%
+expert at it with time the movie
+the<00:22:45.919><c> terminal</c>
+
+00:22:47.110 --> 00:22:47.120 align:start position:0%
+the terminal
+ 
+
+00:22:47.120 --> 00:22:50.390 align:start position:0%
+the terminal
+with<00:22:47.600><c> tom</c><00:22:47.840><c> hanks</c><00:22:48.559><c> has</c><00:22:48.799><c> a</c><00:22:48.880><c> sentence</c><00:22:49.840><c> on</c><00:22:50.080><c> the</c>
+
+00:22:50.390 --> 00:22:50.400 align:start position:0%
+with tom hanks has a sentence on the
+ 
+
+00:22:50.400 --> 00:22:52.710 align:start position:0%
+with tom hanks has a sentence on the
+poster<00:22:50.799><c> which</c><00:22:50.960><c> says</c><00:22:51.200><c> life</c><00:22:51.520><c> is</c><00:22:51.679><c> waiting</c><00:22:52.159><c> so</c><00:22:52.640><c> the</c>
+
+00:22:52.710 --> 00:22:52.720 align:start position:0%
+poster which says life is waiting so the
+ 
+
+00:22:52.720 --> 00:22:54.870 align:start position:0%
+poster which says life is waiting so the
+person<00:22:53.039><c> wants</c><00:22:53.280><c> to</c><00:22:53.360><c> get</c><00:22:53.600><c> out</c><00:22:53.760><c> of</c><00:22:53.840><c> the</c><00:22:54.000><c> terminal</c>
+
+00:22:54.870 --> 00:22:54.880 align:start position:0%
+person wants to get out of the terminal
+ 
+
+00:22:54.880 --> 00:22:56.549 align:start position:0%
+person wants to get out of the terminal
+because<00:22:55.200><c> life</c><00:22:55.440><c> is</c><00:22:55.600><c> waiting</c><00:22:55.919><c> for</c><00:22:56.080><c> that</c><00:22:56.240><c> person</c>
+
+00:22:56.549 --> 00:22:56.559 align:start position:0%
+because life is waiting for that person
+ 
+
+00:22:56.559 --> 00:22:59.430 align:start position:0%
+because life is waiting for that person
+outside<00:22:57.039><c> but</c><00:22:57.520><c> for</c><00:22:57.760><c> us</c><00:22:58.000><c> programmers</c><00:22:59.120><c> when</c><00:22:59.280><c> we</c>
+
+00:22:59.430 --> 00:22:59.440 align:start position:0%
+outside but for us programmers when we
+ 
+
+00:22:59.440 --> 00:23:01.510 align:start position:0%
+outside but for us programmers when we
+get<00:22:59.760><c> into</c><00:23:00.080><c> the</c><00:23:00.159><c> terminal</c><00:23:00.720><c> is</c><00:23:00.960><c> when</c><00:23:01.120><c> the</c><00:23:01.280><c> life</c>
+
+00:23:01.510 --> 00:23:01.520 align:start position:0%
+get into the terminal is when the life
+ 
+
+00:23:01.520 --> 00:23:03.909 align:start position:0%
+get into the terminal is when the life
+has<00:23:01.760><c> started</c><00:23:02.480><c> becoming</c><00:23:02.960><c> more</c><00:23:03.200><c> fun</c><00:23:03.520><c> and</c><00:23:03.679><c> with</c>
+
+00:23:03.909 --> 00:23:03.919 align:start position:0%
+has started becoming more fun and with
+ 
+
+00:23:03.919 --> 00:23:07.750 align:start position:0%
+has started becoming more fun and with
+more<00:23:04.159><c> control</c><00:23:05.039><c> so</c><00:23:05.360><c> i</c><00:23:05.520><c> hope</c><00:23:06.000><c> you</c><00:23:06.320><c> will</c>
+
+00:23:07.750 --> 00:23:07.760 align:start position:0%
+more control so i hope you will
+ 
+
+00:23:07.760 --> 00:23:10.710 align:start position:0%
+more control so i hope you will
+enjoy<00:23:08.559><c> your</c><00:23:08.880><c> stay</c><00:23:09.200><c> inside</c><00:23:09.520><c> the</c><00:23:09.600><c> terminal</c>
+
+00:23:10.710 --> 00:23:10.720 align:start position:0%
+enjoy your stay inside the terminal
+ 
+
+00:23:10.720 --> 00:23:12.950 align:start position:0%
+enjoy your stay inside the terminal
+and<00:23:10.960><c> find</c><00:23:11.520><c> a</c><00:23:11.600><c> lot</c><00:23:11.840><c> of</c><00:23:11.919><c> things</c><00:23:12.159><c> to</c><00:23:12.320><c> do</c><00:23:12.480><c> there</c><00:23:12.799><c> so</c>
+
+00:23:12.950 --> 00:23:12.960 align:start position:0%
+and find a lot of things to do there so
+ 
+
+00:23:12.960 --> 00:23:14.549 align:start position:0%
+and find a lot of things to do there so
+that<00:23:13.120><c> you</c><00:23:13.280><c> will</c><00:23:13.440><c> actually</c><00:23:13.760><c> like</c>
+
+00:23:14.549 --> 00:23:14.559 align:start position:0%
+that you will actually like
+ 
+
+00:23:14.559 --> 00:23:16.549 align:start position:0%
+that you will actually like
+to<00:23:14.720><c> stay</c><00:23:15.120><c> in</c><00:23:15.200><c> the</c><00:23:15.360><c> terminal</c>
+
+00:23:16.549 --> 00:23:16.559 align:start position:0%
+to stay in the terminal
+ 
+
+00:23:16.559 --> 00:23:19.110 align:start position:0%
+to stay in the terminal
+and<00:23:16.720><c> keep</c><00:23:16.960><c> doing</c><00:23:17.200><c> your</c><00:23:17.440><c> work</c><00:23:18.159><c> and</c><00:23:18.480><c> understand</c>
+
+00:23:19.110 --> 00:23:19.120 align:start position:0%
+and keep doing your work and understand
+ 
+
+00:23:19.120 --> 00:23:21.110 align:start position:0%
+and keep doing your work and understand
+the<00:23:19.440><c> linux</c><00:23:19.840><c> operating</c><00:23:20.159><c> system</c>
+
+00:23:21.110 --> 00:23:21.120 align:start position:0%
+the linux operating system
+ 
+
+00:23:21.120 --> 00:23:24.919 align:start position:0%
+the linux operating system
+to<00:23:21.280><c> a</c><00:23:21.520><c> greater</c><00:23:21.919><c> depth</c>
+

@@ -1,0 +1,1069 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:14.429 --> 00:00:20.430
+Welcome to the session on shell variables.
+In this session will be learning about how
+
+00:00:20.430 --> 00:00:26.320
+to print the variables that are defined and
+made available in the shell that we are using
+
+00:00:26.320 --> 00:00:33.610
+in the terminal environment. Why do we need
+to know about the shell variables usually
+
+00:00:33.610 --> 00:00:39.530
+it is possible to communicate between two
+processes for tiny bits of information very
+
+00:00:39.530 --> 00:00:41.940
+efficiently using shell variables.
+
+00:00:41.940 --> 00:00:48.160
+It does not require you to write or read file
+system which could be intensive in terms of
+
+00:00:48.160 --> 00:00:56.690
+the operations and often there are also security
+concerns that some information that you write
+
+00:00:56.690 --> 00:01:00.899
+to the file system may be visible to such
+other processes which are able to read the
+
+00:01:00.899 --> 00:01:07.530
+file system. Shell variables are available
+only within the shell or its child processes
+
+00:01:07.530 --> 00:01:14.350
+if you enabled the export option and thereby
+the information that is stored in shell variables
+
+00:01:14.350 --> 00:01:15.940
+is fairly private to the shell.
+
+00:01:15.940 --> 00:01:22.790
+Shell variables are also a means by which
+you could store information as an intermediate
+
+00:01:22.790 --> 00:01:28.710
+form for you to process further. Certain processes
+such as commercial software that expect the
+
+00:01:28.710 --> 00:01:34.850
+license server or the port number on which
+the license is available and so on may be
+
+00:01:34.850 --> 00:01:40.270
+looking for certain shell variables to have
+that information. And therefore even when
+
+00:01:40.270 --> 00:01:45.280
+you do not use the terminal environment very
+extensively it could be necessary for you
+
+00:01:45.280 --> 00:01:47.110
+to know about the shell variables.
+
+00:01:47.110 --> 00:01:53.369
+So, to be able to what are the variables defined
+in the shelf what are the values that they
+
+00:01:53.369 --> 00:01:59.229
+contain how to define those variables and
+modify them would be part of our exercise
+
+00:01:59.229 --> 00:02:03.840
+and today we will see how to just display
+what are the variables that are available
+
+00:02:03.840 --> 00:02:04.870
+for us in the shelf.
+
+00:02:04.870 --> 00:02:10.280
+In this session we will be extensively used
+the command echo. The echo command prints
+
+00:02:10.280 --> 00:02:16.909
+out the value of a shell variable or a string
+that is supplied on the command on screen
+
+00:02:16.909 --> 00:02:23.879
+for example as you can see you could print
+hello world using a single line like echo
+
+00:02:23.879 --> 00:02:29.120
+hello world and you will see that the string
+hello world will come out of the screen. You
+
+00:02:29.120 --> 00:02:35.230
+could also print the values of certain variables
+that are there in the shell environment by
+
+00:02:35.230 --> 00:02:37.400
+using the echo command.
+
+00:02:37.400 --> 00:02:42.641
+And we would notice that there is a convention
+to store the names of variables in the shell
+
+00:02:42.641 --> 00:02:45.659
+every shell variable will start with a dollar.
+
+00:02:45.659 --> 00:02:51.989
+There are certain frequently used shell variables
+such as the user name the home directory the
+
+00:02:51.989 --> 00:02:57.930
+host name are the name of the machine on which
+this particular shell is running and the present
+
+00:02:57.930 --> 00:03:02.269
+working directory which will keep changing
+its value as you keep navigating through the
+
+00:03:02.269 --> 00:03:08.099
+file system. So, the path variable contains
+a list of directories which will be searched
+
+00:03:08.099 --> 00:03:09.709
+for when you type a command.
+
+00:03:09.709 --> 00:03:15.829
+So, there are certain commands available such
+as printed or env or set which can help you
+
+00:03:15.829 --> 00:03:20.731
+see what all the shell variables that are
+already available and defined in the shell
+
+00:03:20.731 --> 00:03:25.480
+that you are using. There are some special
+shell variables such as the dollar zero which
+
+00:03:25.480 --> 00:03:30.400
+will give you the name of the show and then
+double dollar which will give you the process
+
+00:03:30.400 --> 00:03:35.719
+id of the shell we will see what does it mean
+by a process id shortly and dollar question
+
+00:03:35.719 --> 00:03:41.599
+mark which will give you the exit code of
+the program which just executed.
+
+00:03:41.599 --> 00:03:48.449
+Dollar hyphen will tell you what are the flags
+that were set by launching the batch shell
+
+00:03:48.449 --> 00:03:49.449
+that you are using currently.
+
+00:03:49.449 --> 00:03:56.199
+We will also see certain process control whereby
+you could run a program in the background
+
+00:03:56.199 --> 00:04:01.480
+and then you can bring it again back to the
+foreground you could run a command while also
+
+00:04:01.480 --> 00:04:06.620
+being able to go on to use the shell. You
+could also list what are the programs that
+
+00:04:06.620 --> 00:04:11.400
+are running in the background using the jobs
+comment you could see what are the programs
+
+00:04:11.400 --> 00:04:18.229
+that are hogging the memory or cp utilization
+in your computer uh and it is refreshed uh
+
+00:04:18.229 --> 00:04:21.790
+every second you could look at it using the
+top command.
+
+00:04:21.790 --> 00:04:26.760
+You could kill some processes which are owned
+by you using the kill command. So, we would
+
+00:04:26.760 --> 00:04:32.340
+actually start exploring the job control starting
+with the special shell variable double dollar.
+
+00:04:32.340 --> 00:04:38.759
+When it comes to the program exit codes it
+is a matter of convention that the exit code
+
+00:04:38.759 --> 00:04:43.940
+should convey in what way the program has
+ended. And exit code like zero would convey
+
+00:04:43.940 --> 00:04:49.919
+that the program has been successfully executed
+and that is universal it would evaluate to
+
+00:04:49.919 --> 00:04:55.689
+true if you were to use it as a Boolean variable
+while checking whether the command has successfully
+
+00:04:55.689 --> 00:04:57.850
+executed or not.
+
+00:04:57.850 --> 00:05:04.909
+And values one or above are used to convey
+certain amount of value in running that program.
+
+00:05:04.909 --> 00:05:09.730
+The value of one as written code would mean
+that the command has failed and whatever is
+
+00:05:09.730 --> 00:05:15.340
+the reason would be displayed on the screen
+and exit code like two would also mean failure
+
+00:05:15.340 --> 00:05:21.139
+but for slightly different reasons sometimes
+for misuse of shell bulletin or perhaps when
+
+00:05:21.139 --> 00:05:23.000
+the permissions are not adequate.
+
+00:05:23.000 --> 00:05:29.169
+Written code of 126 is used when the command
+could not be executed perhaps because it is
+
+00:05:29.169 --> 00:05:34.180
+not an executable and if you try to run a
+command and it could not be located within
+
+00:05:34.180 --> 00:05:39.750
+the list of directories specified by the part
+variable then you would have an error code
+
+00:05:39.750 --> 00:05:46.479
+which is 127. The exit code 130 is used when
+the program that was running in the foreground
+
+00:05:46.479 --> 00:05:49.250
+has been killed using the control C operation.
+
+00:05:49.250 --> 00:05:54.569
+If a process exited because it was killed
+by using the kill command using the option
+
+00:05:54.569 --> 00:06:03.000
+-9 then it would have an exit code of 137.
+If the exit code happens to be more than 256
+
+00:06:03.000 --> 00:06:09.790
+then the modulo of value with what 256 would
+be reported as the exit code. So, that the
+
+00:06:09.790 --> 00:06:16.689
+exit code is always having a value between
+zero and 255. We will explore each of these
+
+00:06:16.689 --> 00:06:22.110
+exit codes by running appropriate comments
+to ensure such an exit code would be reported
+
+00:06:22.110 --> 00:06:25.389
+and thereby you will understand how the written
+codes are coming up.
+
+00:06:25.389 --> 00:06:29.810
+When a shell is launched it would be launched
+with certain options that are already set
+
+00:06:29.810 --> 00:06:36.770
+and some of these options are like the option
+h which is to locate and hash or memorize
+
+00:06:36.770 --> 00:06:41.699
+the comments that are being executed. The
+option capital B to enable what is called
+
+00:06:41.699 --> 00:06:47.599
+the brace expansion we will see a demonstration
+of that. This small letter I to indicate that
+
+00:06:47.599 --> 00:06:49.690
+it is in an interactive mode.
+
+00:06:49.690 --> 00:06:55.919
+The small letter m to indicate that the job
+control has been enabled that is the jobs
+
+00:06:55.919 --> 00:07:02.389
+can be taken to foreground or background etc.
+The option capital H is to enable the history
+
+00:07:02.389 --> 00:07:09.470
+operations such that using the bang or asterisks
+and then a numerical value you could actually
+
+00:07:09.470 --> 00:07:15.780
+repeat the comment that was executed slightly
+in the past. The option small s would be used
+
+00:07:15.780 --> 00:07:20.840
+when the comments are supposed to be read
+from the standard input by that what we mean
+
+00:07:20.840 --> 00:07:22.550
+is when we type using the keyboard.
+
+00:07:22.550 --> 00:07:29.740
+The option small c is used when the comments
+to be executed are to be read from the argument
+
+00:07:29.740 --> 00:07:37.169
+passed on to the batch beyond what is given
+as options. We will use these options to understand
+
+00:07:37.169 --> 00:07:41.319
+the output of dollar hyphen special shell
+variable.
+
+00:07:41.319 --> 00:07:47.111
+Let us get started with the shell variables
+as we have seen echo is the command. So, let
+
+00:07:47.111 --> 00:07:52.479
+us see what type of a command that is. So,
+I will type man echo to know more about that
+
+00:07:52.479 --> 00:08:00.650
+and you see that the man paid says that echo
+command is to display a line of text. And
+
+00:08:00.650 --> 00:08:08.229
+so let us try that out. So, we would say hello
+world and you would see that the string has
+
+00:08:08.229 --> 00:08:09.360
+been reproduced.
+
+00:08:09.360 --> 00:08:15.729
+Now I would type hello world with multiple
+spaces in between and you will see that you
+
+00:08:15.729 --> 00:08:21.659
+will still get only one space which means
+that the echo command is looking at what is
+
+00:08:21.659 --> 00:08:29.389
+supplied as an argument and picking up words
+from there and using a single space as a delimiter
+
+00:08:29.389 --> 00:08:34.940
+and then displaying them on the screen. Now
+if you want to actually have more spaces then
+
+00:08:34.940 --> 00:08:40.659
+you would have to enclose the string in quotes.
+
+00:08:40.659 --> 00:08:49.440
+So, you can now see that the number of spaces
+that we gave has been kept intact. So, it
+
+00:08:49.440 --> 00:08:54.930
+actually is a lesson that the echo command
+when it is applied with an argument that does
+
+00:08:54.930 --> 00:09:02.070
+not contain the quotes then it would actually
+treat the words as separate values which would
+
+00:09:02.070 --> 00:09:09.399
+be taken as a list and then they will be displayed
+with one space between and therefore if you
+
+00:09:09.399 --> 00:09:13.820
+provide multiple spaces then they will be
+ignored.
+
+00:09:13.820 --> 00:09:23.700
+What happens when you do not match the quotes
+properly. So, you would see that you are being
+
+00:09:23.700 --> 00:09:29.420
+prompted with a different prompt string which
+is just the right angle bracket it means that
+
+00:09:29.420 --> 00:09:35.699
+the shell is now expecting you to finish the
+command with the matching double quote and
+
+00:09:35.699 --> 00:09:41.560
+until that point it would actually keep asking
+you. So, I would actually ask now I can actually
+
+00:09:41.560 --> 00:09:47.709
+give some more input and if you keep asking
+that.
+
+00:09:47.709 --> 00:09:55.240
+So, I closed a single quote but that does
+not help because we have started a double
+
+00:09:55.240 --> 00:10:03.520
+quote and we have to finish the double quote.
+And now you see that the command has been
+
+00:10:03.520 --> 00:10:10.100
+completed but meanwhile you have noticed that
+the string the entire string has been read
+
+00:10:10.100 --> 00:10:14.810
+and you have all the four lines coming up
+onto the screen. So, this is also a lesson
+
+00:10:14.810 --> 00:10:22.080
+to learn two things one is that you can in
+fact enter a multiline input to the echo command.
+
+00:10:22.080 --> 00:10:27.779
+In case the shell was expecting you to complete
+the command it would prompt you on every new
+
+00:10:27.779 --> 00:10:34.089
+line using the right angle bracket until you
+complete the command as per the quotes that
+
+00:10:34.089 --> 00:10:44.009
+are matching. So, let us try with the single
+quotes 
+
+00:10:44.009 --> 00:10:53.130
+and they would also work 
+and here now the matching quotations required
+
+00:10:53.130 --> 00:10:59.430
+are single quotes. So, I would actually finish
+the double quote but that does not finish
+
+00:10:59.430 --> 00:11:04.089
+the command.
+
+00:11:04.089 --> 00:11:13.209
+So, now you see that the single quote when
+it is given the command is completed and therefore
+
+00:11:13.209 --> 00:11:18.339
+you now have all the three lines being displayed.
+So, which means that whatever is the first
+
+00:11:18.339 --> 00:11:24.060
+quote that you started that has to be finished
+and along the way we have opened another pair
+
+00:11:24.060 --> 00:11:32.230
+of quotes that does not matter. So, let us
+clear the screen now. So, the echo command
+
+00:11:32.230 --> 00:11:38.079
+that way is very nice in reproducing whatever
+text that you are giving either it is a single
+
+00:11:38.079 --> 00:11:40.010
+line or multiline.
+
+00:11:40.010 --> 00:11:45.899
+And usually in a shell script you would actually
+use it to display lines of text that would
+
+00:11:45.899 --> 00:11:52.330
+help in documentation. For example you may
+want to have a command which would actually
+
+00:11:52.330 --> 00:12:03.500
+display a line sometimes you may want to give
+some comments 
+
+00:12:03.500 --> 00:12:16.290
+and sometimes you just need to display a plane
+text. So, you could use the echo command like
+
+00:12:16.290 --> 00:12:22.300
+the print of command in c language liberally.
+Let us clear the screen now.
+
+00:12:22.300 --> 00:12:28.250
+Now you can use the echo command to also display
+values of shell variables and as we mentioned
+
+00:12:28.250 --> 00:12:35.319
+earlier every shell variable starts with the
+dollar simple. So, the very first variable
+
+00:12:35.319 --> 00:12:42.079
+would be to display the user name the user
+who is logged on and you would see that the
+
+00:12:42.079 --> 00:12:48.279
+user name is displayed on the screen. You
+could also enclose the shell variable within
+
+00:12:48.279 --> 00:12:57.990
+double quotes and it would be interpreted
+and then displayed.
+
+00:12:57.990 --> 00:13:05.120
+What happens if you use it in the single quotes?
+You see that the string that we gave was displayed
+
+00:13:05.120 --> 00:13:10.190
+as it is but it was not interpreted to give
+you the value of that particular shell variable
+
+00:13:10.190 --> 00:13:15.040
+which means now you see the difference between
+the single quotes and double quotes within
+
+00:13:15.040 --> 00:13:22.050
+the double quotes any string that comes with
+a dollar will be interpreted as a shell variable
+
+00:13:22.050 --> 00:13:28.270
+and if a value is available for that that
+value will be substituted and then printed.
+
+00:13:28.270 --> 00:13:33.040
+And if you have the same thing in a single
+quote then it was it is not going to be interpreted.
+
+00:13:33.040 --> 00:13:38.399
+So, you could also mix certain other strings
+along with this shell variables within the
+
+00:13:38.399 --> 00:13:51.930
+double quotes. So, now you can see that we
+are trying to print a string followed by the
+
+00:13:51.930 --> 00:13:56.020
+value of the shell variable user name and
+it comes out quite. So, there are many more
+
+00:13:56.020 --> 00:14:01.839
+such uh useful shell variables let us look
+at each.
+
+00:14:01.839 --> 00:14:09.190
+So, dollar user is also the same as the user
+name dollar home is the home directory let
+
+00:14:09.190 --> 00:14:17.370
+us look at the value of the shell variable
+pwd. So, it would have the value of the present
+
+00:14:17.370 --> 00:14:22.529
+working directory. So, if you type the command
+pwd in small letters it would have the same
+
+00:14:22.529 --> 00:14:28.480
+value and you could now change the directory
+and test it out. So, I go to let us say user
+
+00:14:28.480 --> 00:14:31.360
+and I will check ok.
+
+00:14:31.360 --> 00:14:40.310
+So, you see that the value of the shell variable
+pwd and the output of the command pwd in small
+
+00:14:40.310 --> 00:14:45.670
+letters is the same and it would be the present
+working directory and you can navigate within
+
+00:14:45.670 --> 00:14:50.399
+the file system hierarchy and you can try
+it out at any location and it would be the
+
+00:14:50.399 --> 00:14:56.259
+current location that currently the command
+execution is being performed. You could always
+
+00:14:56.259 --> 00:15:02.200
+inquire the name of the machine using the
+host name shell variable and that would be
+
+00:15:02.200 --> 00:15:11.300
+the name of the machine as given in a file
+called etc host name.
+
+00:15:11.300 --> 00:15:18.019
+And it would be a static file if the configuration
+was like that and it can also be made dynamic
+
+00:15:18.019 --> 00:15:24.079
+if you had the network settings so configured.
+Now let us say we want to print a string where
+
+00:15:24.079 --> 00:15:31.480
+we would some of the variables to be interpreted
+but not certain others which means that you
+
+00:15:31.480 --> 00:15:35.980
+do not have a choice to pick the single quotes
+or double quotes you need the double quotes
+
+00:15:35.980 --> 00:15:40.750
+because you want some of the variables to
+be interpreted but ah you want some of the
+
+00:15:40.750 --> 00:15:41.860
+variables to be escaped.
+
+00:15:41.860 --> 00:15:59.209
+So, let us see what that what we mean by that.
+So, in this particular command you see that
+
+00:15:59.209 --> 00:16:05.709
+the host name and the user variables are both
+interpreted and I would like to interpret
+
+00:16:05.709 --> 00:16:09.639
+only one of them for whatever reason. So,
+we will realize that very shortly. So, let
+
+00:16:09.639 --> 00:16:26.899
+us see how that is possible. Now you see the
+difference in the second command we have used
+
+00:16:26.899 --> 00:16:34.449
+a backslash which meant that the dollar symbol
+is then not interpreted as the first character
+
+00:16:34.449 --> 00:16:40.800
+of a variable and therefore the entire word
+is then not interpreted as a shell variable
+
+00:16:40.800 --> 00:16:42.350
+and is displayed as it is.
+
+00:16:42.350 --> 00:16:47.620
+Whereas uh the other variable did not have
+the escape sequence of backslash and therefore
+
+00:16:47.620 --> 00:16:52.240
+it will be interpreted and the value of that
+particular shell variable is displayed. So,
+
+00:16:52.240 --> 00:16:59.240
+you can now see that you can have a possibility
+to escape the interpretation. Now why is it
+
+00:16:59.240 --> 00:17:06.010
+useful? This is useful when you want to pass
+on the string to a child shell but you want
+
+00:17:06.010 --> 00:17:10.209
+the interpretation not to be done by the shell
+that is launching that particular command.
+
+00:17:10.209 --> 00:17:14.339
+Now you may be curious to know how many shell
+variables have been defined in the shell that
+
+00:17:14.339 --> 00:17:23.440
+you are running. So, let us go print env would
+actually list a whole bunch of shell variables
+
+00:17:23.440 --> 00:17:29.030
+and I am scrolling with my mouse and you can
+see that each of these lines have an equal
+
+00:17:29.030 --> 00:17:33.830
+to sign separating the name of the variable
+and the value. And you could see that there
+
+00:17:33.830 --> 00:17:41.310
+are a lot of them and we will learn about
+these as we kept ourselves familiarized with
+
+00:17:41.310 --> 00:17:44.390
+the operating system as well as the command
+line environment.
+
+00:17:44.390 --> 00:17:50.740
+Now you can get the same listing also using
+the command env okay there is the same same
+
+00:17:50.740 --> 00:17:56.310
+listing that you are having and you could
+also get the list of variables set using the
+
+00:17:56.310 --> 00:18:02.780
+command set okay and using this command set.
+You would also see certain functions that
+
+00:18:02.780 --> 00:18:08.160
+have been defined to interpret what you are
+typing on the comment line apart from of course
+
+00:18:08.160 --> 00:18:12.310
+the shell variables that have been defined.
+
+00:18:12.310 --> 00:18:16.940
+The output is quite long so you may have to
+scroll quite a bit before you come to see
+
+00:18:16.940 --> 00:18:23.850
+the list of variables that were defined. So,
+now you see that there are a bunch of variables
+
+00:18:23.850 --> 00:18:28.370
+that have been defined and they are being
+listed by the output of set command. Let us
+
+00:18:28.370 --> 00:18:36.090
+look at the help man page on print env command
+and it says that you could print the all are
+
+00:18:36.090 --> 00:18:37.470
+part of the environment.
+
+00:18:37.470 --> 00:18:42.390
+What do we mean by the part of the environment
+you could do like this print env and let us
+
+00:18:42.390 --> 00:18:46.310
+say you give the name of the variable without
+the dollar symbol and it would give you the
+
+00:18:46.310 --> 00:18:52.740
+value of that particular variable. You could
+also do that with anything else that has been
+
+00:18:52.740 --> 00:18:58.240
+defined. Now let us look at how we can escape
+the aliasing just the way we have escaped
+
+00:18:58.240 --> 00:19:01.410
+the uh dollar interpretation you could also
+escape an alias.
+
+00:19:01.410 --> 00:19:06.540
+So, we will try that using the data command.
+So, we have tried that date comment in the
+
+00:19:06.540 --> 00:19:13.250
+past and we have also seen that date comment
+can take an option of capital R to print the
+
+00:19:13.250 --> 00:19:19.990
+date in the farm act usually used in the email
+communication. So, let us say I want to alias
+
+00:19:19.990 --> 00:19:25.070
+the second way of displaying the data for
+the default behaviour. So, I will do that
+
+00:19:25.070 --> 00:19:30.950
+by typing an alias date is equal to and date
+minus R.
+
+00:19:30.950 --> 00:19:37.010
+So, I can then check what is the alias for
+the date I need to tell in what way the date
+
+00:19:37.010 --> 00:19:43.800
+has been aliased and now if you type the date
+command the output would be as if the option
+
+00:19:43.800 --> 00:19:48.600
+-R has been given. So, you could now see the
+difference here the date command output here
+
+00:19:48.600 --> 00:19:52.890
+and the date command output here. So, the
+difference is coming because the l a s is
+
+00:19:52.890 --> 00:19:59.370
+now active. So, this date command you could
+actually ask where is it and it is a user
+
+00:19:59.370 --> 00:20:00.370
+bin date.
+
+00:20:00.370 --> 00:20:04.870
+So, you could actually execute it directly
+using the absolute path. So, I could type
+
+00:20:04.870 --> 00:20:11.460
+this and you would see that the output is
+without the alias namely the default format
+
+00:20:11.460 --> 00:20:18.270
+that was defined for the date command. And
+you could also navigate to the folder where
+
+00:20:18.270 --> 00:20:22.580
+this particular command is located and you
+can execute it from there also. So, I would
+
+00:20:22.580 --> 00:20:31.290
+go there go to slash user bin and I am giving
+the relative path of the date command dot
+
+00:20:31.290 --> 00:20:36.800
+is for the current territories for dot slash
+date is the name of the file that is going
+
+00:20:36.800 --> 00:20:37.800
+to be executed.
+
+00:20:37.800 --> 00:20:43.270
+And you would see that it executes the same
+way as if you type the date command without
+
+00:20:43.270 --> 00:20:52.710
+anything before it. Now you can now now let
+us say I want to type the date command but
+
+00:20:52.710 --> 00:20:56.690
+I would like to escape the alias that I have
+kept. So, for that you can actually use the
+
+00:20:56.690 --> 00:21:02.820
+same backslash the way we have escaped the
+dollar symbol in the previous example.
+
+00:21:02.820 --> 00:21:08.620
+So, if you do that then the aliases are all
+escaped and you would run the comment with
+
+00:21:08.620 --> 00:21:13.780
+its default behaviour. So, what we have learned
+is that there are multiple ways of executing
+
+00:21:13.780 --> 00:21:20.520
+commands. You can execute a command by going
+to the location where it is placed and using
+
+00:21:20.520 --> 00:21:25.770
+the relative path for the particular file.
+You could execute it directly by typing the
+
+00:21:25.770 --> 00:21:30.180
+name of that command wherever you are in the
+file system you can be in the user bin or
+
+00:21:30.180 --> 00:21:34.270
+for example you can be in the home directory
+just typing it out.
+
+00:21:34.270 --> 00:21:40.020
+Or you could also type it with a backslash
+in front to indicate that you do not want
+
+00:21:40.020 --> 00:21:45.890
+to use the alias. Now when you type a command
+how does the shell find out where is it? This
+
+00:21:45.890 --> 00:21:50.320
+is actually obtained by looking at the path
+variable. So, there is a variable called path.
+
+00:21:50.320 --> 00:21:54.370
+So, this path variable contains a list of
+directories here you can see that the very
+
+00:21:54.370 --> 00:22:01.200
+first directories user local sbin okay after
+that it is user local bin and then it is user
+
+00:22:01.200 --> 00:22:07.000
+sbin and then user bin and then slash sbin
+and then slash bin and so on.
+
+00:22:07.000 --> 00:22:12.180
+Which means that when I type a command shell
+would look up each of these directories in
+
+00:22:12.180 --> 00:22:17.600
+the sequence from left to right to identify
+where is it which directory contains a particular
+
+00:22:17.600 --> 00:22:23.300
+executable and then executed from there. Now
+let us look at the special shell variables
+
+00:22:23.300 --> 00:22:34.020
+that we have mentioned the first the dollar
+zero. So, if you see the output of dollar
+
+00:22:34.020 --> 00:22:39.070
+zero is the shell name that is currently running
+the shell command.
+
+00:22:39.070 --> 00:22:44.900
+Now we can test it out by launching such an
+other shell which may be present in the particular
+
+00:22:44.900 --> 00:22:49.950
+operating system and trying out the same thing.
+So, I would like to now launch and let us
+
+00:22:49.950 --> 00:22:56.080
+say hey k shell. So, if it was available it
+would open and it has opened up and I would
+
+00:22:56.080 --> 00:23:01.590
+echo dollars zero and it says that it is a
+case that is running I come out of it using
+
+00:23:01.590 --> 00:23:07.320
+exit command. The next special shell variable
+that we were discussing is the double dollar
+
+00:23:07.320 --> 00:23:12.760
+and the double dollar basically gives a number
+on the screen which is the process Id.
+
+00:23:12.760 --> 00:23:18.480
+What it means is that there is a number given
+for the process called the batch that is currently
+
+00:23:18.480 --> 00:23:24.090
+running and interpreting the commands that
+we are giving. So, how to know what are the
+
+00:23:24.090 --> 00:23:28.300
+processes that are running? It is a ps comment
+that will help you to know that. So, let us
+
+00:23:28.300 --> 00:23:34.170
+look at the man page of the ps command. So,
+ps command says that it would report a snapshot
+
+00:23:34.170 --> 00:23:36.680
+of the current earning processes. uh
+
+00:23:36.680 --> 00:23:42.320
+It says snapshot because the processes keep
+changing new processes get launched certain
+
+00:23:42.320 --> 00:23:48.020
+old processes would finish and close. So,
+ps command can tell you what are the processes
+
+00:23:48.020 --> 00:23:53.740
+that are running right now? And if you see
+here it is running two commands batch as well
+
+00:23:53.740 --> 00:23:59.010
+as the ps command which is what we have just
+now run. And you could actually see the output
+
+00:23:59.010 --> 00:24:04.980
+of the ps command very nicely to know which
+process has launched which child process by
+
+00:24:04.980 --> 00:24:09.150
+using the option double hyphen forest.
+
+00:24:09.150 --> 00:24:17.100
+So, it would actually display these two characters
+to indicate which shell or which process has
+
+00:24:17.100 --> 00:24:22.200
+launched which other process. And the integers
+that are placed in the first column under
+
+00:24:22.200 --> 00:24:28.970
+the header PID are the process Id numbers.
+So, when you type echo double dollar the number
+
+00:24:28.970 --> 00:24:33.830
+that you get is the same thing as what is
+listed again is the batch process when you
+
+00:24:33.830 --> 00:24:34.830
+run the ps command.
+
+00:24:34.830 --> 00:24:38.510
+Now that brings us to the discussion about
+the ps command you can actually see what all
+
+00:24:38.510 --> 00:24:46.360
+the processes running in the operating system
+right now by using ps and options like -ef
+
+00:24:46.360 --> 00:24:51.890
+and you would see that a whole bunch of processes
+are running. And if you scroll up and you
+
+00:24:51.890 --> 00:24:57.460
+will see that the very first pid is assigned
+to a command which is basically the init.
+
+00:24:57.460 --> 00:25:00.390
+So, that is a very first process that was
+running.
+
+00:25:00.390 --> 00:25:06.221
+And if you see ppid header that is a parent
+process Id. So, which means that which process
+
+00:25:06.221 --> 00:25:12.160
+I restarted this particular process is what
+is listed. So, if you look at the the process
+
+00:25:12.160 --> 00:25:18.670
+id three it was launched by the parent with
+a process id two and that means that rcu underscore
+
+00:25:18.670 --> 00:25:24.750
+gp process was launched by a process called
+k thread b. So, like that you can actually
+
+00:25:24.750 --> 00:25:27.760
+identify which process has launched which
+other process.
+
+00:25:27.760 --> 00:25:34.130
+So, the parent ideas are available for you
+to help with that. Now the ps command with
+
+00:25:34.130 --> 00:25:40.140
+the -f would actually give you the parent
+Id and you could also see that the ps -f command
+
+00:25:40.140 --> 00:25:49.580
+has the process Id X8615 and it is launched
+by a parent 3423. And 3423 is a process Id
+
+00:25:49.580 --> 00:25:56.870
+of a command batch which is a shell. So, you
+can actually see how the child process and
+
+00:25:56.870 --> 00:26:01.030
+the parent process can be identified using
+the output of the ps command.
+
+00:26:01.030 --> 00:26:12.040
+So, some of the important options for ps are
+ps -f to see the parent id also ps -e to see
+
+00:26:12.040 --> 00:26:17.960
+all the processes that are running and you
+could combine them both ps -ef to list the
+
+00:26:17.960 --> 00:26:23.520
+parent id as well as all the processes that
+are running currently in the operating system.
+
+00:26:23.520 --> 00:26:29.220
+And you could also have the option --forest
+to see what all the processes that are running
+
+00:26:29.220 --> 00:26:32.960
+in a way that is easy for a novice user to
+identify.
+

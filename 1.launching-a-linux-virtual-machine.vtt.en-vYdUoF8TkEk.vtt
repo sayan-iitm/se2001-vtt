@@ -1,0 +1,947 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:14.400 --> 00:00:20.560
+Let us look at the process of launching a&nbsp;
+Linux virtual machine. Why do you need a&nbsp;&nbsp;
+
+00:00:20.560 --> 00:00:27.040
+virtual machine Sometimes when you buy a laptop it&nbsp;
+comes with pre-installed windows operating system&nbsp;&nbsp;
+
+00:00:27.840 --> 00:00:34.240
+and you may not want to remove the OS that came&nbsp;
+with the system because you have already paid&nbsp;&nbsp;
+
+00:00:34.240 --> 00:00:40.400
+for that and sometimes you may also not be able&nbsp;
+to have a dual booting option because your bios&nbsp;&nbsp;
+
+00:00:40.400 --> 00:00:47.600
+or your UEFI has been tied to the OEM.
+And therefore it has not allowed you to&nbsp;&nbsp;
+
+00:00:48.320 --> 00:00:54.720
+have a dual boot. You would also need a virtual&nbsp;
+machine because you want to have the experience of&nbsp;&nbsp;
+
+00:00:54.720 --> 00:01:01.040
+using Linux operating system almost natively.
+And. So, the requirements to have a virtual&nbsp;&nbsp;
+
+00:01:01.040 --> 00:01:07.440
+machine going on your laptop or a system that has&nbsp;
+pre-installed operating system such as windows&nbsp;&nbsp;
+
+00:01:07.440 --> 00:01:12.160
+is as follows. You first need to download&nbsp;
+an ISO image of the Linux operating system&nbsp;&nbsp;
+
+00:01:12.800 --> 00:01:19.280
+and I would recommend Ubuntu 20.04 long time&nbsp;
+support version which is currently the latest&nbsp;&nbsp;
+
+00:01:19.280 --> 00:01:26.320
+LTS version. The next version of 22.04&nbsp;
+would appear at the end of April 2022.
+&nbsp;
+
+00:01:27.040 --> 00:01:34.240
+And you will pick it up from the Ubuntu website&nbsp;
+for the platform x86_64 which is appropriate for&nbsp;&nbsp;
+
+00:01:34.240 --> 00:01:41.920
+a an Intel or AMD based laptop. You also need a&nbsp;
+hypervisor such as an Oracle Virtualbox or VMWARE&nbsp;&nbsp;
+
+00:01:41.920 --> 00:01:46.720
+workstation player and there are free versions&nbsp;
+available. So, you could download one of them&nbsp;&nbsp;
+
+00:01:47.280 --> 00:01:52.880
+and have it installed on your windows OS. You&nbsp;
+will also need some space to have the virtual&nbsp;&nbsp;
+
+00:01:52.880 --> 00:01:58.000
+machine up and running. The disk space required&nbsp;
+would be about 20GB that would be sufficient&nbsp;&nbsp;
+
+00:01:58.000 --> 00:02:03.680
+to get going but you also need some ram.
+So, if your laptop has 4GB ram maybe it is not&nbsp;&nbsp;
+
+00:02:03.680 --> 00:02:08.880
+a good idea to have a virtual machine running&nbsp;
+on top of it but if it has 8 GB or more than&nbsp;&nbsp;
+
+00:02:08.880 --> 00:02:13.920
+your virtual machine will work quite fine. 
+So, these are the steps that you require to follow&nbsp;&nbsp;
+
+00:02:14.880 --> 00:02:21.600
+first download the Ubuntu iso file which would be&nbsp;
+about 3GB in size right now and have it ready and&nbsp;&nbsp;
+
+00:02:21.600 --> 00:02:28.400
+download the oracle virtual box or the VMware&nbsp;
+workstation player which is available freely.&nbsp;&nbsp;
+
+00:02:28.400 --> 00:02:33.200
+Install the hypervisor and then you need to launch&nbsp;
+the hypervisor and configure a virtual machine.&nbsp;&nbsp;
+
+00:02:34.000 --> 00:02:37.520
+And then once you have done that you&nbsp;
+could then launch the virtual machine&nbsp;&nbsp;
+
+00:02:37.520 --> 00:02:43.600
+and have the experience of using the Linux OS&nbsp;
+on top of your windows OS almost natively. 
+&nbsp;
+
+00:02:43.600 --> 00:02:48.480
+So, you can download the&nbsp;
+Ubuntu iso from Ubuntu.com and&nbsp;&nbsp;
+
+00:02:48.480 --> 00:02:54.880
+you could then you know click on the highlighted&nbsp;
+link 20.04 LTS and download the image.
+&nbsp;
+
+00:02:55.920 --> 00:03:00.240
+You could download the oracle virtual&nbsp;
+box from the website virtualbox.org&nbsp;&nbsp;
+
+00:03:01.360 --> 00:03:05.680
+and you need to click on the link meant&nbsp;
+for windows host because that is your host&nbsp;&nbsp;
+
+00:03:05.680 --> 00:03:10.720
+operating system and then use the exe file&nbsp;
+that comes to install the virtualbox.
+&nbsp;
+
+00:03:12.160 --> 00:03:17.840
+You can download the VMware workstation player&nbsp;
+from the VMware website by searching for it and&nbsp;&nbsp;
+
+00:03:18.400 --> 00:03:22.800
+you could pick up the windows&nbsp;
+version of it because your&nbsp;&nbsp;
+
+00:03:23.360 --> 00:03:29.120
+host operating system is windows. 
+So, let us go and try out these to launch&nbsp;&nbsp;
+
+00:03:29.120 --> 00:03:33.440
+a virtual machine and see how that&nbsp;
+works out. So, we have downloaded the&nbsp;&nbsp;
+
+00:03:34.320 --> 00:03:39.200
+installation media. So, we will first install&nbsp;
+the virtualbox. So, right click on the icon&nbsp;&nbsp;
+
+00:03:39.200 --> 00:03:45.840
+and run it as an administrator you can override&nbsp;
+the alert and go ahead and install it anyway.&nbsp;&nbsp;
+
+00:03:50.880 --> 00:03:55.120
+So, you see that it is installing&nbsp;
+now. So, there is an icon for oracle&nbsp;&nbsp;
+
+00:03:55.120 --> 00:04:00.800
+vm virtualbox created on the desktop. 
+So, here is the oracle virtualbox manager&nbsp;&nbsp;
+
+00:04:00.800 --> 00:04:05.840
+that has got launched. So, we now need to add&nbsp;
+a new virtual machine. So, we do that with&nbsp;&nbsp;
+
+00:04:06.560 --> 00:04:17.200
+the new icon that is here and we call&nbsp;
+this virtual machine as Ubuntu 20.04&nbsp;&nbsp;
+
+00:04:19.360 --> 00:04:25.840
+and we need to assign how much of memory that&nbsp;
+you would like to use. So, we have let us&nbsp;&nbsp;
+
+00:04:27.120 --> 00:04:36.560
+2048 MB that is 2 GB of ram that we want to&nbsp;
+use for this Linux and we need to create a&nbsp;&nbsp;
+
+00:04:36.560 --> 00:04:41.680
+virtual hard disk it is a good size. 
+So, 10 GB is what is recommended. So,&nbsp;&nbsp;
+
+00:04:41.680 --> 00:04:46.640
+we can go ahead and use it here is where&nbsp;
+you could actually fine tune the size.&nbsp;&nbsp;
+
+00:04:46.640 --> 00:04:53.200
+So, I would go ahead and make it 20 GB. Now we&nbsp;
+now need to power on and have the operating system&nbsp;&nbsp;
+
+00:04:54.480 --> 00:05:01.440
+installed. So, look at the settings&nbsp;
+and the storage we would have the IDE.&nbsp;&nbsp;
+
+00:05:01.440 --> 00:05:09.840
+Let us add a CD there an iso image.&nbsp;
+So, we will choose an image file.&nbsp;&nbsp;
+
+00:05:11.200 --> 00:05:16.720
+So, the image file is now attached. 
+So, when it boots it would help to boot the&nbsp;&nbsp;
+
+00:05:18.160 --> 00:05:22.560
+Ubuntu installation medium after which&nbsp;
+the installation of os can happen on the&nbsp;&nbsp;
+
+00:05:22.560 --> 00:05:27.600
+virtual disk okay now let us boot this.&nbsp;
+So, all this has happening in a window. So,&nbsp;&nbsp;
+
+00:05:27.600 --> 00:05:31.920
+the booting of the virtual OS is happening&nbsp;
+within a window we can resize that&nbsp;&nbsp;
+
+00:05:31.920 --> 00:05:39.520
+to help us see little bit better the installation&nbsp;
+medium is being checked before commencing the&nbsp;&nbsp;
+
+00:05:39.520 --> 00:05:45.840
+installation process you could see that the&nbsp;
+Ubuntu has started installation process. 
+&nbsp;
+
+00:05:48.240 --> 00:05:52.640
+So, here we choose the option install Ubuntu&nbsp;
+the language of course is already highlighted as&nbsp;&nbsp;
+
+00:05:52.640 --> 00:05:57.360
+English proceed to continue we will just leave&nbsp;
+the default option to be normal installation&nbsp;&nbsp;
+
+00:05:57.360 --> 00:06:01.600
+and we do not need to download the updates&nbsp;
+while installing so that the installation can&nbsp;&nbsp;
+
+00:06:01.600 --> 00:06:06.800
+finish a bit early. So, the virtual disk is&nbsp;
+created by us there is nothing there in that.&nbsp;&nbsp;
+
+00:06:06.800 --> 00:06:12.160
+So, we can go ahead and say that the operating&nbsp;
+system can erase remember that it is only erasing&nbsp;&nbsp;
+
+00:06:12.160 --> 00:06:16.880
+the virtual disk and not the hard disk of&nbsp;
+your host operating system windows. 
+&nbsp;
+
+00:06:16.880 --> 00:06:23.280
+So, go ahead and then say yes install&nbsp;
+now you need to choose the time zone. So,&nbsp;&nbsp;
+
+00:06:23.280 --> 00:06:27.840
+we are choosing the one for India and we&nbsp;
+need to have the first account created.&nbsp;&nbsp;
+
+00:06:27.840 --> 00:06:32.720
+So, I will give my details here and you need to&nbsp;
+give a password for the very first account which&nbsp;&nbsp;
+
+00:06:32.720 --> 00:06:38.080
+will be the administrator and note down and keep&nbsp;
+it safe. So, that you do not forget it. So, as the&nbsp;&nbsp;
+
+00:06:38.080 --> 00:06:42.480
+installation process is going on you could also&nbsp;
+see some icons that are glowing at the bottom that&nbsp;&nbsp;
+
+00:06:42.480 --> 00:06:47.360
+show what kind of an activity is happening. 
+So, as the operating system is being installed&nbsp;&nbsp;
+
+00:06:47.360 --> 00:06:50.960
+there is some activity writing to the&nbsp;
+virtual disk. So, that is the activity&nbsp;&nbsp;
+
+00:06:50.960 --> 00:06:55.280
+here. So, in case some network operations are&nbsp;
+happening the network icon also would blink.&nbsp;&nbsp;
+
+00:07:01.440 --> 00:07:05.520
+The installation can take few minutes.&nbsp;
+So, be patient and let it finish.&nbsp;&nbsp;
+
+00:07:06.320 --> 00:07:08.400
+So, the installation seems to have finished now.&nbsp;&nbsp;
+
+00:07:10.160 --> 00:07:15.840
+So, the installation is complete now.&nbsp;
+So, we can restart the virtual machine&nbsp;&nbsp;
+
+00:07:19.680 --> 00:07:22.480
+all right. 
+So, our virtual machine has now muted&nbsp;&nbsp;
+
+00:07:23.360 --> 00:07:32.240
+and I login with the password I gave by setting it&nbsp;
+up. So, we can skip some of these initial settings&nbsp;&nbsp;
+
+00:07:35.920 --> 00:07:44.720
+and now the virtual machine is up and running on&nbsp;
+the base host OS of windows 10 in our case and&nbsp;&nbsp;
+
+00:07:44.720 --> 00:07:57.840
+let us open the terminal okay and we now have&nbsp;
+the terminal command open and we can see that.&nbsp;&nbsp;
+
+00:07:58.400 --> 00:08:08.480
+So, it is running the kernel 5.11 and we have a&nbsp;
+full-fledged Ubuntu 20.04 lts up and running as&nbsp;&nbsp;
+
+00:08:08.480 --> 00:08:14.400
+a virtual machine on top of the windows.
+Shut it down at any time that we are done with&nbsp;&nbsp;
+
+00:08:14.400 --> 00:08:22.160
+our work and we are back to the virtualbox manager&nbsp;
+and here we can any time change the settings.&nbsp;&nbsp;
+
+00:08:22.160 --> 00:08:31.600
+So, let us say we can go to the settings here and&nbsp;
+make more memory allocated for it. For example we&nbsp;&nbsp;
+
+00:08:31.600 --> 00:08:36.240
+do not want any additional devices to be attached&nbsp;
+only hard disk is sufficient we can do that&nbsp;&nbsp;
+
+00:08:37.040 --> 00:08:41.280
+okay and display also if you wish we want&nbsp;
+to give more memory we can do that.
+&nbsp;
+
+00:08:42.560 --> 00:08:50.080
+And maybe we can make a slightly larger&nbsp;
+window there and then we can when we are ready&nbsp;&nbsp;
+
+00:08:50.080 --> 00:08:56.720
+we can just boot it and we can just do this&nbsp;
+whenever we need to work with the Ubuntu&nbsp;&nbsp;
+
+00:08:56.720 --> 00:09:02.720
+otherwise the host OS of windows 10 is not&nbsp;
+disturbed at all. So, in that sense it is a very&nbsp;&nbsp;
+
+00:09:03.440 --> 00:09:11.200
+nice way of being able to learn the command&nbsp;
+line environment on Ubuntu virtual machine. So,&nbsp;&nbsp;
+
+00:09:11.200 --> 00:09:17.040
+here in front of you I just booted the&nbsp;
+virtual machine again and I am logging in&nbsp;&nbsp;
+
+00:09:17.920 --> 00:09:23.920
+okay and then I open the terminal&nbsp;
+once more to show you that cycle of&nbsp;&nbsp;
+
+00:09:24.480 --> 00:09:31.440
+getting in to the terminal environment inside&nbsp;
+the vm which is running on top of the windows.
+&nbsp;
+
+00:09:31.440 --> 00:09:36.240
+And then again coming out and shutting it&nbsp;
+down and that is a cycle that you can do&nbsp;&nbsp;
+
+00:09:36.240 --> 00:09:41.760
+whenever you want to spend your time&nbsp;
+with Ubuntu working with the whole OS.&nbsp;&nbsp;
+
+00:09:43.600 --> 00:09:49.920
+Now let us see how to install a virtual machine&nbsp;
+using the VMware workstation player. So,&nbsp;&nbsp;
+
+00:09:49.920 --> 00:09:56.000
+we have downloaded that utility already. So, right&nbsp;
+click and run it as an administrator to install&nbsp;&nbsp;
+
+00:09:56.000 --> 00:10:00.320
+the VMware workstation player.&nbsp;
+So, we override the alert. 
+&nbsp;
+
+00:10:01.600 --> 00:10:05.760
+So, we see that the workstation player&nbsp;
+version 16 is starting to install&nbsp;&nbsp;
+
+00:10:06.720 --> 00:10:17.440
+we accept the license agreement and move on and&nbsp;
+let it install the standard options okay. So,&nbsp;&nbsp;
+
+00:10:17.440 --> 00:10:24.560
+we have now started to install that it will take&nbsp;
+about a minute or two to install the utility.&nbsp;&nbsp;
+
+00:10:25.120 --> 00:10:30.240
+So, the installation takes a couple of minutes.&nbsp;
+So, there is an icon on the desktop created by the&nbsp;&nbsp;
+
+00:10:31.360 --> 00:10:35.200
+utility which we could use to&nbsp;
+open the workstation player. 
+&nbsp;
+
+00:10:35.840 --> 00:10:44.160
+So, let us now finish the utility and launch the&nbsp;
+workstation player. So, we are going to use it&nbsp;&nbsp;
+
+00:10:44.880 --> 00:10:47.920
+for non-commercial use for&nbsp;
+free. So, we go ahead with that&nbsp;&nbsp;
+
+00:10:49.120 --> 00:10:57.600
+we get started by creating a new virtual&nbsp;
+machine and the installer disk we will have to&nbsp;&nbsp;
+
+00:10:57.600 --> 00:11:04.160
+tell and that will be already ready for&nbsp;
+us in the downloads folder the Ubuntu&nbsp;&nbsp;
+
+00:11:06.320 --> 00:11:12.560
+iso file is ready for us. So, we pick it up&nbsp;
+proceed further and of course it is asking&nbsp;&nbsp;
+
+00:11:13.760 --> 00:11:17.440
+the first user. 
+So, let us do that. So, we provide the credentials&nbsp;&nbsp;
+
+00:11:17.440 --> 00:11:22.240
+which we need to remember because that will be&nbsp;
+the first user for the operating system and it&nbsp;&nbsp;
+
+00:11:22.240 --> 00:11:27.280
+is asking how big is the virtual disks to be and&nbsp;
+we say 20 GB that is fine. So, we will have it&nbsp;&nbsp;
+
+00:11:27.280 --> 00:11:32.560
+that way and the disk can be multiple files&nbsp;
+it is a bit easier to move it around okay. So,&nbsp;&nbsp;
+
+00:11:32.560 --> 00:11:36.880
+we will just leave it with the default option.&nbsp;
+So, the virtual machine is now going to be created&nbsp;&nbsp;
+
+00:11:37.760 --> 00:11:42.960
+and it will get connected with the iso&nbsp;
+file for the installation of Ubuntu&nbsp;&nbsp;
+
+00:11:46.000 --> 00:11:47.920
+and we will leave the options as default. 
+&nbsp;
+
+00:11:47.920 --> 00:11:53.360
+So, that we will see how the Ubuntu gets&nbsp;
+installed with the default configurations.&nbsp;&nbsp;
+
+00:11:54.000 --> 00:11:59.760
+So, as you can note there is always this&nbsp;
+checking of the insulation medium that is done.&nbsp;&nbsp;
+
+00:12:08.240 --> 00:12:13.440
+So, the insulation medium has been checked and&nbsp;
+we are now seeing the Ubuntu screen which means&nbsp;&nbsp;
+
+00:12:13.440 --> 00:12:18.480
+that the Ubuntu has been booted from the&nbsp;
+installation medium and it is now setting&nbsp;&nbsp;
+
+00:12:18.480 --> 00:12:28.720
+up the OS. ah We can click on this arrow&nbsp;
+to see what is the background information&nbsp;&nbsp;
+
+00:12:29.840 --> 00:12:34.560
+to see some of the text output as&nbsp;
+the work is going on to install the&nbsp;&nbsp;
+
+00:12:35.120 --> 00:12:39.760
+operating system in the virtual disk.
+This process will take couple of minutes&nbsp;&nbsp;
+
+00:12:40.800 --> 00:12:45.440
+depending upon the speed of your hardware.&nbsp;
+So, you have to be patient till the entire&nbsp;&nbsp;
+
+00:12:46.000 --> 00:12:52.720
+process is complete and the virtual machine&nbsp;
+has been booted to show you the login screen.&nbsp;&nbsp;
+
+00:13:02.240 --> 00:13:08.000
+So, while the installation is going on you will&nbsp;
+see some slides to tell you about the features of&nbsp;&nbsp;
+
+00:13:08.000 --> 00:13:14.400
+the operating system. As part of installation&nbsp;
+Ubuntu would also check for some updates.
+&nbsp;
+
+00:13:15.280 --> 00:13:21.520
+Now you see that the bootloader has been installed&nbsp;
+the installation also involves downloading some&nbsp;&nbsp;
+
+00:13:21.520 --> 00:13:28.720
+packages to keep some of the utilities latest&nbsp;
+in terms of the version the package updating&nbsp;&nbsp;
+
+00:13:28.720 --> 00:13:36.160
+seems to be over now. So, you will see that&nbsp;
+the OS will reboot by itself in workstation&nbsp;&nbsp;
+
+00:13:36.160 --> 00:13:42.800
+player to indicate that the installation is&nbsp;
+complete. The first booting may have taken few&nbsp;&nbsp;
+
+00:13:43.520 --> 00:13:53.200
+moments more but we are now ready with our virtual&nbsp;
+machine running Ubuntu 20.04 on top of windows OS&nbsp;&nbsp;
+
+00:13:53.840 --> 00:13:57.120
+thanks to the VMware workstation player. 
+So, let us now log in&nbsp;&nbsp;
+
+00:13:59.360 --> 00:14:05.600
+we log in with the credentials that we gave at the&nbsp;
+time of starting the new virtual machine and we&nbsp;&nbsp;
+
+00:14:05.600 --> 00:14:14.560
+skipped these things the initial welcome etcetera.&nbsp;
+And let us search for the terminal app and right&nbsp;&nbsp;
+
+00:14:14.560 --> 00:14:22.240
+click on that and add it to the favorites and that&nbsp;
+is there here. So, we start the terminal app. So,&nbsp;&nbsp;
+
+00:14:22.240 --> 00:14:30.480
+we have now the virtual machine up and running and&nbsp;
+we can now practice our command line environment&nbsp;&nbsp;
+
+00:14:30.480 --> 00:14:38.640
+right inside the virtual machine of Ubuntu&nbsp;
+20.04 running on top of windows 10 host OS. 
+&nbsp;
+
+00:14:38.640 --> 00:14:43.440
+So, when we are done with our work of course we&nbsp;
+can move the content to some other location for&nbsp;&nbsp;
+
+00:14:43.440 --> 00:14:51.440
+safety but otherwise the machine is now ready to&nbsp;
+serve its purpose for us. So, when you are done&nbsp;&nbsp;
+
+00:14:51.440 --> 00:14:59.280
+with our work we can shut it down one more way of&nbsp;
+getting the Linux command line environment up and&nbsp;&nbsp;
+
+00:14:59.280 --> 00:15:04.880
+running on top of windows operating system is to&nbsp;
+install the so, called windows subsystem for Linux&nbsp;&nbsp;
+
+00:15:04.880 --> 00:15:09.760
+it is actually Ubuntu open system itself. 
+So, we have searched for windows subscriber Linux&nbsp;&nbsp;
+
+00:15:09.760 --> 00:15:16.320
+we pick up the link that is from the Microsoft dot&nbsp;
+com and go in and see that there is a description&nbsp;&nbsp;
+
+00:15:16.320 --> 00:15:22.720
+of what is available we will go ahead and install&nbsp;
+that by looking at the link. So, it is nothing but&nbsp;&nbsp;
+
+00:15:22.720 --> 00:15:27.920
+we need to install by using the administrator&nbsp;
+powershell. So, that let us open that&nbsp;&nbsp;
+
+00:15:31.840 --> 00:15:38.800
+okay. So, when I open for powershell we have&nbsp;
+those options available run as administrator. So,&nbsp;&nbsp;
+
+00:15:38.800 --> 00:15:42.800
+click on that and it is asking&nbsp;
+us to give some commands. 
+&nbsp;
+
+00:15:42.800 --> 00:15:51.120
+So, wsl minus minus install okay and&nbsp;
+that would then go on with the process&nbsp;&nbsp;
+
+00:15:51.120 --> 00:15:59.840
+of preparing the Ubuntu open system to run on&nbsp;
+top of windows natively supported by microsoft.&nbsp;&nbsp;
+
+00:16:00.640 --> 00:16:02.400
+So, this process takes couple of minutes.&nbsp;&nbsp;
+
+00:16:06.400 --> 00:16:13.040
+So, as you can notice it is the Ubuntu OS that&nbsp;
+is being installed as the windows subsystem for&nbsp;&nbsp;
+
+00:16:13.040 --> 00:16:19.920
+Linux. So, we have rebooted the machine&nbsp;
+and as you can see the Ubuntu subsystem&nbsp;&nbsp;
+
+00:16:19.920 --> 00:16:22.720
+installation is proceeding. 
+So, after few minutes&nbsp;&nbsp;
+
+00:16:23.760 --> 00:16:29.520
+the window subsystem for Linux installation&nbsp;
+will require you to enter the user&nbsp;&nbsp;
+
+00:16:30.320 --> 00:16:37.440
+with which you can operate that particular&nbsp;
+subsystem. So, I enter that now the same&nbsp;&nbsp;
+
+00:16:37.440 --> 00:16:42.320
+thing as I did for the other virtual&nbsp;
+machines. These credentials should be&nbsp;&nbsp;
+
+00:16:42.320 --> 00:16:51.440
+kept safe because that would be the root user who&nbsp;
+can install the utilities on this subsystem and&nbsp;&nbsp;
+
+00:16:51.440 --> 00:16:59.520
+now the subsystem is up and running for us and we&nbsp;
+can just check it is running the kernel 5.10.
+&nbsp;
+
+00:17:01.680 --> 00:17:07.840
+And we can explore the command line environment&nbsp;
+quite comfortably using the windows up system&nbsp;&nbsp;
+
+00:17:07.840 --> 00:17:13.440
+for Linux and I hope you will be able to get it&nbsp;
+up and running on your windows 10 or windows 11&nbsp;&nbsp;
+
+00:17:13.440 --> 00:17:18.240
+quite easily. Let us see how to get the&nbsp;
+windows up system for Linux up and running.&nbsp;&nbsp;
+
+00:17:20.880 --> 00:17:27.920
+So, wsl is here. So, you open that and you&nbsp;
+would see that it is actually opening a terminal&nbsp;&nbsp;
+
+00:17:27.920 --> 00:17:45.840
+where you have the command line environment&nbsp;
+up and running. So, it is available now here&nbsp;&nbsp;
+
+00:17:46.560 --> 00:17:53.520
+you can see that we can boot a virtual machine on&nbsp;
+workstation player while the windows subsystem is&nbsp;&nbsp;
+
+00:17:53.520 --> 00:17:59.840
+also up and running on the screen. 
+So, we now log into the virtual machine&nbsp;&nbsp;
+
+00:18:06.880 --> 00:18:12.080
+then we open the terminal. So, now you can&nbsp;
+see that there are two different command line&nbsp;&nbsp;
+
+00:18:12.080 --> 00:18:19.680
+environment that is running on top of the windows&nbsp;
+open system one is the virtual machine of Ubuntu&nbsp;&nbsp;
+
+00:18:20.240 --> 00:18:27.840
+running on the host operating system. Thanks to&nbsp;
+the workstation player and there is a terminal&nbsp;&nbsp;
+
+00:18:27.840 --> 00:18:33.280
+environment that is running here and there is&nbsp;
+the other environment which is this basically the&nbsp;&nbsp;
+
+00:18:35.760 --> 00:18:40.080
+the windows subsystem for Linux. 
+So, you can choose whichever you feel&nbsp;&nbsp;
+
+00:18:40.800 --> 00:18:47.520
+is sufficient for you to get going with the&nbsp;
+practice of command line environment that you&nbsp;&nbsp;
+
+00:18:47.520 --> 00:18:52.960
+are going to do as part of this course. You can&nbsp;
+explore the command line environment on the cloud&nbsp;&nbsp;
+
+00:18:52.960 --> 00:19:01.200
+as well as on your mobile phone. On the cloud&nbsp;
+you have the options like the replit dot com or&nbsp;&nbsp;
+
+00:19:01.200 --> 00:19:07.680
+cocalc dot com which we will see shortly. And on&nbsp;
+your phone you have the terabox app from fredrik&nbsp;&nbsp;
+
+00:19:07.680 --> 00:19:12.480
+fornwall which will help you see a tiny command&nbsp;
+line environment right on your mobile phone.
+&nbsp;
+
+00:19:13.280 --> 00:19:19.040
+Let us explore those options. Now if you are&nbsp;
+looking for a cloud-based environment to try&nbsp;&nbsp;
+
+00:19:19.040 --> 00:19:24.800
+out the command line exercises as part of&nbsp;
+this course I would recommend you to have a&nbsp;&nbsp;
+
+00:19:24.800 --> 00:19:32.480
+look at replit dot com website. So, I am opening&nbsp;
+that here. So, if you do not have a an account on&nbsp;&nbsp;
+
+00:19:32.480 --> 00:19:38.000
+Google or Facebook or Github you may want to sign&nbsp;
+up and create your own login there or you could&nbsp;&nbsp;
+
+00:19:38.000 --> 00:19:45.840
+just log in directly using your Google account.
+And once you log in you would see a dashboard&nbsp;&nbsp;
+
+00:19:45.840 --> 00:19:52.560
+where you could actually create some projects. So,&nbsp;
+here we have a project that we could create and&nbsp;&nbsp;
+
+00:19:54.240 --> 00:19:58.080
+we need to give a name for the project and&nbsp;
+also what type of a project that is. So,&nbsp;&nbsp;
+
+00:19:58.080 --> 00:20:10.160
+we create that as a bash project and the&nbsp;
+name I would just choose it as Bsc demo okay.&nbsp;&nbsp;
+
+00:20:12.320 --> 00:20:19.840
+And once the project has been launched&nbsp;
+you could expand the terminal window here&nbsp;&nbsp;
+
+00:20:21.120 --> 00:20:25.120
+and click on the tab button for the shell.
+And then you have the shell&nbsp;&nbsp;
+
+00:20:25.120 --> 00:20:29.680
+readily available for you in the cloud&nbsp;
+environment and what is it providing you&nbsp;&nbsp;
+
+00:20:31.600 --> 00:20:39.760
+You could see that a kernel 5.11 is there&nbsp;
+available for you readily and the home directory&nbsp;&nbsp;
+
+00:20:39.760 --> 00:20:46.000
+is slash home slash runner that is where as&nbsp;
+a cloud user your stuff is all kept and the&nbsp;&nbsp;
+
+00:20:46.000 --> 00:20:51.200
+project that we have created just now Bsc demo&nbsp;
+is created there. So, that any script that you&nbsp;&nbsp;
+
+00:20:51.200 --> 00:20:57.760
+have made will be in that particular folder which&nbsp;
+is there in the profile so you could actually so&nbsp;&nbsp;
+
+00:20:57.760 --> 00:21:01.840
+that you could actually look at it again once&nbsp;
+you want to make some changes later on.
+&nbsp;
+
+00:21:04.080 --> 00:21:07.920
+You could actually revisit your&nbsp;
+scripts time to time to edit them&nbsp;&nbsp;
+
+00:21:07.920 --> 00:21:15.840
+and make them work as you wanted for any specific&nbsp;
+task for an assignment to practice etcetera&nbsp;&nbsp;
+
+00:21:16.720 --> 00:21:19.840
+and you could see that there are a lot&nbsp;
+of mount points that have been created&nbsp;&nbsp;
+
+00:21:20.400 --> 00:21:23.920
+here we can look at the meaning&nbsp;
+of these as we go along.&nbsp;&nbsp;
+
+00:21:26.240 --> 00:21:31.840
+So, how do we come out you could&nbsp;
+just click here and then log out.&nbsp;&nbsp;
+
+00:21:35.680 --> 00:21:41.360
+So, if you are interested in using the command&nbsp;
+line environment or learning the batch scripting&nbsp;&nbsp;
+
+00:21:41.360 --> 00:21:49.520
+using a public cloud environment on the browser&nbsp;
+then cocalc dot com is one such website.
+&nbsp;
+
+00:21:51.120 --> 00:21:54.960
+You could sign in using either your&nbsp;
+Facebook account Github account Google&nbsp;&nbsp;
+
+00:21:54.960 --> 00:22:00.080
+account or Twitter account or you could&nbsp;
+also sign up to create a login for yourself&nbsp;&nbsp;
+
+00:22:00.080 --> 00:22:07.280
+I am getting in using my Google account.&nbsp;
+Once you get in there is a dashboard where&nbsp;&nbsp;
+
+00:22:07.280 --> 00:22:11.760
+you could create a new project unless&nbsp;
+you have already done that in a previous&nbsp;&nbsp;
+
+00:22:11.760 --> 00:22:16.320
+launch. So, I now create a new project you&nbsp;
+want you must give a name for that. 
+&nbsp;
+
+00:22:18.960 --> 00:22:22.160
+So, I call it as command line&nbsp;
+practice and create the project&nbsp;&nbsp;
+
+00:22:23.920 --> 00:22:28.160
+now once the project is created if there are some&nbsp;
+files that are available in the project it would&nbsp;&nbsp;
+
+00:22:28.160 --> 00:22:32.160
+be showing up here right now there is nothing&nbsp;
+there. But I need to first start the project&nbsp;&nbsp;
+
+00:22:34.640 --> 00:22:37.360
+okay now the project is&nbsp;
+running. So, I could now create&nbsp;&nbsp;
+
+00:22:38.160 --> 00:22:43.840
+notebooks or environments for me to work.&nbsp;
+So, I create the terminal environment&nbsp;&nbsp;
+
+00:22:45.520 --> 00:22:53.840
+and the time stamp is given as a unique identifier&nbsp;
+but I can just call it as cmd practice create.
+&nbsp;
+
+00:22:54.880 --> 00:22:59.680
+And we now have a shell that is readily for us&nbsp;
+to practice the command and environment let me&nbsp;&nbsp;
+
+00:22:59.680 --> 00:23:06.960
+increase the font size a little bit so that the&nbsp;
+output is shown here. So, you could see that the&nbsp;&nbsp;
+
+00:23:07.520 --> 00:23:11.200
+cloud user is placed with the home&nbsp;
+directory as slash home slash user.&nbsp;&nbsp;
+
+00:23:13.360 --> 00:23:17.520
+And the cloud environment is&nbsp;
+providing us a kernel 5.11 version&nbsp;&nbsp;
+
+00:23:21.200 --> 00:23:26.480
+and there are a number of mount points&nbsp;
+that have been uh mounted here.
+&nbsp;
+
+00:23:27.520 --> 00:23:32.240
+And we will look at that at some point later&nbsp;
+and you could see that if you create files&nbsp;&nbsp;
+
+00:23:32.240 --> 00:23:35.680
+they are all there in this folder. So, you&nbsp;
+could actually save them and then come back&nbsp;&nbsp;
+
+00:23:35.680 --> 00:23:41.840
+to visit them to edit scripts that you may want&nbsp;
+to do. And once you are done you can close the&nbsp;&nbsp;
+
+00:23:42.400 --> 00:23:52.880
+environment and also close this particular project&nbsp;
+click on the running status and stop the project.&nbsp;&nbsp;
+
+00:23:56.160 --> 00:24:02.160
+And let us say you do not want to keep&nbsp;
+this you could also delete the project&nbsp;&nbsp;
+
+00:24:02.160 --> 00:24:05.440
+and if you want it to run faster perhaps&nbsp;
+you may have to buy a license.
+&nbsp;
+
+00:24:09.280 --> 00:24:13.200
+Now we are back to the dashboard and&nbsp;
+here you can see that there is one&nbsp;&nbsp;
+
+00:24:13.200 --> 00:24:16.320
+project that is already there. So,&nbsp;
+next time around we can actually&nbsp;&nbsp;
+
+00:24:16.320 --> 00:24:21.840
+enter this project to start working on what we&nbsp;
+have already created here. So, here I click on&nbsp;&nbsp;
+
+00:24:21.840 --> 00:24:27.360
+the common practice again and open the shell&nbsp;
+once more. So, I open the shell once more to see&nbsp;&nbsp;
+
+00:24:27.360 --> 00:24:32.000
+where we are and you could see that&nbsp;
+if you have created files they will be&nbsp;&nbsp;
+
+00:24:32.000 --> 00:24:45.840
+there and you can continue to work.
+And we now close it stop the project&nbsp;&nbsp;
+
+00:24:51.520 --> 00:24:52.160
+and log out.&nbsp;&nbsp;
+
+00:24:59.440 --> 00:25:03.280
+If you are interested you could also&nbsp;
+try out the command line environment&nbsp;&nbsp;
+
+00:25:03.280 --> 00:25:10.800
+right on your mobile phone. Open the&nbsp;
+google play store and search for termix&nbsp;&nbsp;
+
+00:25:10.800 --> 00:25:18.080
+app you would notice it is from frederick&nbsp;
+phone wall go ahead and install that app.&nbsp;&nbsp;
+
+00:25:22.880 --> 00:25:27.840
+The installation will take just a couple of&nbsp;
+seconds if your network speed is good.
+&nbsp;
+
+00:25:32.160 --> 00:25:37.040
+Open the app and using the keyboard&nbsp;
+on the screen you have a tiny&nbsp;&nbsp;
+
+00:25:37.600 --> 00:25:41.360
+terminal that is available for you to try&nbsp;
+out the command line environment. You will&nbsp;&nbsp;
+
+00:25:41.360 --> 00:25:47.760
+see that the home directory is somewhere under&nbsp;
+the turmoix environment and the kernel 4 point&nbsp;&nbsp;
+
+00:25:53.440 --> 00:25:55.840
+the terminal is using kernel 4.14&nbsp;&nbsp;
+
+00:25:59.840 --> 00:26:04.640
+you would also see that there are a lot of mount&nbsp;
+points. You could use the storage of the phone.
+&nbsp;
+
+00:26:06.560 --> 00:26:10.320
+And you also have confirmation that the&nbsp;
+environment you are using is actually the bash.&nbsp;&nbsp;
+
+00:26:12.160 --> 00:26:19.760
+So, go ahead and use command line&nbsp;
+environment right on your phone.
+

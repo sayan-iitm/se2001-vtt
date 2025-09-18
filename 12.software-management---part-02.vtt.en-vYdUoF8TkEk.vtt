@@ -1,0 +1,1555 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:14.139 --> 00:00:18.820
+Now, who can install the packages in a Linux
+operating system?
+
+00:00:18.820 --> 00:00:21.590
+The answer is the administrators.
+
+00:00:21.590 --> 00:00:27.509
+And in the case of Ubuntu, it would be called
+a sudoers, that is, they could run a command
+
+00:00:27.509 --> 00:00:29.859
+as an administrator or a superuser.
+
+00:00:29.859 --> 00:00:37.690
+So, su for super user and do to execute, so
+sudo a command can be executed by those who
+
+00:00:37.690 --> 00:00:40.320
+are listed in the file called etc sudoers.
+
+00:00:40.320 --> 00:00:48.260
+Now, even to actually view the file, it is
+etc sudoers, you must be listed in that particular
+
+00:00:48.260 --> 00:00:49.260
+file.
+
+00:00:49.260 --> 00:00:56.070
+So, let us just check that out, and then,
+we would go on to try how to install packages
+
+00:00:56.070 --> 00:00:58.620
+by actually running a demo.
+
+00:00:58.620 --> 00:01:05.390
+To install the software updates or new software
+into the system, you will need to be a super
+
+00:01:05.390 --> 00:01:07.450
+user or an administrator.
+
+00:01:07.450 --> 00:01:13.280
+The superuser privileges are listed in a file
+called slash etc slash sudoers, let us explored
+
+00:01:13.280 --> 00:01:14.490
+that using an example.
+
+00:01:14.490 --> 00:01:18.180
+Here I have a terminal in which I am logged
+in as a guest.
+
+00:01:18.180 --> 00:01:28.820
+So, I check who I am, so I am logged in as
+a guest and I can view the contents of the
+
+00:01:28.820 --> 00:01:35.990
+etc sudoers file only if I am actually present
+with those privileges in that particular file,
+
+00:01:35.990 --> 00:01:44.689
+and we can check whether we have those privileges
+or not.
+
+00:01:44.689 --> 00:01:48.920
+And when I run this, it would ask for the
+password and let us say I make a mistake in
+
+00:01:48.920 --> 00:01:56.150
+giving the password so there is a usual error
+that is for the password failure.
+
+00:01:56.150 --> 00:02:01.500
+But if you give it correctly, then it would
+go on to check whether the user name is present
+
+00:02:01.500 --> 00:02:03.730
+in the sudoers list or not.
+
+00:02:03.730 --> 00:02:08.470
+And if the privileges are not sufficient,
+then there will be a message that you cannot
+
+00:02:08.470 --> 00:02:10.210
+actually proceed further.
+
+00:02:10.210 --> 00:02:13.100
+And there is also a message that the incident
+will be reported.
+
+00:02:13.100 --> 00:02:14.320
+So, what does it mean?
+
+00:02:14.320 --> 00:02:20.680
+It means that the administrator can find out
+that a regular user is trying to gain superuser
+
+00:02:20.680 --> 00:02:25.620
+privileges and has failed on a service that
+belongs to someone else this could be a problem,
+
+00:02:25.620 --> 00:02:28.040
+but if it is on your own machine, there is
+nothing to worry.
+
+00:02:28.040 --> 00:02:33.150
+Let us check, how does one find out whether
+such a failure has happened.
+
+00:02:33.150 --> 00:02:40.970
+So, I will now come out of this particular
+terminal and I am now in the terminal where
+
+00:02:40.970 --> 00:02:47.560
+I am logged in as gphani, which is the regular
+user for this machine, and also present in
+
+00:02:47.560 --> 00:02:50.190
+the sudoers list, and I can verify that now.
+
+00:02:50.190 --> 00:02:55.800
+I am logged into this terminal as gphani which
+will be the first user for this particular
+
+00:02:55.800 --> 00:02:58.660
+machine, and therefore also present in the
+sudoers list.
+
+00:02:58.660 --> 00:03:06.250
+So, let me just check that out by looking
+at the file contents of the sudoers.
+
+00:03:06.250 --> 00:03:12.110
+And it is asking me for the password, so I
+give that properly, and then, if I am having
+
+00:03:12.110 --> 00:03:16.569
+that privilege, then it would be showing the
+contents of the sudoers file, which is available
+
+00:03:16.569 --> 00:03:18.239
+in front of you now.
+
+00:03:18.239 --> 00:03:23.519
+And this file shows that apart from the root
+user, and myself, there is also one more user
+
+00:03:23.519 --> 00:03:25.960
+who has the superuser privileges.
+
+00:03:25.960 --> 00:03:31.700
+Every other user will be denied permission
+to install software on this particular mission.
+
+00:03:31.700 --> 00:03:39.819
+Now, what did we mean when we said that the
+superuser can find out a failed attempt to
+
+00:03:39.819 --> 00:03:44.830
+have the superuser privileges by any other
+user, so that would be available in a log
+
+00:03:44.830 --> 00:03:46.100
+file.
+
+00:03:46.100 --> 00:03:52.909
+And we know that most of the logs are kept
+in slash var slash log and auth dot log is
+
+00:03:52.909 --> 00:03:59.720
+the file where these events are reported so
+we could look at the last 100 lines of this
+
+00:03:59.720 --> 00:04:01.920
+particular file.
+
+00:04:01.920 --> 00:04:07.849
+And again, this auth log is also only for
+super users, so we go ahead and use the superuser
+
+00:04:07.849 --> 00:04:09.650
+privileges for that.
+
+00:04:09.650 --> 00:04:17.900
+And we now see that in the output, there is
+a entry here saying that there is a authentication
+
+00:04:17.900 --> 00:04:24.130
+failure for the guest user and the message
+is saying that user is not in the sudoers
+
+00:04:24.130 --> 00:04:25.130
+list.
+
+00:04:25.130 --> 00:04:29.930
+And later on, I was successful in becoming
+a super user from the regular account, so
+
+00:04:29.930 --> 00:04:35.360
+you could also see that here, where it opens
+the superuser permissions for a particular
+
+00:04:35.360 --> 00:04:37.570
+user UID zero.
+
+00:04:37.570 --> 00:04:43.370
+So here you can see that the successful usage
+of superuser privileges by the user gphani
+
+00:04:43.370 --> 00:04:49.219
+is documented, so the log book also tells
+you who managed to gain the administrator
+
+00:04:49.219 --> 00:04:54.390
+privileges and who did not, and so one should
+look at these logs time to time.
+
+00:04:54.390 --> 00:05:02.940
+So, when you are installing a package, the
+system knows from which website these packages
+
+00:05:02.940 --> 00:05:04.960
+have to be downloaded for installation.
+
+00:05:04.960 --> 00:05:07.430
+So, where is this information stored?
+
+00:05:07.430 --> 00:05:12.440
+So, it is stored in a folder called a slash
+etc slash apt, so we will go there and explore
+
+00:05:12.440 --> 00:05:14.540
+that folder shortly.
+
+00:05:14.540 --> 00:05:16.950
+And there are two files that we have to look
+up.
+
+00:05:16.950 --> 00:05:21.110
+The one is a folder called sources dot list
+and another is a directory called sources
+
+00:05:21.110 --> 00:05:27.760
+dot list dot d, in which there are different
+entries, which come because you have added
+
+00:05:27.760 --> 00:05:33.849
+those sources for the Debian packages as a
+part of a third-party software.
+
+00:05:33.849 --> 00:05:39.950
+For example, Google Chrome, or Microsoft Teams
+or Zoom etc.
+
+00:05:39.950 --> 00:05:45.010
+So, let us go to that folder slash etc slash
+apt.
+
+00:05:45.010 --> 00:05:49.040
+And you can see from here there are these
+files and sources dot list is a file that
+
+00:05:49.040 --> 00:05:52.970
+we wanted to look at, so cat sources dot list.
+
+00:05:52.970 --> 00:05:57.330
+And you can see here that most of these lines
+are actually comments because they start with
+
+00:05:57.330 --> 00:06:03.719
+the hash, but the ones with the do not have
+a comment character are the ones which are
+
+00:06:03.719 --> 00:06:04.719
+active.
+
+00:06:04.719 --> 00:06:10.140
+And you can see that here, the Debian packages
+are being fetched from a website called in
+
+00:06:10.140 --> 00:06:12.540
+dot archive dot ubuntu dot com.
+
+00:06:12.540 --> 00:06:19.070
+The in this for India, so you would have this
+particular entry made during the installation
+
+00:06:19.070 --> 00:06:23.620
+of the Ubuntu operating system and it would
+be different for different countries so that
+
+00:06:23.620 --> 00:06:28.440
+Ubuntu would have a mirror that is closest
+to your country to fetch the packages.
+
+00:06:28.440 --> 00:06:33.970
+And here in this particular string, there
+is also the name of the version that you are
+
+00:06:33.970 --> 00:06:39.919
+going to use, and also certain other fields
+that would tell you which type of packages
+
+00:06:39.919 --> 00:06:43.349
+are being held by that particular repository.
+
+00:06:43.349 --> 00:06:45.550
+And there are multiple repositories.
+
+00:06:45.550 --> 00:06:50.150
+So, you would have the main packages that
+are there in one repository, and there is
+
+00:06:50.150 --> 00:06:53.419
+another repository in which updates are being
+kept.
+
+00:06:53.419 --> 00:06:59.080
+And then sometimes there are also repositories
+for source codes, so you could see here that
+
+00:06:59.080 --> 00:07:05.479
+there is a repository for the source code,
+which is at this moment blocked out because
+
+00:07:05.479 --> 00:07:09.700
+the starting with a hash character, which
+means, it has been commented out.
+
+00:07:09.700 --> 00:07:17.380
+So, this file is what contains the information
+about which location the Debian packages are
+
+00:07:17.380 --> 00:07:23.200
+being fetched for installation on the system,
+when you run commands to either install or
+
+00:07:23.200 --> 00:07:27.770
+update or upgrade the packages on your operating
+system.
+
+00:07:27.770 --> 00:07:30.709
+Now, what about the folder sources dot list
+dot d.
+
+00:07:30.709 --> 00:07:37.770
+So, sources dot list dot d, if you go to that
+folder, then you can see that there are certain
+
+00:07:37.770 --> 00:07:39.029
+other entries.
+
+00:07:39.029 --> 00:07:44.250
+So, we would go and look at what is in the
+Google Chrome.
+
+00:07:44.250 --> 00:07:48.530
+And you will see that there is a repository
+that has been added, which is coming from
+
+00:07:48.530 --> 00:07:49.539
+the Google website.
+
+00:07:49.539 --> 00:07:56.130
+So, dl dot google dot com is a website from
+which the Debian package meant for the Google
+
+00:07:56.130 --> 00:07:57.810
+Chrome application are being fetched.
+
+00:07:57.810 --> 00:08:03.810
+So, the advantage of this is that whenever
+Google upgrades the version of the Google
+
+00:08:03.810 --> 00:08:10.020
+Chrome, then the package management system
+would automatically know the upgrade is available
+
+00:08:10.020 --> 00:08:15.899
+and would fetch the latest version and install
+it on your operating system when you do the
+
+00:08:15.899 --> 00:08:17.340
+upgrade of the packages.
+
+00:08:17.340 --> 00:08:23.840
+So, that also means that you do not have to
+worry, when is the next version available,
+
+00:08:23.840 --> 00:08:33.111
+it would be pushed to you through the package
+management system as part of the apt update
+
+00:08:33.111 --> 00:08:37.930
+command that you would run, to fetch the updates
+of all the packages that are installed on
+
+00:08:37.930 --> 00:08:43.610
+your system from the repositories that are
+configured in these files.
+
+00:08:43.610 --> 00:08:46.580
+Like source dot list, or google chrome dot
+list, etc.
+
+00:08:46.580 --> 00:08:50.180
+Now, let us see what do we mean by fetching
+the updates.
+
+00:08:50.180 --> 00:08:56.580
+So, this is a command that you have to run
+as a superuser, so sudo apt-get update.
+
+00:08:56.580 --> 00:09:02.660
+What does it do when you run this command
+is that it would actually contact the package
+
+00:09:02.660 --> 00:09:09.060
+management system apt-get would contact the
+repositories for any updates that are available
+
+00:09:09.060 --> 00:09:16.720
+for any of the packages, and then fetches
+those updates and keeps them in the cache.
+
+00:09:16.720 --> 00:09:21.460
+And then when you want to upgrade the packages,
+these updates are then applied depending upon
+
+00:09:21.460 --> 00:09:25.500
+which packages are actually installed on your
+system.
+
+00:09:25.500 --> 00:09:33.560
+So, when you run sudo within a few minutes
+of authenticating, then it will not ask for
+
+00:09:33.560 --> 00:09:34.680
+a password.
+
+00:09:34.680 --> 00:09:38.650
+But if quite some time has been elapsed, then
+it would ask for the password again.
+
+00:09:38.650 --> 00:09:46.310
+As you can see that the updates are being
+fetched from various repositories.
+
+00:09:46.310 --> 00:09:51.880
+And depending upon the network speed or the
+network connectivity, it could take some time
+
+00:09:51.880 --> 00:09:58.310
+and usually you would wait for it to finish
+and return control back to you on the prompt.
+
+00:09:58.310 --> 00:10:09.400
+So, once you are done, it will also tell you
+how much data has been fetched and at what
+
+00:10:09.400 --> 00:10:10.900
+speed etc.
+
+00:10:10.900 --> 00:10:13.010
+And now the control is back to the prompt.
+
+00:10:13.010 --> 00:10:18.310
+So, what you could do now is to apply all
+the upgrades that are available for the packages
+
+00:10:18.310 --> 00:10:19.570
+that have been installed till now.
+
+00:10:19.570 --> 00:10:23.220
+So, let us do that, it is a good habit to
+do that every now and then.
+
+00:10:23.220 --> 00:10:26.170
+So, what I would do is that I will actually
+do it every day.
+
+00:10:26.170 --> 00:10:31.470
+So, I try to keep the operating system up
+to date with respect to all the versions that
+
+00:10:31.470 --> 00:10:36.020
+are given by the Ubuntu so that if there are
+any security upgrades, then they will be available
+
+00:10:36.020 --> 00:10:37.380
+immediately.
+
+00:10:37.380 --> 00:10:43.110
+So, every now and then it is a good idea to
+run this command sudo-apt get upgrade.
+
+00:10:43.110 --> 00:10:50.730
+So, first you run update to get the updates
+and upgrade to upgrade the packages.
+
+00:10:50.730 --> 00:10:58.120
+So, when you run this command, it would actually
+list how many updates are going to be affected
+
+00:10:58.120 --> 00:11:00.390
+and how much of data is going to be downloaded.
+
+00:11:00.390 --> 00:11:06.130
+So, you could actually see that right now
+the update is going to fetch 272 megabytes
+
+00:11:06.130 --> 00:11:07.130
+of data.
+
+00:11:07.130 --> 00:11:12.470
+So sometimes if you are traveling and you
+do not have a very good network connectivity,
+
+00:11:12.470 --> 00:11:15.190
+you may want to wait before doing the upgrade.
+
+00:11:15.190 --> 00:11:17.960
+So, keep an eye on this particular data.
+
+00:11:17.960 --> 00:11:23.730
+And then if it is okay to download that patch
+of data then you can go ahead and accept so
+
+00:11:23.730 --> 00:11:29.560
+the capital Y is for the accept which is default,
+so you can go ahead and just press Enter to
+
+00:11:29.560 --> 00:11:33.500
+accept the fetching all the updates.
+
+00:11:33.500 --> 00:11:37.360
+And depending upon the amount of data the
+patching of updates would take some time.
+
+00:11:37.360 --> 00:11:41.160
+So, wait patiently and let all the updates
+be done so that your operating system is up
+
+00:11:41.160 --> 00:11:49.190
+to date.
+
+00:11:49.190 --> 00:12:11.690
+Every now and then you will also have the
+firmware upgrades from the Linux which are
+
+00:12:11.690 --> 00:12:19.480
+very critical to ensure that the hardware
+compatibility.
+
+00:12:19.480 --> 00:12:30.610
+When it says processing triggers, it means
+that the downloading and installing is complete
+
+00:12:30.610 --> 00:12:36.930
+and it is just finishing up certain actions
+that are required upon installation of those
+
+00:12:36.930 --> 00:12:42.020
+particular upgrades.
+
+00:12:42.020 --> 00:12:51.230
+So, the control is back to the command prompt,
+which means that the upgrades are done.
+
+00:12:51.230 --> 00:12:56.180
+So, you could actually now check whether there
+are any further updates and upgrades, so you
+
+00:12:56.180 --> 00:12:58.760
+could run the commands once more.
+
+00:12:58.760 --> 00:13:05.340
+Usually, if there are no more updates pending,
+then it would just be done quite quickly.
+
+00:13:05.340 --> 00:13:10.520
+Now, it is also telling you to do some more
+action that is to auto remove which means
+
+00:13:10.520 --> 00:13:16.880
+that there are some packages that came as
+a requirement for some other packages and
+
+00:13:16.880 --> 00:13:21.420
+they are now no longer required because newer
+versions of those have been already installed,
+
+00:13:21.420 --> 00:13:26.460
+so you can actually save some space by removing
+those packages.
+
+00:13:26.460 --> 00:13:34.120
+And you are not telling which package to be
+removed, so you are leaving it to the package
+
+00:13:34.120 --> 00:13:42.490
+management system which is a good idea, and
+it is saving me 494 megabytes of data on my
+
+00:13:42.490 --> 00:13:50.160
+disk because I am removing the unnecessary
+packages which are of an older version.
+
+00:13:50.160 --> 00:13:52.730
+So, the control is back to the command prompt.
+
+00:13:52.730 --> 00:13:58.560
+So, the auto remove command has been completed.
+
+00:13:58.560 --> 00:14:03.320
+Now, you can actually look at the other operations
+also.
+
+00:14:03.320 --> 00:14:09.110
+So, to remove a package and to add a package
+and we would identify the fortunes package
+
+00:14:09.110 --> 00:14:15.040
+as one which we could play with because it
+is an optional utility which we can remove
+
+00:14:15.040 --> 00:14:23.740
+as our as per our wish, so.
+
+00:14:23.740 --> 00:14:31.940
+So, I am now trying to remove a package, and
+it is asking me to confirm so we will do that
+
+00:14:31.940 --> 00:14:35.370
+and it goes on to remove that particular package.
+
+00:14:35.370 --> 00:14:39.820
+And once it removes the package, I should
+not have access to the command fortune, so
+
+00:14:39.820 --> 00:14:45.050
+let me remove the package called fortune mod
+which contains the fortune cookies that are
+
+00:14:45.050 --> 00:14:49.310
+being displayed on the screen where I ran
+the command the fortune.
+
+00:14:49.310 --> 00:14:55.740
+So, I accept it.
+
+00:14:55.740 --> 00:15:00.240
+And now I will try to run the command fortune,
+and it says there is no such command which
+
+00:15:00.240 --> 00:15:03.520
+means that the utility has been removed from
+the system.
+
+00:15:03.520 --> 00:15:07.990
+Now, I want to bring it back, all that I have
+to do is to install that package.
+
+00:15:07.990 --> 00:15:19.210
+So, I will do that right away, and there are
+no additional packages required and therefore
+
+00:15:19.210 --> 00:15:25.160
+there is no confirmation being asked, and
+the utility has been installed.
+
+00:15:25.160 --> 00:15:29.820
+And you could see that if I run the command,
+then it works and there is some fortune cookie
+
+00:15:29.820 --> 00:15:32.340
+that is being displayed on the screen.
+
+00:15:32.340 --> 00:15:36.460
+So, you could also do the reinstallation.
+
+00:15:36.460 --> 00:15:42.000
+So, you could also say, apt-get reinstall
+package, so, it would go ahead and then refresh
+
+00:15:42.000 --> 00:15:43.270
+the version.
+
+00:15:43.270 --> 00:15:49.680
+And sometimes we do it when there is any problem
+with some of the utilities by mistake, we
+
+00:15:49.680 --> 00:15:54.730
+removed some configuration file of a particular
+package and we want to just fetch the package
+
+00:15:54.730 --> 00:16:00.050
+once more, and we could also do that using
+the apt-get command.
+
+00:16:00.050 --> 00:16:07.180
+So, here are the utilities that we have tried
+till now, apt-get update to synchronize the
+
+00:16:07.180 --> 00:16:13.150
+package overview files between the system
+and the repository.
+
+00:16:13.150 --> 00:16:18.210
+And then to upgrade all the installed packages
+to their latest versions are taking into account
+
+00:16:18.210 --> 00:16:22.400
+the conflicts etc. apt-get upgrade will do
+the job.
+
+00:16:22.400 --> 00:16:27.589
+And then you can install a package by simply
+typing apt-get install package name.
+
+00:16:27.589 --> 00:16:31.770
+And then if you want to reinstall it, you
+could also do that by using the command reinstall
+
+00:16:31.770 --> 00:16:33.450
+package.
+
+00:16:33.450 --> 00:16:39.260
+And all these commands will require sudo,
+as a prefix, because these operations will
+
+00:16:39.260 --> 00:16:44.260
+modify the operating system and therefore
+they are allowed only for the super users
+
+00:16:44.260 --> 00:16:45.260
+or administrators.
+
+00:16:45.260 --> 00:16:48.830
+So sudo permission is required for you to
+run these commands.
+
+00:16:48.830 --> 00:16:55.620
+Now, we have also done one more action, namely
+to remove packages that were automatically
+
+00:16:55.620 --> 00:17:01.089
+installed to satisfy a dependency, and not
+needed now because the packages have been
+
+00:17:01.089 --> 00:17:06.929
+upgraded beyond those versions, so you could
+save some disk space by removing those files
+
+00:17:06.929 --> 00:17:10.230
+and apt-get auto remove would do that for
+you.
+
+00:17:10.230 --> 00:17:16.159
+Now, you could also do one more action to
+clean up the disk by running the command apt-get
+
+00:17:16.159 --> 00:17:17.159
+clean.
+
+00:17:17.159 --> 00:17:23.490
+Normally, we do not do that because to revert
+back a particular version it may be okay to
+
+00:17:23.490 --> 00:17:26.439
+keep the retrieved package files.
+
+00:17:26.439 --> 00:17:31.390
+Sometimes you want to remove the package files
+and the configuration files, as well as the
+
+00:17:31.390 --> 00:17:37.940
+original Debian package file to install that
+package from your system, because you are
+
+00:17:37.940 --> 00:17:43.460
+running short of the storage of the hard disk
+and you could do that by using the purge command.
+
+00:17:43.460 --> 00:17:48.600
+We normally do not do that because we would
+like to save bandwidth by keeping the package
+
+00:17:48.600 --> 00:17:52.940
+files in the system so that we could install
+them readily when we need.
+
+00:17:52.940 --> 00:18:00.890
+Now, let us explore the dpkg package management
+system, which is at a lower level allows for
+
+00:18:00.890 --> 00:18:06.950
+installation of a package directly when you
+download a deb file from the Internet.
+
+00:18:06.950 --> 00:18:10.650
+It is not recommended unless you know what
+you are doing.
+
+00:18:10.650 --> 00:18:15.390
+Now, there is a directory that you would like
+to explore to see some information about the
+
+00:18:15.390 --> 00:18:18.260
+packages, so we would go there and have a
+look.
+
+00:18:18.260 --> 00:18:26.059
+So, var lib dpkg is a folder where text information
+is available about various packages that are
+
+00:18:26.059 --> 00:18:29.140
+there on your system, so let us go there and
+explore what is out there.
+
+00:18:29.140 --> 00:18:35.880
+So, we are here in var lib dpkg, and you see
+that there are some files, so let us first
+
+00:18:35.880 --> 00:18:38.200
+look arch file.
+
+00:18:38.200 --> 00:18:42.920
+So, it tells what are the architectures for
+which the packages have been installed on
+
+00:18:42.920 --> 00:18:43.920
+this system.
+
+00:18:43.920 --> 00:18:52.790
+So, you could see that though my computer
+is a 64-bit machine, I also have some 32-bit
+
+00:18:52.790 --> 00:18:54.110
+executables installed.
+
+00:18:54.110 --> 00:18:58.860
+This is for some library files that may be
+required for compatibility reasons.
+
+00:18:58.860 --> 00:19:04.540
+And then there is a large file 181 kilobytes
+which is called the available, so we would
+
+00:19:04.540 --> 00:19:07.490
+look at that by the less command.
+
+00:19:07.490 --> 00:19:14.230
+And you can see that it actually has a list
+of the packages along with its full information
+
+00:19:14.230 --> 00:19:20.670
+one after the other and this is one place
+from where when you ask for information about
+
+00:19:20.670 --> 00:19:24.830
+a package, it will be taken out and shown
+to you on the screen.
+
+00:19:24.830 --> 00:19:30.020
+You also have a file called status which tells
+you whether a particular package has been
+
+00:19:30.020 --> 00:19:31.470
+installed or not.
+
+00:19:31.470 --> 00:19:36.370
+Obviously, this file will be much larger than
+available because the number of packages that
+
+00:19:36.370 --> 00:19:43.050
+you have installed will always be much less
+than what are possible from the open to repository.
+
+00:19:43.050 --> 00:19:51.210
+So, let us look at the status file and you
+will see that whether it is installed or not.
+
+00:19:51.210 --> 00:19:59.250
+So, you can see the status here tells you
+whether it has been installed or not.
+
+00:19:59.250 --> 00:20:06.160
+And there is also a directory called info,
+and there you have got a set of files for
+
+00:20:06.160 --> 00:20:10.880
+each of the packages that are installed and
+it would actually have also some information
+
+00:20:10.880 --> 00:20:15.690
+about the md5sum and such signatures that
+you may want to verify.
+
+00:20:15.690 --> 00:20:23.350
+So, let us explore files for a particular
+package let us say wget, so, ls wget star
+
+00:20:23.350 --> 00:20:25.330
+and you could see that there are three files.
+
+00:20:25.330 --> 00:20:31.470
+So, ls minus l, wget, so, you can then see
+what are those pieces of information that
+
+00:20:31.470 --> 00:20:32.470
+we have.
+
+00:20:32.470 --> 00:20:39.820
+So, more wget dot con files, and it will show
+you that there is one configuration file that
+
+00:20:39.820 --> 00:20:44.300
+comes along with the wget, which would be
+etc wget rc.
+
+00:20:44.300 --> 00:20:49.580
+And then wget dot list will tell you information
+of what all the files that would get copied
+
+00:20:49.580 --> 00:20:53.600
+onto the system when you install this package
+called wget.
+
+00:20:53.600 --> 00:21:02.020
+And wget dot m5sums will actually show you
+what all the md5sums of that of the files
+
+00:21:02.020 --> 00:21:06.559
+that have been installed on your system and
+you could actually now confirm whether some
+
+00:21:06.559 --> 00:21:12.600
+of them have been tampered by the system because
+of unauthorized access to your system.
+
+00:21:12.600 --> 00:21:13.730
+And let us do that now.
+
+00:21:13.730 --> 00:21:23.580
+So, user bin wget has a particular md5sum
+so we would write md5sum some user bin wget
+
+00:21:23.580 --> 00:21:27.450
+and you see that it matches with what is there
+here.
+
+00:21:27.450 --> 00:21:33.100
+And this is something that we could actually
+do to ensure that no executable or library
+
+00:21:33.100 --> 00:21:39.580
+in the system has been tampered compared to
+file originally sent by the Ubuntu as a vendor
+
+00:21:39.580 --> 00:21:42.520
+of that particular software package.
+
+00:21:42.520 --> 00:21:48.309
+So, here are some utilities that we could
+try by using the dpkg command where we could
+
+00:21:48.309 --> 00:21:52.760
+list all the packages, which match a particular
+pattern because we are looking for the name
+
+00:21:52.760 --> 00:21:53.760
+of the package.
+
+00:21:53.760 --> 00:21:59.090
+We do not know the name exactly, so we start
+with few characters and look for the names.
+
+00:21:59.090 --> 00:22:04.299
+Also, we can see what all the files that came
+with a particular package or we can also see
+
+00:22:04.299 --> 00:22:09.070
+the status of a particular package, and we
+can also search for a particular package from
+
+00:22:09.070 --> 00:22:10.910
+where a file has been installed.
+
+00:22:10.910 --> 00:22:14.490
+So, you know the name of the file, but you
+do not know the name of the package from where
+
+00:22:14.490 --> 00:22:20.620
+it came, so you could also look up that by
+using the minus capital S option of the dpkg
+
+00:22:20.620 --> 00:22:21.620
+command.
+
+00:22:21.620 --> 00:22:23.929
+So, let us look at these using a demo.
+
+00:22:23.929 --> 00:22:32.370
+So, dpkg with the minus option minus l let
+us say and nmap as a keyword would actually
+
+00:22:32.370 --> 00:22:36.920
+see that there are no packages that have been
+installed with that particular command.
+
+00:22:36.920 --> 00:22:40.540
+So, that means, that I have not installed
+that particular package yet.
+
+00:22:40.540 --> 00:22:51.370
+So, I will go ahead and install it.
+
+00:22:51.370 --> 00:23:03.790
+Now, that it is installed, I would go ahead
+and run it again, and now you see that there
+
+00:23:03.790 --> 00:23:08.850
+is some information that comes up which tells
+that this particular package has been installed,
+
+00:23:08.850 --> 00:23:15.460
+and it has some information about the architecture
+and the description etc.
+
+00:23:15.460 --> 00:23:18.780
+The version, the name, and the revision etc.
+
+00:23:18.780 --> 00:23:25.360
+So, all this information are available from
+the dpkg command with a minus l option.
+
+00:23:25.360 --> 00:23:35.780
+Now, what are the various files that are provided
+by this you can actually check.
+
+00:23:35.780 --> 00:23:41.350
+So, you see that the nmap when you install
+this package, these are all the various files
+
+00:23:41.350 --> 00:23:43.710
+that are being added to the system.
+
+00:23:43.710 --> 00:23:49.690
+So, you could see that user bin nmap is actually
+coming from this package, but also nping for
+
+00:23:49.690 --> 00:23:56.790
+example or the man file coming from the nmap
+also is here for example.
+
+00:23:56.790 --> 00:24:02.620
+So, when you install a package, the manpage
+is coming in and also certain other utilities
+
+00:24:02.620 --> 00:24:07.299
+bundled along with the particular main executable.
+
+00:24:07.299 --> 00:24:10.860
+And you would also see that the manpage is
+coming with the multiple languages also.
+
+00:24:10.860 --> 00:24:17.679
+Now, you can actually find out the status
+of a particular package by typing the minus
+
+00:24:17.679 --> 00:24:18.890
+s option.
+
+00:24:18.890 --> 00:24:25.140
+So, it now says that yes, it is installed,
+and what is the priority and etc.
+
+00:24:25.140 --> 00:24:31.570
+So, this is the same output which comes from
+apt-cache show command, and it is actually
+
+00:24:31.570 --> 00:24:35.299
+asking it to via the dpkg command on the backend.
+
+00:24:35.299 --> 00:24:40.720
+And it also gives you a very detailed information
+about that particular utility.
+
+00:24:40.720 --> 00:24:45.310
+And if you have asked that about any other
+package, you will also know whether it has
+
+00:24:45.310 --> 00:24:47.540
+been installed or not.
+
+00:24:47.540 --> 00:24:53.620
+Now, let us say there is a particular executable
+which you want to know which package has led
+
+00:24:53.620 --> 00:24:57.000
+to that particular executable being made available.
+
+00:24:57.000 --> 00:25:04.280
+And so, you could search for that by the commander
+with a minus capital S option, and let us
+
+00:25:04.280 --> 00:25:08.210
+say the executable I want to look up is user
+bin perl.
+
+00:25:08.210 --> 00:25:14.350
+So, it says that the perl base is the name
+of the package from where this particular
+
+00:25:14.350 --> 00:25:15.830
+executable has come.
+
+00:25:15.830 --> 00:25:20.419
+So, which means that, I could now go and look
+at some more information about that particular
+
+00:25:20.419 --> 00:25:23.760
+package name because the package name is available.
+
+00:25:23.760 --> 00:25:30.400
+So, dpkg minus the small s to show about the
+package, and then here you see that information
+
+00:25:30.400 --> 00:25:31.400
+is available.
+
+00:25:31.400 --> 00:25:36.320
+It is an essential package comes into the
+section called pearl.
+
+00:25:36.320 --> 00:25:41.690
+And you would see information about the particular
+package, that is a scripting language used
+
+00:25:41.690 --> 00:25:46.190
+in many systems, scripts and utilities, so
+you should not remove this particular executable
+
+00:25:46.190 --> 00:25:48.910
+or the package.
+
+00:25:48.910 --> 00:25:54.260
+And you would also see that it is maintained
+by the Ubuntu developers directly.
+
+00:25:54.260 --> 00:26:00.140
+So, now you can see that we have learnt about
+how to install packages, how to upgrade them,
+
+00:26:00.140 --> 00:26:07.900
+how to remove the packages, and how to fetch
+updates about the packages and do an nmass
+
+00:26:07.900 --> 00:26:14.400
+updation of the packages on the system etc,
+using two major systems apt as well as dpkg.
+
+00:26:14.400 --> 00:26:21.880
+Now, if we may want to search for all the
+packages under a particular section or package
+
+00:26:21.880 --> 00:26:27.380
+section, and that for that we would actually
+look up a very low-level command, and I will
+
+00:26:27.380 --> 00:26:28.700
+show that using a demo.
+
+00:26:28.700 --> 00:26:33.980
+So, let us look at the manual page for dpkg-query.
+
+00:26:33.980 --> 00:26:41.920
+So, this is a low-level tool which we do not
+normally use, but it is basically to query
+
+00:26:41.920 --> 00:26:44.980
+the dpkg database about all the packages.
+
+00:26:44.980 --> 00:26:53.900
+And here is something that we would like to
+learn minus w, minus w is to show the list
+
+00:26:53.900 --> 00:27:00.830
+of packages, and let us also see one more
+option that we will be finding of use minus
+
+00:27:00.830 --> 00:27:04.950
+f that is a format in which we want the information
+to be shown.
+
+00:27:04.950 --> 00:27:08.860
+And what are the kinds of formats that are
+possible, you will also look at the fields
+
+00:27:08.860 --> 00:27:16.169
+which has, for example the section, so section
+is one of the fields that we could use, and
+
+00:27:16.169 --> 00:27:20.190
+some more fields are like for example, the
+name of the package, binary colon package.
+
+00:27:20.190 --> 00:27:26.809
+So, by combining these pieces of information,
+we can actually ask the system to list the
+
+00:27:26.809 --> 00:27:32.700
+packages as well as their sections in a particular
+format by directly posing that query.
+
+00:27:32.700 --> 00:27:41.630
+So, let us do that here minus f is giving
+the format, and the format I would give as
+
+00:27:41.630 --> 00:27:42.630
+follows.
+
+00:27:42.630 --> 00:27:50.990
+So, I would like the section name to be there,
+and then, I would also like the field, which
+
+00:27:50.990 --> 00:27:55.150
+is basically the binary colon package to be
+there.
+
+00:27:55.150 --> 00:28:02.620
+And after that, I would like a enter symbol
+to go to the next line.
+
+00:28:02.620 --> 00:28:09.460
+And if I run that, now, I would actually see
+a list of all the sections and within each
+
+00:28:09.460 --> 00:28:13.700
+section, what are all the binary packages
+that are installed in my system.
+
+00:28:13.700 --> 00:28:16.070
+So, you can see that the list is quite long.
+
+00:28:16.070 --> 00:28:18.820
+Now, whenever the list is quite long, you
+know what to do.
+
+00:28:18.820 --> 00:28:23.330
+So, you can pipe it to less and then you can
+go through them one by one.
+
+00:28:23.330 --> 00:28:28.730
+So, the first field is the name of the section
+under which that particular package has been
+
+00:28:28.730 --> 00:28:34.730
+categorized by Ubuntu, and the next item is
+the name of the package that has come under
+
+00:28:34.730 --> 00:28:37.480
+the particular section into the system upon
+installation.
+
+00:28:37.480 --> 00:28:44.630
+Now, what we do is that we would like to go
+through section by so that we need sort so
+
+00:28:44.630 --> 00:28:49.000
+let us sort it and after that go by page by
+page.
+
+00:28:49.000 --> 00:28:50.570
+So, what are we doing here?
+
+00:28:50.570 --> 00:28:57.340
+So, we are running a query to list all the
+packages with a particular format, namely,
+
+00:28:57.340 --> 00:29:01.929
+the section has to be given after that the
+name of the package has to be given, after
+
+00:29:01.929 --> 00:29:04.780
+that a after that a new line.
+
+00:29:04.780 --> 00:29:08.650
+And this listing has to be sorted, and then
+it has to be displayed page by page.
+
+00:29:08.650 --> 00:29:13.669
+So, you can see how we are actually using
+the terminal environment to look at the list
+
+00:29:13.669 --> 00:29:20.669
+of packages under the sections, as done by
+the Ubuntu operating system and we are looking
+
+00:29:20.669 --> 00:29:22.340
+at it page by page.
+
+00:29:22.340 --> 00:29:26.799
+So, you can see that under the admin section
+these are the various utilities that have
+
+00:29:26.799 --> 00:29:32.110
+been installed, and then under the developer
+section, these are the utilities.
+
+00:29:32.110 --> 00:29:34.700
+And you can see that there is a bunch of editors
+that have been installed.
+
+00:29:34.700 --> 00:29:38.910
+So, the liberoffice tools are all coming under
+the editors category, and the whole bunch
+
+00:29:38.910 --> 00:29:41.730
+of fonts that have been installed.
+
+00:29:41.730 --> 00:29:48.330
+And there is a Java utilities that have been
+installed on my machine, and you could also
+
+00:29:48.330 --> 00:29:53.450
+see that there are lot of library files that
+have come into the system because they come
+
+00:29:53.450 --> 00:29:56.670
+along with the utilities that we installed.
+
+00:29:56.670 --> 00:30:04.770
+So, now, you see that there are also some
+shells that have come up.
+
+00:30:04.770 --> 00:30:11.070
+So, you can see that apart from the bash shell,
+we also have other shells like csh, dash and
+
+00:30:11.070 --> 00:30:12.860
+ksh also have been installed.
+
+00:30:12.860 --> 00:30:18.440
+So, now you can see that you are looking at
+the utility names under the categories, so
+
+00:30:18.440 --> 00:30:22.160
+you want to learn more shells, then you can
+see how many shells have been installed and
+
+00:30:22.160 --> 00:30:26.490
+then go on to explore them separately that
+is how you can actually explore tools, so,
+
+00:30:26.490 --> 00:30:30.120
+that you have not been looking for consciously.
+
+00:30:30.120 --> 00:30:34.130
+But now that they are available for you under
+each category, then you can go through them
+
+00:30:34.130 --> 00:30:41.250
+to be thorough about all the utilities that
+come under a particular category.
+
+00:30:41.250 --> 00:30:48.230
+Now, we would like to also look at only those
+sections, which let us say command or a particular
+
+00:30:48.230 --> 00:30:49.450
+category, so, let us say shells.
+
+00:30:49.450 --> 00:30:54.880
+So, the way to do that is to filter the output.
+
+00:30:54.880 --> 00:30:59.400
+And for filtering the output there is a command
+called a grep, which we will be learning shortly.
+
+00:30:59.400 --> 00:31:05.490
+But for now, I will just illustrate how nice
+it is actually giving you the output as.
+
+00:31:05.490 --> 00:31:13.309
+Now, you can see that we have filtered the
+output to only choose to display those lines
+
+00:31:13.309 --> 00:31:15.850
+which contain the word shells.
+
+00:31:15.850 --> 00:31:19.880
+And you could see that the list of utilities
+that come out of the category called shells
+
+00:31:19.880 --> 00:31:20.880
+are displayed.
+
+00:31:20.880 --> 00:31:25.409
+So, you can see that this grep command is
+quite powerful in filtering the output that
+
+00:31:25.409 --> 00:31:29.610
+is coming in to the pipe, and we will learn
+more about that shortly.
+
+00:31:29.610 --> 00:31:36.539
+So, here is what we have done using the dpkg
+minus a small l for looking up a pattern by
+
+00:31:36.539 --> 00:31:39.230
+which the packages are going to be looked
+up.
+
+00:31:39.230 --> 00:31:44.549
+Then minus capital L to list the files that
+came when you install the package.
+
+00:31:44.549 --> 00:31:49.730
+Minus small s to look at the status of the
+particular package and minus capital S to
+
+00:31:49.730 --> 00:31:56.330
+look at which package has brought that particular
+file that you are looking for.
+
+00:31:56.330 --> 00:32:01.880
+Now, if you have downloaded a deb file, you
+could also install it using the minus i option
+
+00:32:01.880 --> 00:32:07.429
+directly, but this is not a good idea because
+it may have some dependencies which you will
+
+00:32:07.429 --> 00:32:09.440
+have to bother about yourselves.
+
+00:32:09.440 --> 00:32:14.919
+By default use package management system pointing
+to a reliable repository such as the Ubuntu
+
+00:32:14.919 --> 00:32:22.550
+itself or a reputed company, say Google, but
+do not download Deb files from the internet
+
+00:32:22.550 --> 00:32:28.220
+from unknown sources and install them on your
+system because in the worst case it could
+
+00:32:28.220 --> 00:32:34.460
+actually damage the operating system, and
+sometimes it may also not just work because
+
+00:32:34.460 --> 00:32:39.540
+there are dependencies which may have conflicts
+with existing libraries and utilities on your
+
+00:32:39.540 --> 00:32:46.220
+system so always leave these decisions to
+the packaged management system, so that, the
+
+00:32:46.220 --> 00:32:50.590
+process of installation upgradation will happen
+smoothly.
+
+00:32:50.590 --> 00:32:55.960
+And it is not a good idea to remove a package
+using this command because you maybe removing
+
+00:32:55.960 --> 00:33:02.309
+a package that is required by many other packages
+and therefore, removing packages should be
+
+00:33:02.309 --> 00:33:11.710
+also done using a package management system
+like for example apt or synaptic or aptitude.
+
+00:33:11.710 --> 00:33:16.780
+With that we come to the end of this session
+on software management.
+
+00:33:16.780 --> 00:33:22.360
+Please do read the documentation for the package
+management that is relevant for your operating
+
+00:33:22.360 --> 00:33:32.840
+system say apt or dpkg for Ubuntu or maybe
+RPM or DNF for Red Hat Linux or OpenSuSE Linux
+
+00:33:32.840 --> 00:33:39.670
+etc, and make yourself comfortable with various
+options so that you are on top of the software
+
+00:33:39.670 --> 00:33:41.070
+management of your computer.
+
+00:33:41.070 --> 00:33:46.770
+One of the important things about the stability
+of Linux operating system is that almost everything
+
+00:33:46.770 --> 00:33:51.510
+that you would like is available from the
+original maintainer of that particular flavor
+
+00:33:51.510 --> 00:33:58.390
+of Linux operating system and in many ways
+when you install a package the checks are
+
+00:33:58.390 --> 00:34:04.690
+done to ensure the compatibility with the
+existing libraries and therefore, the operating
+
+00:34:04.690 --> 00:34:10.839
+system is generally stable if you follow the
+standard practices for installation or upgradation
+
+00:34:10.839 --> 00:34:11.960
+of software packages.
+
+00:34:11.960 --> 00:34:16.899
+So, enjoy expanding your operating system
+to have all the tools that you would ever
+
+00:34:16.899 --> 00:34:22.010
+want to have on your system to learn various
+tools that are required for your work without
+
+00:34:22.010 --> 00:34:24.679
+having to worry about the compatibility issues.
+
+00:34:24.679 --> 00:34:30.079
+In situations when the compatibility issues
+cannot be resolved there are also alternative
+
+00:34:30.079 --> 00:34:36.179
+methods available on a Linux operating system
+such as through the snap or docker ad you
+
+00:34:36.179 --> 00:34:40.200
+could explore them as alternatives whenever
+you are unable to install a particular version
+
+00:34:40.200 --> 00:34:46.069
+of a package, but usually that problem does
+not arise as long as you are using a stable
+
+00:34:46.069 --> 00:34:48.209
+software management system such as apt.
+

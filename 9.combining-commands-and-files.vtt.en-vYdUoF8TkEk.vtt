@@ -1,0 +1,1369 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:14.360 --> 00:00:17.670
+Welcome to the session on combining commands
+and files.
+
+00:00:17.670 --> 00:00:24.380
+Linux is a modular operating system one can
+combine different commands to achieve a complex
+
+00:00:24.380 --> 00:00:25.380
+task.
+
+00:00:25.380 --> 00:00:31.510
+One can also use multiple files for both input
+and output in this session we will see how
+
+00:00:31.510 --> 00:00:34.560
+we can combine both commands and files.
+
+00:00:34.560 --> 00:00:39.930
+So, that a single command line could actually
+achieve a fairly complex task.
+
+00:00:39.930 --> 00:00:45.730
+So, here are few examples of how commands
+can be combined on the command line the very
+
+00:00:45.730 --> 00:00:50.360
+first way is something that we have already
+seen you have the commands that are executed
+
+00:00:50.360 --> 00:00:55.580
+one after other irrespective of whether the
+commands have been successful or not.
+
+00:00:55.580 --> 00:01:01.410
+Now the second means is where you have got
+the two ampersand symbols which would lead
+
+00:01:01.410 --> 00:01:08.140
+to an effect where the second command is executed
+only if the first command is successful.
+
+00:01:08.140 --> 00:01:13.710
+There is one more way of combining the commands
+where you have got the two pipe symbols between
+
+00:01:13.710 --> 00:01:18.549
+the two commands the second command would
+be executed only if the first command were
+
+00:01:18.549 --> 00:01:19.549
+to be false.
+
+00:01:19.549 --> 00:01:25.570
+The written codes for each command something
+that we have discussed in the previous session
+
+00:01:25.570 --> 00:01:30.920
+would be very useful because if the written
+code was 0 then it would be true and if it
+
+00:01:30.920 --> 00:01:35.150
+were to be any other value greater than 0
+then it would be false.
+
+00:01:35.150 --> 00:01:40.140
+We could use the Boolean values indicated
+by the written code to combine the commands
+
+00:01:40.140 --> 00:01:46.860
+appropriately we could see that the double
+ampersand as used for the and logical operator
+
+00:01:46.860 --> 00:01:53.450
+and the double pipe that is used as our logical
+operator could be then interpreted similar
+
+00:01:53.450 --> 00:01:56.760
+to the Boolean variables combined in the same
+manner.
+
+00:01:56.760 --> 00:02:01.619
+We have seen in a previous session that we
+can combine multiple commands on the command
+
+00:02:01.619 --> 00:02:02.619
+line.
+
+00:02:02.619 --> 00:02:09.759
+So, let us combine them for example ls and
+then date command and then counting the number
+
+00:02:09.759 --> 00:02:14.350
+of lines in a file called etc profile.
+
+00:02:14.350 --> 00:02:19.340
+So, these three commands are then executed
+irrespective of whether they are successful
+
+00:02:19.340 --> 00:02:20.340
+or not.
+
+00:02:20.340 --> 00:02:22.080
+So, let us make one of them fail.
+
+00:02:22.080 --> 00:02:28.069
+So, we would type as a ls slash blah which
+we know that does not exist and then edit
+
+00:02:28.069 --> 00:02:34.180
+command and then wc -l etc profile.
+
+00:02:34.180 --> 00:02:37.709
+And you see that the first command has failed
+nevertheless the second and the third commands
+
+00:02:37.709 --> 00:02:39.110
+have gone on to execute.
+
+00:02:39.110 --> 00:02:44.319
+Now this is a behaviour that we could actually
+change where the execution of the second or
+
+00:02:44.319 --> 00:02:49.500
+third commands can depend on whether the first
+command has been successful or not.
+
+00:02:49.500 --> 00:02:54.690
+So, we will come to that in a moment but before
+that I want to show you that there is one
+
+00:02:54.690 --> 00:03:03.060
+more way by which you can execute three commands
+on the command line together as a list of
+
+00:03:03.060 --> 00:03:04.060
+tasks.
+
+00:03:04.060 --> 00:03:10.610
+So, I would start them with a parenthesis
+the bracket you could see that the same action
+
+00:03:10.610 --> 00:03:11.610
+has been repeated.
+
+00:03:11.610 --> 00:03:15.989
+So, there is no difference however when you
+use the parenthesis what actually happens
+
+00:03:15.989 --> 00:03:22.879
+is that the command is executed in a subshell
+which is returned back to the shell that we
+
+00:03:22.879 --> 00:03:28.000
+are using we can inspect the variable shell
+variable called bash subshell.
+
+00:03:28.000 --> 00:03:33.920
+So, this bash subshell is a variable that
+contains an integer which tells you at what
+
+00:03:33.920 --> 00:03:36.020
+level of execution we are.
+
+00:03:36.020 --> 00:03:41.660
+So, let us try that out by passing it on to
+the parenthesis to see whether the number
+
+00:03:41.660 --> 00:03:43.099
+remains same or not.
+
+00:03:43.099 --> 00:03:46.950
+So, I would now say echo.
+
+00:03:46.950 --> 00:03:53.260
+Now you see that the number has changed which
+means that this particular command has been
+
+00:03:53.260 --> 00:03:56.209
+executed in a subshell and then is returned
+back.
+
+00:03:56.209 --> 00:04:09.099
+So, we could then use this to check how the
+execution is happening when we pass multiple
+
+00:04:09.099 --> 00:04:15.840
+commands and you could see that now the ls
+and date were executed in a sub shell and
+
+00:04:15.840 --> 00:04:18.409
+the value of a bash sub shell is then 1.
+
+00:04:18.409 --> 00:04:23.390
+So, you could actually use multiple parentheses
+to have subshells within subshells and we
+
+00:04:23.390 --> 00:04:26.380
+can try that out right away.
+
+00:04:26.380 --> 00:04:36.190
+Now you could actually create a sub shell
+within this by editing it like this.
+
+00:04:36.190 --> 00:04:41.620
+Now you see that the bash subshell is reporting
+a value of 2 which means that from the bash
+
+00:04:41.620 --> 00:04:47.229
+that we are actually in a subshell has been
+created in which the ls command has been launched
+
+00:04:47.229 --> 00:04:51.659
+and then another sub shell has been created
+within which the date command has been launched.
+
+00:04:51.659 --> 00:04:58.220
+So, we could verify that as follows.
+
+00:04:58.220 --> 00:05:08.039
+So, you would see that the first command ls
+is executed here and then the bash sub shell
+
+00:05:08.039 --> 00:05:13.300
+shows that it is number one and then another
+subshell has been spawned and the date command
+
+00:05:13.300 --> 00:05:19.320
+has been executed and then the bash subshell
+value is two which means that the date command
+
+00:05:19.320 --> 00:05:26.050
+is executed in a shell launched two levels
+below what we are actually running.
+
+00:05:26.050 --> 00:05:28.220
+Now why is it useful?
+
+00:05:28.220 --> 00:05:33.550
+Sometimes this is useful to ensure that the
+environment within which the execution is
+
+00:05:33.550 --> 00:05:40.570
+happening is closed it is not a good idea
+to launch sub shells indefinitely because
+
+00:05:40.570 --> 00:05:45.560
+each time a subshell is launched the environment
+has to be prepared for that and therefore
+
+00:05:45.560 --> 00:05:47.469
+it could be expensive computationally.
+
+00:05:47.469 --> 00:05:54.120
+However it has certain usages where you could
+provide a certain environment namely certain
+
+00:05:54.120 --> 00:05:59.479
+values of the shell variables that are created
+for a particular executable and so on.
+
+00:05:59.479 --> 00:06:05.469
+To be provided so that the execution can happen
+in a subshell without being interfered by
+
+00:06:05.469 --> 00:06:09.640
+other variables that may be present in the
+parent shell.
+
+00:06:09.640 --> 00:06:14.870
+Now let us see if we can run the commands
+where the execution depends upon the exit
+
+00:06:14.870 --> 00:06:17.240
+status of one of the commands.
+
+00:06:17.240 --> 00:06:20.940
+So, we have run two commands one after other
+and we will.
+
+00:06:20.940 --> 00:06:31.240
+Now make the first command fail and then we
+will actually have ampersand twice to indicate
+
+00:06:31.240 --> 00:06:35.550
+and operator and then we have the next command
+date that is being executed.
+
+00:06:35.550 --> 00:06:42.270
+Now you will see that only the error message
+for the ls command has been displayed but
+
+00:06:42.270 --> 00:06:48.419
+the date command did not execute what this
+means is that the error code returned by the
+
+00:06:48.419 --> 00:06:55.729
+ls command is false which means it is more
+than 0 and therefore the second command namely
+
+00:06:55.729 --> 00:06:58.409
+the date command did not execute.
+
+00:06:58.409 --> 00:07:00.390
+Why is this useful?
+
+00:07:00.390 --> 00:07:06.539
+Because it helps us in ensuring that the second
+task which depends upon the first task will
+
+00:07:06.539 --> 00:07:09.099
+execute only if the first one is successful.
+
+00:07:09.099 --> 00:07:15.020
+Now let us look at a possibility that is exactly
+the opposite.
+
+00:07:15.020 --> 00:07:22.180
+So, here we are combining the commands where
+we are using the double pipe which is for
+
+00:07:22.180 --> 00:07:27.380
+the r operator and you see that the date command
+has executed though the first command has
+
+00:07:27.380 --> 00:07:28.380
+been a failure.
+
+00:07:28.380 --> 00:07:33.649
+So, this is a situation where the second command
+is like a plan b where if the first command
+
+00:07:33.649 --> 00:07:36.120
+failed only then the second command would
+execute.
+
+00:07:36.120 --> 00:07:40.169
+I f the first command were to be successful
+the second one will not be executed and that
+
+00:07:40.169 --> 00:07:48.300
+is something that we can see right away and
+you see that the ls command was successful
+
+00:07:48.300 --> 00:07:52.730
+in displaying the list of files and directories
+in the current directory and because it was
+
+00:07:52.730 --> 00:07:55.740
+successful the second command date did not
+execute.
+
+00:07:55.740 --> 00:08:02.419
+So, here is a illustration where the three
+symbols the semicolon the double ampersand
+
+00:08:02.419 --> 00:08:08.149
+and the double pipe could be used to combine
+commands in such a way that they can be executed
+
+00:08:08.149 --> 00:08:09.149
+in three different means.
+
+00:08:09.149 --> 00:08:16.419
+That is independent of the execution status
+dependent on the execution status to be true
+
+00:08:16.419 --> 00:08:18.790
+and dependent on the execution status to be
+false.
+
+00:08:18.790 --> 00:08:25.669
+So, now it is up to our imagination to combine
+these in very many ways by which we can actually
+
+00:08:25.669 --> 00:08:31.550
+achieve a complex task that depends upon the
+commands that are executed before that let
+
+00:08:31.550 --> 00:08:35.140
+us try that out once.
+
+00:08:35.140 --> 00:08:42.940
+So, here I am running three commands and I
+am using the and operator for all the three.
+
+00:08:42.940 --> 00:08:48.230
+So, if any of them fail then the the next
+set of commands on this command line will
+
+00:08:48.230 --> 00:08:49.230
+not get executed.
+
+00:08:49.230 --> 00:08:54.710
+So, we will make the first one fail that is
+quite straightforward we just need to try
+
+00:08:54.710 --> 00:09:00.120
+to list commands of a non-existing directory
+therefore nothing after the ls command will
+
+00:09:00.120 --> 00:09:01.470
+get executed.
+
+00:09:01.470 --> 00:09:06.870
+Now we could actually make the first command
+successful but the second one failed by giving
+
+00:09:06.870 --> 00:09:13.029
+some arbitrary option which we know that will
+not exist and you see that the date command
+
+00:09:13.029 --> 00:09:16.069
+has been given an option -Q there is no such
+option.
+
+00:09:16.069 --> 00:09:21.190
+So, the date command has failed and therefore
+after the date command the wc command did
+
+00:09:21.190 --> 00:09:25.980
+not execute however the ls command went on
+to execute successfully and that is why the
+
+00:09:25.980 --> 00:09:27.710
+date command was tried out.
+
+00:09:27.710 --> 00:09:33.769
+So, like this you can actually combine multiple
+commands using both ampersands as well as
+
+00:09:33.769 --> 00:09:39.500
+pipes to achieve the Boolean logic that you
+would desire for the total command that you
+
+00:09:39.500 --> 00:09:43.050
+want to execute which could be achieving a
+fairly complex task.
+
+00:09:43.050 --> 00:09:49.310
+Here we are using silly examples like ls or
+date but it could actually be a bash scripts
+
+00:09:49.310 --> 00:09:54.610
+that you would have written which actually
+takes at an action on your data or processing
+
+00:09:54.610 --> 00:09:59.330
+of some information that you have or perform
+network operations and so on.
+
+00:09:59.330 --> 00:10:05.050
+So, each of these commands can as well be
+fairly complicated bash commands and the logic
+
+00:10:05.050 --> 00:10:08.259
+of combining them on the command line would
+remain the same.
+
+00:10:08.259 --> 00:10:11.269
+Now we come to the concept of file descriptors.
+
+00:10:11.269 --> 00:10:18.500
+So, in C language when you learnt how to read
+and write content with the files then you
+
+00:10:18.500 --> 00:10:25.120
+would have come across the concept of file
+pointers where you have a file pointer pointing
+
+00:10:25.120 --> 00:10:28.459
+to a file which you could read from or write
+to.
+
+00:10:28.459 --> 00:10:35.500
+So, every command in Linux has three file
+descriptors they are called as the standard
+
+00:10:35.500 --> 00:10:37.900
+in standard out standard err.
+
+00:10:37.900 --> 00:10:45.360
+So, the standard in is a pointer to the stream
+which is coming from the keyboard or the user
+
+00:10:45.360 --> 00:10:53.720
+input and the standard out and standard err
+are usually pointing to the screen where the
+
+00:10:53.720 --> 00:11:01.230
+display of the output is made numerical values
+like 0 1 2 are assigned to the file descriptors
+
+00:11:01.230 --> 00:11:04.430
+standard in standard out and standard err
+respectively.
+
+00:11:04.430 --> 00:11:12.029
+So, that you could actually use these numerical
+values on the command line for redirecting
+
+00:11:12.029 --> 00:11:19.279
+some of those outputs are inputs to either
+a file or a command.
+
+00:11:19.279 --> 00:11:25.040
+Now in Linux we should imagine that each of
+these three file pointers are actually looking
+
+00:11:25.040 --> 00:11:27.050
+at only the stream of characters.
+
+00:11:27.050 --> 00:11:30.839
+Now that we could understand that there are
+these three file pointers.
+
+00:11:30.839 --> 00:11:38.060
+The next thing that Linux provides us is that
+we can redirect these three streams to either
+
+00:11:38.060 --> 00:11:47.029
+a file or a command or the default behaviour
+can also be left as it is and that opens up
+
+00:11:47.029 --> 00:11:51.709
+a lot of possibilities for us to imagine how
+the commands can be combined.
+
+00:11:51.709 --> 00:11:55.629
+And there are certain operators that are used
+to combine the commands and we will explore
+
+00:11:55.629 --> 00:11:56.629
+them shortly.
+
+00:11:56.629 --> 00:12:03.160
+So, here is the first operator that we are
+going to use to combine a command and a file
+
+00:12:03.160 --> 00:12:06.750
+that is the greater than symbol or the right
+angle bracket.
+
+00:12:06.750 --> 00:12:11.629
+So, what does it mean when we say when we
+write a command like command greater than
+
+00:12:11.629 --> 00:12:18.790
+file1 what happens is that the standard output
+is redirected to a file called file1.
+
+00:12:18.790 --> 00:12:23.269
+And the rest of the pointers will remain the
+same which means that the input would continue
+
+00:12:23.269 --> 00:12:28.160
+to come from the keyboard and if there is
+any error that has come out of the running
+
+00:12:28.160 --> 00:12:33.160
+the command that would come on to the screen
+only the output is actually redirected to
+
+00:12:33.160 --> 00:12:34.160
+the file.
+
+00:12:34.160 --> 00:12:40.100
+Now the file will be created afresh in the
+directory where the command is being executed
+
+00:12:40.100 --> 00:12:46.040
+which means that you must have write permissions
+to the directory and you should not have any
+
+00:12:46.040 --> 00:12:53.050
+file by the same name already because it would
+be overwritten when you run this command.
+
+00:12:53.050 --> 00:12:59.910
+So, let us see this command in execution and
+understand how does it work.
+
+00:12:59.910 --> 00:13:04.560
+When you have a command that has a lot of
+output and we would like to look at that output
+
+00:13:04.560 --> 00:13:09.470
+slowly this feature of greater than symbol
+to redirect the output to a file would be
+
+00:13:09.470 --> 00:13:10.470
+very useful.
+
+00:13:10.470 --> 00:13:17.370
+Now I am in the home directory and we would
+actually look at the listing of the user bin
+
+00:13:17.370 --> 00:13:18.370
+directory.
+
+00:13:18.370 --> 00:13:25.029
+So, ls user bin and you see that a number
+of files have come out of the screen and I
+
+00:13:25.029 --> 00:13:31.790
+can actually do the same thing by typing -1
+user bin it would give one command per line
+
+00:13:31.790 --> 00:13:36.790
+of the output and we would like to then write
+this output to a file.
+
+00:13:36.790 --> 00:13:41.379
+So, that we could look at that file slowly
+so that is where the greater than symbol comes
+
+00:13:41.379 --> 00:13:43.110
+and then I have to give a file name.
+
+00:13:43.110 --> 00:13:48.819
+So, I would give my file name as file1 and
+then the file1 has been created and you can
+
+00:13:48.819 --> 00:13:50.470
+see that there is no output on the screen.
+
+00:13:50.470 --> 00:13:55.170
+The reason there is no output on the screen
+is because there is no error that has actually
+
+00:13:55.170 --> 00:13:57.740
+come when I executed this command.
+
+00:13:57.740 --> 00:14:04.259
+Now I look at the contents of my home directory
+and sure enough there is a file called file1
+
+00:14:04.259 --> 00:14:10.310
+that has been created and it has 26 kilobytes
+let us say quite a bit of a content because
+
+00:14:10.310 --> 00:14:15.180
+there are lot of files in the user bin directory
+of my computer and we can now inspect the
+
+00:14:15.180 --> 00:14:18.730
+contents of file1 using the less command.
+
+00:14:18.730 --> 00:14:24.699
+So, you can see that the list of file names
+are being displayed on the screen.
+
+00:14:24.699 --> 00:14:32.180
+And I can scroll through at my leisure I could
+also go back with up arrow key and look at
+
+00:14:32.180 --> 00:14:44.779
+them and I can press space bar to scroll page
+by page and when I am done I can press q and
+
+00:14:44.779 --> 00:14:45.779
+come out.
+
+00:14:45.779 --> 00:14:52.129
+So, you can see that we have the ability to
+pass on the output of a command onto the file.
+
+00:14:52.129 --> 00:14:57.269
+Now if I happen to make an any error and there
+is no output the file will be empty.
+
+00:14:57.269 --> 00:15:00.709
+So, now you can see that the file1 is 26 kilobytes.
+
+00:15:00.709 --> 00:15:05.170
+Now what I would do is I would actually intentionally
+make an error.
+
+00:15:05.170 --> 00:15:12.459
+So, I would try to list the contents of a
+file called slash blah which does not exist
+
+00:15:12.459 --> 00:15:15.230
+and I rewrite the output to file1.
+
+00:15:15.230 --> 00:15:18.220
+Now what happens is that there is an error
+and the error has actually come out to the
+
+00:15:18.220 --> 00:15:24.160
+screen and we can inspect the contents of
+the file1 and you see that it is zero that
+
+00:15:24.160 --> 00:15:29.360
+means that there was no output naturally because
+there is nothing to report as list of contents
+
+00:15:29.360 --> 00:15:32.050
+for this slash directory which does not exist.
+
+00:15:32.050 --> 00:15:38.519
+So, you can also see that a file which was
+actually having 26 kilobytes has been overwritten
+
+00:15:38.519 --> 00:15:42.980
+and it is now an empty file which means that
+when you use the greater than symbol you must
+
+00:15:42.980 --> 00:15:49.759
+be aware that any existing file will be overwritten
+and therefore you should use fairly unique
+
+00:15:49.759 --> 00:15:52.079
+file names when you are in the beginning stages.
+
+00:15:52.079 --> 00:15:57.420
+So, that the danger of overwriting does not
+hurt you in losing any of the files that may
+
+00:15:57.420 --> 00:15:58.519
+be valuable to you.
+
+00:15:58.519 --> 00:16:04.459
+So, this is what we have seen the command
+is ls and the file1 is a text file and when
+
+00:16:04.459 --> 00:16:09.019
+we ran it what happened is the output was
+actually put in the file and any error was
+
+00:16:09.019 --> 00:16:15.730
+actually put in the screen for us to view
+and the command did not have any input and
+
+00:16:15.730 --> 00:16:19.009
+therefore the standard in was not very relevant.
+
+00:16:19.009 --> 00:16:24.569
+Now we will put the greater than symbol usage
+to some use where we can actually look at
+
+00:16:24.569 --> 00:16:27.470
+the output of a command which scrolls a bit
+too fast.
+
+00:16:27.470 --> 00:16:37.709
+So, let us do that with a command called hwinfo
+and when you type that it is inspecting the
+
+00:16:37.709 --> 00:16:41.589
+various hardware and it is now dumping the
+output onto the screen.
+
+00:16:41.589 --> 00:16:49.230
+So, we then write the same command greater
+than and I need to give a file name because
+
+00:16:49.230 --> 00:16:55.699
+this is useful information I would like to
+type it as hwinfo dot txt to indicate that
+
+00:16:55.699 --> 00:17:03.220
+it is a text file and it has the information
+coming from the command hwinfo and you could
+
+00:17:03.220 --> 00:17:04.630
+see that there is nothing on the screen.
+
+00:17:04.630 --> 00:17:09.320
+Now because everything has been put onto the
+file, now let me look at the file by using
+
+00:17:09.320 --> 00:17:17.850
+the less command and you see that it is giving
+me information about the system and you see
+
+00:17:17.850 --> 00:17:23.390
+that it is telling me about the kernel that
+was booted and initially how the probing of
+
+00:17:23.390 --> 00:17:28.620
+the hardware is happening and as you scroll
+through you will see information about your
+
+00:17:28.620 --> 00:17:34.350
+computer hardware and we will look at that
+in the next session to inspect the computer
+
+00:17:34.350 --> 00:17:35.350
+hardware.
+
+00:17:35.350 --> 00:17:40.059
+But for now you could actually see that the
+content can be made available for you to read
+
+00:17:40.059 --> 00:17:42.920
+at your leisure.
+
+00:17:42.920 --> 00:17:47.580
+Now if you try this command in a folder where
+you do not have a write permission you will
+
+00:17:47.580 --> 00:17:50.740
+get an error and let us just check that out
+also.
+
+00:17:50.740 --> 00:17:57.450
+So, we would go to let us say slash user and
+we would actually look at the permissions
+
+00:17:57.450 --> 00:18:09.559
+whether we have write permissions or not and
+you see that the current directory has write
+
+00:18:09.559 --> 00:18:13.450
+permission only for the root and I am not
+root right now.
+
+00:18:13.450 --> 00:18:14.520
+Who am I?
+
+00:18:14.520 --> 00:18:19.649
+I am another user and therefore I do not have
+a write permission because the file is owned
+
+00:18:19.649 --> 00:18:25.700
+by root and only the owner has write permission
+and I belong to the other category and I do
+
+00:18:25.700 --> 00:18:26.830
+not have the right permission.
+
+00:18:26.830 --> 00:18:30.640
+So, here if I try to run the command then
+I will get an error.
+
+00:18:30.640 --> 00:18:38.240
+So, let us say I type ls greater than and
+then file1 and you see that permission denied
+
+00:18:38.240 --> 00:18:42.549
+is the error that I get it is good because
+I do not unintentionally make any changes
+
+00:18:42.549 --> 00:18:44.240
+to the system folders.
+
+00:18:44.240 --> 00:18:49.510
+And this is a security measure that is built
+in and that is one of the reasons why we should
+
+00:18:49.510 --> 00:18:56.770
+not be logged in as a root user with administrative
+privileges when we are a novice user unknowingly
+
+00:18:56.770 --> 00:19:00.040
+sometimes we may make some errors.
+
+00:19:00.040 --> 00:19:06.679
+So, before you run the command you always
+ensure where are you and when you are in your
+
+00:19:06.679 --> 00:19:11.190
+home directory then you can do these commands
+without any error.
+
+00:19:11.190 --> 00:19:15.470
+Now the greater than symbol can also be used
+to actually create files.
+
+00:19:15.470 --> 00:19:22.980
+So, let us look at the help for the cat command
+and it says concatenate files and print on
+
+00:19:22.980 --> 00:19:28.940
+the standard output and which actually can
+be interpreted with respect to the information
+
+00:19:28.940 --> 00:19:30.670
+that we have about a command.
+
+00:19:30.670 --> 00:19:38.299
+So, we have cat and then greater than and
+then a file okay.
+
+00:19:38.299 --> 00:19:44.570
+So, what happens when we type this command
+is that the cat command is supposed to receive
+
+00:19:44.570 --> 00:19:49.470
+the input from a file that is listed on the
+command line.
+
+00:19:49.470 --> 00:19:55.450
+But we did not specify any file if you did
+not specify a file on the command line for
+
+00:19:55.450 --> 00:20:00.240
+the cat command to read the content then it
+would read that content from the keyboard
+
+00:20:00.240 --> 00:20:05.370
+which means it is reading from the standard
+in and we can then see how we can type some
+
+00:20:05.370 --> 00:20:09.630
+command which will then go into the file called
+file1 because the greater than symbol indicates
+
+00:20:09.630 --> 00:20:14.700
+that whatever cat is supposed to display will
+be put into the file1.
+
+00:20:14.700 --> 00:20:20.649
+So, you see that the command prompt is now
+empty and it is expecting us to type some
+
+00:20:20.649 --> 00:20:25.909
+we can type some content now.
+
+00:20:25.909 --> 00:20:46.140
+So, that is my first line second line goes
+like this 
+
+00:20:46.140 --> 00:20:54.600
+and how do I come out you could come out using
+control plus d option okay.
+
+00:20:54.600 --> 00:20:57.840
+So, I do that.
+
+00:20:57.840 --> 00:21:03.399
+Now and I have come out now what happened
+is that the three lines I have typed have
+
+00:21:03.399 --> 00:21:08.570
+been read by the command cat and they are
+supposed to be displayed onto the screen.
+
+00:21:08.570 --> 00:21:13.520
+But because of the greater than symbol they
+are being redirected to file1.
+
+00:21:13.520 --> 00:21:20.520
+So, let us look at the contents of the file1
+you see that the file1 has 170 bytes it is
+
+00:21:20.520 --> 00:21:26.549
+a short file and as we have already mentioned
+earlier it has been overwritten by this command
+
+00:21:26.549 --> 00:21:28.230
+because earlier it had some other content.
+
+00:21:28.230 --> 00:21:29.230
+So, we have overwritten it.
+
+00:21:29.230 --> 00:21:33.519
+So, that is not a problem because these are
+all only meant for practice.
+
+00:21:33.519 --> 00:21:37.919
+But remember always that whenever you use
+greater than symbol that file will be created
+
+00:21:37.919 --> 00:21:41.409
+afresh and if a file exists by that name it
+will be overwritten.
+
+00:21:41.409 --> 00:21:46.720
+Let us look at the contents of the file file1
+and you see that what we have typed is there
+
+00:21:46.720 --> 00:21:48.809
+now on the screen for us to see.
+
+00:21:48.809 --> 00:21:53.733
+Now you can see that the difference between
+cat greater than file1 and a cat file1.
+
+00:21:53.733 --> 00:22:02.370
+So, it actually what it does is that greater
+than actually would take input from the keyboard
+
+00:22:02.370 --> 00:22:08.350
+and create a new file by the name file1 whereas
+without the greater than symbol the content
+
+00:22:08.350 --> 00:22:10.830
+of the file 1 will be displayed onto the screen.
+
+00:22:10.830 --> 00:22:16.460
+So, it is very important for us to understand
+how the file pointers are actually being redirected.
+
+00:22:16.460 --> 00:22:24.980
+So, here you can see that by default the cad
+command was taking input from the standard
+
+00:22:24.980 --> 00:22:29.320
+in keyboard and it was writing it out onto
+the screen but we have put a greater than
+
+00:22:29.320 --> 00:22:30.320
+symbol.
+
+00:22:30.320 --> 00:22:31.750
+So, it was writing on to the file1.
+
+00:22:31.750 --> 00:22:36.640
+Now let us test our understanding of the input
+output redirection by seeing what happens
+
+00:22:36.640 --> 00:22:39.230
+when we just say type cat.
+
+00:22:39.230 --> 00:22:44.520
+What happens is that there is no file specified
+on the command line which means that the input
+
+00:22:44.520 --> 00:22:50.780
+for the cat command should come from the keyboard
+and the output should also be on the screen.
+
+00:22:50.780 --> 00:22:56.019
+So, which means that the command would now
+take input from the keyboard and place the
+
+00:22:56.019 --> 00:22:59.830
+output on to the screen and let us see how
+that happens.
+
+00:22:59.830 --> 00:23:07.480
+So, as soon as I press enter you see that
+that particular line has been read and it
+
+00:23:07.480 --> 00:23:13.460
+is displayed onto the screen.
+
+00:23:13.460 --> 00:23:25.299
+So, you can see that this command is actually
+processing the text line by line and you can
+
+00:23:25.299 --> 00:23:31.809
+actually finish up this task by actually pressing
+ctrl D, so that you can come out of the command.
+
+00:23:31.809 --> 00:23:43.240
+So, finish up by end of the file using control
++D to close.
+
+00:23:43.240 --> 00:23:51.280
+So, now I press ctrl D and what happens is
+that it has already finished writing the content
+
+00:23:51.280 --> 00:23:52.280
+on the screen.
+
+00:23:52.280 --> 00:23:53.830
+So, there is nothing that has happened.
+
+00:23:53.830 --> 00:24:00.630
+So, this actually helps you understand how
+the file pointers are being interpreted.
+
+00:24:00.630 --> 00:24:05.551
+So, there are three file pointers standard
+in standard out and standard error and we
+
+00:24:05.551 --> 00:24:11.050
+have to be very conscious which file pointer
+is pointing to which of the aspects namely
+
+00:24:11.050 --> 00:24:18.169
+the keyboard or the screen or the file you
+could actually use two symbols of greater
+
+00:24:18.169 --> 00:24:21.000
+than or the right angle bracket.
+
+00:24:21.000 --> 00:24:26.360
+So, if you use these two symbols side by side
+without any space between them the interpretation
+
+00:24:26.360 --> 00:24:33.100
+is that the output of the command should be
+appended to the file1 by appended we mean
+
+00:24:33.100 --> 00:24:39.330
+if the file1 exists then the content will
+be written to the bottom of the file and if
+
+00:24:39.330 --> 00:24:43.820
+the file1 does not exist then it will be created
+and it will be written from the top.
+
+00:24:43.820 --> 00:24:48.070
+So, it means that it is a bit it is a slightly
+safer option to use.
+
+00:24:48.070 --> 00:24:52.809
+So, that if there was any file then it would
+not be overwritten it will only be appended
+
+00:24:52.809 --> 00:24:53.890
+to okay.
+
+00:24:53.890 --> 00:24:58.640
+So, that is why here in the graphic I have
+shown the arrow pointing to the bottom of
+
+00:24:58.640 --> 00:25:05.740
+the file1 not to the top and that is a hint
+that the content will be appended to the file1
+
+00:25:05.740 --> 00:25:13.690
+and not replaced the warning of the file1
+to be created remains and you will have errors
+
+00:25:13.690 --> 00:25:18.490
+if you run this command in a directory where
+you do not have permissions to create the
+
+00:25:18.490 --> 00:25:22.230
+file1 because you do not own that particular
+directory.
+
+00:25:22.230 --> 00:25:27.720
+Now let us try out the double greater than
+symbol to see how to append the content of
+
+00:25:27.720 --> 00:25:33.650
+any file by using the commands and the output
+would be written to that file in an appending
+
+00:25:33.650 --> 00:25:34.650
+mode.
+
+00:25:34.650 --> 00:25:35.810
+So, let us try that out.
+
+00:25:35.810 --> 00:25:44.950
+So, I have this file1 and file two I will
+just erase all of those okay.
+
+00:25:44.950 --> 00:25:46.270
+Now I do not have any files.
+
+00:25:46.270 --> 00:25:52.500
+So, I now use the command to also show you
+how it will be created when it does not exist.
+
+00:25:52.500 --> 00:26:03.660
+So, what we do is we type date and double
+greater than and we'll say file1 and you see
+
+00:26:03.660 --> 00:26:07.030
+that a file has been created.
+
+00:26:07.030 --> 00:26:11.529
+Now afresh though we have used the double
+greater than symbol because if the file was
+
+00:26:11.529 --> 00:26:17.130
+not existing it will be created and if it
+was available then it will be appended to.
+
+00:26:17.130 --> 00:26:20.549
+So, I run the command again.
+
+00:26:20.549 --> 00:26:24.970
+Now and once more and once more I have run
+totally four times.
+
+00:26:24.970 --> 00:26:31.179
+So, let us look at the contents of that particular
+file and you see that there are four lines
+
+00:26:31.179 --> 00:26:37.639
+and from the seconds you can make out that
+it is actually appending one after other.
+
+00:26:37.639 --> 00:26:44.610
+So, this way we have not lost the content
+that was appended or inserted earlier and
+
+00:26:44.610 --> 00:26:51.130
+therefore this mode is preferable when you
+want to preserve the contents of the file
+
+00:26:51.130 --> 00:26:55.790
+while redirecting the output of a command
+to a particular file that you want to inspect
+
+00:26:55.790 --> 00:26:56.790
+later.
+
+00:26:56.790 --> 00:27:03.320
+So, when you want to write multiple commands
+where the output would be redirected to the
+
+00:27:03.320 --> 00:27:09.779
+file and appended later on with another command
+then you could combine all of them also in
+
+00:27:09.779 --> 00:27:13.309
+the same line using the semicolon as follows.
+
+00:27:13.309 --> 00:27:29.700
+So, you would type date and let us say file
+two and then we have another command let us
+
+00:27:29.700 --> 00:27:46.289
+say wc -l and then a third command perhaps
+to inspect the file user bin znew and that
+
+00:27:46.289 --> 00:27:49.120
+output also I would like to write to file2.
+
+00:27:49.120 --> 00:27:54.710
+So, you can see that I am combining three
+commands and the output of each of those is
+
+00:27:54.710 --> 00:28:01.389
+being written to the file and then I can actually
+look at the content of the file too and you
+
+00:28:01.389 --> 00:28:08.760
+could see that the three outputs have been
+appended and we are seeing all of them.
+
+00:28:08.760 --> 00:28:14.659
+Now what I would do is I would make an intentional
+mistake here the second one I would actually
+
+00:28:14.659 --> 00:28:18.630
+make with only one greater than symbol and
+you.
+
+00:28:18.630 --> 00:28:27.909
+Now see what would happen you see that only
+the second and third outputs are there.
+
+00:28:27.909 --> 00:28:33.830
+The output of the first date command is gone
+because the second command has actually overwritten
+
+00:28:33.830 --> 00:28:38.090
+it because it has created the file to affect
+okay.
+
+00:28:38.090 --> 00:28:40.970
+So, this is how you should interpret the greater
+than symbols.
+
+00:28:40.970 --> 00:28:47.409
+So, double greater than and the greater than
+both will actually create the file if it was
+
+00:28:47.409 --> 00:28:53.700
+not existing but double greater than would
+actually append if the file was already existing
+
+00:28:53.700 --> 00:28:56.259
+and therefore the safer option for you to
+explore.
+
+00:28:56.259 --> 00:29:02.500
+Now we will use the same double greater than
+symbol to append text to a file that we are
+
+00:29:02.500 --> 00:29:03.500
+creating.
+
+00:29:03.500 --> 00:29:10.340
+So, we would remove these files.
+
+00:29:10.340 --> 00:29:15.830
+Now we would actually try to append to a file
+and the file does not exist initially it does
+
+00:29:15.830 --> 00:29:16.830
+not matter.
+
+00:29:16.830 --> 00:29:19.190
+So, I will have file1 and I want to write
+something here.
+
+00:29:19.190 --> 00:29:38.870
+So, I would write like this okay first attempt
+to add text to the file file1.
+
+00:29:38.870 --> 00:29:46.390
+Now I come out using control +D. Now I have
+come out.
+
+00:29:46.390 --> 00:29:50.750
+So, I would run this command once more.
+
+00:29:50.750 --> 00:30:00.870
+Now I say this is my second attempt to append
+text to the file called file1.
+
+00:30:00.870 --> 00:30:14.340
+We can inspect the content using cad or less
+or more commands okay I come out using control
+
+00:30:14.340 --> 00:30:19.770
++ D. So, we have done two attempts.
+
+00:30:19.770 --> 00:30:31.070
+So, we would do one more this is the third
+attempt to append content to the file called
+
+00:30:31.070 --> 00:30:32.070
+file1.
+
+00:30:32.070 --> 00:30:33.150
+So, we have.
+
+00:30:33.150 --> 00:30:41.159
+Now done three attempts and let us see what
+is the content of the file1 and you see that
+
+00:30:41.159 --> 00:30:45.389
+all the lines are there all the six lines
+are there the first attempt had these three
+
+00:30:45.389 --> 00:30:49.450
+lines which are now reproduced here.
+
+00:30:49.450 --> 00:30:57.050
+The second attempt had these three lines and
+they are here now and the third attempt had
+
+00:30:57.050 --> 00:31:00.580
+only one line and that line is here.
+
+00:31:00.580 --> 00:31:05.210
+So, you can see that you could use the cat
+command to append text to your file.
+
+00:31:05.210 --> 00:31:10.600
+So, you can actually create files with the
+text that you want to create in it by using
+
+00:31:10.600 --> 00:31:16.679
+the cat command the double greater than symbol
+to append and this is one very simple way
+
+00:31:16.679 --> 00:31:18.879
+by which you can create text files.
+
+00:31:18.879 --> 00:31:24.879
+We will learn how to edit these files in a
+visual environment within the command line
+
+00:31:24.879 --> 00:31:28.759
+in one of the sessions later on but this is
+a very quick and dirty way by which you can
+
+00:31:28.759 --> 00:31:33.090
+actually create text files and append stuff
+to that one by one.
+

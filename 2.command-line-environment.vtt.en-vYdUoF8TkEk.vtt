@@ -1,0 +1,1226 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:14.360 --> 00:00:18.070
+Welcome to the introductory session on command
+line environment.
+
+00:00:18.070 --> 00:00:21.660
+Why would we want to learn about command line
+environment?
+
+00:00:21.660 --> 00:00:30.099
+Because when we are able to type out commands
+then we are capable of using Linux to its
+
+00:00:30.099 --> 00:00:31.180
+fullest extent.
+
+00:00:31.180 --> 00:00:38.070
+We can combine these commands to form a script
+and then we can use these scripts to be launched
+
+00:00:38.070 --> 00:00:44.180
+at specific times and thereby automate some
+of the tasks that we would like to do using
+
+00:00:44.180 --> 00:00:45.940
+the Linux environmentt.
+
+00:00:45.940 --> 00:00:53.000
+So, the command line environmentt should be
+seen as not only a way by which you type out
+
+00:00:53.000 --> 00:00:58.310
+instructions to the computer but also as a
+path towards automation.
+
+00:00:58.310 --> 00:01:05.810
+On the screen you are noticing there are two
+apps that are giving you the command line
+
+00:01:05.810 --> 00:01:06.810
+environment.
+
+00:01:06.810 --> 00:01:15.270
+My favorite would be the app called terminal
+on Ubuntu genome environment it has flexibility
+
+00:01:15.270 --> 00:01:18.700
+to control the font size the colours etcetera.
+
+00:01:18.700 --> 00:01:23.650
+It also can open multiple tabs as I am showing
+you here.
+
+00:01:23.650 --> 00:01:30.600
+There is another terminal emulator called
+xter which is here you can see and it does
+
+00:01:30.600 --> 00:01:35.350
+not have many of those features to customize
+the appearance.
+
+00:01:35.350 --> 00:01:42.530
+And a third terminal emulator would be ~~quick~~
+guake which we activate by pressing the key
+
+00:01:42.530 --> 00:01:47.530
+F12 and by pressing it again we can actually
+deactivate.
+
+00:01:47.530 --> 00:01:52.450
+Once you install it and run it once then it
+would be in the background listening to your
+
+00:01:52.450 --> 00:01:55.770
+command and you can open it or close it at
+your wish.
+
+00:01:55.770 --> 00:02:01.720
+There is another terminal emulator called
+console which is available for the KDE environment
+
+00:02:01.720 --> 00:02:05.520
+on Ubuntu as well as other Linux variant.
+
+00:02:05.520 --> 00:02:12.069
+For most of the session we will actually look
+at the terminal app which is acting as a terminal
+
+00:02:12.069 --> 00:02:13.170
+emulator for us.
+
+00:02:13.170 --> 00:02:18.910
+Let me maximize the window so that we can
+see the commands clearly.
+
+00:02:18.910 --> 00:02:22.550
+Now what you are seeing on the screen here
+is called the command prompt.
+
+00:02:22.550 --> 00:02:29.420
+So, if you just keep pressing the enter key
+then you will see that the shell is asking
+
+00:02:29.420 --> 00:02:35.599
+you for some input and it is prompting you
+for that by showing this string and this string
+
+00:02:35.599 --> 00:02:38.590
+is called as the command prompt.
+
+00:02:38.590 --> 00:02:45.239
+And you can actually know clear the screen
+by typing the command clear and the cursor
+
+00:02:45.239 --> 00:02:47.340
+will be taken to the top of the window.
+
+00:02:47.340 --> 00:02:52.260
+Now one of the first things that we must do
+when we open a command line environment is
+
+00:02:52.260 --> 00:02:59.940
+to check where are we with respect to the
+files system, pwd is a command to show you
+
+00:02:59.940 --> 00:03:05.090
+the present working director and normally
+you will see that you are in the home directory.
+
+00:03:05.090 --> 00:03:11.190
+When you first login and open the thermal
+environment you will be placed in the home
+
+00:03:11.190 --> 00:03:15.060
+directory of that particular user you are
+logged into.
+
+00:03:15.060 --> 00:03:20.450
+In this case the home directory slash home
+slash user name which is what is configured
+
+00:03:20.450 --> 00:03:23.519
+for this particular account.
+
+00:03:23.519 --> 00:03:29.450
+The next thing that we normally do is to type
+ls which is to list the names of all the folders
+
+00:03:29.450 --> 00:03:32.630
+or files that are in this current directory.
+
+00:03:32.630 --> 00:03:39.069
+And you would see that there are certain folders
+available as part of the genome environment
+
+00:03:39.069 --> 00:03:45.050
+desktop documents downloads pictures videos
+etcetera.
+
+00:03:45.050 --> 00:03:50.970
+And you want to know what shell is actually
+responding to our commands, you may want to
+
+00:03:50.970 --> 00:03:56.290
+list the processes that are running right
+now and you would notice that there is a bash
+
+00:03:56.290 --> 00:03:57.290
+that is running.
+
+00:03:57.290 --> 00:04:04.159
+So, our shell that we are interacting with
+using this terminal emulator is bash shell.
+
+00:04:04.159 --> 00:04:09.410
+There are many other shells that we will come
+to that in a moment and what operating system
+
+00:04:09.410 --> 00:04:16.870
+are we using that you could actually know
+by typing the command uname and let us say
+
+00:04:16.870 --> 00:04:22.590
+we run many such commands and we would like
+to clear the screen we could type the command
+
+00:04:22.590 --> 00:04:27.840
+clear and press enter and the entire display
+will be clear.
+
+00:04:27.840 --> 00:04:33.840
+You could also for example type a command
+and the press control l to also clear the
+
+00:04:33.840 --> 00:04:39.879
+screen and after you have played around a
+bit you want to exit what you would do is
+
+00:04:39.879 --> 00:04:44.779
+type the command exit to come out of the shell.
+
+00:04:44.779 --> 00:04:47.740
+Alternatively you can also press control d.
+
+00:04:47.740 --> 00:04:54.619
+So, I can now press control d and come out
+of the shell we have an extent that is running
+
+00:04:54.619 --> 00:04:56.999
+in the background we would like to come out
+of that.
+
+00:04:56.999 --> 00:05:01.840
+So, we would type exit and then come out of
+that.
+
+00:05:01.840 --> 00:05:08.259
+And when I press F12 I am opening the ~~quack~~
+guake terminal and you could of course you
+
+00:05:08.259 --> 00:05:13.660
+can exit from that also but when you press
+F12 again another shell is actually shown
+
+00:05:13.660 --> 00:05:14.719
+to you.
+
+00:05:14.719 --> 00:05:21.669
+And I can run the same commands there and
+get the same output irrespective of the shell
+
+00:05:21.669 --> 00:05:28.830
+or the terminal emulator the commands that
+you are sending are being responded from the
+
+00:05:28.830 --> 00:05:30.169
+operating system.
+
+00:05:30.169 --> 00:05:33.639
+Now let us suggest to wrap up what we have
+discussed till now.
+
+00:05:33.639 --> 00:05:36.430
+So, what have we been doing now.
+
+00:05:36.430 --> 00:05:43.009
+So, what we did was we opened a terminal emulator
+and most of the things we did was on terminal
+
+00:05:43.009 --> 00:05:50.159
+app and we ran some commands pwd present working
+directory ~~tells~~, ls to list the folders
+
+00:05:50.159 --> 00:05:55.740
+are files in the directory, ps to look at
+the processes that are running in that particular
+
+00:05:55.740 --> 00:06:00.379
+shell, uname to look at what is the operating
+system, that is actually responding.
+
+00:06:00.379 --> 00:06:05.020
+So, these are the some of the commands that
+we started off and if you were able to clear
+
+00:06:05.020 --> 00:06:09.689
+the screen by pressing control L and also
+come out of the shell by pressing control
+
+00:06:09.689 --> 00:06:12.169
+D.
+
+00:06:12.169 --> 00:06:18.050
+Now if you look at what we have been doing
+there is command prompt that is there and
+
+00:06:18.050 --> 00:06:19.860
+then there is a command that we have written.
+
+00:06:19.860 --> 00:06:23.949
+So, let us look at the anatomy of the spiritual
+command.
+
+00:06:23.949 --> 00:06:31.309
+So, you see that when we write a command the
+command prompt in front of the command has
+
+00:06:31.309 --> 00:06:37.490
+many portions which can be configured separately
+we will discuss about that when we come to
+
+00:06:37.490 --> 00:06:39.639
+the variable called ps1.
+
+00:06:39.639 --> 00:06:46.009
+For now you see that the command prompt has
+the user name and then an ~~ad~~ at symbol
+
+00:06:46.009 --> 00:06:53.189
+after that the name of the machine followed
+by a colon and then the path where the command
+
+00:06:53.189 --> 00:06:59.159
+is being executed and then a dollar to signal
+that from then onwards you can actually start
+
+00:06:59.159 --> 00:07:05.990
+typing and the comment that we typed is ls
+and sometimes for some of the commands we
+
+00:07:05.990 --> 00:07:09.939
+need to give some options and here is an example
+ls -a.
+
+00:07:09.939 --> 00:07:15.369
+So, let us look at how this comment would
+look like.
+
+00:07:15.369 --> 00:07:21.599
+Now let us look at these commands a little
+more in detail.
+
+00:07:21.599 --> 00:07:27.080
+So, we have type command ls to look at what
+all the files that are in the current directory.
+
+00:07:27.080 --> 00:07:32.569
+We can actually now give an option to that
+command, I would give an option -a.
+
+00:07:32.569 --> 00:07:39.580
+So, most of the Linux options would have hyphen
+or a minus sign in front of them and you would
+
+00:07:39.580 --> 00:07:42.360
+see that there are a lot more files are being
+displayed.
+
+00:07:42.360 --> 00:07:50.259
+So, by this -a option will list files which
+also have dot in front of them which means
+
+00:07:50.259 --> 00:07:55.289
+that those are basically hidden from the user
+for routine operation.
+
+00:07:55.289 --> 00:08:01.169
+So, if you press ls you would see the files
+that are used by the user in a routine manner
+
+00:08:01.169 --> 00:08:08.809
+and -a if you give as an option then ls would
+give you the hidden files also which are having
+
+00:08:08.809 --> 00:08:13.969
+a dot in the first possession of the name.
+
+00:08:13.969 --> 00:08:19.860
+And if you press ls -l the list of files is
+displayed in a different manner this is called
+
+00:08:19.860 --> 00:08:29.889
+the ~~long~~ long format and we will discuss
+these fields in detail in a moment.
+
+00:08:29.889 --> 00:08:37.529
+You can get help on any command in the Linux
+thanks to the manual pages that come bundled
+
+00:08:37.529 --> 00:08:40.779
+along with the operating system.
+
+00:08:40.779 --> 00:08:47.370
+And you can pass on any command name as an
+argument to the command man and then get help
+
+00:08:47.370 --> 00:08:48.370
+on it.
+
+00:08:48.370 --> 00:08:56.089
+So, let us ask for a manual page on the command
+ls and you can see the help for the ls command
+
+00:08:56.089 --> 00:09:02.970
+you can read this to expand the scope of how
+the ls command would work for you.
+
+00:09:02.970 --> 00:09:09.899
+The most frequent options that are used with
+ls are ls -a to list all the files and ls
+
+00:09:09.899 --> 00:09:14.410
+-l to list the files in a long format.
+
+00:09:14.410 --> 00:09:20.889
+So, here is what we have done we have run
+the command man with the argument ls.
+
+00:09:20.889 --> 00:09:27.079
+So, that we are looking at the manual page
+for the ls command to understand various options
+
+00:09:27.079 --> 00:09:30.580
+that can go along with the ls command.
+
+00:09:30.580 --> 00:09:35.690
+Now the manual pages come in many sections
+and this is just a textbook information to
+
+00:09:35.690 --> 00:09:41.600
+let you know that the manual pages cover various
+aspects of the operating system and the section
+
+00:09:41.600 --> 00:09:45.410
+one is where the shell commands are being
+described.
+
+00:09:45.410 --> 00:09:52.149
+So, you can actually ask man pages to be displayed
+in the section one for the command ls.
+
+00:09:52.149 --> 00:09:58.190
+So, here what happens is that when you type
+man space 1 space ls, 1 becomes an option
+
+00:09:58.190 --> 00:10:00.080
+and ls becomes an argument.
+
+00:10:00.080 --> 00:10:04.850
+Let us explore the file system of a Linux
+operator system.
+
+00:10:04.850 --> 00:10:13.149
+Luckily for us the file system hierarchy standard
+version 3.0 is what is followed by all the
+
+00:10:13.149 --> 00:10:16.649
+Linux opening systems irrespective of the
+variant that we are using.
+
+00:10:16.649 --> 00:10:25.330
+So, we are using the Ubuntu 20.04 lts version
+and you could shift to another version of
+
+00:10:25.330 --> 00:10:30.560
+Linux and you would see that the folders will
+have the same name and they will be located
+
+00:10:30.560 --> 00:10:33.730
+in the same hierarchy as we will be exploring
+shortly.
+
+00:10:33.730 --> 00:10:37.230
+Why do we need to understand how the file
+system hierarchy is?
+
+00:10:37.230 --> 00:10:44.440
+The reason is that when we log to the system
+and when we open a command line environment
+
+00:10:44.440 --> 00:10:50.939
+in a shell we are placed at a particular location
+in the hierarchy namely our home directory
+
+00:10:50.939 --> 00:10:55.930
+and we have permissions to create files in
+that directory and perhaps also in some other
+
+00:10:55.930 --> 00:11:01.620
+directory such as slash temp but we do have
+read access to many files that are there in
+
+00:11:01.620 --> 00:11:05.750
+several folders and we should be able to traverse
+the hierarchy.
+
+00:11:05.750 --> 00:11:13.350
+And locate commands corresponding to specific
+applications that we would like to run and
+
+00:11:13.350 --> 00:11:19.860
+very often we need to identify the right location
+of a library file because it is required for
+
+00:11:19.860 --> 00:11:21.930
+some compilation of a program.
+
+00:11:21.930 --> 00:11:29.240
+The files corresponding to libraries are header
+files to compile our codes and the ability
+
+00:11:29.240 --> 00:11:34.350
+to traverse the file system hierarchy will
+actually determine how soon we are able to
+
+00:11:34.350 --> 00:11:41.740
+debug our difficulties with respect to compilation
+requirement and get on with the program development.
+
+00:11:41.740 --> 00:11:46.980
+So, it is very useful to familiarize ourselves
+with file system hierarchy of Linux.
+
+00:11:46.980 --> 00:11:57.029
+So, here is a sample of the file system hierarchy
+the forward slash or slash simply is the root
+
+00:11:57.029 --> 00:12:01.990
+directory and that is a starting point for
+the file system hierarchy.
+
+00:12:01.990 --> 00:12:08.300
+This character forward slash is also used
+as a field separator to indicate the path
+
+00:12:08.300 --> 00:12:10.079
+to any directory.
+
+00:12:10.079 --> 00:12:14.770
+As we see now let us say for example we want
+to refer to this directory called bin which
+
+00:12:14.770 --> 00:12:21.370
+is under directly called user then you would
+write that part for this bin as slash user
+
+00:12:21.370 --> 00:12:23.649
+slash bin.
+
+00:12:23.649 --> 00:12:28.170
+And you would see that there are a number
+of directories with specific names which will
+
+00:12:28.170 --> 00:12:35.769
+actually have their meaning as described in
+the file system hierarchy standard 3.0.
+
+00:12:35.769 --> 00:12:40.860
+The user directory is here the home directory
+for a user and under the home directory there
+
+00:12:40.860 --> 00:12:45.610
+are folders which are created by the operating
+system while creating that account and there
+
+00:12:45.610 --> 00:12:51.610
+are also folders that the user can create
+for herself or himself.
+
+00:12:51.610 --> 00:12:58.090
+We can explore the file system hierarchy by
+first understanding how to actually construct
+
+00:12:58.090 --> 00:13:00.240
+the path of any directory.
+
+00:13:00.240 --> 00:13:03.459
+So, forward slash is the root of the file
+system and also the ~~delivered~~ delimeter
+
+00:13:03.459 --> 00:13:05.589
+for the subdirectories.
+
+00:13:05.589 --> 00:13:12.660
+And in every directory there are two special
+files one is called the dot which is referring
+
+00:13:12.660 --> 00:13:18.259
+to the current director and the other is double
+dot which is referring to the parent directory.
+
+00:13:18.259 --> 00:13:24.020
+So, if you type the command cd space dot nothing
+will happen because you are trying to change
+
+00:13:24.020 --> 00:13:25.600
+the directory to the current directory.
+
+00:13:25.600 --> 00:13:28.670
+So, there is no change in the directly position.
+
+00:13:28.670 --> 00:13:35.829
+If you type the command cd space double dot
+then you are going one level up in the file
+
+00:13:35.829 --> 00:13:36.829
+system hierarchy.
+
+00:13:36.829 --> 00:13:42.009
+So, you could ~~travel~~ traverse the file
+system hierarchy up and down by changing the
+
+00:13:42.009 --> 00:13:43.009
+directory.
+
+00:13:43.009 --> 00:13:48.740
+If you want to go from the user's home directory
+upwards you would say cd space double dot
+
+00:13:48.740 --> 00:13:52.300
+and then you would be home directly and then
+series double dot you will be in the root
+
+00:13:52.300 --> 00:13:53.300
+directory.
+
+00:13:53.300 --> 00:13:58.290
+From the root directory if you actually give
+the absolute path you could actually go anywhere
+
+00:13:58.290 --> 00:14:03.730
+you wish or you could actually use a cd with
+the name of the directory to traverse one
+
+00:14:03.730 --> 00:14:05.449
+level at a time.
+
+00:14:05.449 --> 00:14:11.050
+Let us explore the file system hierarchy using
+the system where we are trying to demonstrate
+
+00:14:11.050 --> 00:14:13.920
+I become an environment.
+
+00:14:13.920 --> 00:14:16.320
+So, where am I right now?
+
+00:14:16.320 --> 00:14:22.450
+I am in the home directory of the user I am
+logged into and when I type ls I see that
+
+00:14:22.450 --> 00:14:31.029
+there are certain files that are listed ~~herw~~
+here and when I press ls space -a then we
+
+00:14:31.029 --> 00:14:37.190
+notice that there are two special files here
+one that is dot and another that is double
+
+00:14:37.190 --> 00:14:38.190
+dot.
+
+00:14:38.190 --> 00:14:42.540
+There is a special directory called double
+dot which is allowing us to traverse one level
+
+00:14:42.540 --> 00:14:43.649
+up in the hierarchy.
+
+00:14:43.649 --> 00:14:50.139
+So, let me change my ~~director~~ directory
+to one level up and you would now see that
+
+00:14:50.139 --> 00:14:52.639
+we are now in slash home.
+
+00:14:52.639 --> 00:14:57.640
+And if I type this ~~comment~~ command once
+more then we are in the root folder verify
+
+00:14:57.640 --> 00:15:01.589
+that we are in the root folder using the pwd
+command.
+
+00:15:01.589 --> 00:15:06.410
+Now if I press cd then we are going back to
+the home ~~director~~ directory which means
+
+00:15:06.410 --> 00:15:09.449
+that the cd without any arguments will take
+you to the home directory.
+
+00:15:09.449 --> 00:15:12.730
+I know press control l clear the screen.
+
+00:15:12.730 --> 00:15:20.699
+Now let me go back to the root folder and
+using ls we will see that there are certain
+
+00:15:20.699 --> 00:15:29.279
+folders that are there in the root folder
+an get the -l option we can actually see the
+
+00:15:29.279 --> 00:15:35.800
+long format and it actually indicates several
+things about the file system that we can already
+
+00:15:35.800 --> 00:15:36.800
+start getting familiarized.
+
+00:15:36.800 --> 00:15:42.970
+For example the very first character shows
+that there is an l here and for some directories
+
+00:15:42.970 --> 00:15:49.689
+it is d and the difference between these two
+is that the l indicates a symbolic link.
+
+00:15:49.689 --> 00:15:54.779
+So, which means that the bin folder of the
+root ~~territory~~ directory is actually a
+
+00:15:54.779 --> 00:16:02.040
+symbolic link to a folder with the same name
+in the user directory and the d here means
+
+00:16:02.040 --> 00:16:05.939
+that it is actually a directory by itself
+in the particular location.
+
+00:16:05.939 --> 00:16:13.999
+Now boot directory the Linux kernel is located
+which is what gets executed when the system
+
+00:16:13.999 --> 00:16:19.819
+is starting up and there are many such directors
+here let us explore one of them.
+
+00:16:19.819 --> 00:16:27.759
+So, we will go to the user directory and then
+from there we can go down to the bin director
+
+00:16:27.759 --> 00:16:29.259
+and let us look at what are the files that
+are there?
+
+00:16:29.259 --> 00:16:35.240
+There is a lot of files that are here and
+many of these are actually commands that we
+
+00:16:35.240 --> 00:16:43.470
+would be using as we go along learning the
+command line and environment and we can now
+
+00:16:43.470 --> 00:16:49.660
+go back to the home directory verify that
+we are in the home directory.
+
+00:16:49.660 --> 00:16:55.389
+In this manner we can actually traverse the
+hierarchy of the file system and explore what
+
+00:16:55.389 --> 00:16:57.040
+is there in which folder.
+
+00:16:57.040 --> 00:17:03.519
+Now let us look at the organization of these
+folders as per the file system hierarchy standard.
+
+00:17:03.519 --> 00:17:08.819
+The bin directory in the root folder should
+contain the essential command binaries or
+
+00:17:08.819 --> 00:17:09.819
+executables.
+
+00:17:09.819 --> 00:17:15.670
+These are the commands that every user in
+the system are supposed to be able to run.
+
+00:17:15.670 --> 00:17:21.850
+Sometimes this folder can be a link to the
+folder in slash user slash bin and that is
+
+00:17:21.850 --> 00:17:27.601
+a matter of only a choice from the company
+that packages the Linux for you.
+
+00:17:27.601 --> 00:17:32.670
+Boot folder contains the boot order which
+is what executes when system starts.
+
+00:17:32.670 --> 00:17:36.390
+Dev folder contains the device file.
+
+00:17:36.390 --> 00:17:39.520
+One says that in Linux everything is a file.
+
+00:17:39.520 --> 00:17:44.740
+So, every device that is corrected to the
+computer is actually a file as far as the
+
+00:17:44.740 --> 00:17:48.149
+representation is concerned in the file system
+hierarchy.
+
+00:17:48.149 --> 00:17:54.429
+Etc folder contains configurations of various
+services which are specific to that particular
+
+00:17:54.429 --> 00:17:55.950
+machine.
+
+00:17:55.950 --> 00:18:02.299
+The lib folder will contain the libraries
+are shared programs as well as kernel modules.
+
+00:18:02.299 --> 00:18:08.260
+The media folder will contain folders which
+are created when you insert a removable device
+
+00:18:08.260 --> 00:18:09.260
+into the computer.
+
+00:18:09.260 --> 00:18:15.020
+For example if you insert a usb disk then
+in the media folder a folder is available
+
+00:18:15.020 --> 00:18:20.610
+this will contain the file system for the
+usb stick which you can explore and when you
+
+00:18:20.610 --> 00:18:26.960
+unbound or eject the usb stick then that folder
+will also disappear.
+
+00:18:26.960 --> 00:18:32.570
+Now slash mnt is a folder where you could
+have mount points that is directories which
+
+00:18:32.570 --> 00:18:39.450
+are made available to traverse the file system
+of those respective hardware or hard disk.
+
+00:18:39.450 --> 00:18:46.600
+Slash opt is a folder where application software
+packages are installed particularly in high
+
+00:18:46.600 --> 00:18:50.070
+performance computing environment.
+
+00:18:50.070 --> 00:18:55.789
+Run is a file system to have the data for
+the running processes.
+
+00:18:55.789 --> 00:19:02.549
+Sbin is a directory where the executables
+meant for system administration are kept.
+
+00:19:02.549 --> 00:19:07.890
+It is expected that normal users in the routine
+operation of the system do not require to
+
+00:19:07.890 --> 00:19:15.200
+execute any command which is located in this
+particular folder, srv is a folder that contains
+
+00:19:15.200 --> 00:19:22.960
+the data for ftp or http services, tmp is
+a folder where temporary files are located
+
+00:19:22.960 --> 00:19:27.710
+every user will have permission to write files
+to this particular folder.
+
+00:19:27.710 --> 00:19:33.380
+And one should not expect such files to be
+available after the rebooting because in many
+
+00:19:33.380 --> 00:19:39.130
+computers the configuration would be such
+that upon reporting the slash time will be
+
+00:19:39.130 --> 00:19:40.190
+cleaned up.
+
+00:19:40.190 --> 00:19:45.580
+Slash user is a secondary hierarchy for the
+file system which is shareable by that we
+
+00:19:45.580 --> 00:19:53.132
+mean when you have a high performance computing
+environment then you could have the user directory
+
+00:19:53.132 --> 00:19:54.590
+shared across multiple computers.
+
+00:19:54.590 --> 00:20:00.899
+So, that you do not have to actually have
+that much of hard disk uh space replicated
+
+00:20:00.899 --> 00:20:03.840
+across all the computer.
+
+00:20:03.840 --> 00:20:10.720
+Slash var is a folder where variable data
+is stored such as the log files for various
+
+00:20:10.720 --> 00:20:13.890
+system services that are running in the background.
+
+00:20:13.890 --> 00:20:17.000
+Now let us come back to the command prompt
+and look at these directories.
+
+00:20:17.000 --> 00:20:23.990
+So, we go back to the root folder and you
+see that there is user directory and in that
+
+00:20:23.990 --> 00:20:28.080
+there is a bin directory and you have got
+all these commands.
+
+00:20:28.080 --> 00:20:30.380
+And we also noticed the slash etc.
+
+00:20:30.380 --> 00:20:35.659
+So, look at what is all there in slash etc
+you would see that a whole bunch of files
+
+00:20:35.659 --> 00:20:41.860
+are named as dot ~~con~~ conf which is basically
+the configuration for those respective ~~surfaces~~
+
+00:20:41.860 --> 00:20:43.299
+services.
+
+00:20:43.299 --> 00:20:48.370
+And slash var is a folder where we said that
+the log files will be located and they are
+
+00:20:48.370 --> 00:20:55.780
+all in this folder called log and you would
+see that there are logs that are created for
+
+00:20:55.780 --> 00:20:59.029
+various services.
+
+00:20:59.029 --> 00:21:05.240
+Now let us look at the slash dev folder and
+you would see that the display would have
+
+00:21:05.240 --> 00:21:10.179
+a different character in the long format of
+the file listing.
+
+00:21:10.179 --> 00:21:16.610
+The c here shows that it is actually a character
+file which means that you could read from
+
+00:21:16.610 --> 00:21:21.670
+that particular device a character by character
+which is typical of ~~uh~~ devices such as
+
+00:21:21.670 --> 00:21:23.640
+the terminal.
+
+00:21:23.640 --> 00:21:28.519
+And there are some files which would actually
+have the first character as b and these are
+
+00:21:28.519 --> 00:21:32.270
+called as block devices particularly it is
+for the hard disks.
+
+00:21:32.270 --> 00:21:37.090
+So, when you want to read from a hard disk
+you would read one block at a time typically
+
+00:21:37.090 --> 00:21:44.519
+a block would be either 512 bytes or 1 kilobyte
+or even 4 kilobytes depending upon the configuration
+
+00:21:44.519 --> 00:21:47.330
+and the Linux typically it is one kilobyte.
+
+00:21:47.330 --> 00:21:54.559
+So, if you see these devices which are listed
+as sda 1 up to 7 these are block devices which
+
+00:21:54.559 --> 00:22:01.500
+are available as files as far as the file
+system is concerned.
+
+00:22:01.500 --> 00:22:09.120
+Let us look at the slash lib folder and you
+will see that this folder would contain many
+
+00:22:09.120 --> 00:22:14.200
+files that would have a pattern which would
+have a number in the end which is typical
+
+00:22:14.200 --> 00:22:18.950
+of a library files with version numbers that
+are there as a part part of the file name.
+
+00:22:18.950 --> 00:22:24.330
+You can now explore the file system at your
+convenience and as long as you are using the
+
+00:22:24.330 --> 00:22:30.210
+commands like cd and ls there is nothing that
+you can go wrong and make yourself familiar
+
+00:22:30.210 --> 00:22:37.750
+with the file system hierarchy and understand
+which part of the hierarchy is your home directory
+
+00:22:37.750 --> 00:22:42.330
+and everything below that hierarchy is what
+is owned and writable for you.
+
+00:22:42.330 --> 00:22:45.169
+So, you could actually play around with it.
+
+00:22:45.169 --> 00:22:50.760
+And you will notice that you cannot actually
+do much changes to the file system hierarchy
+
+00:22:50.760 --> 00:22:56.490
+beyond your home directory which is characteristic
+of the secure manner by which the file system
+
+00:22:56.490 --> 00:22:58.769
+is configured in the Linux operating system.
+
+00:22:58.769 --> 00:23:05.240
+Before we wrap up let us look at the hierarchy
+of the user and var folders which is quite
+
+00:23:05.240 --> 00:23:06.240
+extensive.
+
+00:23:06.240 --> 00:23:12.940
+So, in the user hierarchy the secondary hierarchy
+you would have a user bin folder which will
+
+00:23:12.940 --> 00:23:17.640
+contain commands that every user is expected
+to be able to run.
+
+00:23:17.640 --> 00:23:23.120
+And there is a folder called user lib where
+library files are located, user local is a
+
+00:23:23.120 --> 00:23:29.080
+directly where certain applications which
+are specific for that particular system are
+
+00:23:29.080 --> 00:23:36.200
+installed which may not be common for all
+the operator systems in that particular variant.
+
+00:23:36.200 --> 00:23:41.150
+User sbin is ~it directly~ a directory where
+system administration executables are located
+
+00:23:41.150 --> 00:23:46.350
+but these are non vital because the vital
+ones are available in slash sbin itself.
+
+00:23:46.350 --> 00:23:48.789
+What do we mean by that?
+
+00:23:48.789 --> 00:23:56.630
+It is that when the machine is in a single
+user mode or in maintenance mode then executables
+
+00:23:56.630 --> 00:24:01.240
+which are required to mount the file systems
+are performed system administration tasks
+
+00:24:01.240 --> 00:24:10.440
+that are not dependent on any network or any
+remotely located file systems that are mounted
+
+00:24:10.440 --> 00:24:13.191
+on the system then you would actually use
+uh slash sbin.
+
+00:24:13.191 --> 00:24:23.139
+User share is a folder where the architecture
+dependent data is stored.
+
+00:24:23.139 --> 00:24:28.149
+User include is a directory where the header
+files for C programs are all to be found.
+
+00:24:28.149 --> 00:24:35.490
+So, when you started the helloworld program
+in C for example stdio dot h is a header file
+
+00:24:35.490 --> 00:24:40.019
+that you include and you would see that it
+is located in this particular folder.
+
+00:24:40.019 --> 00:24:44.480
+User src would be containing the source code
+of various applications that are installed
+
+00:24:44.480 --> 00:24:49.850
+on the Linux operating system if you have
+chosen to installed those package.
+
+00:24:49.850 --> 00:24:58.030
+The var hierarchy is also important because
+we need to know where to find the log files.
+
+00:24:58.030 --> 00:25:05.169
+So, in var log the log files for various services
+will be located and in var temp some of the
+
+00:25:05.169 --> 00:25:10.090
+temporary files that are to be preserved between
+the reports will be locate.
+
+00:25:10.090 --> 00:25:16.200
+And vr log is a place where the log files
+are there for processes which would like to
+
+00:25:16.200 --> 00:25:23.450
+have exclusive access to certain files during
+certain operations that prevent any clash
+
+00:25:23.450 --> 00:25:27.950
+of information, var lib is a variable state
+information.
+
+00:25:27.950 --> 00:25:35.880
+Now here is some logic or reason why there
+are such folders with this kind of a hierarchy.
+
+00:25:35.880 --> 00:25:42.549
+So, what we mean by a shareable folder is
+that a file system which can be shared across
+
+00:25:42.549 --> 00:25:48.789
+computers this is essentially to conserve
+the storage and also to provide uniform uh
+
+00:25:48.789 --> 00:25:55.320
+file system to multiple computers particularly
+in high performance computing environment.
+
+00:25:55.320 --> 00:26:01.050
+And sometimes you also have what is called
+the static and variable kind of file systems
+
+00:26:01.050 --> 00:26:02.050
+or directories.
+
+00:26:02.050 --> 00:26:08.970
+The static ones are ones which do no during
+the regular operation of the computer whereas
+
+00:26:08.970 --> 00:26:10.409
+variable ones would change.
+
+00:26:10.409 --> 00:26:16.080
+For example when an email comes a folder corresponding
+to that particular users inbox would change.
+
+00:26:16.080 --> 00:26:21.250
+So, that would be in the variable folder such
+as var by mail by the user name.
+
+00:26:21.250 --> 00:26:27.680
+However when you execute commands the executables
+are not going to change and they will always
+
+00:26:27.680 --> 00:26:32.049
+static files there are some folders which
+cannot be shared across computers because
+
+00:26:32.049 --> 00:26:36.380
+they contain configuration specific to that
+particular computer.
+
+00:26:36.380 --> 00:26:42.799
+Slash etc and slash put are some such folders
+and there are some such folders which are
+
+00:26:42.799 --> 00:26:47.832
+not shareable across computers as well as
+they are also variable with the regular operation
+
+00:26:47.832 --> 00:26:51.980
+of the computer like for example var lock
+or var run
+
+00:26:51.980 --> 00:26:59.039
+So, this is a logic why there are different
+folders and a standard has been defined to
+
+00:26:59.039 --> 00:27:05.100
+ensure that users who log into machines can
+actually identify these folders irrespective
+
+00:27:05.100 --> 00:27:10.809
+of the specific version of the operating system
+they are using.
+
+00:27:10.809 --> 00:27:16.760
+And across the Linux variance you would find
+that the file system hierarchy is maintained.
+
+00:27:16.760 --> 00:27:23.000
+And this helps us navigate the file system
+hierarchy and locate the files that we are
+
+00:27:23.000 --> 00:27:28.779
+looking for to execute them or to use them
+for linking purpose while we compare some
+
+00:27:28.779 --> 00:27:29.950
+of our programs.
+
+00:27:29.950 --> 00:27:36.621
+I hope you got a sense of the file system
+hierarchy and I urge you to explore the command
+
+00:27:36.621 --> 00:27:43.120
+line environment and make yourself familiar
+with the file system of your own computer.
+
+00:27:43.120 --> 00:27:47.950
+And you would soon be comfortable with locating
+files that would arrive onto your computer
+
+00:27:47.950 --> 00:27:55.080
+as you run commands or download things and
+move around the files for your work.
+

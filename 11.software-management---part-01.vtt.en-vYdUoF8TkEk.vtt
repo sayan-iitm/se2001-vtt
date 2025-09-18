@@ -1,0 +1,968 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:14.240 --> 00:00:21.680
+Welcome to the lesson on Software Management. In&nbsp;
+the last two decades, managing software on Linux&nbsp;&nbsp;
+
+00:00:21.680 --> 00:00:26.800
+operating systems has become very convenient.&nbsp;
+Thanks to the package management systems. In the&nbsp;&nbsp;
+
+00:00:26.800 --> 00:00:33.520
+past, one had to download the source code compile,&nbsp;
+and place the binaries and libraries in their&nbsp;&nbsp;
+
+00:00:33.520 --> 00:00:40.560
+respective locations, and in the process also&nbsp;
+handle any conflicts with existing libraries, etc.&nbsp;&nbsp;
+
+00:00:41.200 --> 00:00:46.160
+But today, this has been made very convenient,&nbsp;
+because the package management system&nbsp;&nbsp;
+
+00:00:46.880 --> 00:00:53.040
+would take care of all those details for you. 
+Why do we need to have a package manager? It is&nbsp;&nbsp;
+
+00:00:53.040 --> 00:00:57.840
+very simple. We need tools to install,&nbsp;
+update, remove and manage the software,&nbsp;&nbsp;
+
+00:00:58.880 --> 00:01:03.760
+and doing it manually would be quite painful,&nbsp;
+particularly, with the number of packages runs&nbsp;&nbsp;
+
+00:01:03.760 --> 00:01:08.960
+into several thousands, which is typical for a&nbsp;
+fully installed Linux operating system today.&nbsp;&nbsp;
+
+00:01:08.960 --> 00:01:15.120
+We also want to be able to install the&nbsp;
+new and updated software across network&nbsp;&nbsp;
+
+00:01:15.120 --> 00:01:22.080
+that is, we may not have the software available as&nbsp;
+a disk or as a USB drive with us readily, and we&nbsp;&nbsp;
+
+00:01:22.080 --> 00:01:27.680
+may want to do the updating over the Internet. 
+Sometimes we are interested in knowing what are&nbsp;&nbsp;
+
+00:01:27.680 --> 00:01:33.440
+the various files that are supplied by a given&nbsp;
+package. And sometimes we are also wondering,&nbsp;&nbsp;
+
+00:01:33.440 --> 00:01:40.560
+which package has supplied a particular executable&nbsp;
+that we have become familiar using it. So, both&nbsp;&nbsp;
+
+00:01:40.560 --> 00:01:46.320
+ways a package manager would let you look up the&nbsp;
+database and answer your queries. So, the database&nbsp;&nbsp;
+
+00:01:46.320 --> 00:01:52.560
+of packages on the Linux operating system would&nbsp;
+include the versions, and their compatibility&nbsp;&nbsp;
+
+00:01:52.560 --> 00:02:00.000
+and requirements, so that it makes your life&nbsp;
+quite easy in upgrading or adding new packages&nbsp;&nbsp;
+
+00:02:00.000 --> 00:02:06.160
+without disturbing the existing setup. 
+And how do you verify whether the software&nbsp;&nbsp;
+
+00:02:06.160 --> 00:02:14.240
+tools that you are installing are coming from the&nbsp;
+original software vendor or the authentic Linux&nbsp;&nbsp;
+
+00:02:14.240 --> 00:02:19.440
+source? There are ways by which signatures&nbsp;
+are placed along with the software tools,&nbsp;&nbsp;
+
+00:02:20.160 --> 00:02:25.920
+which help you verify the authenticity of the&nbsp;
+source of these tools, so it is a very good idea&nbsp;&nbsp;
+
+00:02:26.560 --> 00:02:32.880
+to pick up software tools for any Linux operating&nbsp;
+system from the respective source of that&nbsp;&nbsp;
+
+00:02:32.880 --> 00:02:39.360
+particular flavor of Linux, and not as a binary&nbsp;
+from any arbitrary website on the Internet. 
+&nbsp;
+
+00:02:39.360 --> 00:02:45.040
+There are some packages which come as a&nbsp;
+source code, and you need tools to build&nbsp;&nbsp;
+
+00:02:45.040 --> 00:02:51.040
+executable versions of those tools, and package&nbsp;
+manager also would take care of such aspects.&nbsp;&nbsp;
+
+00:02:51.680 --> 00:02:57.200
+This is particularly true of kernel modules,&nbsp;
+so that whenever the kernel gets updated,&nbsp;&nbsp;
+
+00:02:57.920 --> 00:03:02.240
+certain modules need to be compiled for that&nbsp;
+particular version and made available. 
+&nbsp;
+
+00:03:02.240 --> 00:03:08.800
+There are two major package types that are&nbsp;
+available. One is RPM and the other is DEB or&nbsp;&nbsp;
+
+00:03:08.800 --> 00:03:15.840
+Debian. The RPM format is followed originally from&nbsp;
+the Red Hat Linux operating system. Derived from&nbsp;&nbsp;
+
+00:03:15.840 --> 00:03:22.560
+the Red Hat operating system our CentOS, Fedora&nbsp;
+and Oracle Linux. The RPM format is also followed&nbsp;&nbsp;
+
+00:03:22.560 --> 00:03:28.240
+by the SUSE Enterprise Linux firmware the&nbsp;
+OpenSUSE operating system has been derived. 
+&nbsp;
+
+00:03:28.240 --> 00:03:32.960
+The Debian format of package type is&nbsp;
+from the Debian Linux operating system&nbsp;&nbsp;
+
+00:03:33.760 --> 00:03:36.960
+from where the Ubuntu Linux has been derived.&nbsp;&nbsp;
+
+00:03:38.800 --> 00:03:45.840
+The Mint Linux is also a derivative of Ubuntu&nbsp;
+and therefore it is also a Debian type of Linux.&nbsp;&nbsp;
+
+00:03:47.040 --> 00:03:53.200
+Topics is another flavor, which is used&nbsp;
+to run Linux off a media drive such as&nbsp;&nbsp;
+
+00:03:53.200 --> 00:03:57.840
+a CD drive or a DVD drive, and that&nbsp;
+is also a derivative from Debian. 
+&nbsp;
+
+00:03:58.400 --> 00:04:03.040
+As you have noticed, Ubuntu is the most&nbsp;
+popular desktop operating system including&nbsp;&nbsp;
+
+00:04:03.040 --> 00:04:09.600
+its derivatives, and therefore the package type&nbsp;
+that we must be familiar is Debian package.&nbsp;&nbsp;
+
+00:04:11.120 --> 00:04:13.840
+Whereas those who are maintaining Linux servers,&nbsp;&nbsp;
+
+00:04:14.480 --> 00:04:18.800
+they should be familiarized&nbsp;
+with the RPM package type. 
+&nbsp;
+
+00:04:18.800 --> 00:04:23.840
+Let us check what type of an operating system&nbsp;
+we have on the desktop that we are using.&nbsp;&nbsp;
+
+00:04:25.040 --> 00:04:30.000
+I would just open the shell to check what is&nbsp;
+that let us see what type of an operating system&nbsp;&nbsp;
+
+00:04:30.000 --> 00:04:40.080
+we have. So, we can run the command lsb release&nbsp;
+with an option minus a and you see that the&nbsp;&nbsp;
+
+00:04:40.080 --> 00:04:47.040
+desktop operating system that is right now&nbsp;
+running in my machine is Ubuntu version 20.04 LTS,&nbsp;&nbsp;
+
+00:04:48.000 --> 00:04:53.920
+and the nickname for this operating&nbsp;
+system with the version 20.04 is focal.&nbsp;&nbsp;
+
+00:04:54.800 --> 00:04:59.200
+So, when you look for some packages&nbsp;
+for this particular version of Ubuntu,&nbsp;&nbsp;
+
+00:04:59.200 --> 00:05:04.240
+you could actually search by the nickname which&nbsp;
+makes it a little easier to identify those. 
+&nbsp;
+
+00:05:04.240 --> 00:05:08.400
+Linux operating system is available&nbsp;
+for a wide variety of architectures.&nbsp;&nbsp;
+
+00:05:09.440 --> 00:05:16.800
+So, in the past, we had the 32-bit hardware, so&nbsp;
+we would have Linux for i386 architecture or x86&nbsp;&nbsp;
+
+00:05:16.800 --> 00:05:23.440
+architecture. Today we have 64-bit hardware, and&nbsp;
+therefore, we would actually have the operating&nbsp;&nbsp;
+
+00:05:23.440 --> 00:05:33.520
+system for AMD 64 or x86 underscore 64, as the&nbsp;
+architecture. And Linux is now also available on&nbsp;&nbsp;
+
+00:05:34.720 --> 00:05:40.320
+arm architecture which is popularly used by&nbsp;
+the mobile phones. Linux is also available&nbsp;&nbsp;
+
+00:05:40.320 --> 00:05:45.120
+for power PC architecture.
+You may have heard of the RISC&nbsp;&nbsp;
+
+00:05:46.000 --> 00:05:52.560
+fifth generation risk five architecture. For&nbsp;
+example, in the context of Shakti Processor,&nbsp;&nbsp;
+
+00:05:52.560 --> 00:05:58.560
+those architectures are also readily supported by&nbsp;
+the Linux operating system. And sometimes packages&nbsp;&nbsp;
+
+00:05:58.560 --> 00:06:06.320
+come, which are not tied to any particular&nbsp;
+architecture, because they may be a source code&nbsp;&nbsp;
+
+00:06:06.320 --> 00:06:13.680
+are just pieces of files that are coming&nbsp;
+as a bundle, so they would be denoted with&nbsp;&nbsp;
+
+00:06:13.680 --> 00:06:22.000
+an architecture as noarch or all or src. 
+So, look out for the string, which indicates&nbsp;&nbsp;
+
+00:06:22.000 --> 00:06:28.880
+the architecture for which the particular package&nbsp;
+has been built, and also which architecture your&nbsp;&nbsp;
+
+00:06:29.520 --> 00:06:34.480
+desktop mission is, so that you&nbsp;
+would install a compatible package.&nbsp;&nbsp;
+
+00:06:36.080 --> 00:06:39.840
+Usually, this is taken care by the package&nbsp;
+manager, so you do not have to worry much.
+&nbsp;
+
+00:06:41.600 --> 00:06:46.720
+Let us look at what type of an architecture&nbsp;
+we see. You type a command, uname minus a,&nbsp;&nbsp;
+
+00:06:47.440 --> 00:06:54.400
+and you will see what type of a kernel is running&nbsp;
+right now, so my desktop is running kernel 5.11,&nbsp;&nbsp;
+
+00:06:55.040 --> 00:07:00.160
+and you could see some, the string&nbsp;
+that is a x86 64 architecture.&nbsp;&nbsp;
+
+00:07:01.600 --> 00:07:07.600
+So, once you have identified which version of the&nbsp;
+Linux and what architecture then by and large,&nbsp;&nbsp;
+
+00:07:08.720 --> 00:07:13.440
+you can actually pick up a package and&nbsp;
+install it yourself, but it is a good&nbsp;&nbsp;
+
+00:07:13.440 --> 00:07:18.320
+idea to go through the package management. 
+So, here are some package management systems&nbsp;&nbsp;
+
+00:07:18.320 --> 00:07:27.280
+that are widely used across both the RPM type of&nbsp;
+package as well as Debian type of package. So, the&nbsp;&nbsp;
+
+00:07:27.280 --> 00:07:35.840
+so called YUM software, which expands to Yellowdog&nbsp;
+Updater Modifier is popularly used to manage the&nbsp;&nbsp;
+
+00:07:35.840 --> 00:07:41.520
+RPM packages. On Red Hat, you would have the&nbsp;
+RPM, as application which would help you manage&nbsp;&nbsp;
+
+00:07:41.520 --> 00:07:47.200
+the packages, and the YUM package management&nbsp;
+system would actually call RPM to install,&nbsp;&nbsp;
+
+00:07:47.200 --> 00:07:52.400
+update or remove the RPM packages. 
+In the recent past the YUM package management&nbsp;&nbsp;
+
+00:07:52.400 --> 00:08:00.480
+system has been modified, and it is now called&nbsp;
+as dnf which expands to Dandified YUM. So,&nbsp;&nbsp;
+
+00:08:00.480 --> 00:08:07.280
+if you have a Red Hat open system, then&nbsp;
+you would use dnf to manage the packages.&nbsp;&nbsp;
+
+00:08:07.280 --> 00:08:11.840
+Most of the options are quite compatible, so you&nbsp;
+should be able to readily use those comments. 
+&nbsp;
+
+00:08:12.880 --> 00:08:19.120
+However, we are going to learn in depth how to&nbsp;
+manage the Debian packages, which can be done&nbsp;&nbsp;
+
+00:08:19.120 --> 00:08:25.200
+both using a graphical user interface, as well&nbsp;
+as command line. So, synaptic is a graphical&nbsp;&nbsp;
+
+00:08:25.200 --> 00:08:31.600
+user interface, and aptitude is a command line&nbsp;
+interface available to manage packages of the type&nbsp;&nbsp;
+
+00:08:31.600 --> 00:08:39.120
+Debian, and at the backend is the advanced package&nbsp;
+tool, APT, which does the package management. 
+&nbsp;
+
+00:08:39.120 --> 00:08:42.640
+And there is a tool called&nbsp;
+dpkg, which is called by APT&nbsp;&nbsp;
+
+00:08:43.200 --> 00:08:49.120
+to actually install the packages. So, we would&nbsp;
+also use some of the commands directly using dpkg,&nbsp;&nbsp;
+
+00:08:50.400 --> 00:08:56.720
+which further makes calls to dpkg hyphen,&nbsp;
+Deb, which we normally do not have to call&nbsp;&nbsp;
+
+00:08:56.720 --> 00:09:06.320
+directly ourselves. So, let us go and explore&nbsp;
+further Debian package management on Ubuntu our&nbsp;&nbsp;
+
+00:09:06.320 --> 00:09:14.080
+similar operating system using a APT and dpkg. 
+So, we will now use the APT package management&nbsp;&nbsp;
+
+00:09:14.080 --> 00:09:19.040
+system to explore the packages&nbsp;
+on an Ubuntu operate system.&nbsp;&nbsp;
+
+00:09:21.680 --> 00:09:26.720
+So, here are a few ways by which&nbsp;
+you can use the apt cache command,&nbsp;&nbsp;
+
+00:09:27.840 --> 00:09:30.800
+so you could search for a keyword, you could&nbsp;&nbsp;
+
+00:09:32.080 --> 00:09:39.040
+ask for what are the packages that have been&nbsp;
+installed on the operating system, and you&nbsp;&nbsp;
+
+00:09:39.040 --> 00:09:46.000
+could also ask for the detailed information of&nbsp;
+a particular package or a list of packages. 
+&nbsp;
+
+00:09:47.200 --> 00:09:53.040
+So, let us look at these commands by actually&nbsp;
+running them on the command line. So,&nbsp;&nbsp;
+
+00:09:53.040 --> 00:09:57.440
+before we proceed, we should first check whether&nbsp;
+these comments are available, so that we would&nbsp;&nbsp;
+
+00:09:57.440 --> 00:10:02.720
+do by using the which command which apt. So,&nbsp;
+there is a file that is already available,&nbsp;&nbsp;
+
+00:10:02.720 --> 00:10:09.840
+so the apt is available for us to explore. 
+So similarly, we would try apt cache that is&nbsp;&nbsp;
+
+00:10:09.840 --> 00:10:16.640
+available, and apt-get, so that is also available.&nbsp;
+So, we will now first explore the apt cache&nbsp;&nbsp;
+
+00:10:16.640 --> 00:10:22.000
+command, which does not require the super user&nbsp;
+permissions so directly, we can start using that.&nbsp;&nbsp;
+
+00:10:22.800 --> 00:10:30.640
+So apt, and then search, and you can give a&nbsp;
+keyword to search the packages that may have&nbsp;&nbsp;
+
+00:10:31.440 --> 00:10:36.080
+that particular keyword in either the description&nbsp;
+or the title of that particular package. 
+&nbsp;
+
+00:10:36.080 --> 00:10:42.240
+So, let us search for a package called fortune.&nbsp;
+And you will see that there is a lot of packages&nbsp;&nbsp;
+
+00:10:42.240 --> 00:10:48.240
+which have that word. And you see that there is a&nbsp;
+package here called fortunes, which is basically&nbsp;&nbsp;
+
+00:10:49.280 --> 00:10:54.080
+a data file containing a fortune cookies. So, it&nbsp;
+is something funny that it would display on the&nbsp;&nbsp;
+
+00:10:54.080 --> 00:10:58.000
+screen, if you are under command fortune. 
+Let us search for a string like nmap&nbsp;&nbsp;
+
+00:10:58.880 --> 00:11:02.080
+to see what are the packages that have that&nbsp;
+particular keyword, and you will see that&nbsp;&nbsp;
+
+00:11:02.080 --> 00:11:07.520
+there are many such packages, but the one which&nbsp;
+we may have in our mind is the network mapper&nbsp;&nbsp;
+
+00:11:07.520 --> 00:11:15.120
+called nmap. And let us say somebody mentioned&nbsp;
+to us wget and we want to know what is it about,&nbsp;&nbsp;
+
+00:11:15.120 --> 00:11:19.520
+and you will see, that there is definitely&nbsp;
+a package by the name wget which retrieves&nbsp;&nbsp;
+
+00:11:19.520 --> 00:11:28.240
+files from the Internet. So, you could actually&nbsp;
+like that search for packages using a keyword and&nbsp;&nbsp;
+
+00:11:28.240 --> 00:11:33.120
+then identify the specific package that you&nbsp;
+may be interested in knowing. Now, we have&nbsp;&nbsp;
+
+00:11:33.120 --> 00:11:37.440
+identified some packages now, so let us go and&nbsp;
+see whether we have those installed or not. 
+ 
+&nbsp;
+
+00:11:37.440 --> 00:11:41.120
+Let us see what are the packages that&nbsp;
+are installed on this particular system.&nbsp;&nbsp;
+
+00:11:41.120 --> 00:11:48.240
+So, we will do that by passing a keyword&nbsp;
+to the apt cache command pkgnames.&nbsp;&nbsp;
+
+00:11:49.840 --> 00:11:54.000
+And it would actually give a long&nbsp;
+list of packages that are installed,&nbsp;&nbsp;
+
+00:11:54.000 --> 00:12:00.640
+so we could actually then pipe it to the less&nbsp;
+command so that we could see the screen output&nbsp;&nbsp;
+
+00:12:01.440 --> 00:12:07.600
+page by page. So, you could see now that&nbsp;
+you could scroll through the list. 
+&nbsp;
+
+00:12:08.800 --> 00:12:12.800
+Now, you see that this list does&nbsp;
+not seem to have any sorting order,&nbsp;&nbsp;
+
+00:12:12.800 --> 00:12:20.880
+so we could also then use a sort to look at those&nbsp;
+page by page. So, you can now see that it has&nbsp;&nbsp;
+
+00:12:20.880 --> 00:12:25.680
+been sorted, so initially numerically after that&nbsp;
+alphabetically, so there are a lot of packages&nbsp;&nbsp;
+
+00:12:25.680 --> 00:12:31.040
+that are installed on this particular system. If&nbsp;
+you want to avoid looking through the entire list,&nbsp;&nbsp;
+
+00:12:31.040 --> 00:12:35.760
+but only those packages that are starting with&nbsp;
+a particular character or a set of characters,&nbsp;&nbsp;
+
+00:12:35.760 --> 00:12:41.440
+you could also do that apt-cache pkgnames and&nbsp;
+then after that, you could start with let us say,&nbsp;&nbsp;
+
+00:12:42.800 --> 00:12:47.920
+nm, and you will see that all those packages,&nbsp;
+which have the first two characters as nm will&nbsp;&nbsp;
+
+00:12:47.920 --> 00:12:53.840
+be displayed, and then nmap is one of those&nbsp;
+packages that has been installed. So, we want&nbsp;&nbsp;
+
+00:12:53.840 --> 00:13:00.000
+to know a little bit more about that package,&nbsp;
+so let us go ahead and ask apt-cache to show the&nbsp;&nbsp;
+
+00:13:00.000 --> 00:13:05.360
+details of that particular package nmap.
+So, you can now see that the details are&nbsp;&nbsp;
+
+00:13:05.360 --> 00:13:10.800
+being displayed here. So, it says that this&nbsp;
+package is part of the AMD 64 architecture,&nbsp;&nbsp;
+
+00:13:10.800 --> 00:13:17.280
+which is compatible with what we have.&nbsp;
+And this particular package has a name&nbsp;&nbsp;
+
+00:13:18.320 --> 00:13:24.160
+for the file from the file that it has come&nbsp;
+from. The file that this package came from is&nbsp;&nbsp;
+
+00:13:24.160 --> 00:13:30.160
+listed here. And if you look at the name, here,&nbsp;
+you can make out that it has a particular format.&nbsp;&nbsp;
+
+00:13:30.720 --> 00:13:34.640
+So, let us go and explore a little&nbsp;
+bit more about this format now. 
+&nbsp;
+
+00:13:34.640 --> 00:13:40.320
+So, here you see the package name is&nbsp;
+given in a particular format, but the,&nbsp;&nbsp;
+
+00:13:42.160 --> 00:13:47.120
+and it is slightly different between the RPM and&nbsp;
+DEB. So, for the DEB format, you can see that the&nbsp;&nbsp;
+
+00:13:47.120 --> 00:13:52.480
+name of the package is followed by an underscore&nbsp;
+after that there is a version and a revision,&nbsp;&nbsp;
+
+00:13:52.480 --> 00:13:56.800
+and then there is an underscore and then the&nbsp;
+architecture dot deb. So, let us compare this&nbsp;&nbsp;
+
+00:13:56.800 --> 00:14:00.720
+with the file name that we just saw. 
+So, the file name that we just saw is&nbsp;&nbsp;
+
+00:14:00.720 --> 00:14:06.960
+having two underscores. So, you can see that&nbsp;
+the string before the first underscore is&nbsp;&nbsp;
+
+00:14:06.960 --> 00:14:11.920
+the name of the package nmap and that you can&nbsp;
+already confirm here, and then you can see that&nbsp;&nbsp;
+
+00:14:11.920 --> 00:14:20.240
+the version is here so 7.80 plus df sg1 that&nbsp;
+is version 7.8 you can say that is a version,&nbsp;&nbsp;
+
+00:14:20.240 --> 00:14:25.360
+and after the hyphen is the revision. 
+So, 2build1 is a revision so there are many&nbsp;&nbsp;
+
+00:14:25.360 --> 00:14:30.240
+revisions of a particular version that would&nbsp;
+come. And then after the second underscore is&nbsp;&nbsp;
+
+00:14:30.240 --> 00:14:37.760
+the architecture name so AMD 64 is architecture.&nbsp;
+So, you can see that the file name of the package&nbsp;&nbsp;
+
+00:14:37.760 --> 00:14:43.760
+already gives you three pieces of information. The&nbsp;
+name of the package, the version and the revision,&nbsp;&nbsp;
+
+00:14:43.760 --> 00:14:48.560
+as well as, the architecture for which&nbsp;
+that particular package has been built. So,&nbsp;&nbsp;
+
+00:14:48.560 --> 00:14:52.720
+there are some more pieces of information that&nbsp;
+would come along, which we would explore now. 
+&nbsp;
+
+00:14:52.720 --> 00:14:57.840
+So, each package also lists what kind of&nbsp;
+a priority that particular package is,&nbsp;&nbsp;
+
+00:14:59.760 --> 00:15:03.680
+and top was priority is required,&nbsp;
+which means, it is essential to&nbsp;&nbsp;
+
+00:15:03.680 --> 00:15:08.160
+proper functioning of the system. So, you should&nbsp;
+not remove that package unless you know what you&nbsp;&nbsp;
+
+00:15:08.160 --> 00:15:14.960
+are doing. And the second level of priority&nbsp;
+is important where it provides functionality,&nbsp;&nbsp;
+
+00:15:14.960 --> 00:15:20.240
+which enables a system to run smoothly. It is a&nbsp;
+good idea to leave packages that are categorized&nbsp;&nbsp;
+
+00:15:20.240 --> 00:15:25.440
+as important also on the system. 
+The third level of priority is standard,&nbsp;&nbsp;
+
+00:15:25.440 --> 00:15:30.560
+which means that these are the packages which&nbsp;
+came along with the standard system installation,&nbsp;&nbsp;
+
+00:15:30.560 --> 00:15:36.400
+but typically, if you have not done any specific&nbsp;
+customization to the installation then all&nbsp;&nbsp;
+
+00:15:36.400 --> 00:15:41.680
+operating systems of that particular version would&nbsp;
+contain those packages, which are at the level of&nbsp;&nbsp;
+
+00:15:42.720 --> 00:15:46.880
+priority called standard or higher than&nbsp;
+that namely important required. 
+&nbsp;
+
+00:15:47.840 --> 00:15:52.320
+And then there are some packages, which are at&nbsp;
+the level of priority called optional, which,&nbsp;&nbsp;
+
+00:15:52.320 --> 00:15:57.920
+if you are running short of the storage, hard&nbsp;
+disk space is not enough, you could actually skip&nbsp;&nbsp;
+
+00:15:57.920 --> 00:16:01.520
+installing them or you can also&nbsp;
+delete them if you do not need them.&nbsp;&nbsp;
+
+00:16:02.400 --> 00:16:06.720
+And then there are some packages, which&nbsp;
+are called extra, so one has to pay&nbsp;&nbsp;
+
+00:16:06.720 --> 00:16:12.240
+a little attention to installing these software,&nbsp;
+because these are known to have certain&nbsp;&nbsp;
+
+00:16:12.960 --> 00:16:17.680
+specialized required requirements or could have&nbsp;
+conflict with packages, which are actually of&nbsp;&nbsp;
+
+00:16:17.680 --> 00:16:24.080
+higher priority, so you should only install them&nbsp;
+if you really need them, and in the process do not&nbsp;&nbsp;
+
+00:16:24.080 --> 00:16:29.840
+actually change the versions of the packages,&nbsp;
+which are actually at a higher priority. So,&nbsp;&nbsp;
+
+00:16:29.840 --> 00:16:35.840
+one has to pay attention by installing these&nbsp;
+packages under the category extra. So, let us see&nbsp;&nbsp;
+
+00:16:36.960 --> 00:16:41.840
+some packages, and identify where this&nbsp;
+particular piece of information is located. 
+&nbsp;
+
+00:16:41.840 --> 00:16:49.200
+So, the output of the nmap package coming&nbsp;
+from the apt-cache shows the priority here.&nbsp;&nbsp;
+
+00:16:49.200 --> 00:16:53.840
+So, it says that it is an extra, that means,&nbsp;
+it is not very important. If you want you can&nbsp;&nbsp;
+
+00:16:53.840 --> 00:16:58.560
+actually remove the package, and that does not&nbsp;
+hurt your system. So let us look at some other&nbsp;&nbsp;
+
+00:16:58.560 --> 00:17:03.840
+package names and see what would it show. 
+So here is the information about the wget package,&nbsp;&nbsp;
+
+00:17:04.720 --> 00:17:08.240
+and it comes with a priority&nbsp;
+called standard, which means,&nbsp;&nbsp;
+
+00:17:08.240 --> 00:17:15.360
+that it is at a higher priority than nmap.&nbsp;
+And it is a good idea to keep the wget command&nbsp;&nbsp;
+
+00:17:15.360 --> 00:17:20.800
+because it is a package that comes along with a&nbsp;
+standard installation of the operating system. 
+&nbsp;
+
+00:17:20.800 --> 00:17:28.080
+Let us look at the information about the fortune&nbsp;
+package. So, this package is under the optional&nbsp;&nbsp;
+
+00:17:28.080 --> 00:17:33.760
+category. So, which means that it does not have&nbsp;
+any conflict with the higher priority packages,&nbsp;&nbsp;
+
+00:17:33.760 --> 00:17:37.920
+so you can install it without having to pay&nbsp;
+extra attention, but it is an optional package&nbsp;&nbsp;
+
+00:17:37.920 --> 00:17:42.720
+so if you want, you can delete it, in case&nbsp;
+your hard disk is running out of space. 
+&nbsp;
+
+00:17:42.720 --> 00:17:47.440
+So, what is this command for sure, let us&nbsp;
+just check it out and it then generally&nbsp;&nbsp;
+
+00:17:47.440 --> 00:17:52.400
+display something funny, some quotation&nbsp;
+or sometimes it could be even harsh.&nbsp;&nbsp;
+
+00:17:52.960 --> 00:17:59.280
+So do not be offended. It is an entertainment&nbsp;
+for the programmer at the terminal and it will&nbsp;&nbsp;
+
+00:17:59.280 --> 00:18:04.800
+be different for every time that you type the same&nbsp;
+command. It is a randomly picked fortune cookie&nbsp;&nbsp;
+
+00:18:04.800 --> 00:18:10.720
+that that you can display onto the screen. 
+The Ubuntu packages also come categorized under&nbsp;&nbsp;
+
+00:18:10.720 --> 00:18:16.720
+package sections, and the list of sections&nbsp;
+will change depending upon the version.&nbsp;&nbsp;
+
+00:18:16.720 --> 00:18:23.920
+So, for the focal Linux, which is Ubuntu 20.04 lts&nbsp;
+here are the packet sections that are listed as&nbsp;&nbsp;
+
+00:18:23.920 --> 00:18:29.520
+per the website on ubuntu dot com. And you can see&nbsp;
+that the large number of categories under which&nbsp;&nbsp;
+
+00:18:29.520 --> 00:18:34.800
+the software packages have been grouped. So, we&nbsp;
+can actually see which package comes under which&nbsp;&nbsp;
+
+00:18:35.360 --> 00:18:40.240
+package section by looking at the output&nbsp;
+of the apt-cache show command. 
+&nbsp;
+
+00:18:40.240 --> 00:18:43.040
+So, let us have a look at&nbsp;
+that now. So, the fortunes&nbsp;&nbsp;
+
+00:18:44.240 --> 00:18:52.320
+package comes under the section called universe&nbsp;
+slash games, so it a game so that is a category.&nbsp;&nbsp;
+
+00:18:53.040 --> 00:19:01.360
+You could also look at the category for nmap so it&nbsp;
+says that it comes under the universe by net so it&nbsp;&nbsp;
+
+00:19:01.360 --> 00:19:10.320
+is coming under the package group called net. 
+And let us say wget that would be coming under the&nbsp;&nbsp;
+
+00:19:14.480 --> 00:19:19.120
+section called web. So, like that&nbsp;
+each of these packages comes under&nbsp;&nbsp;
+
+00:19:19.120 --> 00:19:23.280
+a particular section. So sometimes you&nbsp;
+may want to generally look at one of the&nbsp;&nbsp;
+
+00:19:23.280 --> 00:19:28.320
+packages in a particular section to even explore&nbsp;
+packages that you may not have heard of. 
+&nbsp;
+
+00:19:28.320 --> 00:19:32.000
+So, you can look at the list of package&nbsp;
+sections and there are some sections you&nbsp;&nbsp;
+
+00:19:32.000 --> 00:19:36.720
+may want to go thoroughly because you work in&nbsp;
+that particular topic or domain. For example,&nbsp;&nbsp;
+
+00:19:36.720 --> 00:19:42.240
+if you are fascinated by mathematics, then you&nbsp;
+may want to explore all the packages that are&nbsp;&nbsp;
+
+00:19:42.240 --> 00:19:46.640
+grouped under the package section called&nbsp;
+mathematics, and see that some of them&nbsp;&nbsp;
+
+00:19:46.640 --> 00:19:51.840
+actually may be quite interesting for you,&nbsp;
+you may not have come across those packages&nbsp;&nbsp;
+
+00:19:53.120 --> 00:19:58.400
+until you have a looked at the listing&nbsp;
+here on the ubuntu dot com website. 
+&nbsp;
+
+00:20:01.600 --> 00:20:08.400
+Now, how do we know that the package that&nbsp;
+we are installing on our operating system is&nbsp;&nbsp;
+
+00:20:08.960 --> 00:20:14.640
+an authentic one. So, the way to verify is&nbsp;
+by looking at what is called a checksum.&nbsp;&nbsp;
+
+00:20:15.600 --> 00:20:23.360
+So, there are three major ways by which the&nbsp;
+checksums are computed. The first one is md5sum,&nbsp;&nbsp;
+
+00:20:23.360 --> 00:20:30.480
+which gives you a 128-bit string,&nbsp;
+irrespective of the size of the input file&nbsp;&nbsp;
+
+00:20:31.440 --> 00:20:36.800
+and this would be very different even if there&nbsp;
+is a small change in the input string. 
+&nbsp;
+
+00:20:38.400 --> 00:20:46.560
+And then there is a SHA1 checksum,&nbsp;
+which is 160-bit string and then,&nbsp;&nbsp;
+
+00:20:46.560 --> 00:20:55.280
+the most advanced that is being used today is&nbsp;
+the SHA256 checksum, which is a 256-bit string.&nbsp;&nbsp;
+
+00:20:56.320 --> 00:21:02.160
+So, one can actually compare the check sums of&nbsp;
+any package with what is actually listed on the&nbsp;&nbsp;
+
+00:21:02.160 --> 00:21:08.640
+ubuntu dot com website to see whether the package&nbsp;
+that has been installed or being installed is&nbsp;&nbsp;
+
+00:21:08.640 --> 00:21:16.160
+authentic or not. In fact, there are more ways&nbsp;
+by which we can verify the authenticity, but&nbsp;&nbsp;
+
+00:21:16.880 --> 00:21:20.560
+this is a very good opportunity for us&nbsp;
+to see what do these checksums mean. 
+&nbsp;
+
+00:21:21.280 --> 00:21:27.040
+So, let us explore that in a moment, let us&nbsp;
+explore the concept of checksums by using it&nbsp;&nbsp;
+
+00:21:27.040 --> 00:21:32.320
+on some files that we can create right on the&nbsp;
+command line and we would use a simple string,&nbsp;&nbsp;
+
+00:21:32.320 --> 00:21:37.840
+as the only content of the file to illustrate&nbsp;
+how the checksums can be very different for a&nbsp;&nbsp;
+
+00:21:37.840 --> 00:21:45.840
+small change done to the content of the file. 
+So, we would echo a string to a file, so let us&nbsp;&nbsp;
+
+00:21:45.840 --> 00:21:55.200
+do that. This file is edited by, and then I give&nbsp;
+my name and then I redirect the string to a file,&nbsp;&nbsp;
+
+00:21:55.200 --> 00:22:01.600
+file1 dot t txt and let me look at the&nbsp;
+file here. So, file1 dot txt has 35 bytes.&nbsp;&nbsp;
+
+00:22:02.880 --> 00:22:08.400
+Now, what I do is that I make a small change&nbsp;
+to this string, so what I would do is,&nbsp;&nbsp;
+
+00:22:10.640 --> 00:22:19.360
+instead of h I put n, and then write to another&nbsp;
+file called file2 dot txt. And now if you look&nbsp;&nbsp;
+
+00:22:19.360 --> 00:22:26.080
+at the files, the two files, file1 dot txt and&nbsp;
+file2 dot txt are identical in their size. 
+&nbsp;
+
+00:22:26.080 --> 00:22:32.320
+And if we look at the contents, cat file1 dot&nbsp;
+txt and file2 dot txt, you could see that if&nbsp;&nbsp;
+
+00:22:32.320 --> 00:22:39.520
+you do not pay attention they look identical.&nbsp;
+Except for the h end and n they look identical.&nbsp;&nbsp;
+
+00:22:39.520 --> 00:22:44.480
+But when we run the md5sum or any other&nbsp;
+sum that we have just not mentioned,&nbsp;&nbsp;
+
+00:22:44.480 --> 00:22:45.760
+you would see what is the difference.
+&nbsp;
+
+00:22:50.000 --> 00:22:58.080
+So, we now run md5sum of the file1 dot&nbsp;
+txt and you see that you would get 128-bit&nbsp;&nbsp;
+
+00:22:58.800 --> 00:23:03.200
+string and then we run it also for&nbsp;
+file2 dot txt and you will see that&nbsp;&nbsp;
+
+00:23:03.200 --> 00:23:08.320
+the two strings are very different. So, it&nbsp;
+actually shows you that for a very small&nbsp;&nbsp;
+
+00:23:08.320 --> 00:23:16.480
+change in the bit sequence of the input stream&nbsp;
+the output checksum is very different. And this&nbsp;&nbsp;
+
+00:23:16.480 --> 00:23:21.840
+is one way by which we can actually identify if&nbsp;
+the original file has been tampered or not. 
+&nbsp;
+
+00:23:23.040 --> 00:23:28.320
+And there are other ways of evaluating the&nbsp;
+checksum, so let us look at those also.&nbsp;&nbsp;
+
+00:23:28.320 --> 00:23:39.440
+So, sha1sum file1 dot txt and sha1sum file2 dot&nbsp;
+txt. You could also see that the 160-bit string is&nbsp;&nbsp;
+
+00:23:39.440 --> 00:23:50.480
+very different between the two files and then you&nbsp;
+also have sha256sum file1 dot txt and sha256sum&nbsp;&nbsp;
+
+00:23:51.520 --> 00:23:54.400
+file2 dot txt. 
+So, this would be a 256-bit&nbsp;&nbsp;
+
+00:23:55.600 --> 00:24:01.440
+string, which would also be very different if&nbsp;
+the input string is different or input stream&nbsp;&nbsp;
+
+00:24:01.440 --> 00:24:06.880
+file stream is different even in just a&nbsp;
+few bits. So, these are the three major&nbsp;&nbsp;
+
+00:24:06.880 --> 00:24:12.640
+mechanisms by which the checksums are compared&nbsp;
+to ensure that the file that is being installed&nbsp;&nbsp;
+
+00:24:13.440 --> 00:24:18.880
+is authentic and the same as what has been&nbsp;
+supplied by the original vendor of the software.&nbsp;&nbsp;
+
+00:24:19.760 --> 00:24:24.560
+And one has to pay attention to these&nbsp;
+while copying and to ensure that in&nbsp;&nbsp;
+
+00:24:24.560 --> 00:24:31.840
+the process of downloading, nothing has&nbsp;
+gone wrong to the contents of the file.
+

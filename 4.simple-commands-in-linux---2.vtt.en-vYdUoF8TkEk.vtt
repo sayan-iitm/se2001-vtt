@@ -1,0 +1,1704 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:14.290 --> 00:00:20.869
+Welcome to the second session on simple commands
+in Linux. So, here we explore some more commands
+
+00:00:20.869 --> 00:00:27.360
+in the Linux operating system and it is hoped
+that at the end of the session you will be
+
+00:00:27.360 --> 00:00:34.140
+more comfortable with the command line environment
+and also looking around in the file system
+
+00:00:34.140 --> 00:00:39.320
+and knowing about the machine a little more
+than earlier. As you know we have been introduced
+
+00:00:39.320 --> 00:00:45.660
+to the forward slash which is the character
+used to separate the directories within the
+
+00:00:45.660 --> 00:00:47.340
+file system hierarchy.
+
+00:00:47.340 --> 00:00:53.160
+And it is also the name of the root file system
+the starting point of the file system in the
+
+00:00:53.160 --> 00:00:57.140
+Linux environment. We will see that we can
+use the forward slash multiple times and it
+
+00:00:57.140 --> 00:01:05.239
+is as good as and if we try to access the
+parent folder while in the root folder we
+
+00:01:05.239 --> 00:01:09.040
+would actually stay in the root folder which
+actually means that the root folder is its
+
+00:01:09.040 --> 00:01:10.040
+own parent.
+
+00:01:10.040 --> 00:01:16.509
+So, as he said multiple users of the forward
+slash is as good as a single usage. So, I
+
+00:01:16.509 --> 00:01:24.350
+want to visit the user bin. So, I will type
+multiple times and you would see that I am
+
+00:01:24.350 --> 00:01:30.880
+in the same directory as slash user slash
+bin I. Now go to the root folder and try to
+
+00:01:30.880 --> 00:01:35.900
+access the parent folder I see that I am in
+the root folder still and you can do it multiple
+
+00:01:35.900 --> 00:01:40.310
+times and it has implies that the root folder
+is its own parent.
+
+00:01:40.310 --> 00:01:46.770
+The ls command has both short and long forms
+of the options and when you give a directory
+
+00:01:46.770 --> 00:01:52.190
+name as an argument the way it is interpreted
+is something that we have seen in a moments.
+
+00:01:52.190 --> 00:01:57.250
+And you can actually recursively list the
+files and directories within a particular
+
+00:01:57.250 --> 00:02:03.600
+folder using the -r option of ls and the sequence
+of options to be given in the command line
+
+00:02:03.600 --> 00:02:09.360
+of ls command is also something that is very
+flexible and we can look at it in the demo.
+
+00:02:09.360 --> 00:02:14.610
+Let us explore the home directory a little
+further. So, I am not in the home directory
+
+00:02:14.610 --> 00:02:21.920
+and when we give the -l option to the ls command
+by default it is showing you all the files
+
+00:02:21.920 --> 00:02:28.669
+and directories within the current directory.
+Now if I were to give a folder name let us
+
+00:02:28.669 --> 00:02:34.671
+say level 1 then it would show what are the
+files and directories within the directory
+
+00:02:34.671 --> 00:02:39.639
+level 1. So, it would go below the level 1
+and then show you what is there inside.
+
+00:02:39.639 --> 00:02:46.010
+Now I want to only look at the permission
+string and other details in the long listing
+
+00:02:46.010 --> 00:02:51.719
+format of the level 1 directory but not what
+is inside that. So, for that what we need
+
+00:02:51.719 --> 00:02:59.390
+to do is give additional option d. So, that
+it would show you a string giving you the
+
+00:02:59.390 --> 00:03:05.730
+long format a further level 1 folder as it
+is also shown along with other files when
+
+00:03:05.730 --> 00:03:08.529
+we did it using the command ls -l.
+
+00:03:08.529 --> 00:03:15.230
+So, you see that this -d option is basically
+triggering that you should not traverse inside
+
+00:03:15.230 --> 00:03:22.239
+the directory and show the listing. We could
+also look at multiple options in one go. So,
+
+00:03:22.239 --> 00:03:29.290
+-ldi level 1 and you will see that we are
+seeing the inode number and we are also seeing
+
+00:03:29.290 --> 00:03:36.019
+the long listing format and also further directory
+which is level 1. Now we may give these options
+
+00:03:36.019 --> 00:03:37.760
+in any order.
+
+00:03:37.760 --> 00:03:46.939
+So, let me clear the screen ls -l level 1
+and then -di and then I would change the sequence
+
+00:03:46.939 --> 00:04:01.900
+-t level 1 -li ls -i level 1 -ld l level 1
+-l d I or idl. So, you can see that I am giving
+
+00:04:01.900 --> 00:04:09.219
+the options in very many ways but the output
+is identical it just means that the ls command
+
+00:04:09.219 --> 00:04:13.939
+really does not bother about the sequence
+of the options it would take all the three
+
+00:04:13.939 --> 00:04:18.699
+options that have been given to it and then
+produce the output which is basically the
+
+00:04:18.699 --> 00:04:24.680
+long listing for the folder level 1 along
+with the inode number to be displayed on the
+
+00:04:24.680 --> 00:04:25.680
+screen.
+
+00:04:25.680 --> 00:04:32.130
+Now this flexibility in terms of giving the
+option either before or after the argument
+
+00:04:32.130 --> 00:04:37.160
+is not available with every command because
+sometimes some of the options require the
+
+00:04:37.160 --> 00:04:42.160
+argument to immediately follow them in which
+case the sequence of how you provide them
+
+00:04:42.160 --> 00:04:47.910
+on the command line would be quite important.
+So, generally it is a good idea to follow
+
+00:04:47.910 --> 00:04:51.910
+the sequence in this following manner.
+
+00:04:51.910 --> 00:04:59.150
+Where the options are in the middle and collected
+together as far as possible and then the arguments
+
+00:04:59.150 --> 00:05:03.890
+are following after that okay. So, this is
+a very standard way of writing a command.
+
+00:05:03.890 --> 00:05:09.810
+If you see the manual page for the ls command
+you would notice that there are some options
+
+00:05:09.810 --> 00:05:16.380
+which have a long format also that is a long
+option also is available and they are basically
+
+00:05:16.380 --> 00:05:18.590
+equivalent and some of them do not have that.
+
+00:05:18.590 --> 00:05:32.090
+For example -l does not have a long form whereas
+if you look at -i it has a long farm -inode
+
+00:05:32.090 --> 00:05:39.720
+and then if you look at d, it has a long form
+called directory. So, which means that I can
+
+00:05:39.720 --> 00:05:51.520
+actually type in this manner -idl and then
+level 1 I could also type in this manner -l
+
+00:05:51.520 --> 00:06:01.710
+--directory --inode level1. So, you could
+see that the output is same except that in
+
+00:06:01.710 --> 00:06:07.410
+this form if you write the intention of the
+command is very clear because the long form
+
+00:06:07.410 --> 00:06:10.620
+of the option is a little more human readable.
+
+00:06:10.620 --> 00:06:17.230
+However it is only for those who wish to type
+a lot uh but it is a good idea to also learn
+
+00:06:17.230 --> 00:06:22.540
+the short form because the beauty of the command
+line environment is also to be able to write
+
+00:06:22.540 --> 00:06:26.360
+a very short command. So, that to do a lot
+of work.
+
+00:06:26.360 --> 00:06:31.510
+So, there are some commands available which
+help you know the content of a text file a
+
+00:06:31.510 --> 00:06:37.230
+little more. So, we have already seen the
+less command and. Now we would see the wc
+
+00:06:37.230 --> 00:06:43.170
+command the head command the tail command
+the cat command and the more command all of
+
+00:06:43.170 --> 00:06:48.090
+these let you inspect the contents of a text
+file. We will take the example of slash it
+
+00:06:48.090 --> 00:06:50.440
+is his slash profile to use these commands.
+
+00:06:50.440 --> 00:06:56.290
+So, we go to the slash etc folder which contains
+the configurations and there is one configuration
+
+00:06:56.290 --> 00:07:01.330
+which will be very important for anyone who
+uses a shell and that is called the etc profile.
+
+00:07:01.330 --> 00:07:09.040
+So, we will understand what is in that profile
+uh later as we learn about the uh shell scripts
+
+00:07:09.040 --> 00:07:16.380
+etcetera for now let us look at the content
+ls -l profile is there any file like that
+
+00:07:16.380 --> 00:07:19.570
+and you see that yes there is a file like
+that.
+
+00:07:19.570 --> 00:07:24.290
+Now what are the contents of it?. So, earlier
+we learned about the less command. So, if
+
+00:07:24.290 --> 00:07:31.360
+you type a less profile and you will see the
+contents of it and when the contents are scrolled
+
+00:07:31.360 --> 00:07:37.110
+uh at the end you can actually see that uh
+available as bracket end which means that
+
+00:07:37.110 --> 00:07:41.860
+the contents are over and you may. Now press
+q to come out of it. So, this is a short file
+
+00:07:41.860 --> 00:07:43.910
+fitting in one screen itself.
+
+00:07:43.910 --> 00:07:50.690
+Now there are also other ways of looking at
+the content. So, cat is one such command.
+
+00:07:50.690 --> 00:07:57.260
+So, it is to cat it or concatenate the text
+onto the screen. So, if you type cat profile
+
+00:07:57.260 --> 00:08:02.180
+it would just dump the contents of the file
+onto the screen and then exit. So, there is
+
+00:08:02.180 --> 00:08:06.490
+no more prompting that is required for you
+to come out by pressing a queue or anything
+
+00:08:06.490 --> 00:08:12.060
+like that. The disadvantage of cat is that
+you cannot actually move back and forth to
+
+00:08:12.060 --> 00:08:18.669
+look at the content page by page and you cannot
+also come out halfway through when the text
+
+00:08:18.669 --> 00:08:24.340
+is being displayed on the screen whereas in
+the case of ls you have uh such features.
+
+00:08:24.340 --> 00:08:29.710
+So, sometimes if the file is very long cat
+is not the best way to look at the contents
+
+00:08:29.710 --> 00:08:34.700
+because the file would keep scrolling on the
+screen and depending upon how many lines are
+
+00:08:34.700 --> 00:08:40.630
+stored by your terminal emulator uh you may
+not actually be able to see the initial content
+
+00:08:40.630 --> 00:08:46.079
+by the time it finishes uh displaying the
+whole ah file on the screen. Now there are
+
+00:08:46.079 --> 00:08:48.779
+some more such commands available.
+
+00:08:48.779 --> 00:08:59.180
+So, let me let me clear the screen now. More
+is also one command available. So, more is
+
+00:08:59.180 --> 00:09:04.620
+going to ah behave similar to less uh it would
+also allow you to look at the contents of
+
+00:09:04.620 --> 00:09:12.139
+a file page by page if there are multiple
+pages. Now you may uh also look at it uh just
+
+00:09:12.139 --> 00:09:18.059
+the first few lines or the last few lines.
+So, there is a command called head and if
+
+00:09:18.059 --> 00:09:21.430
+you type head profile you will see the first
+ten lines.
+
+00:09:21.430 --> 00:09:26.899
+So, let us look at the man page of health
+and it shows you here that it actually prints
+
+00:09:26.899 --> 00:09:31.430
+the first ten lines of the file but if you
+are interested in less number of lines you
+
+00:09:31.430 --> 00:09:37.410
+could also do that using -n and then the number
+of lines. So, let us do that uh I would say
+
+00:09:37.410 --> 00:09:43.370
+type -n and then just the five lines of the
+file called profile and you see that exactly
+
+00:09:43.370 --> 00:09:44.819
+five lines have been displayed.
+
+00:09:44.819 --> 00:09:51.569
+There is another command called tail okay
+as the name indicates you can view the last
+
+00:09:51.569 --> 00:10:00.519
+few lines of the text file tail profile so
+you can see that the last ten lines are there
+
+00:10:00.519 --> 00:10:07.430
+let us look at the man page for tail and it
+tells you that it prints the last ten lines
+
+00:10:07.430 --> 00:10:13.970
+of the file to the screen. So, just like a
+head command the tail command also supports
+
+00:10:13.970 --> 00:10:18.660
+uh reducing or increasing the number of lines
+that are to be displayed. So, here I am trying
+
+00:10:18.660 --> 00:10:24.749
+to show the last five lens of the uh file
+profile and here are the last five lines.
+
+00:10:24.749 --> 00:10:30.300
+As you can see there are multiple ways to
+inspect the contents of any text file uh within
+
+00:10:30.300 --> 00:10:34.839
+the next environment before you open the file
+it may be a good idea to inspect how many
+
+00:10:34.839 --> 00:10:41.520
+lines are there? How big is a file? So, there
+is a command for that called wc. Look at the
+
+00:10:41.520 --> 00:10:46.069
+main page of wc it tells you that it will
+show you how many new lines are there which
+
+00:10:46.069 --> 00:10:50.579
+means how many lines are there and how many
+words are there and how many bites are there
+
+00:10:50.579 --> 00:10:53.339
+in each of the text files that we are giving.
+
+00:10:53.339 --> 00:11:00.720
+So, let us go ahead and plan it on the file
+profile. So, wc file I said that there are
+
+00:11:00.720 --> 00:11:07.499
+27 lines in that particular file and there
+are 97 words and then 581 bites it is occupying
+
+00:11:07.499 --> 00:11:14.930
+on the disk. So, if you look at the content
+in the long listing it would show you that
+
+00:11:14.930 --> 00:11:21.410
+five hundred and eighty one is the size of
+the file called etc profile. Now sometimes
+
+00:11:21.410 --> 00:11:25.750
+we are usually interested only the number
+of lines for the purpose of trimming some
+
+00:11:25.750 --> 00:11:28.430
+of them displaying a specific line etcetera.
+
+00:11:28.430 --> 00:11:36.389
+So, for that we may use option -l okay. So,
+it just gives you the number of lines. Now
+
+00:11:36.389 --> 00:11:41.620
+we may be interested in knowing where are
+these commands and where are they located
+
+00:11:41.620 --> 00:11:48.009
+etcetera. So, there is a command called which
+okay. So, we say which less and it will tell
+
+00:11:48.009 --> 00:11:53.759
+you the location of that particular command
+it is sitting in user bin. So, we may want
+
+00:11:53.759 --> 00:11:55.899
+to know what is this which itself.
+
+00:11:55.899 --> 00:12:01.839
+So, man which and it tells you that you can
+actually locate the okay. So, there is another
+
+00:12:01.839 --> 00:12:07.779
+command called whatis and using that you will
+have a very brief description of the command
+
+00:12:07.779 --> 00:12:12.949
+okay. So, man page is showing you a complete
+manual page but what is would show you just
+
+00:12:12.949 --> 00:12:19.670
+the first line of the man page where the brief
+description of that particular command is
+
+00:12:19.670 --> 00:12:21.649
+available.
+
+00:12:21.649 --> 00:12:26.920
+Now you will see that there is also another
+command called more and you will see that
+
+00:12:26.920 --> 00:12:33.209
+this command is also in user bin. So, let
+us see uh these two how big they are ls -l
+
+00:12:33.209 --> 00:12:43.160
+and then I give the part to know more about
+them okay and ls -l user bin. Now you could
+
+00:12:43.160 --> 00:12:50.009
+see that the command called more actually
+occupies less space it is a smaller command
+
+00:12:50.009 --> 00:12:54.320
+and the command called less is actually a
+bigger executable you can see that it occupies
+
+00:12:54.320 --> 00:12:59.189
+180 kilobytes. The joke about this in Linux
+is that less is more.
+
+00:12:59.189 --> 00:13:04.600
+We have seen that the manual pages which come
+bundled along with Linux help us in learning
+
+00:13:04.600 --> 00:13:11.810
+more about a command and often we may want
+to discover more commands for a specific purpose.
+
+00:13:11.810 --> 00:13:17.259
+So, you could search for them not necessarily
+going to the internet but within the Linux
+
+00:13:17.259 --> 00:13:22.439
+environment itself at the bash prompt by using
+the apropos command.
+
+00:13:22.439 --> 00:13:28.509
+So, what it would do is for a keyword it would
+show you all the commands which would have
+
+00:13:28.509 --> 00:13:34.399
+that keyword in description. And you could
+also actually browse through various sections
+
+00:13:34.399 --> 00:13:40.649
+and various commands in those sections using
+a system called info. And once you find out
+
+00:13:40.649 --> 00:13:45.230
+the name of any command you can learn more
+about it obviously from the man pages but
+
+00:13:45.230 --> 00:13:50.530
+also to know where is it located and what
+type of a command is it a script or is it
+
+00:13:50.530 --> 00:13:55.709
+an alias or is it a binary file sitting in
+one of the binary directories like user bin
+
+00:13:55.709 --> 00:13:56.709
+etcetera.
+
+00:13:56.709 --> 00:14:04.959
+So, we can explore the commands all by ourselves
+without having to go to the internet using
+
+00:14:04.959 --> 00:14:10.220
+these set of features that are available with
+the Linux operating system. Let us have a
+
+00:14:10.220 --> 00:14:17.079
+demonstration of how to discover new commands
+by using the features that we have just now
+
+00:14:17.079 --> 00:14:22.511
+mentioned. So, apropos and you can give a
+keyword which would be searched for. So, let
+
+00:14:22.511 --> 00:14:23.970
+us give a keyword like who.
+
+00:14:23.970 --> 00:14:29.489
+So, I want to know who are logged onto the
+system etcetera okay. So, when you type apropos
+
+00:14:29.489 --> 00:14:33.519
+who it will give you a set of commands which
+will help you to know who are logged on and
+
+00:14:33.519 --> 00:14:38.149
+one of them is the who itself and of course
+there is another command called who am I which
+
+00:14:38.149 --> 00:14:43.009
+we have used in one of the earlier sessions
+to print the name of the user who is locked
+
+00:14:43.009 --> 00:14:44.009
+on okay.
+
+00:14:44.009 --> 00:14:49.670
+Now obviously to know more about it you can
+type a man who and learn more about it from
+
+00:14:49.670 --> 00:14:54.600
+the manual pages and what is this command
+apropos? you could actually ask for it by
+
+00:14:54.600 --> 00:15:00.730
+typing which apropos and you would see that
+it is sitting in user bin apropos. There is
+
+00:15:00.730 --> 00:15:09.179
+another command called whatis whatis and let
+us say who. So, if there is a command called
+
+00:15:09.179 --> 00:15:14.089
+who I want a brief description of whatis that
+command and what is actually do that okay.
+
+00:15:14.089 --> 00:15:27.980
+So, you could say whatis ls, whatis ps whatis
+wc whatis less what is more. So, you could
+
+00:15:27.980 --> 00:15:33.959
+actually ask what are those command and what
+is would give you a very brief description
+
+00:15:33.959 --> 00:15:42.980
+of that command. Now you want to see where
+is this command located namely the whatis
+
+00:15:42.980 --> 00:15:50.329
+command. So, which whatis would tell you that
+it is located in user bin. So, let us see
+
+00:15:50.329 --> 00:15:55.199
+whether these are both same or not.
+
+00:15:55.199 --> 00:16:02.189
+So, if you type ls -l user bin apropos it
+appears that user bin apropos is actually
+
+00:16:02.189 --> 00:16:11.430
+a symbolic link to whatis command. So, it
+means that actually when you type whatis or
+
+00:16:11.430 --> 00:16:16.569
+apropos is the same executable which is running
+however the output is different. For example
+
+00:16:16.569 --> 00:16:23.970
+if I type whatis who and apropos who then
+the output is different. So, how is this possible?
+
+00:16:23.970 --> 00:16:33.029
+The reason is that in Linux every executable
+would know in what name it has been invoked.
+
+00:16:33.029 --> 00:16:36.860
+And depending on the name that it is invoked
+it could actually have different behaviour
+
+00:16:36.860 --> 00:16:43.149
+okay. So, you could actually have these features
+tested out as part of your own baskets uh
+
+00:16:43.149 --> 00:16:48.720
+once you start learning that as part of this
+course. Now apropos is also having the same
+
+00:16:48.720 --> 00:16:56.869
+output uh as man -k and you will see that
+the identical output is coming. So, searching
+
+00:16:56.869 --> 00:17:02.019
+for keyword using the manual pages is the
+same as what apropos is doing.
+
+00:17:02.019 --> 00:17:06.390
+Now there are also some more features such
+as available. For example you can type for
+
+00:17:06.390 --> 00:17:11.880
+help and what actually help does is show you
+certain keywords that are actually reserved
+
+00:17:11.880 --> 00:17:17.430
+for the shell which you are running which
+shell are we running? So, we are running back
+
+00:17:17.430 --> 00:17:22.910
+shell okay you can see here you are running
+bash shell and the help command shows you
+
+00:17:22.910 --> 00:17:27.640
+but all the special words that are used by
+the bash environment.
+
+00:17:27.640 --> 00:17:35.880
+I will show you the info also feature you
+could see that you could go to any a section
+
+00:17:35.880 --> 00:17:41.500
+and you can browse through the commands and
+you can put the cars on any of the commands
+
+00:17:41.500 --> 00:17:46.900
+for example chmode I will go there and then
+press enter and you would see the information
+
+00:17:46.900 --> 00:17:52.730
+about the chmode that is shown here. And we
+can actually go back by using the left angle
+
+00:17:52.730 --> 00:18:00.190
+bracket which is same as shift plus comma
+okay you come to the main window.
+
+00:18:00.190 --> 00:18:06.440
+And you could then go to some other command
+and read about that and then again come back
+
+00:18:06.440 --> 00:18:10.710
+to the man. So, you can actually almost like
+a browser text based browser you can actually
+
+00:18:10.710 --> 00:18:15.530
+browse through the commands that are available
+in the info system that came along with the
+
+00:18:15.530 --> 00:18:21.710
+Linux operator. Now sometimes you may want
+to know what type of a community. So, type
+
+00:18:21.710 --> 00:18:24.730
+is a command to tell you what type of a command.
+
+00:18:24.730 --> 00:18:30.850
+So, let us say type type. So, it says it is
+a shell bulletin. What it means is that the
+
+00:18:30.850 --> 00:18:35.600
+command type is actually being offered to
+you from the shell and not from the operating
+
+00:18:35.600 --> 00:18:42.870
+system okay. So, type ls. Now it says that
+ls is alias to type command. So, which means
+
+00:18:42.870 --> 00:18:50.400
+that it is actually coming from the command
+ls after having been alias with certain option
+
+00:18:50.400 --> 00:18:54.640
+and which ls will tell you that it is actually
+coming from the operating system because there
+
+00:18:54.640 --> 00:19:00.260
+is executable available can we check about
+that.
+
+00:19:00.260 --> 00:19:04.560
+You can see that it is an executable and it
+is sitting in the user bin directory we may
+
+00:19:04.560 --> 00:19:11.430
+even find more about it by using the file
+command and you will see that it is an ELF
+
+00:19:11.430 --> 00:19:18.280
+64 bit executable for X86 architecture and
+so on and occupying about 142 kilo bites and
+
+00:19:18.280 --> 00:19:23.920
+therefore ls is actually an executable and
+therefore offered from the operating system
+
+00:19:23.920 --> 00:19:27.230
+whereas type is actually coming from the shell.
+
+00:19:27.230 --> 00:19:32.831
+So, similarly help is also a shell bulletin.
+So, sometimes when you are running a command
+
+00:19:32.831 --> 00:19:38.230
+it is a good idea to know is it being offered
+by the shell or by the operating system or
+
+00:19:38.230 --> 00:19:44.170
+is it an alias. So, that brings the context
+to aliases? What are aliases? Aliases are
+
+00:19:44.170 --> 00:19:50.580
+nothing but nicknames that are given to certain
+commands sometimes you may want it for convenience.
+
+00:19:50.580 --> 00:19:57.230
+For example you may want to very frequently
+look at the long listing of your directory
+
+00:19:57.230 --> 00:20:07.260
+ok and you may want to give that as an alias.
+So, I may say alias and let us save long listing
+
+00:20:07.260 --> 00:20:14.330
+is equal to ls -l. Now you see that l l is
+a new command that you have created and if
+
+00:20:14.330 --> 00:20:20.410
+you type l l you actually get the long listing
+of the current directory. Now you can ask
+
+00:20:20.410 --> 00:20:26.120
+what is this l l? And it tells you that l
+l is alias asked to ls -l.
+
+00:20:26.120 --> 00:20:30.530
+So, you understand it is not a command coming
+from the operating system is alias coming
+
+00:20:30.530 --> 00:20:36.760
+from what you have configured just a while
+back. Now you do not want that you can remove
+
+00:20:36.760 --> 00:20:42.650
+alias ll. You may want to find out what are
+alias that have been configured for you in
+
+00:20:42.650 --> 00:20:49.430
+the batch and you logged on and just type
+alias and then you would see as list of alias
+
+00:20:49.430 --> 00:20:50.430
+that are there.
+
+00:20:50.430 --> 00:20:55.670
+Some of these are actually created uh by the
+user and some of them may be created by the
+
+00:20:55.670 --> 00:21:02.411
+administrator on behalf of the user by putting
+them in etc profile or some such a script
+
+00:21:02.411 --> 00:21:06.880
+file which is executed whenever the batch
+environment starts. We will learn about that
+
+00:21:06.880 --> 00:21:12.100
+also a little later okay. Now you can always
+remove some of these aliases. So, I want to
+
+00:21:12.100 --> 00:21:13.860
+remove let us say this alias.
+
+00:21:13.860 --> 00:21:21.660
+So, I could just say un alias l okay. Now
+I will again type alias and you could see
+
+00:21:21.660 --> 00:21:26.280
+that that particular entry has been missing.
+Now what happens is that if I type just l
+
+00:21:26.280 --> 00:21:31.390
+obviously this must have come in but earlier
+if you were typed then it would actually give
+
+00:21:31.390 --> 00:21:36.830
+you the output which is corresponding to ls
+-C F as options.
+
+00:21:36.830 --> 00:21:43.200
+So, by now you are familiar with the concept
+of arguments and options. So, options are
+
+00:21:43.200 --> 00:21:51.210
+basically enhanced features of the command
+that we are giving and arguments are specific
+
+00:21:51.210 --> 00:21:55.980
+names of files or directories that we are
+giving on the command line. So, that the command
+
+00:21:55.980 --> 00:22:03.770
+would act on those respect files are territories
+as requirement needs. Now when we are writing
+
+00:22:03.770 --> 00:22:08.700
+a command we could actually have multiple
+arguments on the command line and the way
+
+00:22:08.700 --> 00:22:12.370
+those arguments are interpreted depends upon
+the command itself.
+
+00:22:12.370 --> 00:22:16.800
+So, we should definitely read the man page
+of every command that we are going to use
+
+00:22:16.800 --> 00:22:23.340
+frequently to understand how this interpretation
+is taking place. So, if you look at the commands
+
+00:22:23.340 --> 00:22:32.420
+like ah copying using cp or moving a file
+using mv. Then if you give two arguments what
+
+00:22:32.420 --> 00:22:37.300
+happens is something that we have already
+seen and let us see how this is actually changing
+
+00:22:37.300 --> 00:22:44.080
+when the second argument is directory or if
+it is a last argument among many many arguments
+
+00:22:44.080 --> 00:22:46.580
+that are given on the command line.
+
+00:22:46.580 --> 00:22:51.360
+And sometimes the recursion is sometimes assumed
+for some command line and sometimes you have
+
+00:22:51.360 --> 00:22:55.920
+to explicitly state it. So, let us look at
+that difference also in a moment. So, we are.
+
+00:22:55.920 --> 00:23:01.710
+Now in our home directory and we will see
+how the number of arguments can be specified.
+
+00:23:01.710 --> 00:23:08.780
+So, I will take uh the example of touch command
+to create some files. Let me just see that
+
+00:23:08.780 --> 00:23:13.700
+there are no files in my home directory. So,
+I will create some empty files for this practice.
+
+00:23:13.700 --> 00:23:19.810
+So, I would say touch and let us say file1.
+Now if you give multiple files all of them
+
+00:23:19.810 --> 00:23:26.050
+will be created. So, this is the idea of a
+multiple arguments okay. So, if I give like
+
+00:23:26.050 --> 00:23:31.420
+this it means that all the three files will
+be created in one go and the time stamp will
+
+00:23:31.420 --> 00:23:37.380
+also be identical okay. So, we have seen that
+these three files have been created. Now to
+
+00:23:37.380 --> 00:23:43.680
+illustrate the way the directory will be interpreted
+as one of the arguments in the copy file we
+
+00:23:43.680 --> 00:23:51.000
+will create an empty directory mkdir my director
+okay.
+
+00:23:51.000 --> 00:23:58.890
+So, then I would say copy file1 to my directory
+and what happens is that the file1 has been
+
+00:23:58.890 --> 00:24:03.990
+copied over to my directory. So, if you put
+ls you would see that the file1 is actually
+
+00:24:03.990 --> 00:24:09.240
+there in the home directory but if you go
+to the directory mydir and there is a file
+
+00:24:09.240 --> 00:24:14.320
+called file1 there also which means you have
+made a copy of that okay. Now let us say I
+
+00:24:14.320 --> 00:24:20.590
+type copy file1 to file2.
+
+00:24:20.590 --> 00:24:26.630
+Now what happens is that if the second argument
+is a file then you are trying to override
+
+00:24:26.630 --> 00:24:32.250
+that file by this copy command and naturally
+it would ask you to confirm if you have given
+
+00:24:32.250 --> 00:24:39.670
+with the -i option and let us say I do not
+want to do that I said no and I have given
+
+00:24:39.670 --> 00:24:47.210
+earlier for cp which is -i and if you look
+at the man page of cp -i would correspond
+
+00:24:47.210 --> 00:24:52.950
+to interactive which means that it should
+prompt whenever there is an overwriting.
+
+00:24:52.950 --> 00:25:04.580
+So, it is a good idea to have that alias kept.
+Now let me go to mydir and remove this file
+
+00:25:04.580 --> 00:25:09.290
+and come out and then I can. Now remove the
+directory also. So, our mydir will remove
+
+00:25:09.290 --> 00:25:16.650
+an empty directory. Now let me go back and
+create it again and see if I can do it without
+
+00:25:16.650 --> 00:25:23.560
+having to go and remove the files before I
+remove the directory. So, I create the directory
+
+00:25:23.560 --> 00:25:31.840
+again. Now I go to that directory and I create
+some file there well you see that there is
+
+00:25:31.840 --> 00:25:36.660
+a file that is available though it is a empty
+file but it is still a file that is there
+
+00:25:36.660 --> 00:25:39.630
+inside and I want to remove this directory.
+
+00:25:39.630 --> 00:25:45.310
+And now you see that it is not empty and therefore
+you cannot remove it automatically. So, you
+
+00:25:45.310 --> 00:25:52.680
+may want to ah force the removal and you could
+actually give an option called -. So, rm -r
+
+00:25:52.680 --> 00:25:58.200
+mydir and if then go ahead and descend into
+the director and remove whatever is there
+
+00:25:58.200 --> 00:26:04.510
+in that. So, it would ask each time because
+I have asked for that the alias -i option
+
+00:26:04.510 --> 00:26:08.790
+I have given in the allies. So, you can see
+what is alias I have r -i.
+
+00:26:08.790 --> 00:26:14.510
+So, because I have set the interactive option
+already it would ask me if I do not have that
+
+00:26:14.510 --> 00:26:21.780
+alias it would not ask me let us test it out
+already okay. So, I will alias rm then I will
+
+00:26:21.780 --> 00:26:28.060
+again see what is alias for arm there is no
+such alias. Now which rm it says rm is a command.
+
+00:26:28.060 --> 00:26:33.600
+So, you now see that this rm command is quite
+dangerous because it would not ask you while
+
+00:26:33.600 --> 00:26:35.040
+removing the directory okay.
+
+00:26:35.040 --> 00:26:41.960
+So, let me just try that out make dir mydir
+go to mydir and touch a file okay then come
+
+00:26:41.960 --> 00:26:49.930
+back to the home directory rm -r mydir and
+you see that it actually deleted the directory
+
+00:26:49.930 --> 00:26:56.350
+without even asking you. So, which means that
+it goes by the philosophy of Linux of no nonsense
+
+00:26:56.350 --> 00:27:00.840
+and you intended to remove the directory and
+that is what has been done. So, it is a good
+
+00:27:00.840 --> 00:27:07.230
+idea for novice users to use the aliases with
+the i so, that unintentionally you will not
+
+00:27:07.230 --> 00:27:11.950
+remove and the prompting actually makes you
+think once more before you say yes.
+
+00:27:11.950 --> 00:27:17.100
+Now some options assume recursion and some
+options do not assume recursion okay. So,
+
+00:27:17.100 --> 00:27:26.640
+here I will just show you we make a directory
+and we go into the directory and create let
+
+00:27:26.640 --> 00:27:35.760
+us say uh two files in them come back to the
+home directory and I want to look at the contents
+
+00:27:35.760 --> 00:27:41.850
+of mydir. So, you can see that there are two
+files in them. Now I want to rename the mydir
+
+00:27:41.850 --> 00:27:44.620
+I would actually just use a move command.
+
+00:27:44.620 --> 00:27:52.401
+But let us I want to copy to do some other
+name. So, what would happen? Copy mydir and
+
+00:27:52.401 --> 00:28:00.510
+I went to copy to another directory the second
+argument is actually a directory that does
+
+00:28:00.510 --> 00:28:05.330
+not exist and we would like to make a copy
+and that does not seem to help because it
+
+00:28:05.330 --> 00:28:11.180
+is not a directory that is existing right
+now. So, what you could do is copy -r mydir
+
+00:28:11.180 --> 00:28:18.190
+to mydir. So, if you give the -r option it
+would actually work because it now has created
+
+00:28:18.190 --> 00:28:21.660
+the second directory let us go and see that.
+
+00:28:21.660 --> 00:28:27.100
+So, it has the files that we have created.
+So, which means that for the copy command
+
+00:28:27.100 --> 00:28:33.140
+the recursion is not assumed while copying
+it is asking whether you want it to be recursive
+
+00:28:33.140 --> 00:28:41.190
+or not. Now mv command does not ask for that
+you will see that let us say I want to move
+
+00:28:41.190 --> 00:28:50.330
+the mydir2 mydir3 and you see that it just
+renamed it and therefore there is no recursion
+
+00:28:50.330 --> 00:28:51.750
+that is being asked for.
+
+00:28:51.750 --> 00:28:57.870
+So, what it in place is that some commands
+assume recursion some commands do not assume
+
+00:28:57.870 --> 00:29:02.790
+recursive and one must be aware of that while
+playing around with those commands.
+
+00:29:02.790 --> 00:29:08.310
+A little bit of discussion about the links
+uh is worthwhile. So, we have seen that both
+
+00:29:08.310 --> 00:29:15.100
+hand link and symbolic links are possible
+and we can create them for a given file and
+
+00:29:15.100 --> 00:29:19.790
+looking at the inode numbers we can actually
+determine whether they are hard links or symbolic
+
+00:29:19.790 --> 00:29:24.760
+links and also from the long listing of the
+uh file system also you could actually see
+
+00:29:24.760 --> 00:29:27.950
+whether their hard links are symbolic links
+okay.
+
+00:29:27.950 --> 00:29:34.390
+Now let us look at the hard link and soft
+link concept. So, we have got the home directory
+
+00:29:34.390 --> 00:29:45.960
+here. So, let us create an empty file okay
+and you would see that the empty file is here.
+
+00:29:45.960 --> 00:29:51.810
+Now we would create a symbolic link to this
+file. So, that is done using the command ln.
+
+00:29:51.810 --> 00:29:59.380
+So, we would look at the man page for ln.
+So, ln is making the links symbolic link is
+
+00:29:59.380 --> 00:30:06.490
+done by using the -s option here it is -s
+option okay.
+
+00:30:06.490 --> 00:30:15.200
+So, symbolic link and the source for which
+we are making the link and the destination
+
+00:30:15.200 --> 00:30:20.830
+which is the link itself, so, ln s source
+destination that is how the format looks like
+
+00:30:20.830 --> 00:30:26.290
+and now when we look at the long listing you
+would see that file2 is a symbolic link to
+
+00:30:26.290 --> 00:30:36.350
+file1. And let us look at the inode numbers
+you will see that file2 has an inode number
+
+00:30:36.350 --> 00:30:40.390
+which is different from the file1 which means
+that there are separate entries.
+
+00:30:40.390 --> 00:30:47.240
+The file2 is a separate entry but it is just
+a shortcut to the file1 okay. Now let us go
+
+00:30:47.240 --> 00:30:57.640
+ahead and create a hard link also to file1.
+So, the hard links are created by with the
+
+00:30:57.640 --> 00:31:05.590
+link command without the -s option and now
+look at the inode numbers in the long listing
+
+00:31:05.590 --> 00:31:12.420
+and you will see that the file1 and the file3
+have the same inode number which means that
+
+00:31:12.420 --> 00:31:19.730
+these two are basically the same file and
+you would also notice they are a number of
+
+00:31:19.730 --> 00:31:21.260
+hard links here it says two.
+
+00:31:21.260 --> 00:31:28.100
+So, which means that these files are having
+2 hard links in the file system whereas a
+
+00:31:28.100 --> 00:31:34.370
+link file2 has only one hard link which is
+the symbolic link itself so, this is the difference
+
+00:31:34.370 --> 00:31:39.320
+and you can actually note from this number
+here how many hard links and from there we
+
+00:31:39.320 --> 00:31:43.300
+can actually guess that there are multiple
+locations for the particular file.
+
+00:31:43.300 --> 00:31:49.059
+Now a brief note about the file sizes. So,
+we could actually get the file size from the
+
+00:31:49.059 --> 00:31:54.600
+long listing of the directory. We could also
+ask for the file size to be specified in the
+
+00:31:54.600 --> 00:31:59.610
+very first column using the -s option of the
+ls command there are also some more commands
+
+00:31:59.610 --> 00:32:05.470
+available to know more about the size occupied
+by the file on the disk using the stat command
+
+00:32:05.470 --> 00:32:12.020
+as well as by the du command and there is
+a role that the block size will play to understand
+
+00:32:12.020 --> 00:32:13.770
+that we will actually do both of the demo.
+
+00:32:13.770 --> 00:32:21.270
+So, let us go and look at these sizes from
+one of the system folders. So, we will go
+
+00:32:21.270 --> 00:32:27.860
+to the user bin and type a ls there are amply
+number of files. So, we can inspect the sizes
+
+00:32:27.860 --> 00:32:35.480
+of these files here. So, there is a file called
+z new. So, let us look at the size of that.
+
+00:32:35.480 --> 00:32:42.980
+So, stat znew and you would see that it is
+telling you about the size and the size it
+
+00:32:42.980 --> 00:32:50.780
+says 4553 bites and how many blocks it is
+occupying and so on.
+
+00:32:50.780 --> 00:33:01.840
+So, that new is occupying 4553 bites and it
+is actually occupying sixteen blocks and you
+
+00:33:01.840 --> 00:33:05.550
+have the time stamps available here which
+will tell you when was it accessed when was
+
+00:33:05.550 --> 00:33:13.890
+it modified and so on. Now look at the same
+information using the du command okay and
+
+00:33:13.890 --> 00:33:22.480
+it says that together 8 it is occupying about
+8 kilobytes. So, we can actually use the -h
+
+00:33:22.480 --> 00:33:28.059
+command and it will tell you that you know
+in a human readable form it is about 8 kilobytes.
+
+00:33:28.059 --> 00:33:34.210
+Now why is it 8 kilobytes as for the du output
+is concerned but the ls is showing you 4553?
+
+00:33:34.210 --> 00:33:41.670
+The reason is that the block size is 4 kilobytes
+and the size is just above 4 kilobytes. So,
+
+00:33:41.670 --> 00:33:47.250
+it actually goes on to the 8 kilobytes. It
+means that the files that are actually smaller
+
+00:33:47.250 --> 00:33:52.470
+than the block size would actually take up
+the whole block. So, you can have a block
+
+00:33:52.470 --> 00:33:55.580
+or more blocks but not a part of the block.
+
+00:33:55.580 --> 00:34:00.130
+Now let us look at the zmore command which
+seems to be just less than one block okay
+
+00:34:00.130 --> 00:34:11.169
+and you understand that it would actually
+take the whole block okay and here you see.
+
+00:34:11.169 --> 00:34:20.879
+So, you could see that zmore a command which
+is occupying 4 kilograms and it would actually
+
+00:34:20.879 --> 00:34:29.300
+have uh the size which is actually less than
+uh one block uh only 1842 bytes but it is
+
+00:34:29.300 --> 00:34:34.270
+actually occupy uh 4 kilobytes because that
+is the size of the block.
+
+00:34:34.270 --> 00:34:39.520
+Now there are some directories which you would
+see in the root folder which are actually
+
+00:34:39.520 --> 00:34:44.929
+not sitting on the disk they are only in the
+memory and they are very special file systems.
+
+00:34:44.929 --> 00:34:49.030
+We should not be messing around with those
+territories but we can actually view a very
+
+00:34:49.030 --> 00:34:54.399
+important system information from those directories
+in a read only manner and let us explore those
+
+00:34:54.399 --> 00:34:55.440
+two directors now.
+
+00:34:55.440 --> 00:35:00.541
+So, we will go back to the root folder and
+see that these folders are available here
+
+00:35:00.541 --> 00:35:07.130
+you can see here this sys and then proc okay.
+So, what are these folders? These folders
+
+00:35:07.130 --> 00:35:12.840
+are actually not sitting on your hard disk
+proc and sys uh they are actually in the memory
+
+00:35:12.840 --> 00:35:18.160
+and these are all basically data structures
+available for uh the users to know more about
+
+00:35:18.160 --> 00:35:25.470
+their system and uh the proc system the slash
+proc file system is an older system from kernel
+
+00:35:25.470 --> 00:35:29.390
+2.6 onwards the slash system has been used.
+
+00:35:29.390 --> 00:35:35.020
+However even now uh the information about
+the various processes that are running is
+
+00:35:35.020 --> 00:35:40.270
+still stored in these slash proc directly
+itself. We can go in and look at that without
+
+00:35:40.270 --> 00:35:52.460
+much problem. Let us go there cd slash proc
+cd slash proc and you can see that it has
+
+00:35:52.460 --> 00:35:56.950
+many files which are actually zero size and
+that would be a little bit misleading the
+
+00:35:56.950 --> 00:36:01.340
+reason is that some of them actually have
+content that we can read but the size will
+
+00:36:01.340 --> 00:36:07.010
+be zero the reason is that it is only a representation
+for us to explore but actually they are not
+
+00:36:07.010 --> 00:36:09.500
+real files which are sitting on the hard disk.
+
+00:36:09.500 --> 00:36:17.390
+So, let us look at some of the contents. So,
+there is a file called CPU info. So, which
+
+00:36:17.390 --> 00:36:24.440
+is actually occupying zero but it says but
+let us look at its content less CPU info and
+
+00:36:24.440 --> 00:36:28.480
+you see that there is some information that
+is coming out onto the screen and it seems
+
+00:36:28.480 --> 00:36:35.630
+to be information about the CPU okay. And
+we could also do cat CPU info and you would
+
+00:36:35.630 --> 00:36:40.020
+see that several lines have come and you can
+scroll with your mouse and read some of it.
+
+00:36:40.020 --> 00:36:48.340
+So, it appears that it is giving you information
+about your CPU and when you type ls -l you
+
+00:36:48.340 --> 00:36:53.450
+would see this file is actually showing as
+if it is occupying zero bytes. So, which means
+
+00:36:53.450 --> 00:36:58.550
+that this is not real it is only in the memory
+and as a place holder for us to know about
+
+00:36:58.550 --> 00:37:04.660
+the system and you can actually now know more
+about your system by reading some other files
+
+00:37:04.660 --> 00:37:05.820
+also.
+
+00:37:05.820 --> 00:37:11.350
+So, if you type cat version within the slash
+book directory you would see the information
+
+00:37:11.350 --> 00:37:17.600
+which is also available when you type uname
+-a which is basically telling you about the
+
+00:37:17.600 --> 00:37:22.860
+kernel that is being used by the operator
+system along with what kind of an architecture
+
+00:37:22.860 --> 00:37:28.760
+the particular mission is and what is the
+operator system it is running and so on. When
+
+00:37:28.760 --> 00:37:34.600
+you type meminfo okay cat meminfo will give
+you information about the memory and this
+
+00:37:34.600 --> 00:37:40.240
+information is coming in various forms how
+much of free memory is there and how much
+
+00:37:40.240 --> 00:37:42.620
+of the total memory is there etcetera.
+
+00:37:42.620 --> 00:37:48.310
+And this is also available to us through other
+commands like for example free okay. So, it
+
+00:37:48.310 --> 00:37:53.650
+is more readable free -h will actually give
+you in a human readable form how much of memory
+
+00:37:53.650 --> 00:37:58.550
+is available for more applications to be launched
+on this particular operating system. And you
+
+00:37:58.550 --> 00:38:04.210
+can also do cat partitions I need to tell
+you how many partitions are there in this
+
+00:38:04.210 --> 00:38:09.360
+particular system if the hardest has multiple
+partitions it will show you and it will also
+
+00:38:09.360 --> 00:38:11.890
+show you the size of it in terms of number
+of blocks.
+
+00:38:11.890 --> 00:38:17.250
+But this is not very helpful uh you could
+actually get the help using the df command
+
+00:38:17.250 --> 00:38:21.430
+and the df command will actually show you
+more information like what is a mount point
+
+00:38:21.430 --> 00:38:27.140
+in which directory is that particular partition
+made available to the user and so on. And
+
+00:38:27.140 --> 00:38:32.310
+if you type df -h it will give you the information
+in a human readable form with respect to the
+
+00:38:32.310 --> 00:38:39.850
+size. So, for example my root partition happens
+to be 183 gigabytes and of which only 30 gigabytes
+
+00:38:39.850 --> 00:38:42.820
+has been used.
+
+00:38:42.820 --> 00:38:49.670
+And my home directory is having a size of
+481 gigabytes out of it about 6.9 gigabytes
+
+00:38:49.670 --> 00:38:57.600
+has been used. Now if you go to slash proc
+and look at the files there is some file which
+
+00:38:57.600 --> 00:39:01.960
+actually looks rather big you know you can
+see this there is a k core file which occupies
+
+00:39:01.960 --> 00:39:06.770
+a huge size and it appears that this is a
+very big number. If you calculate it would
+
+00:39:06.770 --> 00:39:10.160
+be how many zeros if you calculate it would
+come out to be about 140 terabytes.
+
+00:39:10.160 --> 00:39:16.800
+Obviously it cannot be a real file because
+our hard disk itself just one terabyte and
+
+00:39:16.800 --> 00:39:23.250
+therefore this cannot be coming from the hard
+disk. So, this basically is a an entry that
+
+00:39:23.250 --> 00:39:28.430
+tells you what is a maximum virtual memory
+the current Linux operating system is able
+
+00:39:28.430 --> 00:39:35.290
+to handle okay theoretically and this comes
+with 47 bits for the virtual memory and two
+
+00:39:35.290 --> 00:39:37.880
+respiratory comes to about 140 terabytes.
+
+00:39:37.880 --> 00:39:43.130
+So, this directory is very magical because
+there are files which are having zero size
+
+00:39:43.130 --> 00:39:48.260
+but have content. There are files which have
+a huge size but actually do not exist on the.
+
+00:39:48.260 --> 00:39:53.710
+So, slash prop that way is a magical file
+system in which a lot of information is available
+
+00:39:53.710 --> 00:39:58.600
+for you to look at to know more about system.
+There are a lot of folders that are also going
+
+00:39:58.600 --> 00:40:03.780
+down with some names which are basically numbers
+these numbers correspond to what record the
+
+00:40:03.780 --> 00:40:05.000
+process Id s.
+
+00:40:05.000 --> 00:40:09.640
+For every process that is running in the operating
+system there is an id and using these folders.
+
+00:40:09.640 --> 00:40:15.720
+So, we can know more about those processes.
+Similarly the slash sys folder is also the
+
+00:40:15.720 --> 00:40:22.020
+same uh kind of a file system which is actually
+a much more well organized than slash block
+
+00:40:22.020 --> 00:40:28.560
+because it says like a newer development in
+the in the Linux and here in a very neatly
+
+00:40:28.560 --> 00:40:33.369
+organized directory structure you would see
+that the information about the system is all
+
+00:40:33.369 --> 00:40:39.230
+collected and available for you to read and
+process in your scripts or any other use that
+
+00:40:39.230 --> 00:40:41.610
+you may want to have.
+
+00:40:41.610 --> 00:40:54.000
+So, let us go and explore some directory here.
+So, I will go to slash sys and then go to
+
+00:40:54.000 --> 00:41:03.510
+the bus folder and in the bath I will go to
+usb and then I will go to devices and you
+
+00:41:03.510 --> 00:41:07.410
+see that there are some there are some directories
+links that are available. So, these are all
+
+00:41:07.410 --> 00:41:14.250
+devices that are actually usb type of devices.
+Now let me go to the one dash one directories
+
+00:41:14.250 --> 00:41:18.790
+and there are some uh files that are here
+and I can just read about them.
+
+00:41:18.790 --> 00:41:31.470
+So, like I say less manufacturer okay and
+it says JBL is a manufacturer okay and the
+
+00:41:31.470 --> 00:41:37.130
+less product and it says JBL Quantum 300 is
+a product map. So, instantly this particular
+
+00:41:37.130 --> 00:41:41.970
+usb device that we are looking at is this
+headphone that I am using right. Now to record
+
+00:41:41.970 --> 00:41:52.570
+my audio. So, the usb device is JBL Quantum
+300. Similarly other devices also can be looked
+
+00:41:52.570 --> 00:42:04.060
+at. So, let us look at let us one dash and
+less manufacturer it is a pixel art is a manufacturer
+
+00:42:04.060 --> 00:42:10.130
+less product it says dell M116 usb optical
+mouse that is this mouse which is actually
+
+00:42:10.130 --> 00:42:12.600
+the usb device that we have looked at.
+
+00:42:12.600 --> 00:42:16.680
+So, like this you know every device that is
+connected with the computer we can actually
+
+00:42:16.680 --> 00:42:21.890
+know more and more details about it just by
+simply exploring the file system that is already
+
+00:42:21.890 --> 00:42:26.880
+made available. So, slash sys and slash proc
+or two file systems which help us to know
+
+00:42:26.880 --> 00:42:33.450
+more about the hardware and we will learn
+to process that information as we go along.
+
+00:42:33.450 --> 00:42:38.830
+So I now encourage you to explore the file
+system and run the simple commands that we
+
+00:42:38.830 --> 00:42:43.530
+have discussed till now to understand your
+machine a little bit more.
+

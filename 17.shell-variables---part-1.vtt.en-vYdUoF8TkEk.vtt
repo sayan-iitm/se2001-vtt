@@ -1,0 +1,1525 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:14.400 --> 00:00:18.890
+In this session, we will be looking at Shell
+variables, various aspects of Shell variables
+
+00:00:18.890 --> 00:00:26.619
+such as the creation, the inspection of those
+variables, the values, modification of those
+
+00:00:26.619 --> 00:00:31.490
+variables and lists of those variables in
+two different types of arrays.
+
+00:00:31.490 --> 00:00:41.450
+So, the way to create a variable is directly
+by assigning a value, and the variable should
+
+00:00:41.450 --> 00:00:49.180
+not contain a digit at the beginning of the
+name. It can contain alphanumeric characters
+
+00:00:49.180 --> 00:00:54.320
+as well as an underscore. There should not
+be any space before or after the equal to
+
+00:00:54.320 --> 00:01:00.750
+sign. And if the value is a number, you can
+directly provide it on the command prompt.
+
+00:01:00.750 --> 00:01:07.650
+But if it has a space, or if it is a string
+value, it is safer to enclose it in quotes.
+
+00:01:07.650 --> 00:01:13.970
+You may also assign the output of a command
+as a value to a variable by using the command
+
+00:01:13.970 --> 00:01:22.140
+in the back quotes, we will see that in a
+demo.
+
+00:01:22.140 --> 00:01:28.610
+By exporting a variable, what we mean is making
+the value of that variable available to a
+
+00:01:28.610 --> 00:01:33.330
+shell that is spawned by the current shell.
+And you can do it directly by assigning a
+
+00:01:33.330 --> 00:01:39.120
+value to that variable and exporting it in
+one line or by creating the variable and then
+
+00:01:39.120 --> 00:01:44.170
+exporting that on the command prompt.
+
+00:01:44.170 --> 00:01:50.100
+And the variable value itself can be displayed
+by using the echo command. The dollar sign
+
+00:01:50.100 --> 00:01:54.659
+at the beginning of the variable name should
+not be forgotten. It is always safe to use
+
+00:01:54.659 --> 00:02:00.229
+the name of the variable within the braces
+or the flower brackets. As you will see there
+
+00:02:00.229 --> 00:02:05.770
+is a lot of manipulation that we could do
+to the value of the variable by inserting
+
+00:02:05.770 --> 00:02:12.090
+certain triggers are commands within the braces.
+So, it is always a good idea to use the braces
+
+00:02:12.090 --> 00:02:17.020
+while using the values of variables.
+
+00:02:17.020 --> 00:02:25.659
+To remove a variable it is quite simple, you
+could just unset the variable. You could also
+
+00:02:25.659 --> 00:02:31.239
+remove the value of the variable by placing
+nothing after the equal to sign. You could
+
+00:02:31.239 --> 00:02:37.209
+use the same command as what you would use
+for creating the variable where you write
+
+00:02:37.209 --> 00:02:42.439
+like my var is equal to and then a value.
+So, if you skip the value and press enter,
+
+00:02:42.439 --> 00:02:46.720
+then the value will be null. And that is also
+one way by which you remove the content of
+
+00:02:46.720 --> 00:02:48.290
+a variable.
+
+00:02:48.290 --> 00:02:54.999
+If you want to test if a variable is available
+in the memory or not, you could use the test
+
+00:02:54.999 --> 00:03:02.430
+conditions syntax of the bash language and
+minus v option is to check whether the variable
+
+00:03:02.430 --> 00:03:09.200
+is set. You could check the status of the
+output of the test command to see if the variable
+
+00:03:09.200 --> 00:03:15.519
+was available or not. We have already looked
+at the error codes or written codes of various
+
+00:03:15.519 --> 00:03:17.819
+commands on bash prompt earlier.
+
+00:03:17.819 --> 00:03:22.489
+You could also test if the variable is available
+in the memory or not in indirect manner by
+
+00:03:22.489 --> 00:03:29.329
+using the minus z option. And here you could
+actually see that the character x can be replaced
+
+00:03:29.329 --> 00:03:35.120
+with any other character and it would work
+opposite to the minus v option that we have
+
+00:03:35.120 --> 00:03:40.499
+seen just now.
+
+00:03:40.499 --> 00:03:45.599
+If you are using a variable and if you would
+like to have a default value in situations
+
+00:03:45.599 --> 00:03:50.609
+where the variable is not set, then there
+is a syntax available within the braces you
+
+00:03:50.609 --> 00:03:54.799
+could have a colon and a minus symbol and
+then you can provide the value that should
+
+00:03:54.799 --> 00:04:00.499
+be used as a default in case the variable
+is not set. Remember, there should be no spaces
+
+00:04:00.499 --> 00:04:07.309
+before or after the colon and you are using
+the syntax within the braces. The logic is
+
+00:04:07.309 --> 00:04:12.699
+if the variable is set, then it will display
+the value and if it is not set, then it would
+
+00:04:12.699 --> 00:04:17.260
+display the value that is given in the command
+here which is default.
+
+00:04:17.260 --> 00:04:23.310
+If you wish you could set a default value
+to the variable if it was not set and the
+
+00:04:23.310 --> 00:04:29.370
+syntax is here colon equal to and the logic
+is that if the variable is set, then its own
+
+00:04:29.370 --> 00:04:34.540
+value will be used. But if it is not set,
+then the variable will be set to the value
+
+00:04:34.540 --> 00:04:39.409
+that is given in this command like default
+and that variable and that value will then
+
+00:04:39.409 --> 00:04:40.840
+be used.
+
+00:04:40.840 --> 00:04:46.139
+You could use the reverse logic where if the
+variable is set, then you should display a
+
+00:04:46.139 --> 00:04:51.430
+particular value. Here in this case, we are
+saying default and if the variable is not
+
+00:04:51.430 --> 00:04:57.330
+set, then nothing will be done. The two logics
+that are there with the plus and minus signs,
+
+00:04:57.330 --> 00:05:04.370
+when combined can be used to have whichever
+logical loop that you would like to have in
+
+00:05:04.370 --> 00:05:06.620
+a shell script, as you will learn later.
+
+00:05:06.620 --> 00:05:10.530
+Very often, we are interested in knowing what
+are the variables that are actually stored
+
+00:05:10.530 --> 00:05:15.060
+in the memory while you are operating within
+the bash shell. So, you could actually print
+
+00:05:15.060 --> 00:05:21.639
+out the names of the variables by using this
+command, echo dollar within the braces, exclamation
+
+00:05:21.639 --> 00:05:28.020
+mark, followed by the character with which
+you would search for the names of the variables,
+
+00:05:28.020 --> 00:05:32.659
+and then a pattern. So, H star would mean
+that all the variable names which starts with
+
+00:05:32.659 --> 00:05:37.789
+H will then be displayed on the screen. You
+could have any other pattern that is supported
+
+00:05:37.789 --> 00:05:39.099
+by the bash syntax.
+
+00:05:39.099 --> 00:05:43.680
+Now, the length of the string contained as
+a value of a variable can also be counted
+
+00:05:43.680 --> 00:05:50.120
+directly. And it could be done using the pound
+symbol or hash symbol in front of the variable
+
+00:05:50.120 --> 00:05:55.950
+within the braces. In case the variable is
+not set, then the value will be 0.
+
+00:05:55.950 --> 00:06:02.110
+You could extract a slice of a string value
+of a variable by providing what is the offset
+
+00:06:02.110 --> 00:06:06.539
+and the number of characters in the slice
+that you would like to print out by using
+
+00:06:06.539 --> 00:06:12.800
+the syntax where there are two colons separating
+the offset and the slice length. If the slides
+
+00:06:12.800 --> 00:06:18.160
+length is larger than the length of the string,
+then what is available in the string only
+
+00:06:18.160 --> 00:06:23.090
+will be displayed. The offset can also be
+negative, only thing is that you need to provide
+
+00:06:23.090 --> 00:06:30.759
+a space after the colon to avoid confusion
+with the previous usage of colon minus symbol.
+
+00:06:30.759 --> 00:06:35.169
+And you could also have the offset coming
+from the right-hand side of the string.
+
+00:06:35.169 --> 00:06:42.599
+If you would like to match a pattern within
+the value of a shell variable and print whatever
+
+00:06:42.599 --> 00:06:50.669
+is not matching, then that can be done using
+the hash symbol. The pattern can be similar
+
+00:06:50.669 --> 00:06:56.509
+to the regular expressions that we will be
+learning later on. But it could just be a
+
+00:06:56.509 --> 00:07:02.260
+dot and a star so that you could look for
+filename extensions are parts of a particular
+
+00:07:02.260 --> 00:07:03.260
+file name.
+
+00:07:03.260 --> 00:07:08.110
+If you use the pound symbol twice, it means
+that the pattern matching will be done as
+
+00:07:08.110 --> 00:07:12.819
+many times as possible within the value of
+the variable. And if it is used once it means
+
+00:07:12.819 --> 00:07:17.460
+that the pattern matching is done only once.
+So, whatever is matching the pattern will
+
+00:07:17.460 --> 00:07:22.240
+be removed and the rest of it will be displayed
+on the screen.
+
+00:07:22.240 --> 00:07:27.169
+Sometimes you want to actually display what
+is matching the pattern rather than remove
+
+00:07:27.169 --> 00:07:31.720
+it. So, that is accomplished by using the
+percentage symbol. So, a single percentage
+
+00:07:31.720 --> 00:07:37.349
+symbol is used to match only once and it is
+used twice to match it as many times as possible.
+
+00:07:37.349 --> 00:07:42.229
+So, whatever is the matching pattern will
+be displayed on the screen.
+
+00:07:42.229 --> 00:07:46.330
+And sometimes you may want to match a pattern
+and replace that pattern with another string.
+
+00:07:46.330 --> 00:07:51.740
+So, it is like search and replace but performed
+on a single string, which is the value of
+
+00:07:51.740 --> 00:07:58.310
+a variable here in this case it is myvar.
+So, if you use a forward slash once, it means
+
+00:07:58.310 --> 00:08:03.060
+the matching is done only once. And if you
+use the forward slash twice, it means that
+
+00:08:03.060 --> 00:08:09.220
+the pattern is matched as many times as possible
+within the string. And then all those patterns
+
+00:08:09.220 --> 00:08:13.449
+will be replaced with the string that is given
+for the replacement.
+
+00:08:13.449 --> 00:08:18.030
+You could also do the pattern matching and
+replacing going by the location of the string.
+
+00:08:18.030 --> 00:08:22.240
+So, if you want to do the pattern matching
+only at the beginning of the string, you could
+
+00:08:22.240 --> 00:08:27.389
+use a pound symbol or a hash symbol after
+the forward slash. And if you would like to
+
+00:08:27.389 --> 00:08:32.310
+have the matching done only at the end of
+a string, then you could use the percentage
+
+00:08:32.310 --> 00:08:33.979
+symbol after the forward slash.
+
+00:08:33.979 --> 00:08:39.630
+Now, you can display the value of a variable
+by converting the case of the characters within
+
+00:08:39.630 --> 00:08:45.450
+the string. And you could do it for the first
+character or for all the characters to the
+
+00:08:45.450 --> 00:08:52.690
+lowercase or uppercase. As you can see from
+here, the comma symbol indicates that it is
+
+00:08:52.690 --> 00:08:56.980
+the lowercase that has to be printed out.
+The caret symbol indicates that it is the
+
+00:08:56.980 --> 00:09:03.030
+uppercase that has to be printed out the original
+value of the variable is not changed, only
+
+00:09:03.030 --> 00:09:12.240
+the display will be modified as you have asked
+with these trigger commands within the braces.
+
+00:09:12.240 --> 00:09:17.120
+You can restrict what type of values can be
+assigned to any variable. So, you can restrict
+
+00:09:17.120 --> 00:09:25.540
+it to be only integer type, or lowercase type
+or uppercase type or even read only by using
+
+00:09:25.540 --> 00:09:32.820
+the options like i, l, u and r. Remember that
+if you make a variable Read Only, then you
+
+00:09:32.820 --> 00:09:37.400
+cannot modify it after that. And if you want
+to do it, you may have to start the bash all
+
+00:09:37.400 --> 00:09:42.480
+over again so that it will forget that particular
+variable.
+
+00:09:42.480 --> 00:09:46.850
+If you want to remove the restrictions after
+having given those to a particular variable,
+
+00:09:46.850 --> 00:09:52.310
+you could do it by changing the option from
+minus to plus. So, plus i would actually remove
+
+00:09:52.310 --> 00:09:57.590
+the restrictions of integers to be assigned
+to the variable myvar. So, plus l is removing
+
+00:09:57.590 --> 00:10:01.030
+the restriction of the lowercase or the variable
+myvar.
+
+00:10:01.030 --> 00:10:05.410
+Plus, u to remove the restriction on only
+uppercase to be assigned for the variable
+
+00:10:05.410 --> 00:10:11.680
+myvar and plus r cannot be done, because once
+you have already given a minus r attribute,
+
+00:10:11.680 --> 00:10:16.580
+then myvar is actually read only and you cannot
+change the attribute including the restriction
+
+00:10:16.580 --> 00:10:19.020
+of read only.
+
+00:10:19.020 --> 00:10:26.220
+Variables can also be stored as arrays within
+the shell environment, which is very powerful,
+
+00:10:26.220 --> 00:10:34.230
+because these operations are quite fast. So,
+you can declare a particular name as an array
+
+00:10:34.230 --> 00:10:40.230
+using the minus small a, if you wanted it
+as an index array. So, you could do various
+
+00:10:40.230 --> 00:10:45.320
+operations such as assigning the value to
+a particular element of the array.
+
+00:10:45.320 --> 00:10:52.770
+And remember that unlike the arrays in C language
+or C++, the indices need not be contiguous,
+
+00:10:52.770 --> 00:10:57.811
+you could actually use any integer index for
+the indexed arrays. You can print the value
+
+00:10:57.811 --> 00:11:05.090
+of any specific element of the array by using
+the syntax of square brackets, which is quite
+
+00:11:05.090 --> 00:11:10.760
+common for you if you are familiar with the
+other programming languages.
+
+00:11:10.760 --> 00:11:15.940
+By providing a hash in front of the array
+name, and an add symbol within the square
+
+00:11:15.940 --> 00:11:21.470
+brackets, you are conveying that you would
+like the command to be interpreted for all
+
+00:11:21.470 --> 00:11:26.180
+the elements that are in the array. And by
+hash you are asking to count. So, you would
+
+00:11:26.180 --> 00:11:30.270
+get the output as the number of elements in
+the array.
+
+00:11:30.270 --> 00:11:34.580
+And the exclamation mark would indicate that
+you are interested in knowing what are the
+
+00:11:34.580 --> 00:11:39.560
+indices that are used by the array. And the
+add symbol tells that you would like to have
+
+00:11:39.560 --> 00:11:46.080
+the list of all the indices used in the array.
+And you could also list out all the variables
+
+00:11:46.080 --> 00:11:50.750
+the values of the variables stored in the
+array by simply using the syntax as given
+
+00:11:50.750 --> 00:11:56.470
+here, dollar and within the braces array name
+and in the square brackets, you give an add
+
+00:11:56.470 --> 00:12:01.620
+symbol which is like a wild character to run
+through all the elements of the array.
+
+00:12:01.620 --> 00:12:07.260
+And you can actually knock off any specific
+element in the array by providing its index
+
+00:12:07.260 --> 00:12:14.970
+value to the unset command. And you can also
+append an element to the array by using the
+
+00:12:14.970 --> 00:12:20.200
+syntax similar to the C language. So, plus
+is equal to would actually append the value
+
+00:12:20.200 --> 00:12:25.740
+at the end of the array. And when you are
+appending the index will be taken appropriately.
+
+00:12:25.740 --> 00:12:31.890
+Associative arrays or hashes are also available
+within the bash environment and these are
+
+00:12:31.890 --> 00:12:38.330
+very powerful because the index can be just
+anything, it can be an integer or a string.
+
+00:12:38.330 --> 00:12:46.740
+So, here is an example of a hash declared
+by using the option minus A, capital A and
+
+00:12:46.740 --> 00:12:54.800
+the index ‘a’ as a character is used to
+store an element with the value as given here.
+
+00:12:54.800 --> 00:12:59.060
+And you could do most of the operations similar
+to the associative arrays except the appending
+
+00:12:59.060 --> 00:13:05.190
+operation, which is not possible because there
+is nothing called at the end of the array,
+
+00:13:05.190 --> 00:13:09.770
+because there is no sequence part of the indices
+that are used in a hash.
+
+00:13:09.770 --> 00:13:12.760
+So, please remember that the shell variable
+manipulations are very fast. And therefore,
+
+00:13:12.760 --> 00:13:19.570
+if you are able to perform an operation using
+shell variable manipulations, then your script
+
+00:13:19.570 --> 00:13:26.000
+will be running very fast. So, mastering these
+options will be very valuable to you when
+
+00:13:26.000 --> 00:13:27.370
+you write your scripts.
+
+00:13:27.370 --> 00:13:34.000
+This session is about shell variables, we
+will learn how to create shell variables,
+
+00:13:34.000 --> 00:13:39.830
+inspect them, edit them for display, also
+using command output to store as a value in
+
+00:13:39.830 --> 00:13:47.290
+a shell variable. We will also learn how to
+use an array of variables in the shell environment,
+
+00:13:47.290 --> 00:13:48.830
+let us get started with the demo.
+
+00:13:48.830 --> 00:13:56.360
+So, the way to create a shell variable is
+directly to use the name let us say I will
+
+00:13:56.360 --> 00:14:03.130
+create a variable called myvar and then equals
+and then we can give the value. It can be
+
+00:14:03.130 --> 00:14:12.120
+numerical, or a string. So, I will choose
+the value to be numerical, namely 10. To inspect
+
+00:14:12.120 --> 00:14:17.800
+the value of this variable, we would use the
+command echo and the dollar sign followed
+
+00:14:17.800 --> 00:14:19.320
+by the name of the variable.
+
+00:14:19.320 --> 00:14:30.850
+We could actually overwrite the value stored
+using any other type. So, here I store a string
+
+00:14:30.850 --> 00:14:38.420
+in the variable myvar. And you could inspect
+the value of the variable myvar and you see
+
+00:14:38.420 --> 00:14:44.280
+that it has changed. Now, what kind of a restrictions
+are there in assigning values for variables
+
+00:14:44.280 --> 00:14:45.890
+in the shell environment?
+
+00:14:45.890 --> 00:14:51.220
+It will be evident you could actually make
+the case for the shell variable names. So,
+
+00:14:51.220 --> 00:15:01.650
+you could have something like this myvar is
+equal to 10. So, you could mix the cases that
+
+00:15:01.650 --> 00:15:16.910
+is fine. You could also use digits within
+the name like this, you can see that you can
+
+00:15:16.910 --> 00:15:23.910
+use both alphabetical as well as numeric characters
+in giving the names. However, there is a restriction
+
+00:15:23.910 --> 00:15:27.530
+you cannot start the name of a variable using
+a digit.
+
+00:15:27.530 --> 00:15:38.630
+So, try that out and you see that it is actually
+going into a little bit of a evaluation and
+
+00:15:38.630 --> 00:15:43.340
+then conses that it is actually a command
+and then therefore, such a command does not
+
+00:15:43.340 --> 00:15:48.840
+take this. So, it does not actually create
+a variable by the name 10Myvar. So, you cannot
+
+00:15:48.840 --> 00:15:52.810
+start the name of a variable with digits.
+
+00:15:52.810 --> 00:16:02.310
+If you want you can actually use the underscore
+as a character to make your variables readable.
+
+00:16:02.310 --> 00:16:18.630
+So, here he would then see that, you can actually
+display the value of the variable Myvar underscore
+
+00:16:18.630 --> 00:16:26.020
+New, underscore is a poor man's way of representing
+a space for easy readability. You could also
+
+00:16:26.020 --> 00:16:39.640
+use numbers for that purpose and you could
+see that it is all working quite fine.
+
+00:16:39.640 --> 00:16:46.320
+So, the lesson is that you could have the
+variables named either in small case or uppercase,
+
+00:16:46.320 --> 00:16:50.640
+you can also mix them up, you could use underscore
+as a part of the name, you could also use
+
+00:16:50.640 --> 00:16:55.470
+digits, but only thing is that you cannot
+start the name of a variable using a digit.
+
+00:16:55.470 --> 00:17:01.180
+Now, while assigning the value is when the
+variable also is getting created. But the
+
+00:17:01.180 --> 00:17:06.000
+equal to sign should not be surrounded by
+space for you to write in a legible fashion.
+
+00:17:06.000 --> 00:17:14.449
+So, consider this for example. So, that will
+actually not work because Myvar is then interpreted
+
+00:17:14.449 --> 00:17:19.980
+as a command because there is a space after
+that. So, you should not have any space after
+
+00:17:19.980 --> 00:17:24.970
+the variable name, if you are going to assign
+a value and create that variable in the process
+
+00:17:24.970 --> 00:17:29.660
+of writing that command. Variable that we
+have used here I have used a quotes now what
+
+00:17:29.660 --> 00:17:31.940
+happens if I do not use a quotes?
+
+00:17:31.940 --> 00:17:38.790
+Let us see what happens when we assign a value
+to a variable with a space in that particular
+
+00:17:38.790 --> 00:17:47.790
+string. So, here it has failed. So, how do
+I know that? I can inspect the return status
+
+00:17:47.790 --> 00:17:54.770
+and it says there is a problem there. So,
+127 means that the return code says that the
+
+00:17:54.770 --> 00:17:56.300
+command was not found.
+
+00:17:56.300 --> 00:18:02.030
+So, if I now try to inspect what would be
+the value of the variable, and you will see
+
+00:18:02.030 --> 00:18:08.040
+that there is a null which means that entire
+command was neglected. And if we did not end
+
+00:18:08.040 --> 00:18:16.450
+up in assigning value to the variable myvar.
+Now, we can accomplish that correctly by enclosing
+
+00:18:16.450 --> 00:18:23.180
+the space of the string not to be interpreted
+as a delimiter. So, the entire string has
+
+00:18:23.180 --> 00:18:30.640
+to be enclosed in quotes. So, you could now
+see the value of the variable and it comes
+
+00:18:30.640 --> 00:18:32.840
+out quite fine.
+
+00:18:32.840 --> 00:18:40.640
+Now, for some reason, you would like to remove
+this variable. So, you could use a command
+
+00:18:40.640 --> 00:18:46.930
+called unset. So, if you say unset myvar,
+then the variable is removed from the memory
+
+00:18:46.930 --> 00:18:52.480
+and you could just try it out. And you see
+that there is a null so which means that the
+
+00:18:52.480 --> 00:18:54.690
+variable is no longer there in the memory.
+
+00:18:54.690 --> 00:19:05.250
+Now, you will know that the true and false
+used as 0 and 1 respectively, can also be
+
+00:19:05.250 --> 00:19:10.860
+used to check whether a particular variable
+is present in the system or not. So, let us
+
+00:19:10.860 --> 00:19:18.070
+try that out by using a construction which
+will be put to use in shell scripts shortly.
+
+00:19:18.070 --> 00:19:21.180
+But for now, we can actually already try it
+on the command line.
+
+00:19:21.180 --> 00:19:25.780
+So, the syntax is as follows. Let us say I
+want to know whether there is any variable
+
+00:19:25.780 --> 00:19:37.320
+by name myvar. So, what I would do is, first
+let us check what is this command true and
+
+00:19:37.320 --> 00:19:45.630
+you see that it is always returning the success
+state. So, if I type echo dollar percent mark
+
+00:19:45.630 --> 00:19:51.610
+or return status, it says 0 which means it
+is true, is always returning a success state
+
+00:19:51.610 --> 00:19:58.460
+and if I run a command false, then you will
+see that the return code is 1.
+
+00:19:58.460 --> 00:20:05.940
+So, we can now use this as a way to check
+whether the variable is present or not by
+
+00:20:05.940 --> 00:20:15.860
+doing a a check, so, we will do that by using
+a particular construction. So, minus v and
+
+00:20:15.860 --> 00:20:24.170
+then the name of the variable. So, if you
+do this it would run and then the return code
+
+00:20:24.170 --> 00:20:28.900
+will tell whether that variable was present
+or not.
+
+00:20:28.900 --> 00:20:33.820
+You see that the return value is 1 which means
+that the output of this particular construction
+
+00:20:33.820 --> 00:20:40.340
+that we have done the test condition gave
+false which means that myvar is not existing.
+
+00:20:40.340 --> 00:20:46.430
+Now, we do the same thing by creating the
+variable now myvar is equal to and let us
+
+00:20:46.430 --> 00:20:54.100
+say 10 and then run the same code which is
+basically to test for the variable being present
+
+00:20:54.100 --> 00:20:56.040
+or not.
+
+00:20:56.040 --> 00:21:02.740
+And then echo dollar question mark and you
+see that the code has changed to true which
+
+00:21:02.740 --> 00:21:09.360
+means that minus v myvar is a way by which
+we can check whether the variable is present
+
+00:21:09.360 --> 00:21:15.320
+in the memory or not. You could also test
+it in a different manner that I will illustrate
+
+00:21:15.320 --> 00:21:18.190
+now, first I will remove the variable.
+
+00:21:18.190 --> 00:21:26.640
+So, there is another way by which we can test
+for the variable this is by using the minus
+
+00:21:26.640 --> 00:21:32.090
+z test. So, first I will remove the variable
+that I want to check first so that I am sure
+
+00:21:32.090 --> 00:21:37.990
+that such a thing does not exist. So, also
+verify it does not exist. So, now we do the
+
+00:21:37.990 --> 00:21:50.740
+test minus Z dollar the variable name variable
+name is myvar and then plus any string which
+
+00:21:50.740 --> 00:22:00.870
+will be used as a replacement in case the
+variable was not present okay. Now, you see
+
+00:22:00.870 --> 00:22:17.520
+that the test has resulted in 0. Now, the
+test has resistant false. This is also one
+
+00:22:17.520 --> 00:22:22.031
+more way by which you can go about checking
+whether the variable is present or not, but
+
+00:22:22.031 --> 00:22:23.530
+this is a little bit roundabout.
+
+00:22:23.530 --> 00:22:30.410
+Now, you have seen that I have used the braces
+or flower brackets to enclose the variable
+
+00:22:30.410 --> 00:22:35.660
+name. So, this is for a particular purpose
+I will illustrate that to you now. So, myvar
+
+00:22:35.660 --> 00:22:48.530
+is equal to let us say a file name so, I will
+have it as a string. Now, echo dollar myvar
+
+00:22:48.530 --> 00:22:54.520
+would display that on the screen. Now, I would
+like to display a file name with an extension
+
+00:22:54.520 --> 00:22:56.080
+as a part of some program.
+
+00:22:56.080 --> 00:23:09.240
+So, let us say I want to do it this manner.
+So, you see that the extension has come. So,
+
+00:23:09.240 --> 00:23:15.110
+dot txt txt has come because it has not been
+interpreted as a part of the variable name.
+
+00:23:15.110 --> 00:23:24.800
+Now, I would like to have an underscore there
+and you see what would happen. So, I was expecting
+
+00:23:24.800 --> 00:23:31.510
+now file name underscore txt to come and it
+does not come because now the interpretation
+
+00:23:31.510 --> 00:23:38.020
+is that myvar underscore txt is the entire
+name of the variable which actually does not
+
+00:23:38.020 --> 00:23:39.020
+exist.
+
+00:23:39.020 --> 00:23:43.850
+So, how do we overcome, this is where the
+braces will come up to us to tell clearly
+
+00:23:43.850 --> 00:23:50.110
+what is the name of the variable and what
+is not by using those braces. So, what I would
+
+00:23:50.110 --> 00:24:01.559
+do now here is in this manner. So, now you
+see that it is becoming clear that myvar is
+
+00:24:01.559 --> 00:24:05.309
+the name of the variable and after that the
+rest of it is part of the string that I want
+
+00:24:05.309 --> 00:24:08.840
+to happen. And now you see that it behaves
+as we originally wanted.
+
+00:24:08.840 --> 00:24:15.960
+So, here is an illustration to tell you that
+the flower brackets or braces are very useful
+
+00:24:15.960 --> 00:24:23.540
+in stating clearly what is the name of the
+variable and whatever comes after that will
+
+00:24:23.540 --> 00:24:29.690
+be used as part of the string. Now, this can
+also be used outside of the quotes. So, you
+
+00:24:29.690 --> 00:24:38.590
+could also do this way and that works quite
+fine as we have seen in the previous example.
+
+00:24:38.590 --> 00:24:44.059
+Now, let us see whether this variable that
+we have created, does it get passed on to
+
+00:24:44.059 --> 00:24:50.490
+the shell or any other program that has been
+launched within the shell? So, what I would
+
+00:24:50.490 --> 00:25:00.580
+do is myvar is equal to let us say 3.14. So,
+a variable name is myvar and it is holding
+
+00:25:00.580 --> 00:25:08.790
+a value 3.14. Now, what I will do is I will
+go down into one more level of bash and ps
+
+00:25:08.790 --> 00:25:14.220
+minus minus forest and you will see that we
+are actually one level below.
+
+00:25:14.220 --> 00:25:18.250
+And here I would like to check whether this
+variable was present, and you see that it
+
+00:25:18.250 --> 00:25:24.210
+is not present. So, which means that the variable
+that is created in any shell is not automatically
+
+00:25:24.210 --> 00:25:31.000
+passed on to a sub shell. So, what do I do
+to make sure that it is passed on? So, for
+
+00:25:31.000 --> 00:25:36.640
+that, let me come back to the parent shell
+and confirm that we are in the parent shell.
+
+00:25:36.640 --> 00:25:44.309
+And what we do is we use a command export
+to ensure that this variable is then made
+
+00:25:44.309 --> 00:25:52.309
+available to all the children that are spawned
+by this particular shell.
+
+00:25:52.309 --> 00:26:04.500
+Verify that variable is available. And now
+I launch one sub shell. And in that we verify
+
+00:26:04.500 --> 00:26:09.710
+that we are in the sub shell. And in that
+I check whether this particular variable is
+
+00:26:09.710 --> 00:26:15.480
+present. And you can see that it is now available.
+So, this shows that when you use export, then
+
+00:26:15.480 --> 00:26:18.080
+the variable is available to the child shell.
+
+00:26:18.080 --> 00:26:22.890
+Now, what happens when we modify the variable
+within the child shell, so, that I would do
+
+00:26:22.890 --> 00:26:35.100
+by saying myvar is equal to 4.56 echo my var.
+Now, I come back to the parent shell and look
+
+00:26:35.100 --> 00:26:41.601
+at the variable. And you see that it remains
+same as what we originally have set, which
+
+00:26:41.601 --> 00:26:48.370
+means that when a variable is exported, then
+it is available for the child shell, but when
+
+00:26:48.370 --> 00:26:54.270
+the child shell modifies the value of the
+variable, that modification is not reflected
+
+00:26:54.270 --> 00:26:59.050
+in the value of the variable in the parent
+shell. So, it is only then modified within
+
+00:26:59.050 --> 00:27:04.450
+the local environment, we could also verify
+that by using the export within the child
+
+00:27:04.450 --> 00:27:08.890
+shell also.
+
+00:27:08.890 --> 00:27:31.309
+So, we do the same thing again myvar is equal
+to 3.14 and check that out bash and here again,
+
+00:27:31.309 --> 00:27:43.450
+what we would do is export myvar is equal
+to echo 4.56. And now I come back to the parent
+
+00:27:43.450 --> 00:27:50.781
+shell, echo myvar, and you see that even though
+you did export within the child shell, it
+
+00:27:50.781 --> 00:27:53.840
+has not changed the value of the variable
+in the parent shell.
+
+00:27:53.840 --> 00:27:59.020
+So, which means that the parent shell is holding
+the value of the variable and though it is
+
+00:27:59.020 --> 00:28:03.610
+exported and getting modified by the child
+shall it is not (at) affecting the value within
+
+00:28:03.610 --> 00:28:10.150
+the parent shell. This is something that is
+very useful in some of the compiler flags
+
+00:28:10.150 --> 00:28:16.679
+that we may be using in compiling large packages
+when we use open source software.
+
+00:28:16.679 --> 00:28:20.840
+Now, we have seen that there are many commands
+that would give you output and we would like
+
+00:28:20.840 --> 00:28:26.850
+to have them stored as variables. So, that
+is something that is accomplished by using
+
+00:28:26.850 --> 00:28:33.840
+what is called the back quote, which is also
+the character that comes if you use the tilda
+
+00:28:33.840 --> 00:28:39.910
+key in the US keyboard layout. So, I will
+just to demonstrate that to you now.
+
+00:28:39.910 --> 00:28:48.040
+So, the command date would give you the date
+output. So, if you have a variable created,
+
+00:28:48.040 --> 00:28:55.160
+mydate is equal to, now you see the quotation
+symbol that I have used here, it is a single
+
+00:28:55.160 --> 00:29:00.670
+code but a back quote, it is not to be confused
+with the single code which is straight up
+
+00:29:00.670 --> 00:29:08.030
+are the double code which is appearing with
+two dashes. So, it is a single quote, but
+
+00:29:08.030 --> 00:29:12.170
+appearing below the tilde symbol on the keyboard.
+So, it is called the back quote.
+
+00:29:12.170 --> 00:29:17.730
+So, the back quote is used for a very specific
+purpose, the output of the command is then
+
+00:29:17.730 --> 00:29:21.980
+used as a value for the particular variable
+which you are assigning. So in this case,
+
+00:29:21.980 --> 00:29:26.940
+mydate is the name of the variable and the
+value of that variable will be the output
+
+00:29:26.940 --> 00:29:30.960
+given by the date command. So, let us just
+check that out.
+
+00:29:30.960 --> 00:29:37.960
+So, you see that the variable my date has
+a string which is basically the date command
+
+00:29:37.960 --> 00:29:44.990
+output. Now, the date command output has changed
+now because the time is now 11:08. But, if
+
+00:29:44.990 --> 00:29:52.240
+you echo them, it is still showing 11:07 which
+means if it is not dynamic, it is only inserted
+
+00:29:52.240 --> 00:29:57.620
+as a value at the instance that the command
+is run and after that it remains a string
+
+00:29:57.620 --> 00:30:01.460
+alone. So, it is not a dynamically updated
+one.
+
+00:30:01.460 --> 00:30:09.679
+You could also combine the echo command along
+with this particular back quote. So, let us
+
+00:30:09.679 --> 00:30:31.070
+do that here. So, you see that the mydate
+variable is now containing the string, which
+
+00:30:31.070 --> 00:30:36.600
+is the output of the command echo, which I
+have written here. So, whatever is the command
+
+00:30:36.600 --> 00:30:41.799
+that will be executed and that would then
+be used as the value of the variable.
+
+00:30:41.799 --> 00:30:49.420
+Now, this is quite useful because we could
+then now store the string and manipulate it
+
+00:30:49.420 --> 00:30:54.420
+using the means that are available for manipulation
+of value of a variable within the shell environment
+
+00:30:54.420 --> 00:30:59.010
+because now that you have what a string then
+you can manipulate it the way you like. So,
+
+00:30:59.010 --> 00:31:05.370
+now, let us see what are the kinds of manipulations
+that are available for variables within the
+
+00:31:05.370 --> 00:31:06.370
+BASH environment.
+
+00:31:06.370 --> 00:31:12.549
+So, I am just cleaning up the memory and I
+want to now show you how we go about manipulating
+
+00:31:12.549 --> 00:31:18.669
+the variables within the shell environment.
+So, let us say that we have a command where
+
+00:31:18.669 --> 00:31:25.140
+we would like to use a value if the particular
+variable does not exist, for some reason it
+
+00:31:25.140 --> 00:31:30.670
+was not set, but you still would like to go
+ahead and have that as a part of your script.
+
+00:31:30.670 --> 00:31:36.870
+So, that can be accomplished by certain construction
+within the braces and that is the beginning
+
+00:31:36.870 --> 00:31:42.530
+of various manipulations that are possible.
+So, we will go step by step. So, first is
+
+00:31:42.530 --> 00:31:49.850
+that if there is any variable you want to
+print its output, you would put it us dollar
+
+00:31:49.850 --> 00:32:00.780
+myvar and you could actually have the braces
+to indicate that the variable is now, you
+
+00:32:00.780 --> 00:32:08.130
+can now start becoming comfortable by using
+the flower brackets for the variable name
+
+00:32:08.130 --> 00:32:11.990
+because there are a lot of characters that
+we will be inserting within the power brackets
+
+00:32:11.990 --> 00:32:16.280
+because they are all what will actually manipulate
+the value.
+
+00:32:16.280 --> 00:32:23.010
+So, the very first manipulation is the variable
+is not actually available, but we would like
+
+00:32:23.010 --> 00:32:28.440
+to have the echo command display something
+which is like a default value in case the
+
+00:32:28.440 --> 00:32:36.970
+variable is not available. So, this can be
+achieved as follows. So, a colon is very popularly
+
+00:32:36.970 --> 00:32:42.220
+used to perform some operations, so we have
+to get used to that. So, after colon a bunch
+
+00:32:42.220 --> 00:32:44.870
+of characters will tell what operation we
+are doing.
+
+00:32:44.870 --> 00:32:50.380
+So, there is a minus that is there so, which
+is sort of indicating that if the value is
+
+00:32:50.380 --> 00:32:55.421
+not present, then what should be the value
+that should be displayed. So, the display
+
+00:32:55.421 --> 00:33:04.049
+value let us say is hello. Now, you see that
+you have got some output on the screen and
+
+00:33:04.049 --> 00:33:10.740
+output is the default string that has been
+mentioned within the braces, you could actually
+
+00:33:10.740 --> 00:33:18.630
+have any other string also, and you could
+also use the quotation symbols to contain
+
+00:33:18.630 --> 00:33:24.980
+it. So, you can say that myvar is not set.
+
+00:33:24.980 --> 00:33:32.370
+So, now you can see that the echo command
+is a little bit more useful. If you have done
+
+00:33:32.370 --> 00:33:41.140
+only this, then the output is null and it
+is not clear whether the variable was present
+
+00:33:41.140 --> 00:33:49.120
+or not, or was it actually set with a blank
+character. So, that was not clear. But, if
+
+00:33:49.120 --> 00:33:55.260
+you see the way we have written here up, then
+it is a bit more useful because there is a
+
+00:33:55.260 --> 00:34:00.440
+particular string that is displayed as a message
+on the screen in case the variable was not
+
+00:34:00.440 --> 00:34:01.440
+set.
+
+00:34:01.440 --> 00:34:09.859
+So, this is a way by which you can give default
+values to variables in the process of using
+
+00:34:09.859 --> 00:34:16.470
+them in case you are not sure whether they
+are set or not. Now, here you see that even
+
+00:34:16.470 --> 00:34:20.800
+though we have displayed a string, it is not
+yet in the variable because as you can see
+
+00:34:20.800 --> 00:34:25.730
+from this command, that it is still empty,
+which means that to the myvar is not yet set,
+
+00:34:25.730 --> 00:34:28.769
+we have only displayed a particular string,
+but it is not set.
+
+00:34:28.769 --> 00:34:35.700
+But, if you want to actually set the value
+if it was not set already, then we could do
+
+00:34:35.700 --> 00:34:44.749
+this way colon equals and hello. And now you
+see that the echo command is giving you the
+
+00:34:44.749 --> 00:34:52.440
+default value, but at the same time the variable
+also has been set. So, earlier it was not
+
+00:34:52.440 --> 00:34:59.730
+set, but now it is said because the colon
+equal to is indicating that if the variable
+
+00:34:59.730 --> 00:35:04.819
+myvar is not set, then set it to the value
+that is specified after the equal to symbol
+
+00:35:04.819 --> 00:35:07.069
+which is basically a string hello.
+
+00:35:07.069 --> 00:35:12.329
+So, this is a very useful way by which we
+can actually ensure the default behavior to
+
+00:35:12.329 --> 00:35:18.369
+be what we want by specifying those default
+values for the variables. Now, if I run the
+
+00:35:18.369 --> 00:35:31.740
+code again what would happen; you see that
+the variable myvar is present and therefore,
+
+00:35:31.740 --> 00:35:38.920
+there is nothing that is going to happen to
+it and it is retaining the real value and
+
+00:35:38.920 --> 00:35:43.470
+you see that the capital HELLO has not come
+into the picture at all because it is only
+
+00:35:43.470 --> 00:35:49.989
+when the variable myvar is not set that any
+action is going to be performed after the
+
+00:35:49.989 --> 00:35:52.079
+colon symbol what is indicated there.
+
+00:35:52.079 --> 00:35:57.489
+So, we will also do that in this command,
+for example here this command we will actually
+
+00:35:57.489 --> 00:36:06.440
+try that out here, so, you see that the message
+is not displayed. The value of the variable
+
+00:36:06.440 --> 00:36:12.309
+is displayed because it is set. So, only if
+it is unset, then the action after the colon
+
+00:36:12.309 --> 00:36:14.680
+will start taking into effect.
+
+00:36:14.680 --> 00:36:19.660
+Now, you can also display a message on the
+screen if the variable was not set in the
+
+00:36:19.660 --> 00:36:29.079
+following manner. So, for that I would actually
+remove this variable echo dollar myvar colon
+
+00:36:29.079 --> 00:36:41.300
+question mark and then a string. So, you see
+that there is a display that is done and it
+
+00:36:41.300 --> 00:36:45.619
+is also giving you a little bit more information.
+So, where it is actually telling about the
+
+00:36:45.619 --> 00:36:51.680
+particular variable and giving you a display
+of the debug message that you can put.
+
+00:36:51.680 --> 00:36:56.910
+So, this is some way by which you are alerting
+that particular variable is not present. In
+
+00:36:56.910 --> 00:37:03.609
+what way is it is different from this command
+if you see is that in this command the echo
+
+00:37:03.609 --> 00:37:10.230
+variable is behaving as if the value of that
+particular variable is what is in the string.
+
+00:37:10.230 --> 00:37:12.950
+But here, it is more clear that it is actually
+a message.
+
+00:37:12.950 --> 00:37:21.099
+Now, there is a opposite action of the minus
+symbol which is basically to set value if
+
+00:37:21.099 --> 00:37:35.250
+it was actually present. So, let us try that
+out here. So, the variable is present. So,
+
+00:37:35.250 --> 00:37:44.559
+now colon plus and if it is present, then
+I want to do some particular action, so that
+
+00:37:44.559 --> 00:37:50.279
+I would have it as let us say capital HELLO
+and you see that the variable is displaying
+
+00:37:50.279 --> 00:37:54.279
+a particular string, which is basically if
+it is present.
+
+00:37:54.279 --> 00:38:03.019
+Now, I would actually unset and then I try
+this command again and it is not working which
+
+00:38:03.019 --> 00:38:09.849
+means that only if myvar is present, then
+the action that is following with the plus
+
+00:38:09.849 --> 00:38:14.989
+sign will be done. So, that particular string
+will be displayed. But if it was not present,
+
+00:38:14.989 --> 00:38:19.500
+then nothing will be displayed. So, which
+is actually opposite of the minus symbol.
+
+00:38:19.500 --> 00:38:25.589
+So, I just showed the same thing here, put
+a minus sign there, and you see that if the
+
+00:38:25.589 --> 00:38:30.380
+myvar is not present, then the string that
+is following the minus sign should be displayed.
+
+00:38:30.380 --> 00:38:38.479
+And that is what is being done. So, you can
+see that both the options are available the
+
+00:38:38.479 --> 00:38:43.109
+option to display if the variable is present
+option to display if the variable is absent,
+
+00:38:43.109 --> 00:38:48.130
+both are available and now it is upto your
+imagination to put it to a particular logical
+
+00:38:48.130 --> 00:38:53.599
+sequence of operations, when you write your
+shell scripts by looking at the values of
+
+00:38:53.599 --> 00:38:56.640
+the particular variable, whether they are
+set or not.
+
+00:38:56.640 --> 00:39:01.180
+Inspecting whether the values are set or not
+is also possible as I have illustrated earlier
+
+00:39:01.180 --> 00:39:13.630
+where we use the construction like this minus
+v and you can now see that the output would
+
+00:39:13.630 --> 00:39:19.220
+tell you whether it is present or not. So,
+one is for false so myvar is not available.
+
+00:39:19.220 --> 00:39:25.680
+And you see that it was not available and
+myvar is equal to hello, it is present now.
+
+00:39:25.680 --> 00:39:33.829
+So, you see that it is present and you could
+then also see that the status has changed
+
+00:39:33.829 --> 00:39:34.829
+to true.
+
+00:39:34.829 --> 00:39:41.450
+So, you can always inspect it as a separate
+activity. But if you are, if you want to inspect
+
+00:39:41.450 --> 00:39:46.359
+the presence or absence of a particular variable
+and follow it up with a particular string
+
+00:39:46.359 --> 00:39:53.670
+that has to be displayed or used as the value
+of the string, then echo has a construction
+
+00:39:53.670 --> 00:39:58.229
+by which you have this possibility. So, the
+dollar brace construction after the colon
+
+00:39:58.229 --> 00:39:59.530
+is something that is very powerful.
+

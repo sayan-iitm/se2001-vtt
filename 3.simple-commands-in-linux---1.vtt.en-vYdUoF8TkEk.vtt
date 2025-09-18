@@ -1,0 +1,1809 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:14.219 --> 00:00:19.020
+Let us look at some simple commands. So, that
+we can use in the Linux command line environment,
+
+00:00:19.020 --> 00:00:24.270
+we will make ourselves familiar with the command
+line environment by trying out some simple
+
+00:00:24.270 --> 00:00:28.610
+commands and these are not going to change
+the system in any manner and therefore you
+
+00:00:28.610 --> 00:00:29.859
+can try this out without anybody.
+
+00:00:29.859 --> 00:00:35.460
+The commands that we are going to look at
+are the following to know the date and time
+
+00:00:35.460 --> 00:00:40.489
+at this moment. The calendar of this month
+some statistics about the memory that is available
+
+00:00:40.489 --> 00:00:45.489
+which groups does the current user belong
+to in the directory listing that we are seeing
+
+00:00:45.489 --> 00:00:50.449
+in our home directory what type of file each
+entry corresponds to.
+
+00:00:50.449 --> 00:00:54.580
+Now let us explore some of these commands
+by using the command line environment. So,
+
+00:00:54.580 --> 00:01:02.140
+we are using the terminal emulator called
+terminal in Ubuntu and the bash shell is what
+
+00:01:02.140 --> 00:01:07.659
+is actually responding to our commands. So,
+where are we first we are in the home directory
+
+00:01:07.659 --> 00:01:13.280
+will verify that we are in the home directory
+and we could then change the directory using
+
+00:01:13.280 --> 00:01:19.430
+the shortcuts. So, we use the shortcut double
+dot to go to the parent directory and we can
+
+00:01:19.430 --> 00:01:21.940
+do that once more to go to the root folder.
+
+00:01:21.940 --> 00:01:28.470
+And then we can go down the hierarchy let
+us say to user and then to bin directory.
+
+00:01:28.470 --> 00:01:36.000
+Now from here we can go back to the home directory
+by simply pressing cd and then enter and let
+
+00:01:36.000 --> 00:01:41.290
+us say we want to go and visit the directory
+again we do not have to type user bin we can
+
+00:01:41.290 --> 00:01:47.190
+just say cd and then a hyphen to indicate
+the previous directory we were in and we will
+
+00:01:47.190 --> 00:01:50.060
+be placed in the previous directory that we
+were working in.
+
+00:01:50.060 --> 00:01:55.460
+Sometimes if the directory names are very
+long this could be quite useful. And when
+
+00:01:55.460 --> 00:02:01.479
+we proceed we come to the home directory and
+as you would notice if you press cd space
+
+00:02:01.479 --> 00:02:05.830
+dot then nothing will happen because that
+is like changing the directly to the current
+
+00:02:05.830 --> 00:02:12.560
+directory which does not change anything.
+Now wherever we are let us say we go to user
+
+00:02:12.560 --> 00:02:16.090
+bin we could go to the home directory in multiple
+ways.
+
+00:02:16.090 --> 00:02:21.080
+There is a shortcut tilda which also will
+take you to the home directory. So, you verify
+
+00:02:21.080 --> 00:02:26.890
+that you are in the home directory. So, there
+are some characters that are actually indicating
+
+00:02:26.890 --> 00:02:32.780
+that there are aliases for certain directory
+entries for example dot is for the current
+
+00:02:32.780 --> 00:02:40.349
+directory uh double dot is for the parent
+directory and the tilde is for the home directory
+
+00:02:40.349 --> 00:02:46.630
+and dash is for the directory that we were
+in the previous command.
+
+00:02:46.630 --> 00:02:55.760
+So, I press now control l and clear the screen.
+Now we will have some useful commands to look
+
+00:02:55.760 --> 00:03:02.480
+at. Let us look at a command called date it
+tells what is a current time stamp for this
+
+00:03:02.480 --> 00:03:08.020
+moment. So, if you run it again and again
+you will see that the second position number
+
+00:03:08.020 --> 00:03:13.270
+is changing. Now obviously this time need
+not be accurate because it depends upon what
+
+00:03:13.270 --> 00:03:16.569
+you have configured and you can also change
+it. ah
+
+00:03:16.569 --> 00:03:21.879
+We will learn how to do that at some point
+later. We could also have the output of the
+
+00:03:21.879 --> 00:03:27.319
+date command in multiple manners. So, if you
+give it in with a comment option -capital
+
+00:03:27.319 --> 00:03:36.099
+R it would give you the command output in
+the format called uh rfc 5322 standard. This
+
+00:03:36.099 --> 00:03:42.481
+is a standard that is used for email communications
+and uh if you want you could also uh display
+
+00:03:42.481 --> 00:03:45.120
+the uh output in many other formats.
+
+00:03:45.120 --> 00:03:50.940
+How do we find out what are the various ways?
+So, we take the man manual page of a data
+
+00:03:50.940 --> 00:03:57.569
+command and look at that and here you have
+some help to tell you which fields correspond
+
+00:03:57.569 --> 00:04:04.599
+to which part of the daytime stamp and then
+you can configure that to print the date ah
+
+00:04:04.599 --> 00:04:11.069
+in any matter that you would like. So, I come
+out of this help by pressing q. Now you could
+
+00:04:11.069 --> 00:04:18.590
+also have more information um I would clear
+the screen and you could actually just type
+
+00:04:18.590 --> 00:04:22.099
+cal and you would see the calendar for the
+current month.
+
+00:04:22.099 --> 00:04:28.320
+You could also uh use this command to find
+out the calendar of any month. Let us say
+
+00:04:28.320 --> 00:04:35.550
+uh for the august uh month of 1947 let us
+look at the calendar and it shows that uh
+
+00:04:35.550 --> 00:04:44.160
+we began uh our independent India on Friday.
+And you could also give the month in other
+
+00:04:44.160 --> 00:04:51.900
+formats. So, it would give you with the same
+output you could also perhaps use uh a capital
+
+00:04:51.900 --> 00:04:54.970
+letter for the August and that would also
+still work.
+
+00:04:54.970 --> 00:05:00.860
+So, this is a pretty quick way of checking
+the calendar of any month of any year and
+
+00:05:00.860 --> 00:05:07.130
+you may want to find out which day of the
+week we were born in using this command. Now
+
+00:05:07.130 --> 00:05:13.770
+you could also display the calendar in other
+formats. So, you have the direction change
+
+00:05:13.770 --> 00:05:19.370
+now ncal would be a command which would give
+you calendar uh in a different orientation
+
+00:05:19.370 --> 00:05:22.800
+which may be more useful for you depending
+upon the way you are used to looking at the
+
+00:05:22.800 --> 00:05:25.720
+calendar for maths.
+
+00:05:25.720 --> 00:05:33.440
+And the options would still work the same
+way ncal and then let us say august uh 1947
+
+00:05:33.440 --> 00:05:39.460
+even if it would show you the calendar uh
+for that month in the different uh display
+
+00:05:39.460 --> 00:05:45.380
+orientation. There are some more commands
+that you would be interested to run to just
+
+00:05:45.380 --> 00:05:51.350
+to check the statistics about the machine
+and that there is a command called free and
+
+00:05:51.350 --> 00:05:56.150
+this shows what is the amount of memory that
+is available for free uh in this computer
+
+00:05:56.150 --> 00:06:01.790
+right now and you can see that these uh numbers
+are not very readable.
+
+00:06:01.790 --> 00:06:08.530
+So, we would actually type free and then hyphen
+hedge as an option to make it human readable
+
+00:06:08.530 --> 00:06:13.110
+and you would see that there is uh uh that
+the total memory of this particular computer
+
+00:06:13.110 --> 00:06:22.020
+is 31 gigabytes and out of that only 1.2 gigabytes
+is used 26 gigabytes is free. So, so we are
+
+00:06:22.020 --> 00:06:25.840
+now not running very much. So, most of the
+memory is free. And there is something called
+
+00:06:25.840 --> 00:06:30.500
+swap memory which is basically used whenever
+the physical memory is exceeded by the number
+
+00:06:30.500 --> 00:06:32.419
+of programs that are running.
+
+00:06:32.419 --> 00:06:37.380
+And one can also look at whether that is being
+occupied and you see that we are not occupying
+
+00:06:37.380 --> 00:06:44.130
+anything in this swap memory which is a good
+thing because uh most of the uh usage uh if
+
+00:06:44.130 --> 00:06:49.520
+it is a in the physical memory then it will
+be fast and if there is any requirement to
+
+00:06:49.520 --> 00:06:54.210
+use a swap memory then it would be drastically
+slow because swap memory is actually stored
+
+00:06:54.210 --> 00:07:00.940
+on the disk and the disk is much slower than
+the actual physical memory also referred to
+
+00:07:00.940 --> 00:07:03.100
+as random access memory.
+
+00:07:03.100 --> 00:07:10.020
+There is a command called groups if you run
+you would see what are the groups to which
+
+00:07:10.020 --> 00:07:14.730
+you belong to, the current user is belonging
+to. So, this current user is belonging to
+
+00:07:14.730 --> 00:07:21.021
+a group called sudo which means that the current
+user is also a super user. And this can be
+
+00:07:21.021 --> 00:07:25.530
+changed by adding ourselves to more groups.
+So, there is a group by the same name as a
+
+00:07:25.530 --> 00:07:30.750
+user which is also to ensure that there is
+a privacy with the certain files that nobody
+
+00:07:30.750 --> 00:07:35.271
+else can actually use. In this computer there
+are not many users and therefore there are
+
+00:07:35.271 --> 00:07:36.750
+not many groups either.
+
+00:07:36.750 --> 00:07:41.550
+Now let us look at the long listing of the
+director structure. So, we have learned it
+
+00:07:41.550 --> 00:07:46.950
+earlier and if you put uh uh -l option to
+the ls command then you will see the long
+
+00:07:46.950 --> 00:07:47.950
+listing.
+
+00:07:47.950 --> 00:07:55.910
+So, here is the typical output of the ls -l
+command and you would see that there is this
+
+00:07:55.910 --> 00:08:02.940
+output which is given for uh as an example.
+So, the very first character uh tells you
+
+00:08:02.940 --> 00:08:07.660
+what type of file it is. So, the d will say
+that it is a director that we are talking
+
+00:08:07.660 --> 00:08:14.020
+about. And then there are nine characters
+which would be rwx with any of the three positions
+
+00:08:14.020 --> 00:08:19.400
+replaced with the hyphen in case that particular
+permission is not available.
+
+00:08:19.400 --> 00:08:24.680
+The first three characters refer to the permissions
+of the owner. The second set of three characters
+
+00:08:24.680 --> 00:08:30.270
+are permissions of the group the third set
+of characters are for the others that is any
+
+00:08:30.270 --> 00:08:36.449
+other user in the particular Linux system
+whoever is logged on can be considered as
+
+00:08:36.449 --> 00:08:40.940
+part of the others group. And then the number
+after that corresponds to the number of hard
+
+00:08:40.940 --> 00:08:42.880
+links what do we mean by a hard link?
+
+00:08:42.880 --> 00:08:47.209
+We will come to in a moment and then there
+are two names that are given here the first
+
+00:08:47.209 --> 00:08:52.290
+name correspond to the owner. So, who is owning
+this particular entry documents that owner
+
+00:08:52.290 --> 00:08:56.920
+is displayed here the second entry is for
+the group. So, sometimes you may want to have
+
+00:08:56.920 --> 00:09:03.350
+the ownership of any folder to be a group
+to which your part. So, that a set of users
+
+00:09:03.350 --> 00:09:07.120
+can collaborate to work on a particular directory
+together.
+
+00:09:07.120 --> 00:09:13.389
+So, you should understand that Unix or Linux
+come from a time when uh uh multiple users
+
+00:09:13.389 --> 00:09:19.069
+are locked down to a mainframe computer and
+are sharing files and working hard collaboratively
+
+00:09:19.069 --> 00:09:27.760
+and therefore the file system has these features
+built in already. uh By default there is always
+
+00:09:27.760 --> 00:09:33.779
+a group by the same name as the user and and
+therefore such folders are basically uh private
+
+00:09:33.779 --> 00:09:35.470
+to particular user.
+
+00:09:35.470 --> 00:09:42.550
+Then this number here corresponds to the size
+in terms of bytes how much size is occupied
+
+00:09:42.550 --> 00:09:47.790
+by that particular folder. And then come the
+time stamp. So, when was the last time it
+
+00:09:47.790 --> 00:09:53.529
+was modified this directory was modified uh
+that is given as a time stamp uh and in in
+
+00:09:53.529 --> 00:09:58.019
+the case the year is different the year also
+would be appearing here. And then lastly the
+
+00:09:58.019 --> 00:10:04.209
+name of the file is given. So, we will now
+dissect and look at each of these possibilities
+
+00:10:04.209 --> 00:10:05.589
+in detail.
+
+00:10:05.589 --> 00:10:11.531
+So, in the very first character if you see
+a hyphen it means that it is a regular file.
+
+00:10:11.531 --> 00:10:16.549
+Regular file as in it could be a script it
+could be a text file it could be an executable
+
+00:10:16.549 --> 00:10:21.720
+and so on. So, what we normally refer to as
+a file is what it is if there is a hyphen
+
+00:10:21.720 --> 00:10:27.429
+in the very first entry of the long listing
+of the directory structure. Now if the first
+
+00:10:27.429 --> 00:10:30.120
+character happens to be d it means it is a
+directory.
+
+00:10:30.120 --> 00:10:36.029
+So, under that there will be other files or
+other territories usually most of our work
+
+00:10:36.029 --> 00:10:41.339
+in the Linux command line environment would
+be restricted to only these two types of files
+
+00:10:41.339 --> 00:10:47.309
+most of the time. Now the third character
+that you would be alerted is about the l which
+
+00:10:47.309 --> 00:10:53.869
+is a symbolic link we have already seen that
+once, c indicate that it is a character file
+
+00:10:53.869 --> 00:10:55.730
+and b indicates is a block file.
+
+00:10:55.730 --> 00:11:01.410
+So, block file and character files are typically
+devices. So, the character file would be the
+
+00:11:01.410 --> 00:11:06.160
+terminal typically and the block file would
+be the hard disk and we normally do not mess
+
+00:11:06.160 --> 00:11:10.230
+around with those files unless we know what
+we are doing. If the first character happens
+
+00:11:10.230 --> 00:11:15.670
+to be s that means it is a socket file that
+means it is actually a process that is actually
+
+00:11:15.670 --> 00:11:20.689
+running behind you can have two way communication
+with that particular file which means that
+
+00:11:20.689 --> 00:11:25.699
+a network device would open a socket and listen
+to the incoming connection.
+
+00:11:25.699 --> 00:11:31.799
+And we will also be able to send out the data
+a two way communication is possible and it
+
+00:11:31.799 --> 00:11:35.911
+would be actually a process that is doing
+this activity behind it is not actually a
+
+00:11:35.911 --> 00:11:43.319
+static file and this is indicated by the character
+s in the first position of the long listing
+
+00:11:43.319 --> 00:11:49.329
+of the directory structure. If the first character
+happens to be p it means it is a named pipe
+
+00:11:49.329 --> 00:11:55.700
+that means there is a process behind which
+is acting to communicate and it would be a
+
+00:11:55.700 --> 00:12:00.389
+one way communication and you could actually
+see that you cannot send the data but you
+
+00:12:00.389 --> 00:12:04.049
+could actually read the data that is output
+by that particular process.
+
+00:12:04.049 --> 00:12:11.069
+So, whenever you see any direct listing if
+the first character happens to be a hyphen
+
+00:12:11.069 --> 00:12:15.959
+or a d that means it is in a familiar directory
+as what we are normally used to. If the first
+
+00:12:15.959 --> 00:12:22.650
+character happens to be c or b or s or p then
+you should be careful with such files because
+
+00:12:22.650 --> 00:12:27.019
+you should know what you are doing when you
+try to modify those files.
+
+00:12:27.019 --> 00:12:32.759
+Now to understand what is a hard link we need
+to know what is an inode. So, you can actually
+
+00:12:32.759 --> 00:12:39.879
+find out the inode numbers for every file
+entry by using the option -i when we are running
+
+00:12:39.879 --> 00:12:45.879
+the ls commander normally in Linux and Unix
+environments whenever we need to give as an
+
+00:12:45.879 --> 00:12:53.040
+argument that argument is listed in the text
+as this manner with the the angular brackets
+
+00:12:53.040 --> 00:12:54.040
+and some entry there.
+
+00:12:54.040 --> 00:12:59.399
+So, it is an indication that you need to provide
+something there as an input uh it is not as
+
+00:12:59.399 --> 00:13:04.350
+if you have to actually use angular brackets
+it is just a placeholder for the argument
+
+00:13:04.350 --> 00:13:08.910
+that you are going to give. So, I will illustrate
+that with the comment line uh just a moment.
+
+00:13:08.910 --> 00:13:13.910
+So, inode it is actually an entry in the file
+system table about the location in the storage
+
+00:13:13.910 --> 00:13:16.499
+medium and it will be unique for every unique
+file.
+
+00:13:16.499 --> 00:13:22.069
+So, if there are multiple entries in the file
+system that has the same ignored it means
+
+00:13:22.069 --> 00:13:24.470
+that they are on hard links.
+
+00:13:24.470 --> 00:13:28.959
+Now a little bit details about the permission
+string also before we go to the comment line.
+
+00:13:28.959 --> 00:13:33.970
+So, the permissions can be changed but the
+way we understand the permission strings are
+
+00:13:33.970 --> 00:13:38.089
+the first character r indicates that you have
+the read permission the second character if
+
+00:13:38.089 --> 00:13:43.259
+it is w it means that you can write to that
+particular file and x indicates that it can
+
+00:13:43.259 --> 00:13:45.250
+have executable permission.
+
+00:13:45.250 --> 00:13:49.279
+And if the file happens to be a directory
+then x would mean that you can change to the
+
+00:13:49.279 --> 00:13:56.299
+directory ok and the first three characters
+are meant for the owner the second set of
+
+00:13:56.299 --> 00:14:00.199
+three characters are meant for the group the
+third set of three characters are meant for
+
+00:14:00.199 --> 00:14:05.559
+the others. Now there is a numerical way that
+you can also represent this particular permission
+
+00:14:05.559 --> 00:14:08.619
+string and here I am writing it as 755.
+
+00:14:08.619 --> 00:14:16.679
+Why I am doing that is because the three characters
+can be represented as on and off switches
+
+00:14:16.679 --> 00:14:21.739
+in binary format. So, you would have one here
+two here and then a four here. So, if you
+
+00:14:21.739 --> 00:14:26.459
+take four it means you are giving read permission
+if you are writing five that means you are
+
+00:14:26.459 --> 00:14:30.860
+giving read and executable permission and
+if you are giving seven you are giving all
+
+00:14:30.860 --> 00:14:32.040
+three permissions.
+
+00:14:32.040 --> 00:14:36.709
+So, the details are here typical permissions
+that you set are indicated by these numbers
+
+00:14:36.709 --> 00:14:43.009
+here from 1 to 7 and the permission string
+that is written here is indicated by 755.
+
+00:14:43.009 --> 00:14:48.399
+We would use this a numerical value when we
+are changing the permission.
+
+00:14:48.399 --> 00:14:57.649
+Let us try to explore the permissions how
+to change them and the ability to create files
+
+00:14:57.649 --> 00:15:05.299
+delete them moving them around, organizing
+them into folder etcetera in this brief exercise.
+
+00:15:05.299 --> 00:15:11.660
+So, we opened the terminal emulator and the
+bash shell is running responding to our commands.
+
+00:15:11.660 --> 00:15:21.189
+So, where are we now we are in the home directly.
+Now when I press ls -l we see the long format
+
+00:15:21.189 --> 00:15:25.339
+and we see that there are a bunch of folders
+here.
+
+00:15:25.339 --> 00:15:31.660
+What permissions do I have for my home directory?
+To know that I need to go one level up and
+
+00:15:31.660 --> 00:15:40.220
+look at the permissions. So I go cd double
+dot and then type ls -l and we see that for
+
+00:15:40.220 --> 00:15:47.129
+the folder which is named after my user name
+the permission string says r w x for the owner
+
+00:15:47.129 --> 00:15:53.980
+the owner is same as my user ID and the w
+says that it is having right permission which
+
+00:15:53.980 --> 00:15:59.839
+means that I can create files or folders within
+my home directory which is expected.
+
+00:15:59.839 --> 00:16:06.310
+Also you would notice that the rest of the
+permissions for the group or for others is
+
+00:16:06.310 --> 00:16:11.259
+all empty which means that I have not given
+permissions for any other user to do anything
+
+00:16:11.259 --> 00:16:17.119
+in my home directory which is also a standard
+practice. So, I now go back to my home directory
+
+00:16:17.119 --> 00:16:25.709
+with the cd and clear the screen with control
+l and let us try to create some files to see
+
+00:16:25.709 --> 00:16:31.139
+how we are able to use this permission to
+organize files.
+
+00:16:31.139 --> 00:16:39.359
+So, let me make a directory mkdir and then
+let us say level one. So, I am creating a
+
+00:16:39.359 --> 00:16:45.249
+directory called level one let me check what
+I have done just now. So, you see that there
+
+00:16:45.249 --> 00:16:51.999
+is a new folder here level one and it is actually
+a directory and there are some default permissions
+
+00:16:51.999 --> 00:16:57.629
+that have been given okay it has some permissions
+that are given for the group and for others.
+
+00:16:57.629 --> 00:17:03.559
+So, that they are able to actually read and
+change over to the directory are and x permission
+
+00:17:03.559 --> 00:17:11.030
+are given. So, this depends upon what is called
+a umask which we will come to later. Now I
+
+00:17:11.030 --> 00:17:17.140
+want to change these permissions. So, that
+they look like rest of the folders also. So,
+
+00:17:17.140 --> 00:17:23.850
+what I would do is first I would like to knock
+off the write permissions for the group. So,
+
+00:17:23.850 --> 00:17:30.909
+I would use ch mode and then a group -w which
+for the group remove the right permission
+
+00:17:30.909 --> 00:17:35.059
+and for which file for the folder called level
+one.
+
+00:17:35.059 --> 00:17:41.659
+So, I can see whether the group permissions
+have been changed. So, let us look at the
+
+00:17:41.659 --> 00:17:47.009
+directory again and you can now see the difference
+here. So, there is a w here in the second
+
+00:17:47.009 --> 00:17:52.809
+set of permission string for the level one
+folder and here you could see that that permission
+
+00:17:52.809 --> 00:18:01.080
+has been removed using this command ch mode
+group -w g -w level 1. Now let us remove the
+
+00:18:01.080 --> 00:18:12.399
+executable permission also and for that what
+I would do is ch mode and ch mode g -x level
+
+00:18:12.399 --> 00:18:13.399
+1.
+
+00:18:13.399 --> 00:18:20.690
+And I now need to look at the output once
+more long listing of the files in this folder
+
+00:18:20.690 --> 00:18:25.810
+and you could now see that for the group the
+executable permission has also been removed
+
+00:18:25.810 --> 00:18:32.840
+for the folder calls level 1. Now we can actually
+change the permissions by using this string
+
+00:18:32.840 --> 00:18:40.080
+where ch mode and then the first string would
+be u if it is for the user or g if it is for
+
+00:18:40.080 --> 00:18:43.210
+the group or o if it is for the others.
+
+00:18:43.210 --> 00:18:49.259
+And then if you use plus that means give the
+permission to use minus then remove the permission
+
+00:18:49.259 --> 00:18:57.290
+after that the permission can be r r r r r
+w r x whichever it is okay now what I am doing
+
+00:18:57.290 --> 00:19:04.370
+is that others I am removing the executable
+permission for the folder level 1 let us say
+
+00:19:04.370 --> 00:19:09.670
+and let us look at the output and you would
+see that here for others executable permission
+
+00:19:09.670 --> 00:19:13.800
+was originally there but it is now removed.
+
+00:19:13.800 --> 00:19:20.019
+Now you can actually do this one permission
+at a time but as we have seen in the slides
+
+00:19:20.019 --> 00:19:25.940
+you could actually you can give a numerical
+value as an option to the ch mode command
+
+00:19:25.940 --> 00:19:29.639
+with the argument which is the folder for
+which you have changed the permissions in
+
+00:19:29.639 --> 00:19:35.799
+such a way that in one go you can make the
+permissions appear as you would like. So,
+
+00:19:35.799 --> 00:19:40.370
+let us say I want to give the permission such
+that read, write and executable are there
+
+00:19:40.370 --> 00:19:45.120
+for the owner and no permission is there for
+others are for the group.
+
+00:19:45.120 --> 00:19:53.929
+Then I would write as ch mode 700 then level
+1 okay and let us look at the output now and
+
+00:19:53.929 --> 00:19:58.241
+you would see that all the folders are looking
+with the same permission and here you can
+
+00:19:58.241 --> 00:20:04.429
+see for the folder level 1 I have removed
+permissions. So, we we know now we have created
+
+00:20:04.429 --> 00:20:10.269
+a folder called level one using make dir and
+then we have adjusted the permissions as per
+
+00:20:10.269 --> 00:20:11.269
+our vision.
+
+00:20:11.269 --> 00:20:18.200
+Now we can go into the folder and see what
+is there, cd level one and you can see that
+
+00:20:18.200 --> 00:20:23.380
+it is empty because we have not put anything
+else in that folder. Now let us create a file
+
+00:20:23.380 --> 00:20:32.580
+uh an empty file using the touch command.
+Touch command is used actually to change the
+
+00:20:32.580 --> 00:20:39.360
+time stamp of last modified uh uh information
+about that particular file or folder. And
+
+00:20:39.360 --> 00:20:43.820
+in case the file does not exist then it will
+be created and that is one way by which you
+
+00:20:43.820 --> 00:20:45.320
+can create empty files.
+
+00:20:45.320 --> 00:20:50.940
+So, using the touch command we will create.
+So, let us say file one okay touch file one
+
+00:20:50.940 --> 00:20:55.139
+and let us look at the output now you would
+see that there is a file there and it has
+
+00:20:55.139 --> 00:21:00.850
+just been created and the name of the file
+one. And there are some default permission
+
+00:21:00.850 --> 00:21:04.789
+that were also given. Now we will make the
+default permissions again change according
+
+00:21:04.789 --> 00:21:14.029
+to the ch mode. So, let us say ch mode and
+the letters say 700 file one and you will
+
+00:21:14.029 --> 00:21:15.700
+see that the permissions have been modified.
+
+00:21:15.700 --> 00:21:21.550
+So, like this we can actually adjust the permissions
+of any file or folder. We have seen that we
+
+00:21:21.550 --> 00:21:28.640
+have done it for the folder called level one
+and for a file called file one. We can actually
+
+00:21:28.640 --> 00:21:37.000
+make a copy of this file using the cp command.
+Copy the file to a new name let us say new
+
+00:21:37.000 --> 00:21:43.080
+name is file2 and now let us look at it. So,
+there are two files of course both are empty
+
+00:21:43.080 --> 00:21:48.159
+but we have made a copy of the first file
+using the command the cp and then old file
+
+00:21:48.159 --> 00:21:53.620
+name followed by the new file name the three
+uh fields are separated by a blank space between
+
+00:21:53.620 --> 00:21:55.070
+them.
+
+00:21:55.070 --> 00:22:02.009
+Now you want to move this around. Let us say
+you want to move the file to one level up
+
+00:22:02.009 --> 00:22:09.000
+to the home directory. So, you could just
+say mv that is to move file to double dot
+
+00:22:09.000 --> 00:22:13.240
+double dot is a short name for the parent
+directory. So, if you do this, what happens
+
+00:22:13.240 --> 00:22:17.250
+is the file2 is going to go into the home
+directory. Let us check if it has been done.
+
+00:22:17.250 --> 00:22:21.850
+So, first of all the file is not available
+in this particular folder.
+
+00:22:21.850 --> 00:22:28.409
+Let us go to one level above and the check
+and sure enough the file has been found in
+
+00:22:28.409 --> 00:22:32.980
+the home directory because we have moved it
+one level up from the folder called level
+
+00:22:32.980 --> 00:22:41.870
+one. Now you apart from making a copy you
+can also use the mv command uh to move the
+
+00:22:41.870 --> 00:22:47.529
+files around and also you can mv command can
+also be used to rename files. So, let us rename
+
+00:22:47.529 --> 00:22:52.950
+the file2 as something else you can give a
+new name here.
+
+00:22:52.950 --> 00:22:59.409
+So, we can save file2a and let us look at
+the listing and you can see that the file
+
+00:22:59.409 --> 00:23:06.909
+name has been changed from file2 to file2a.
+So, you can change it whichever way you like.
+
+00:23:06.909 --> 00:23:12.460
+Now uh sometimes you may want to have a space
+between two different words as a part of the
+
+00:23:12.460 --> 00:23:17.720
+file name in which case you have to use the
+quotation symbol and let us also do that here.
+
+00:23:17.720 --> 00:23:29.440
+So, I will uh create a new file here called
+let us say file1 file1 and then I change the
+
+00:23:29.440 --> 00:23:35.149
+permission uh and then you can see that the
+permissions have been changed.
+
+00:23:35.149 --> 00:23:41.280
+And now I want to rename it to do something
+else. So, I will use mv command file1 and
+
+00:23:41.280 --> 00:23:50.090
+I want to rename it such that there is a space
+between two words say file 1. Now let us see
+
+00:23:50.090 --> 00:23:55.519
+how it looks like you can see that the file
+has been renamed and there is a quotation
+
+00:23:55.519 --> 00:24:01.120
+symbol to indicate that these two are separate
+words of the same file name and there is a
+
+00:24:01.120 --> 00:24:02.120
+space between them.
+
+00:24:02.120 --> 00:24:08.390
+So, when we want to now change permissions
+we cannot use this file name without using
+
+00:24:08.390 --> 00:24:13.870
+the quotation symbols because then it will
+have a mistake if we use it without the codes.
+
+00:24:13.870 --> 00:24:17.840
+Because it would think that the space between
+the two words is actually a field separator
+
+00:24:17.840 --> 00:24:23.020
+for two different files how is it let us just
+check this out. So, let us say I want to change
+
+00:24:23.020 --> 00:24:30.769
+the permission ch mode and let us say 700
+the same permission and let us say file1.
+
+00:24:30.769 --> 00:24:35.951
+And you see that it is complaining say that
+there are no such files however when we try
+
+00:24:35.951 --> 00:24:43.909
+to do this way by giving a quotation symbol
+then it works. And whenever a Linux command
+
+00:24:43.909 --> 00:24:48.890
+works fine it actually does not give you any
+output on the screen because the philosophy
+
+00:24:48.890 --> 00:24:55.080
+of Unix which has been passed on to Linux
+ease of nonsense namely do not throw any output
+
+00:24:55.080 --> 00:24:57.960
+if everything worked fine.
+
+00:24:57.960 --> 00:25:01.480
+Now let us say we want to remove this file.
+So, there is a command called rm which we
+
+00:25:01.480 --> 00:25:12.860
+can remove the files rm is a file okay rm
+file1 and it is asking me whether I should
+
+00:25:12.860 --> 00:25:17.769
+remove it or not and I say yes okay. Now normally
+if you use it very first time then it does
+
+00:25:17.769 --> 00:25:23.710
+not ask because the default behaviour is not
+to ask. I have made an alias for the remove
+
+00:25:23.710 --> 00:25:32.200
+command uh where I pass on the option -i okay.
+So, let us look at the help for the command
+
+00:25:32.200 --> 00:25:36.159
+if you see here -i option is there -i option
+is there.
+
+00:25:36.159 --> 00:25:41.399
+So, that for every removal there is a prompting
+okay. So, it is a problem if you have a lot
+
+00:25:41.399 --> 00:25:46.789
+of files to be removed if it keeps prompting
+but for new bees it is a good idea to let
+
+00:25:46.789 --> 00:25:52.419
+it be there. So, that you are careful. Now
+how do you set the alais okay. So, that is
+
+00:25:52.419 --> 00:26:01.740
+done by using a command called alias alias
+rm is equal to rm space -i okay. Now the alias
+
+00:26:01.740 --> 00:26:04.159
+actually is to make it ask every time.
+
+00:26:04.159 --> 00:26:09.269
+If you use this command then it will ask every
+time okay. So, you can try it out. So, that
+
+00:26:09.269 --> 00:26:15.129
+you can check whether it prompts you when
+you want to remove files always tried to do
+
+00:26:15.129 --> 00:26:20.039
+these commands on empty files that you have
+created using the touch comment. So, that
+
+00:26:20.039 --> 00:26:26.060
+there is no loss of data if you tried it on
+any other files that was useful for you. Now
+
+00:26:26.060 --> 00:26:29.889
+let us go forward to explore more features.
+
+00:26:29.889 --> 00:26:39.040
+So, let me clear the screen now. Now the file2a
+is in the home directory. Now let us say I
+
+00:26:39.040 --> 00:26:44.950
+want to move it back to the level one. So,
+we could do that by using the mv command mv
+
+00:26:44.950 --> 00:26:52.460
+file2a to level one and you see that it is
+disappeared from the home directory and I
+
+00:26:52.460 --> 00:26:57.909
+change the directory to level one and I see
+the output and it is there in the level one
+
+00:26:57.909 --> 00:27:00.289
+folder one level below.
+
+00:27:00.289 --> 00:27:06.710
+So, we have never been able to create empty
+files and move them around copy them and also
+
+00:27:06.710 --> 00:27:15.139
+delete them uh if you do not need them. Now
+one concept called hardlink is something that
+
+00:27:15.139 --> 00:27:20.549
+we need to get familiarized just to understand
+what is this number that is coming here in
+
+00:27:20.549 --> 00:27:26.720
+this string? So, that is actually the number
+of hardlinks and we mentioned about the inode
+
+00:27:26.720 --> 00:27:31.029
+number in the context of it and we can actually
+look at the inode numbers to understand what
+
+00:27:31.029 --> 00:27:32.700
+is that.
+
+00:27:32.700 --> 00:27:39.629
+So, look at the folder called level one it
+has two hard links. So, what are those two
+
+00:27:39.629 --> 00:27:44.619
+hard links? So, to understand that we should
+get the inode number. So, I would do that
+
+00:27:44.619 --> 00:27:53.030
+here ls -li and then you can see that there
+are some additional numbers that are printed
+
+00:27:53.030 --> 00:27:58.490
+in front of the long listing of the file system
+here and for level one if you see here this
+
+00:27:58.490 --> 00:28:05.159
+is the inode number. This is inode number
+we will note it down and keep it safe to compare.
+
+00:28:05.159 --> 00:28:13.399
+Now let us go into the level one directory
+okay and let us look at the long listing with
+
+00:28:13.399 --> 00:28:18.289
+the inode number but also with every file
+that is there including the dot and double
+
+00:28:18.289 --> 00:28:25.350
+dot okay. So, -a option is to have dot and
+double dot. Now you can combine options with
+
+00:28:25.350 --> 00:28:32.429
+one single -hyphen that is quite acceptable
+okay. Now you see that the dot which is there
+
+00:28:32.429 --> 00:28:36.600
+which is the current directory has this is
+the same inode number.
+
+00:28:36.600 --> 00:28:43.539
+You can see here same inode number as level
+one here. A location for the dictory level
+
+00:28:43.539 --> 00:28:50.700
+one has the inode number which is highlighted
+here okay and also here and it has two interests
+
+00:28:50.700 --> 00:28:56.740
+in the file system one for the directory called
+level one which is in the home directory and
+
+00:28:56.740 --> 00:29:00.399
+then there is another directory called dot
+which is under the level one. So, there are
+
+00:29:00.399 --> 00:29:01.520
+basically two hard links.
+
+00:29:01.520 --> 00:29:05.590
+Why are we saying that there are two hard
+links because they are basically having the
+
+00:29:05.590 --> 00:29:10.929
+same inode number and there is a reason why
+when you look at this number here it says
+
+00:29:10.929 --> 00:29:18.509
+two okay. Now what would happen when uh we
+look at the subdirectories uh this number
+
+00:29:18.509 --> 00:29:24.299
+will keep increasing as the number of subdirectories
+get created. So, let us look at that now.
+
+00:29:24.299 --> 00:29:30.039
+So, in the level one I make a directory called
+level two.
+
+00:29:30.039 --> 00:29:35.950
+Now I look at the same option and I see that
+the number of hard links has increased to
+
+00:29:35.950 --> 00:29:43.179
+three. So, where is the third hard link? Well
+you can understand that when you go inside
+
+00:29:43.179 --> 00:29:52.619
+the level two and look at that the parent
+directory from there is the same inode number
+
+00:29:52.619 --> 00:30:00.820
+as the level one. So, the third inode is basically
+here the double dot under the subdirectory.
+
+00:30:00.820 --> 00:30:07.669
+So, as the number of subdirectories increases
+the number of hard kinks also keeps increasing.
+
+00:30:07.669 --> 00:30:13.419
+And one needs to basically look at this number
+to understand how many different entries are
+
+00:30:13.419 --> 00:30:18.080
+there in the file system. Now most of the
+simple files regular files that are having
+
+00:30:18.080 --> 00:30:24.129
+a dash in the front of the long listing of
+the file uh we actually have only one hard
+
+00:30:24.129 --> 00:30:28.929
+link which means that this is the only file
+and if you delete this that means that particular
+
+00:30:28.929 --> 00:30:30.549
+file has disappeared.
+
+00:30:30.549 --> 00:30:35.399
+Now if there are more hard links it means
+that if you delete one such entry there are
+
+00:30:35.399 --> 00:30:40.940
+other entries which may still be existing
+and for regular files such a possibility is
+
+00:30:40.940 --> 00:30:48.299
+very much there and we will come to the use
+of that in backup systems at a later point
+
+00:30:48.299 --> 00:30:55.220
+of time. For now let us now go back to the
+home directory and as we have discussed earlier
+
+00:30:55.220 --> 00:31:01.600
+tilde is a alias for the home director I can
+just press tilde and go to the home directory.
+
+00:31:01.600 --> 00:31:04.500
+So, where am I? I am in the home directory.
+
+00:31:04.500 --> 00:31:09.529
+I can actually now go back to the same directory
+with a dash and we will go back to the level
+
+00:31:09.529 --> 00:31:15.320
+two directory again. So, the dash is a um
+alias for the previous directory that we were
+
+00:31:15.320 --> 00:31:23.409
+using and tilde is alias for the home directory
+that we started from. And now I clear the
+
+00:31:23.409 --> 00:31:30.139
+screen with control l. So, till now we have
+been seeing where we have permissions namely
+
+00:31:30.139 --> 00:31:36.379
+in the home directory and where we were able
+to create files and also do some uh reorganization
+
+00:31:36.379 --> 00:31:37.379
+of files.
+
+00:31:37.379 --> 00:31:42.330
+Now let us see whether uh we get errors when
+we try to do that in a folder where we are
+
+00:31:42.330 --> 00:31:48.009
+not supposed to try that out. So, let us go
+to the system folder do not be afraid you
+
+00:31:48.009 --> 00:31:52.379
+can just try it out and then see how the system
+is actually preventing you from doing any
+
+00:31:52.379 --> 00:32:00.350
+damage to the operated system inadvertently.
+So, let me go to the root folder where am
+
+00:32:00.350 --> 00:32:03.679
+I? I am in the root folder.
+
+00:32:03.679 --> 00:32:08.590
+And you see that this particular folder everything
+is owned by root you can see that it is everything
+
+00:32:08.590 --> 00:32:13.919
+is owned by a root. Now who am I am actually
+a different user I am not the root user who
+
+00:32:13.919 --> 00:32:20.190
+am I? You can see that the user name is printed
+there. So, the user name is not matching the
+
+00:32:20.190 --> 00:32:27.400
+owner here and therefore this folder for example
+I cannot do much. So, let us try to create
+
+00:32:27.400 --> 00:32:34.980
+an empty file in this folder by let us say
+you know file1 and you see that there is an
+
+00:32:34.980 --> 00:32:40.080
+error that comes permission denied because
+we do not have write permission.
+
+00:32:40.080 --> 00:32:49.029
+And how do I know that ls -la and for the
+current directory which is root directory
+
+00:32:49.029 --> 00:32:54.919
+there are no write permissions for others
+and my user name is not matching the root
+
+00:32:54.919 --> 00:32:59.350
+therefore I am other uh user and therefore
+I do not have a right permission. So, I cannot
+
+00:32:59.350 --> 00:33:05.369
+create a file in this particular folder. So,
+that is how the denial happens for the creation
+
+00:33:05.369 --> 00:33:11.350
+of files. Now even for accessing the folders
+also there could be permission denials and
+
+00:33:11.350 --> 00:33:12.789
+we will explore that in the var folder.
+
+00:33:12.789 --> 00:33:19.860
+So, let us go to the var folder and then to
+the log folder and this is a place where the
+
+00:33:19.860 --> 00:33:26.160
+access logs system logs etc are all kept.
+So, here you see that most of the files are
+
+00:33:26.160 --> 00:33:32.630
+owned by root are syslog process and in a
+different group etcetera. So, here there are
+
+00:33:32.630 --> 00:33:39.119
+many files which are actually not owned there
+are many files which do not have a read permission
+
+00:33:39.119 --> 00:33:44.549
+for others and in this case we are other users
+who we do not have read permission.
+
+00:33:44.549 --> 00:33:49.820
+So, syslog we do not have read permission
+let us scroll up and see with the mouse button
+
+00:33:49.820 --> 00:33:54.350
+I scroll up and see whether I have a root
+read permission in any other files. So, I
+
+00:33:54.350 --> 00:34:00.590
+have a file here alternatives dot log in which
+the others will have a read permission. So,
+
+00:34:00.590 --> 00:34:06.669
+let us go ahead and see whether we can read
+it okay. So, what we do is there is a command
+
+00:34:06.669 --> 00:34:13.940
+called less which actually allows you to read
+a text file page by page and at the end of
+
+00:34:13.940 --> 00:34:18.060
+the content you can actually come out of it
+by pressing q.
+
+00:34:18.060 --> 00:34:23.760
+And we are using bash. So, we could actually
+type a few characters of a file name and press
+
+00:34:23.760 --> 00:34:28.020
+tab and it will fill the file name for you.
+So, you do not have to type the entire file
+
+00:34:28.020 --> 00:34:33.510
+name accurately. Now I just press here and
+you can see some output that is coming onto
+
+00:34:33.510 --> 00:34:37.790
+the screen from the file alternatives dot
+log and which means that I am able to read
+
+00:34:37.790 --> 00:34:43.290
+this file and I have come to the bottom of
+the page and it shows here end and I pressed
+
+00:34:43.290 --> 00:34:44.629
+q to come out of it.
+
+00:34:44.629 --> 00:34:50.470
+So, I have a read permission and therefore
+I am able to read this file using less command.
+
+00:34:50.470 --> 00:34:56.180
+Now let me see if I can change the permission
+with the write permission. So, let us see
+
+00:34:56.180 --> 00:35:02.650
+let us ch mode others I want to give write
+permission for this file. I am another user.
+
+00:35:02.650 --> 00:35:07.869
+So, I want to give a write permission and
+you see that it is denied. Why is it denied
+
+00:35:07.869 --> 00:35:15.900
+because when we go and scroll up and see it
+here it is owned by root okay only root can
+
+00:35:15.900 --> 00:35:19.720
+change the permissions of files owned by root.
+
+00:35:19.720 --> 00:35:23.500
+So, anybody can change permissions of a file
+only when their owners of that particular
+
+00:35:23.500 --> 00:35:28.569
+file. So, here the ownership is given to the
+root and that is one of the safety mechanisms
+
+00:35:28.569 --> 00:35:35.309
+by which an ordinary user cannot actually
+change permissions to do any modifications
+
+00:35:35.309 --> 00:35:40.540
+to that particular file however read permissions
+are given. Now there are some files for which
+
+00:35:40.540 --> 00:35:42.040
+read permissions are not given.
+
+00:35:42.040 --> 00:35:51.920
+So, let us see if we can actually read them
+okay. So, let us say less and ubuntu advantage
+
+00:35:51.920 --> 00:35:59.310
+dot log okay I want to read this file here
+you see this okay there is a log file which
+
+00:35:59.310 --> 00:36:04.880
+the permissions are not available and I want
+to try and read it and you can see that it
+
+00:36:04.880 --> 00:36:11.231
+does not get through because the breed permissions
+are not there. Now this is a folder ah what
+
+00:36:11.231 --> 00:36:16.490
+are the kind of permissions in this folder
+let us see.
+
+00:36:16.490 --> 00:36:20.710
+The folder itself the current directory does
+not have any right permission for others also.
+
+00:36:20.710 --> 00:36:28.670
+So, which means that I cannot create any folder
+here either make dir level one failed ok I
+
+00:36:28.670 --> 00:36:35.450
+cannot create folders there because this folder
+is owned by root. Touch file1 I cannot create
+
+00:36:35.450 --> 00:36:40.820
+an empty file here because the folder does
+not have write permissions for others. So,
+
+00:36:40.820 --> 00:36:47.960
+you can see that there is a mechanism in place
+where we cannot actually um create files or
+
+00:36:47.960 --> 00:36:54.030
+change permissions or create directories in
+locations where they are belonging to the
+
+00:36:54.030 --> 00:36:56.830
+system and the operating system.
+
+00:36:56.830 --> 00:37:03.119
+And we cannot actually override those settings
+unless we are super users So, how to override
+
+00:37:03.119 --> 00:37:08.940
+it and doing something knowingly and carefully
+what is required for system administration
+
+00:37:08.940 --> 00:37:13.650
+is something that we will come to know as
+we go along in this course. For now I want
+
+00:37:13.650 --> 00:37:19.220
+to also show you one more permission that
+can be denied. If you see here this particular
+
+00:37:19.220 --> 00:37:26.109
+folder unattended upgrades unattended upgrades
+you can see that there is no x permission
+
+00:37:26.109 --> 00:37:27.160
+given for others.
+
+00:37:27.160 --> 00:37:31.790
+Which means that I cannot even change directory
+to that particular folder okay I cannot even
+
+00:37:31.790 --> 00:37:39.980
+cd to that. So, let me try that cd unattended
+and I just feel that uh with a tab character
+
+00:37:39.980 --> 00:37:43.990
+and try it out and says permission then I
+cannot even enter the directory. So, this
+
+00:37:43.990 --> 00:37:51.980
+is how the upper system has secured itself
+from ordinary users. So, that there are folders
+
+00:37:51.980 --> 00:37:53.099
+which you cannot enter.
+
+00:37:53.099 --> 00:37:58.549
+There are folders which you cannot write to
+and there are files that you cannot read and
+
+00:37:58.549 --> 00:38:04.680
+whatever is available to you with read permission
+that is all that you can play with uh by reading
+
+00:38:04.680 --> 00:38:08.480
+but there is nothing more that you can do.
+So, naturally you do not have to worry much
+
+00:38:08.480 --> 00:38:14.839
+as a uh novice user when you are running around
+with the commands simple commands like ls
+
+00:38:14.839 --> 00:38:21.790
+or cd or cp and such things you really cannot
+do too much of any damage to operating system.
+
+00:38:21.790 --> 00:38:22.790
+uh
+
+00:38:22.790 --> 00:38:28.480
+And you can go ahead and explore the uh file
+system hierarchy and try to read text files
+
+00:38:28.480 --> 00:38:34.000
+wherever you find them. Now how do I know
+which file which file is a text file and which
+
+00:38:34.000 --> 00:38:41.990
+file is actually a binary file. So, for that
+let me go to the user bin okay and there are
+
+00:38:41.990 --> 00:38:51.119
+a lot of files here and I just pick up the
+last one and just to see what is that file.
+
+00:38:51.119 --> 00:38:56.450
+So, there is a command called file where it
+will tell you what kind of a file that is.
+
+00:38:56.450 --> 00:39:03.050
+So, in user bin directory the file called
+znew happens to be a ASIIC text and it is
+
+00:39:03.050 --> 00:39:08.800
+an executable string executable script okay.
+So, ASIIC text means so that I can read it
+
+00:39:08.800 --> 00:39:14.960
+on the screen. So, let me try that out and
+you see that I am able to read it ok it just
+
+00:39:14.960 --> 00:39:19.650
+opens and shows you the script. So, we will
+understand the script by the end of this course.
+
+00:39:19.650 --> 00:39:22.540
+So, do not worry for now we are able to read
+it.
+
+00:39:22.540 --> 00:39:30.030
+Now let us look at another uh such uh executable
+uh whether it is a script or is it a binary
+
+00:39:30.030 --> 00:39:38.480
+file let us look at that. Now it appears that
+the last file zoom is a symbolic link to something
+
+00:39:38.480 --> 00:39:55.930
+else okay. Now let us go there and see what
+it is. So, zoom launcher happens to be here
+
+00:39:55.930 --> 00:40:00.829
+and you see that it now gives a different
+kind of an output it says it is an ELF 64
+
+00:40:00.829 --> 00:40:06.980
+bit okay LSB shared object for the architecture
+X86-64 and so on.
+
+00:40:06.980 --> 00:40:11.700
+This actually means that this is a binary
+file okay we cannot read it. So, let us try
+
+00:40:11.700 --> 00:40:19.180
+if it is possible and what happens and you
+see that it is alerting you saying that this
+
+00:40:19.180 --> 00:40:24.799
+is a binary file. So, do you want to really
+see it? We will say no because it will actually
+
+00:40:24.799 --> 00:40:31.020
+appear in a garbled manner on a text uh screen
+and therefore we will not attempt that. So,
+
+00:40:31.020 --> 00:40:35.400
+you can see that you can actually find out
+what type of a file it is by using the file
+
+00:40:35.400 --> 00:40:39.650
+command and try it also on the directory.
+
+00:40:39.650 --> 00:40:48.420
+File zoom and it says it is a directory go
+one level up file opt it says it is a directory
+
+00:40:48.420 --> 00:40:58.650
+come to home directory try it on come to home
+there try it on level one and it says it is
+
+00:40:58.650 --> 00:41:09.240
+a directory. Go to that level one try it on
+file1 and it says it is an empty file. So,
+
+00:41:09.240 --> 00:41:15.230
+you can see that you can actually find out
+what type of file it is and whether it is
+
+00:41:15.230 --> 00:41:21.180
+a directory or a regular file is a text file
+or executable binary etc using the file command.
+
+00:41:21.180 --> 00:41:27.050
+And you can also explore uh what is there
+in the system for you to read using these
+
+00:41:27.050 --> 00:41:33.069
+commands. Now let us spend a few minutes about
+the time stamp also. So, the time stamps at
+
+00:41:33.069 --> 00:41:38.640
+this moment is given by the comment date and
+if you look at the directories some of them
+
+00:41:38.640 --> 00:41:43.100
+are actually quite old because they have been
+modified long back. So, if you look at the
+
+00:41:43.100 --> 00:41:48.049
+desktop folder for example it is modified
+uh on July 28th it says.
+
+00:41:48.049 --> 00:41:52.500
+Now I want to change the time stamp. So, I
+could do the one thing I can just use touch
+
+00:41:52.500 --> 00:42:00.789
+command and then I can run ls -l again and
+you now see that that time stamp has changed
+
+00:42:00.789 --> 00:42:09.480
+you can see here that time stamp is 25th November
+1650 and before the touch it is actually July
+
+00:42:09.480 --> 00:42:19.110
+28th 2020. So, what it implies is that this
+file desktop folder uh was having a time stamp
+
+00:42:19.110 --> 00:42:27.280
+which was old and and the command touch desktop
+has changed the last modified time stamp to
+
+00:42:27.280 --> 00:42:28.490
+the current time stamp.
+
+00:42:28.490 --> 00:42:34.430
+So, that is how they uh time stamp has been
+changed. So, the command attached can actually
+
+00:42:34.430 --> 00:42:42.450
+make some of the files uh look like they are
+new or newly edited. And if you give a file
+
+00:42:42.450 --> 00:42:47.130
+name which does not exist then the touch command
+will actually create that file as an empty
+
+00:42:47.130 --> 00:42:56.030
+file and show it to you. So, let us try that
+out. So, you can see that I have just touched
+
+00:42:56.030 --> 00:42:59.240
+a file called xaa and there is no such file.
+
+00:42:59.240 --> 00:43:02.910
+And what it does is it does not complain it
+just goes on to create an empty file with
+
+00:43:02.910 --> 00:43:09.910
+the latest time stamp and then shows that
+as a file in the uh list of files and then
+
+00:43:09.910 --> 00:43:15.491
+we have it as a part of the files in the home
+directory.
+
+00:43:15.491 --> 00:43:19.799
+So, we have seen in this session some important
+commands which are very useful for a day to
+
+00:43:19.799 --> 00:43:26.349
+day operation such as ch mode to change the
+permissions of a file of course ls -l shows
+
+00:43:26.349 --> 00:43:31.289
+you what are those permissions and then ch
+mode allows you to change those and touch
+
+00:43:31.289 --> 00:43:38.240
+command is there to create empty files or
+to change the timestamp of any file, cp is
+
+00:43:38.240 --> 00:43:45.470
+to create a copy of a file, mv is to rename
+or relocate a file, mkdir is to create directories
+
+00:43:45.470 --> 00:43:47.890
+and rm is used to remove a file.
+

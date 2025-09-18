@@ -1,0 +1,1261 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:14.219 --> 00:00:19.740
+To learn the concepts of job control we would
+need a process that would run for at least
+
+00:00:19.740 --> 00:00:24.640
+several seconds. So, that we could try to
+stop it put it in the background or bring
+
+00:00:24.640 --> 00:00:31.730
+it to the foreground or even kill it. And
+as you start writing programs later on you
+
+00:00:31.730 --> 00:00:37.239
+may have processes that will be running for
+a long time but right now as a beginner you
+
+00:00:37.239 --> 00:00:42.579
+may need a very easy process that you could
+kill without the damage and one such process
+
+00:00:42.579 --> 00:00:44.530
+is called sleep.
+
+00:00:44.530 --> 00:00:50.049
+So, look at the main page of the sleep command
+it is basically just a delay for a specific
+
+00:00:50.049 --> 00:00:56.589
+amount of time which is given in seconds.
+So, if I type sleep and then say three it
+
+00:00:56.589 --> 00:01:01.979
+would sleep three seconds and come back to
+control. So, you just wait for three seconds
+
+00:01:01.979 --> 00:01:06.580
+the control will be brought back and the prompt
+is available for us to run. So, if you did
+
+00:01:06.580 --> 00:01:11.680
+that for example for ten seconds then you
+will see that for about ten seconds you cannot
+
+00:01:11.680 --> 00:01:16.439
+do much because the prompt is not available
+for you to type anything and you have to wait
+
+00:01:16.439 --> 00:01:19.390
+for the control to be given back to you.
+
+00:01:19.390 --> 00:01:25.790
+So, the control has come back. So, what this
+implies is that if you have a command that
+
+00:01:25.790 --> 00:01:32.000
+is running in the foreground for a long time
+but you need to have the control back to the
+
+00:01:32.000 --> 00:01:36.850
+prompt. So, that you can write something else
+on the commands line then many options you
+
+00:01:36.850 --> 00:01:42.320
+may want to kill the process if it was not
+important or you may want to suspend the process.
+
+00:01:42.320 --> 00:01:47.030
+So, that you want to do such another work
+and then again bring it back to action by
+
+00:01:47.030 --> 00:01:49.040
+bringing into the four ground.
+
+00:01:49.040 --> 00:01:55.350
+So, you could try out of this and you may
+even have an option of running a command without
+
+00:01:55.350 --> 00:02:01.440
+actually losing control of the prompt by keeping
+it in the background but executing. So, let
+
+00:02:01.440 --> 00:02:08.310
+us try those out now I would use the commands
+called coprco sleep ten now what happens is
+
+00:02:08.310 --> 00:02:13.470
+that I have brought the command command prompt
+is now back to me and we are able to write
+
+00:02:13.470 --> 00:02:21.050
+some commandss and as in when the process
+is completed you would know because information
+
+00:02:21.050 --> 00:02:24.800
+is available on the screen to say that that
+particular command has been completed.
+
+00:02:24.800 --> 00:02:33.220
+So, it says that the process has been finished
+So, coproc is a command to help you run a
+
+00:02:33.220 --> 00:02:39.010
+process without actually losing control of
+the command prompt to do other activities.
+
+00:02:39.010 --> 00:02:45.930
+So, when you run a command coproc and let
+us sleep and we'll give it for 30 seconds
+
+00:02:45.930 --> 00:02:51.580
+what happens is that when you type the ps
+command. So, you would notice that the sleep
+
+00:02:51.580 --> 00:02:59.080
+command as a ps command are child processes
+of the bash shell and you can now do something
+
+00:02:59.080 --> 00:03:00.140
+to the sleep command.
+
+00:03:00.140 --> 00:03:05.560
+So, let us see what is this coporc command
+and you would see that there is no manual
+
+00:03:05.560 --> 00:03:12.020
+page available. So, we need to find out what
+type of command that is. So, I type type coproc
+
+00:03:12.020 --> 00:03:16.210
+I ask and it says that you say shell keyboard
+which means that it is a feature provided
+
+00:03:16.210 --> 00:03:21.730
+by the shell and we have already learned earlier
+that to learn more about any shell feature
+
+00:03:21.730 --> 00:03:25.010
+we should use the help command.
+
+00:03:25.010 --> 00:03:29.950
+And the help commands definitely gives us
+some information it says that create a core
+
+00:03:29.950 --> 00:03:36.210
+process with the name that is being given
+as an argument and it should be run asynchronously
+
+00:03:36.210 --> 00:03:43.420
+but you are having the control of the prompt
+immediately. So, let us launch a command and
+
+00:03:43.420 --> 00:03:54.160
+then try to kill. So, I launched the sleep
+command which is running for thirty seconds
+
+00:03:54.160 --> 00:03:59.280
+and the process Id is displayed on the screen
+but I would also like to inquire it.
+
+00:03:59.280 --> 00:04:07.540
+So, 9486 is a process Id. So, I can kill it
+by using a kill -9486 and you will see that
+
+00:04:07.540 --> 00:04:14.350
+it would actually lead to killing that process
+called sleep thirty. So, if you have a process
+
+00:04:14.350 --> 00:04:18.709
+that is running and you do not want it to
+run if you know the process Id and if you
+
+00:04:18.709 --> 00:04:23.580
+are the owner of that particular process then
+you can go ahead and kill it if it was safe.
+
+00:04:23.580 --> 00:04:29.129
+Now if you want to run the same process; while
+keeping it in the background rather than running
+
+00:04:29.129 --> 00:04:34.110
+it simultaneously you could do that with an
+ampersand sign at the end of the command.
+
+00:04:34.110 --> 00:04:39.330
+So, if you type like sleep thirty and then
+an ampersand it means that you are going to
+
+00:04:39.330 --> 00:04:44.340
+put this commands in the background. So, now
+you see that the command prompt is available
+
+00:04:44.340 --> 00:04:52.550
+and it also tells you that this particular
+command is in the background So, now now you
+
+00:04:52.550 --> 00:04:57.460
+want to bring it back to the foreground and
+you can type fg and it would actually bring
+
+00:04:57.460 --> 00:05:00.550
+the command which was in the background to
+the foreground.
+
+00:05:00.550 --> 00:05:04.620
+And now it is in the foreground and you do
+not have the prompt with you, you will have
+
+00:05:04.620 --> 00:05:09.270
+to wait for the command to finish and of course
+I do not want to wait. So, I could press control
+
+00:05:09.270 --> 00:05:17.150
+C and kill it. So, when the process is killed
+the command prompt is now again available
+
+00:05:17.150 --> 00:05:22.180
+to us. So, there are two ways of killing the
+process one is if it was running in the foreground
+
+00:05:22.180 --> 00:05:29.630
+you could type control c and if it was running
+in the background or in any other shell as
+
+00:05:29.630 --> 00:05:32.330
+long as you are the owner you could kill it
+using the kill command.
+
+00:05:32.330 --> 00:05:37.430
+So, there are two ways of killing the process
+by knowing the process Id. So, therefore the
+
+00:05:37.430 --> 00:05:42.169
+knowing the process Id is quite important
+in managing the processes that are running
+
+00:05:42.169 --> 00:05:47.520
+on your computer. Nnow you may be curious
+to know if in the shell you have launched
+
+00:05:47.520 --> 00:05:51.639
+a certain processes and you have not paid
+attention to them and are they running in
+
+00:05:51.639 --> 00:05:52.639
+the background still.
+
+00:05:52.639 --> 00:05:56.990
+So, there is a command called jobs that could
+actually tell you if there was any commands
+
+00:05:56.990 --> 00:06:05.550
+that is running in the background. So, let
+me run a processing in the background 
+
+00:06:05.550 --> 00:06:10.860
+and type a commands called jobs and it tells
+and it tells that there is a process called
+
+00:06:10.860 --> 00:06:16.050
+sleep thirty that is running in the background.
+I run another command sleep forty five and
+
+00:06:16.050 --> 00:06:20.860
+it is giving me warming still you could actually
+go ahead and do that and you will see that
+
+00:06:20.860 --> 00:06:27.960
+there are two processes running the background.
+
+00:06:27.960 --> 00:06:33.639
+And a ps minus minus forest would show you
+graphically how those processes are listed
+
+00:06:33.639 --> 00:06:38.550
+under the bash because bash is the parent
+processes the two sleep commandss are the
+
+00:06:38.550 --> 00:06:46.970
+child processes and of course the ps command
+itself is a child process of the bash. And
+
+00:06:46.970 --> 00:06:52.030
+as soon as the jobs are done you would have
+the display on the screen when you press the
+
+00:06:52.030 --> 00:06:57.050
+enter on the command line as a process of
+running various commandss. So, whenever the
+
+00:06:57.050 --> 00:07:02.240
+command is executed and completed you would
+see that the information about that completion
+
+00:07:02.240 --> 00:07:03.630
+will be displayed on the screen.
+
+00:07:03.630 --> 00:07:08.770
+So, both the process are now finished. So,
+let me then type the jobs combined to see
+
+00:07:08.770 --> 00:07:13.100
+if there are any jobs in the background and
+you see that there is nothing in the background.
+
+00:07:13.100 --> 00:07:18.450
+So, what is what is this jobs command and
+let us look at it? So, that we press control
+
+00:07:18.450 --> 00:07:24.020
+L to clear the screen and you see that there
+is no manual page for that s, our suspicion
+
+00:07:24.020 --> 00:07:29.860
+would be perhaps it is a shell feature and
+as expected is a shell bulletin.
+
+00:07:29.860 --> 00:07:34.919
+So, we had to then run the command help to
+know more about that. I am sure enough there
+
+00:07:34.919 --> 00:07:41.389
+is some help about the jobs command and you
+can see that it is about listing the active
+
+00:07:41.389 --> 00:07:46.210
+jobs that are running in the current shell.
+If you are curious about what are all the
+
+00:07:46.210 --> 00:07:51.210
+jobs or processes that are running in the
+computer there is a very nice commands top
+
+00:07:51.210 --> 00:07:57.550
+which can tell you what are the processes
+sorted in the decreasing sequence of the CPU
+
+00:07:57.550 --> 00:07:58.550
+utilization.
+
+00:07:58.550 --> 00:08:04.410
+So, if you type top and you will see that
+the screen is going to be refreshed every
+
+00:08:04.410 --> 00:08:08.930
+couple of seconds and it would show you the
+process that is occupying the maximum CPU
+
+00:08:08.930 --> 00:08:14.590
+utilization on the top. So, if your computer
+is not responding well then in a shell you
+
+00:08:14.590 --> 00:08:20.169
+can actually open this to identify which command
+is running and occupying the resources. You
+
+00:08:20.169 --> 00:08:24.910
+would see that I am recording this particular
+video using the OBS studio.
+
+00:08:24.910 --> 00:08:32.079
+And uh OBS is what is actually occupying 63%t
+of the CPU and it is at the top. Now you can
+
+00:08:32.079 --> 00:08:39.180
+come out of this by pressing q. So, I clear
+the string with control L. I can launch the
+
+00:08:39.180 --> 00:08:46.509
+top command and while it is running I can
+press q to come out of it graciously. However
+
+00:08:46.509 --> 00:08:53.850
+I could also come out of it by pressing control
+C. Control C is like interrupting and killing
+
+00:08:53.850 --> 00:08:57.050
+the process and coming out and we have done
+that just now.
+
+00:08:57.050 --> 00:09:03.339
+So, when I am running this command top you
+could also do one more thing you could press
+
+00:09:03.339 --> 00:09:09.220
+control z. So, what happens when you press
+control z or control z is that the pros the
+
+00:09:09.220 --> 00:09:13.690
+process is suspended. So, if you press ps
+then you would see that there is a process
+
+00:09:13.690 --> 00:09:19.160
+that is still there it is not completed but
+it is suspended. Type jobs to see and it says
+
+00:09:19.160 --> 00:09:25.500
+that there is a job that is stopped and it
+is called top and we can do something with
+
+00:09:25.500 --> 00:09:26.600
+it.
+
+00:09:26.600 --> 00:09:32.709
+Type fg and it would then come back to the
+front and it is again refreshing and working.
+
+00:09:32.709 --> 00:09:37.230
+Now if you want to come out of it graciously
+you would press q and come out of it. Now
+
+00:09:37.230 --> 00:09:42.379
+what this shows you is that you can actually
+suspend a program do something else and then
+
+00:09:42.379 --> 00:09:47.649
+again bring the suspended program back to
+the front and then come out of it elegantly
+
+00:09:47.649 --> 00:09:52.980
+whenever it finishes. So, this allows you
+to be able to switch between tasks while you
+
+00:09:52.980 --> 00:09:56.450
+are in the command line environment without
+actually coming out of the shell.
+
+00:09:56.450 --> 00:10:02.980
+So, the command that we used to bring the
+background job to the foreground was fg. So,
+
+00:10:02.980 --> 00:10:09.749
+type fg and there is no manual page available
+and what type of a command is that is a shell
+
+00:10:09.749 --> 00:10:15.769
+bulletin we can ask for help of that and it
+says that move the job to the foreground.
+
+00:10:15.769 --> 00:10:19.839
+So, if it was a job that was running in the
+background it would be brought to the foreground.
+
+00:10:19.839 --> 00:10:22.329
+So, it would be an active on the screen.
+
+00:10:22.329 --> 00:10:30.110
+So, let us just try this out by the command
+sleep itself. So, we will type sleep sixty.
+
+00:10:30.110 --> 00:10:37.600
+So, for one minute and let us say I put an
+ampersand here. So, it goes to the background
+
+00:10:37.600 --> 00:10:42.379
+okay and then I could do some commandss in
+between and now I want to bring back that
+
+00:10:42.379 --> 00:10:47.040
+commands to the foreground I can just type
+fg and you see that the sleep sixty is now
+
+00:10:47.040 --> 00:10:53.209
+in the foreground. And I can now not type
+commandss because the prompt is not available.
+
+00:10:53.209 --> 00:10:58.310
+And let us say I am impatient I do not want
+to continue further I can press control z
+
+00:10:58.310 --> 00:11:03.389
+then it would be stopped and you can see that
+the prompt is back to me and I have not killed
+
+00:11:03.389 --> 00:11:09.290
+the process I have only stopped it just like
+suspension and let us say I now give time
+
+00:11:09.290 --> 00:11:16.420
+for it to finish up the work of sleeping for
+sixty seconds. So, I can then type fg and
+
+00:11:16.420 --> 00:11:19.899
+the job is again back to the foreground.
+
+00:11:19.899 --> 00:11:24.610
+And let us say I do not want to make it finish
+all the time let us say I want to interrupt
+
+00:11:24.610 --> 00:11:30.040
+this program by using controls the account
+interrupted and thereby killing that. Let
+
+00:11:30.040 --> 00:11:35.949
+us look at the meaning of the shell variable
+dollar hyphen which is a very special variable
+
+00:11:35.949 --> 00:11:43.089
+because it tells you a lot more about the
+capabilities of shell that is currently running.
+
+00:11:43.089 --> 00:11:49.819
+So, depending upon the options that you give
+to the shell; while launching it its capabilities
+
+00:11:49.819 --> 00:11:53.550
+can be limited or expanded.
+
+00:11:53.550 --> 00:12:00.739
+So, you see that there is something that is
+printed on the screen it says h i m capital
+
+00:12:00.739 --> 00:12:09.819
+B capital H and then small s the meaning of
+these is available in the main page for bash
+
+00:12:09.819 --> 00:12:14.939
+you see that the options here whatever is
+after the hyphen symbol are the options that
+
+00:12:14.939 --> 00:12:22.319
+we can see. So, the sea would mean commands
+are to be read from the argument supplied
+
+00:12:22.319 --> 00:12:29.410
+on the command line after options the I would
+mean that it is an interactive shell and so
+
+00:12:29.410 --> 00:12:30.410
+on.
+
+00:12:30.410 --> 00:12:36.819
+Let us say we want to see a bash shell with
+less number of options configured then what
+
+00:12:36.819 --> 00:12:41.499
+is displayed here. Particularly let us say
+we want to launch a bash shell which is not
+
+00:12:41.499 --> 00:12:49.019
+an interactive mode. So, we could try that
+out now here like this. So, if I type a bash
+
+00:12:49.019 --> 00:12:53.359
+and I would type -c because I want to pass
+on a command and I wanted to return back to
+
+00:12:53.359 --> 00:13:10.399
+the parent shell. So, I would then do this
+equal you now see that the bash shell that
+
+00:13:10.399 --> 00:13:14.609
+was launched has less number of options and
+it is not interactive.
+
+00:13:14.609 --> 00:13:22.310
+So, which means that when we ran this command
+child shell was created which had only one
+
+00:13:22.310 --> 00:13:29.619
+action to do namely eco or type out the value
+of the variable dollar hyphen and then it
+
+00:13:29.619 --> 00:13:36.250
+exit. The reason why we use the backlash is
+because while passing on this command to the
+
+00:13:36.250 --> 00:13:43.239
+child shell we do not want to interpret it
+already. So, we may now enhance this command
+
+00:13:43.239 --> 00:13:49.009
+to see whether it is a child shell that is
+responding to us by printing out those options
+
+00:13:49.009 --> 00:13:53.350
+hBc.
+
+00:13:53.350 --> 00:14:10.100
+So, I combine multiple commands using the
+semicolon and you will see that what is responding
+
+00:14:10.100 --> 00:14:16.720
+to us is actually this bash because the output
+of the p s command is coming from there and
+
+00:14:16.720 --> 00:14:24.730
+you can see that it says child shall spanned
+by the shell that we are using right now how
+
+00:14:24.730 --> 00:14:30.779
+do I know. So, double daughter says what is
+the shell I am using right now. So, I am here
+
+00:14:30.779 --> 00:14:36.040
+and this shell has spawned the other shell
+which has actually then launched the ps command.
+
+00:14:36.040 --> 00:14:46.949
+So, we may now want to inquire process Id
+of the child shell echo double dollar then
+
+00:14:46.949 --> 00:14:58.609
+echo. So, now you can see that the first command
+has given me the output which is the process
+
+00:14:58.609 --> 00:15:05.470
+Id of the child shell which is actually listed
+here 11213 and the second command is giving
+
+00:15:05.470 --> 00:15:12.799
+me the options with which the child shell
+was launched which is hBc it is not interactive
+
+00:15:12.799 --> 00:15:21.019
+and the third command is telling me the process
+listing as it is displayed here in the next
+
+00:15:21.019 --> 00:15:22.019
+three lines.
+
+00:15:22.019 --> 00:15:28.790
+So, we have combined essentially three commands
+using the semi column and that is actually
+
+00:15:28.790 --> 00:15:35.249
+passed on to the child shell and we are able
+to see that you could control the options
+
+00:15:35.249 --> 00:15:39.419
+with which the bash can be launched. Let us
+use the history command to understand one
+
+00:15:39.419 --> 00:15:49.220
+of the flags with which the bash shell has
+been launched namely h for history and get
+
+00:15:49.220 --> 00:15:55.449
+the man page and it shows you that there is
+a possibility to run a particular command
+
+00:15:55.449 --> 00:16:02.489
+in the history by referring to its number
+after the bank symbol.
+
+00:16:02.489 --> 00:16:09.559
+So, when you type history you would see all
+the commands that have been run in this particular
+
+00:16:09.559 --> 00:16:18.540
+shell in the last several days and if I use
+the bank symbol followed by a number that
+
+00:16:18.540 --> 00:16:25.199
+particular command will be run. So, here we
+have the date command with 1992 as the number.
+
+00:16:25.199 --> 00:16:32.309
+So, I type 1992. So, bank 1992 would mean
+the command date that is as per the history
+
+00:16:32.309 --> 00:16:35.199
+should be repeated and that is what would
+be repeated.
+
+00:16:35.199 --> 00:16:39.709
+Of course it does not make sense if you have
+commands that are too small that you need
+
+00:16:39.709 --> 00:16:43.589
+to refer and type if you want to repeat a
+commands that is a bit long to type it is
+
+00:16:43.589 --> 00:16:49.959
+very useful. So, you can now see bank 2004
+would repeat this particular command and you
+
+00:16:49.959 --> 00:16:54.889
+would see that that particular command has
+been repeated. So, it is pretty useful to
+
+00:16:54.889 --> 00:16:57.389
+have this feature in the bash which is available.
+
+00:16:57.389 --> 00:17:04.140
+So, when you inspect the value of the special
+shell variable daughter hyphen then the capital
+
+00:17:04.140 --> 00:17:09.569
+H that is there indicates that a particular
+feature of referring to the history and being
+
+00:17:09.569 --> 00:17:14.630
+able to run a command from the history by
+using the numerical value of that particular
+
+00:17:14.630 --> 00:17:20.939
+history line is made available. A couple of
+words about the concept of expansion on the
+
+00:17:20.939 --> 00:17:24.620
+shell we will delve into that deeper a little
+later.
+
+00:17:24.620 --> 00:17:29.809
+But for now let us look at the brace expansion
+because that was one of the options that came
+
+00:17:29.809 --> 00:17:37.139
+up with the list of flags when we looked at
+the output of echo dollar hyphen command.
+
+00:17:37.139 --> 00:17:44.100
+The capital B here corresponds to the brace
+expansion option is made available. Let us
+
+00:17:44.100 --> 00:17:54.490
+look at what does it mean. So, if you type
+with two double dots characters which are
+
+00:17:54.490 --> 00:17:59.750
+listed in the ASCII sequence will then be
+expanded as per our need.
+
+00:17:59.750 --> 00:18:04.600
+And if you type like this what it it means
+is that you would get to the values from a
+
+00:18:04.600 --> 00:18:14.880
+to z typed out and you could actually configure
+this let us say from a to only l and also
+
+00:18:14.880 --> 00:18:22.029
+from capital A up to capital K and so on.
+You could also use them in combination with
+
+00:18:22.029 --> 00:18:34.289
+each other A to D and then a letter after
+that A D. So, you would see that all the combinations
+
+00:18:34.289 --> 00:18:38.169
+of A to D as a two letter combination would
+be listed.
+
+00:18:38.169 --> 00:18:42.600
+So, this is what is called as a brace expansion.
+There are many other expansion that are possible
+
+00:18:42.600 --> 00:18:47.710
+the most common one is the wild card star.
+If you type echo star it would give you the
+
+00:18:47.710 --> 00:18:52.179
+list of all the files and directories in the
+current directory which would mean that the
+
+00:18:52.179 --> 00:19:00.049
+star expands to all the files in the current
+directory. If you would type capital D star
+
+00:19:00.049 --> 00:19:06.769
+it would list the directories that start with
+the D which will actually mean that the star
+
+00:19:06.769 --> 00:19:11.950
+would actually expand to what is possible
+given the first character is capital D.
+
+00:19:11.950 --> 00:19:18.370
+So, if you type capital D small o and the
+star it would list only two of those folders
+
+00:19:18.370 --> 00:19:23.429
+because it would expand to all those files
+which match the pattern namely capital D small
+
+00:19:23.429 --> 00:19:28.400
+o followed by anything that would actually
+be possible in the list of files or directories
+
+00:19:28.400 --> 00:19:33.649
+in the current directory. Now if you want
+to launch multiple commandss on a single line
+
+00:19:33.649 --> 00:19:37.820
+it is entirely possible you could actually
+use the semicolon to separate of the commends.
+
+00:19:37.820 --> 00:19:42.990
+So, let us say I want to type the ls command.
+There is some output. I have the date commands
+
+00:19:42.990 --> 00:19:49.440
+there is some output and then I have a command
+called wc -l slash etc slash profile which
+
+00:19:49.440 --> 00:19:55.500
+will tell me the number of lines in the file
+called slash etc slash profile. There are
+
+00:19:55.500 --> 00:20:01.259
+27 lines now I want to run all these things
+in a single line. So, we could do that like
+
+00:20:01.259 --> 00:20:09.440
+this ls and then semi colon and the date and
+the semicolon and then wc -l slash etc slash
+
+00:20:09.440 --> 00:20:10.919
+profile and then the semicolon.
+
+00:20:10.919 --> 00:20:15.630
+So, the semicolon acts as a separator between
+individual commands and you would see that
+
+00:20:15.630 --> 00:20:20.629
+in one go you are running all the three commands
+one after another in the sequence that is
+
+00:20:20.629 --> 00:20:26.929
+left to right. Now you could actually have
+spaces around the semicolon or not it is up
+
+00:20:26.929 --> 00:20:36.610
+to us. So, you could have like this for readability
+ah or you could also have it in a crisp manner
+
+00:20:36.610 --> 00:20:48.940
+or you could also skip the last semi colon
+and the output would be identical.
+
+00:20:48.940 --> 00:20:55.440
+So, you can see that you can combine multiple
+commands on a single line using the semicolon
+
+00:20:55.440 --> 00:21:00.870
+which also means that as soon as the semicolon
+is appearing on the command line it means
+
+00:21:00.870 --> 00:21:08.389
+a new command has started. So, let us see
+what happens if you combine with it in echo
+
+00:21:08.389 --> 00:21:18.179
+command. Now you see that the first command
+has executed after that the semicolon is interpreted
+
+00:21:18.179 --> 00:21:21.259
+as a separator with another command.
+
+00:21:21.259 --> 00:21:27.309
+So, therefore world becomes the command that
+is being asked for and there is no such command
+
+00:21:27.309 --> 00:21:34.220
+and therefore we have got an error. So, which
+means that when you type like this it is interpreted
+
+00:21:34.220 --> 00:21:38.399
+semi colon separating out this particular
+line into two parts the first part is one
+
+00:21:38.399 --> 00:21:43.389
+command which is echo hello and then the second
+part is just the command called world. So,
+
+00:21:43.389 --> 00:21:50.440
+that really is there will be an error because
+there is no such command available.
+
+00:21:50.440 --> 00:21:58.409
+So, if you happen to type something like that
+then you will see that the first part executes
+
+00:21:58.409 --> 00:22:03.670
+as echo hello the second part executes as
+ls because ls is a command by that name and
+
+00:22:03.670 --> 00:22:09.970
+therefore that output is given and look at
+the difference between this and the line that
+
+00:22:09.970 --> 00:22:16.840
+I am giving you. So, without the semi colon
+the entire string is interpreted as a what
+
+00:22:16.840 --> 00:22:20.889
+is to be printed on the screen and therefore
+the output actually is very different.
+
+00:22:20.889 --> 00:22:26.870
+So, this semiconductor is a very important
+special character interpreted by the shell
+
+00:22:26.870 --> 00:22:34.990
+as a separator between commands. Let us explore
+the exit codes or written codes in the bash
+
+00:22:34.990 --> 00:22:41.370
+environment. So, if you type dollar question
+mark then it would give you an integer on
+
+00:22:41.370 --> 00:22:47.740
+the screen an integer between 0 and 255 which
+indicates a written code of the previously
+
+00:22:47.740 --> 00:22:48.980
+executed command.
+
+00:22:48.980 --> 00:22:54.590
+If it was zero it would mean that the previous
+command was successful and if there was an
+
+00:22:54.590 --> 00:23:00.429
+error in the previous command then it would
+have a value from 1 to 255 depending upon
+
+00:23:00.429 --> 00:23:05.799
+what type of an error that is. So, let us
+intentionally make commands that will not
+
+00:23:05.799 --> 00:23:11.600
+succeed and thereby inspect what would be
+the written code or error code. When a type
+
+00:23:11.600 --> 00:23:17.940
+ls slash blah there is no folder called blah
+in the root directory and therefore there
+
+00:23:17.940 --> 00:23:20.000
+should be an error and you see that there
+is an error.
+
+00:23:20.000 --> 00:23:25.651
+So, we can go back to the root directory and
+look at the files or folders that are there
+
+00:23:25.651 --> 00:23:30.549
+in the root directory there is no folder or
+file called blah and therefore it should give
+
+00:23:30.549 --> 00:23:40.070
+an error. So, when I ls slash blah and then
+it has failed. So, now if I type echo dollar
+
+00:23:40.070 --> 00:23:45.680
+question mark then it would give me another
+court corresponding to the way the previous
+
+00:23:45.680 --> 00:23:47.559
+command has exited.
+
+00:23:47.559 --> 00:23:53.759
+And therefore the eldest slash blah has exited
+with code two. So, the two indicates that
+
+00:23:53.759 --> 00:24:00.559
+it was having a failure. Now let us go to
+the root folder and try to create a file here
+
+00:24:00.559 --> 00:24:05.029
+which we do not have permissions for. So,
+I will try to create a file called file one
+
+00:24:05.029 --> 00:24:10.350
+here I do not have permission. So, therefore
+I get an error and now I could actually inspect
+
+00:24:10.350 --> 00:24:13.179
+what was the error code and you see the error
+code is one.
+
+00:24:13.179 --> 00:24:19.419
+So, it means that zero is a code for success
+one is when the parameter is denied and two
+
+00:24:19.419 --> 00:24:25.240
+when there is a certain other error of a failure
+because such a path did not exist. Now I am
+
+00:24:25.240 --> 00:24:32.260
+in my home directory I create an empty file
+call file one and inspect the permissions
+
+00:24:32.260 --> 00:24:38.570
+and you see that there are no executable permissions
+for the empty file called file one and as
+
+00:24:38.570 --> 00:24:43.651
+we have seen with the date command you could
+execute it from the location where the file
+
+00:24:43.651 --> 00:24:48.190
+is present using the shortcut for the current
+directory as dot.
+
+00:24:48.190 --> 00:24:53.580
+So, you could do like this and it would try
+to execute but there is no executable permission
+
+00:24:53.580 --> 00:24:58.580
+you would have an error. Now you could actually
+inspect what kind of an error code that was
+
+00:24:58.580 --> 00:25:05.610
+and it would be an error code 126. The error
+code as per the documentation is when the
+
+00:25:05.610 --> 00:25:11.179
+command has failed because the file could
+not be executed. Now let us say we are tripping
+
+00:25:11.179 --> 00:25:16.330
+a command and we made a typo and therefore
+such a file does not exist and therefore there
+
+00:25:16.330 --> 00:25:17.350
+should be an error.
+
+00:25:17.350 --> 00:25:24.860
+So, let us say I am supposed to type date
+but uh I would create a type and type it as
+
+00:25:24.860 --> 00:25:29.370
+daet and it would take a couple of seconds
+to actually look through the system and then
+
+00:25:29.370 --> 00:25:34.080
+say that there is no such file and through
+a message saying that such a commands was
+
+00:25:34.080 --> 00:25:40.049
+not found. So, what was the written code for
+the attempt that we did just now? You see
+
+00:25:40.049 --> 00:25:48.639
+the written code is 127. So, the 127 written
+code is reserved for situations well the file
+
+00:25:48.639 --> 00:25:49.650
+was not found.
+
+00:25:49.650 --> 00:25:55.039
+Let us say we are executing a program and
+we exited from it by purchasing control c
+
+00:25:55.039 --> 00:25:58.750
+then you could also see that the error code
+would be different one. So, what we would
+
+00:25:58.750 --> 00:26:03.720
+do we will try to run the command sleep thirty
+but we will not wait for thirty seconds we
+
+00:26:03.720 --> 00:26:09.980
+would try to kill it with control c and then
+try to see what was the written code and you
+
+00:26:09.980 --> 00:26:15.260
+would see the written code is 130.
+
+00:26:15.260 --> 00:26:21.070
+So, again 130 is a written code reserved for
+situations where you have interrupted the
+
+00:26:21.070 --> 00:26:27.190
+process by pressing control C. Let me try
+a situation where the process is running in
+
+00:26:27.190 --> 00:26:33.490
+another location on the same computer and
+I am trying to kill that particular process
+
+00:26:33.490 --> 00:26:40.450
+and then we inspect what would be the status
+of the error court. So, the terminal app is
+
+00:26:40.450 --> 00:26:45.919
+pretty useful in that sense I have this icon
+here in the corner to launch a tab. So, we
+
+00:26:45.919 --> 00:26:50.529
+have got a new tab here. So, in the new tab
+I am running a command top.
+
+00:26:50.529 --> 00:26:56.620
+So, you see that the top command is running
+on the new tab and in the old tab I can inspect
+
+00:26:56.620 --> 00:27:01.759
+what are the processes that are running in
+the computers. So, I type ps and you see that
+
+00:27:01.759 --> 00:27:06.630
+it does not list the top process because it
+is a separate shell however it is on the same
+
+00:27:06.630 --> 00:27:12.590
+computer. So, we can actually see it by using
+the -e command which is listing all the processes
+
+00:27:12.590 --> 00:27:17.019
+in the computer that are running and sure
+enough you can see that the top command was
+
+00:27:17.019 --> 00:27:21.580
+running here it has a process Id 12748.
+
+00:27:21.580 --> 00:27:31.049
+So, I would go ahead and kill that process
+by passing on an option called -9 which is
+
+00:27:31.049 --> 00:27:39.669
+to basically kill that process okay when I
+do that and type ps -a I see that the process
+
+00:27:39.669 --> 00:27:45.610
+is no longer there and when I go to the other
+tab you see that the shell is now back to
+
+00:27:45.610 --> 00:27:50.400
+the control on the screen the top command
+is not running. So, which means that I could
+
+00:27:50.400 --> 00:27:56.860
+not inspect the status of the previous command
+and it says the it says the code is 137 which
+
+00:27:56.860 --> 00:27:59.309
+means that the exit code.
+
+00:27:59.309 --> 00:28:05.590
+137 is reserved for processes that were killed
+not by pressing control c in the same shell
+
+00:28:05.590 --> 00:28:12.799
+but by sending the -9 option to kill from
+another shell. Let us explore situation where
+
+00:28:12.799 --> 00:28:22.500
+the exit code of a program is an arbitrary
+number but that we would use bash as a program.
+
+00:28:22.500 --> 00:28:34.080
+So the process Id of the bash that I am using
+is 15083. Now I would launch a bash shell
+
+00:28:34.080 --> 00:28:37.460
+now by passing on some commands.
+
+00:28:37.460 --> 00:28:50.470
+So, one would be to print the process I d
+of the child process and then to list the
+
+00:28:50.470 --> 00:28:59.090
+processes that are running in the child process
+and finally to exit with a particular record
+
+00:28:59.090 --> 00:29:08.129
+which is three hundred as an illustration
+now you could see that from the output the
+
+00:29:08.129 --> 00:29:15.290
+parenthood is with the PID number 15083. The
+shell that we launched now is with the paid
+
+00:29:15.290 --> 00:29:24.419
+15315 as you can also see that 15315 is a
+child shell launched by the parent shell bash
+
+00:29:24.419 --> 00:29:25.419
+with the id 15083.
+
+00:29:25.419 --> 00:29:35.110
+We exited with the code 300 and if we inspect
+what was the exit code you will get the number
+
+00:29:35.110 --> 00:29:44.790
+44 and this is because you are taking the
+model of width to get the exit code. We can
+
+00:29:44.790 --> 00:29:57.289
+try the same thing with any other number.
+So, let us run the same command and we give
+
+00:29:57.289 --> 00:30:08.220
+a big number and see what happens and you
+get an exit code that is 215. Now we want
+
+00:30:08.220 --> 00:30:10.289
+to confirm whether this is ok.
+
+00:30:10.289 --> 00:30:25.450
+So, we would use a bench calculator to do
+that we will start bc and 4567 modulo 256
+
+00:30:25.450 --> 00:30:30.289
+and you get the answer 215 and I can come
+out of the bench characteristics by pressing
+
+00:30:30.289 --> 00:30:38.390
+control d. So, either come out. So, this is
+an illustration to show that you can actually
+
+00:30:38.390 --> 00:30:45.490
+have any arbitrary exit court except that
+the number has to be between 0 to 155 and
+
+00:30:45.490 --> 00:30:51.919
+therefore you would have the modulo of 256
+being taken for any arbitrary exit code that
+
+00:30:51.919 --> 00:30:54.340
+you may want to throw from the programming.
+
+00:30:54.340 --> 00:31:00.009
+And we have illustrated this using bash shell
+program itself. Why do we need to learn the
+
+00:31:00.009 --> 00:31:06.500
+exit codes. This is because you have different
+situations while running multiple processes.
+
+00:31:06.500 --> 00:31:12.409
+Sometimes you just want to run the processes
+one and two after each other without worrying
+
+00:31:12.409 --> 00:31:17.399
+about the exit course. But if there is any
+dependency then you may have a situation where
+
+00:31:17.399 --> 00:31:21.429
+you want to run the first process and went
+to successful only then you want to run the
+
+00:31:21.429 --> 00:31:27.090
+second one or you may have a situation when
+you have the first process and if you did
+
+00:31:27.090 --> 00:31:31.249
+not succeed as a plan b you may want to run
+the second process.
+
+00:31:31.249 --> 00:31:38.269
+So, you can combine two different processes
+on a single command line while also taking
+
+00:31:38.269 --> 00:31:44.080
+into account the exit codes of those processes.
+And you can combine these not just with a
+
+00:31:44.080 --> 00:31:49.119
+pair of processes but many, many more on a
+single line of command. We will look at that
+
+00:31:49.119 --> 00:31:50.929
+in detail in the following session.
+
